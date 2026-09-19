@@ -86,12 +86,6 @@ def assign_area(postcode, lat, lon):
     return None
 
 # ---------------------------------------------------------------- parsing ---
-STATUS_PREFIXES = ("Ikke til salg", "Til salg", "Kommer snart", "Solgt")
-RE_HANDEL = re.compile(r"Handelstype\s*(.+?)\s*Salgsdato", re.S)
-RE_DATE = re.compile(r"Salgsdato\s*(\d{2}-\d{2}-\d{4})")
-RE_PRICE = re.compile(r"Pris\s*([\d.]+)")          # capital P: does not match "M²-pris"
-RE_M2 = re.compile(r"M²-pris\s*([\d.]+)")
-RE_ADDR = re.compile(r"([^\n]*?\S,\s*\d{4}\s[^\n]*?)\s*Villa")
 RE_PRICE_LINE = re.compile(r"^(.*?)\s*(\d{1,3}(?:\.\d{3})+)\s*(?:kr\.?)?$")
 MONTHS = {"januar", "februar", "marts", "april", "maj", "juni", "juli",
           "august", "september", "oktober", "november", "december"}
@@ -102,31 +96,73 @@ def to_int(s):
     return int(digits) if digits else None
 
 
+RE_CARD_HANDEL = re.compile(
+    r"Handelstype ?((?:(?!Handelstype|Salgsdato).)+?) ?Salgsdato ?\d{2}-\d{2}-\d{4}")
+RE_HISTORY_ROW = re.compile(
+    r"([A-ZÆØÅ][a-zæøå]+(?: [a-zæøå]+)?) (\d{2}-\d{2}-\d{4}) (\d{1,3}(?:\.\d{3})+)")
+RE_CARD_ADDR = re.compile(r"^(?:Ikke til salg|Til salg|Kommer snart|Solgt)?\s*(.+?\d{4} [^\d]+?) ?Villa")
+
+
+def address_from_slug(url):
+    """'nybovej-9-2500-valby' -> 'Nybovej 9, 2500 Valby' (fallback only)."""
+    slug = url.rstrip("/").rsplit("/", 1)[-1]
+    m = re.match(r"(.+?)-(\d{4})-(.+)$", slug)
+    if not m:
+        return slug
+    street = " ".join(w.capitalize() if not w[0].isdigit() else w.upper()
+                      for w in m.group(1).split("-"))
+    town = " ".join(w.capitalize() for w in m.group(3).split("-"))
+    return f"{street}, {m.group(2)} {town}"
+
+
 def parse_row(href, text):
-    """Parse one sale from the 'solgte' list. Returns dict or None."""
-    text = re.sub(r"[\u00a0\u2007\u202f\u200b]", " ", text)
-    if "Salgsdato" not in text or "Villa" not in text:
+    """Parse one sale card from the 'solgte' list. Returns dict or None.
+
+    A card contains the latest sale (Handelstype / Salgsdato / Pris / M²-pris) and,
+    hidden in the page code, a table with the house's earlier sales as well.
+    """
+    flat = re.sub(r"\s+", " ", re.sub(r"[\u00a0\u2007\u202f\u200b]", " ", text)).strip()
+    if "Salgsdato" not in flat or "Villa" not in flat:
         return None
-    m_date, m_price = RE_DATE.search(text), RE_PRICE.search(text)
+    m_date = re.search(r"Salgsdato ?(\d{2}-\d{2}-\d{4})", flat)
+    m_price = re.search(r"Pris ?(\d{1,3}(?:\.\d{3})+)", flat)
     if not (m_date and m_price):
         return None
-    handel = RE_HANDEL.search(text)
-    m2 = RE_M2.search(text)
-    addr = RE_ADDR.search(text)
-    address = addr.group(1).strip() if addr else href.rsplit("/", 1)[-1]
-    for p in STATUS_PREFIXES:
-        if address.startswith(p):
-            address = address[len(p):].strip()
-    d, mth, y = m_date.group(1).split("-")
-    url = href if href.startswith("http") else BASE + href
+    sale_date_dk = m_date.group(1)
+
+    handel = ""
+    m_h = RE_CARD_HANDEL.search(flat)
+    if m_h:
+        handel = m_h.group(1).strip()
+    else:                                   # fall back to the history row for this date
+        for row in RE_HISTORY_ROW.finditer(flat):
+            if row.group(2) == sale_date_dk:
+                handel = row.group(1)
+                break
+
+    m2 = re.search(r"M²-pris ?(\d{1,3}(?:\.\d{3})+)", flat)
+    url = (href if href.startswith("http") else BASE + href).split("?")[0]
+    m_a = RE_CARD_ADDR.search(flat)
+    address = m_a.group(1).strip() if m_a and len(m_a.group(1)) < 80 else address_from_slug(url)
+    d, mth, y = sale_date_dk.split("-")
     return {
-        "url": url.split("?")[0],
+        "url": url,
         "address": address,
-        "handel": re.sub(r"\s+", " ", handel.group(1)).strip() if handel else "",
+        "handel": handel,
         "sale_date": f"{y}-{mth}-{d}",
         "sale_price": to_int(m_price.group(1)),
         "m2_price": to_int(m2.group(1)) if m2 else None,
     }
+
+
+def address_from_detail(html):
+    """The house page's heading, e.g. 'Østervang 16' + '4000 Roskilde'."""
+    h1 = BeautifulSoup(html, "html.parser").find("h1")
+    if not h1:
+        return None
+    txt = re.sub(r"\s+", " ", h1.get_text(" ")).strip()
+    txt = re.sub(r",?\s*(\d{4})\s+", r", \1 ", txt, count=1)
+    return txt if re.search(r"\d{4}", txt) and len(txt) < 80 else None
 
 
 def parse_coords(html):
@@ -313,10 +349,18 @@ def crawl_postcode(fetcher, pc, since):
     found = {}
     for n in range(1, MAX_PAGES_PER_POSTCODE + 1):
         url = list_url(pc, n)
-        rows, status, html = read_list_page(fetcher, url)
+        rows, status, html = [], 0, ""
+        for attempt in range(3):              # retry a page before assuming the list ended
+            try:
+                rows, status, html = read_list_page(fetcher, url)
+            except Exception as exc:
+                print(f"  page {n}: error {exc}")
+            if rows:
+                break
+            time.sleep(10 * (attempt + 1))
         if not rows:
+            print(f"  page {n}: no sales ({describe(status, html)}) - stopping here")
             if n == 1:
-                print(f"  no sales found on {url}: {describe(status, html)}")
                 save_debug(f"list_{pc}", html)
             break
         for r in rows:
@@ -414,6 +458,9 @@ def main():
                 continue
             if lat is not None:
                 s["lat"], s["lon"] = lat, lon
+            nicer = address_from_detail(html)
+            if nicer:
+                s["address"] = nicer
             if events:
                 s["asking_price"], s["first_asking_price"] = derive_asking(events, s["sale_price"])
                 s["history_checked"] = True
