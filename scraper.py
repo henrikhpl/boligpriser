@@ -3,7 +3,8 @@ Collects sold villas (fri handel, 5-10 mio. kr.) from boligsiden.dk for a set of
 Copenhagen-area neighbourhoods and saves them to docs/data.json for the dashboard.
 
 Runs automatically every day via .github/workflows/update.yml.
-Local run:  pip install playwright && python -m playwright install chromium && python scraper.py
+Local run:  pip install requests beautifulsoup4 playwright && python -m playwright install chromium
+            python scraper.py
 """
 import json
 import re
@@ -12,7 +13,8 @@ import time
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
+import requests
+from bs4 import BeautifulSoup
 
 # ---------------------------------------------------------------- settings ---
 BASE = "https://www.boligsiden.dk"
@@ -90,7 +92,7 @@ RE_DATE = re.compile(r"Salgsdato\s*(\d{2}-\d{2}-\d{4})")
 RE_PRICE = re.compile(r"Pris\s*([\d.]+)")          # capital P: does not match "M²-pris"
 RE_M2 = re.compile(r"M²-pris\s*([\d.]+)")
 RE_ADDR = re.compile(r"([^\n]*?\S,\s*\d{4}\s[^\n]*?)\s*Villa")
-RE_PRICE_LINE = re.compile(r"^(.*?)\s*(\d{1,3}(?:\.\d{3})+)\s*kr\.?$")
+RE_PRICE_LINE = re.compile(r"^(.*?)\s*(\d{1,3}(?:\.\d{3})+)\s*(?:kr\.?)?$")
 MONTHS = {"januar", "februar", "marts", "april", "maj", "juni", "juli",
           "august", "september", "oktober", "november", "december"}
 
@@ -157,7 +159,8 @@ def parse_history(text):
     block = text[start:min(ends)] if ends else text[start:start + 4000]
     events, pending = [], None
     for line in (l.strip() for l in block.splitlines()):
-        if not line or line.lower() in MONTHS or re.fullmatch(r"\d{4}", line):
+        if (not line or line.lower() in MONTHS or re.fullmatch(r"\d{4}", line)
+                or line.lower() in ("kr", "kr.")):
             continue
         m = RE_PRICE_LINE.match(line)
         if m:
@@ -196,53 +199,123 @@ def derive_asking(events, sale_price):
         return None, None              # looks like an unrelated old listing
     return last_ask, first_ask
 
-# ---------------------------------------------------------------- browser ---
-def save_debug(page, name):
+# --------------------------------------------------------------- fetching ---
+class Fetcher:
+    """Gets page HTML. Tries plain web requests first, falls back to a real browser."""
+
+    def __init__(self):
+        self.mode = "http"
+        self.session = requests.Session()
+        self.session.headers.update({
+            "User-Agent": USER_AGENT,
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "da-DK,da;q=0.9,en;q=0.8",
+        })
+        self._pw = self._browser = self._page = None
+
+    def get(self, url, wait_for=None):
+        if self.mode == "http":
+            r = self.session.get(url, timeout=40)
+            return r.status_code, r.text
+        return self._browser_get(url, wait_for)
+
+    def switch_to_browser(self):
+        from playwright.sync_api import sync_playwright
+        print("Switching to browser mode")
+        self.mode = "browser"
+        self._pw = sync_playwright().start()
+        self._browser = self._pw.chromium.launch()
+        ctx = self._browser.new_context(locale="da-DK", user_agent=USER_AGENT,
+                                        viewport={"width": 1400, "height": 1000})
+        self._page = ctx.new_page()
+
+    def _browser_get(self, url, wait_for):
+        page = self._page
+        resp = page.goto(url, wait_until="domcontentloaded", timeout=60000)
+        for label in ("Afvis alle", "Kun nødvendige", "Tillad alle", "Accepter alle"):
+            try:
+                page.get_by_role("button", name=re.compile(label, re.I)).first.click(timeout=1500)
+                break
+            except Exception:
+                continue
+        if wait_for:
+            try:
+                page.wait_for_selector(wait_for, timeout=20000)
+            except Exception:
+                pass
+        for _ in range(4):
+            page.mouse.wheel(0, 2500)
+            page.wait_for_timeout(250)
+        return (resp.status if resp else 0), page.content()
+
+    def close(self):
+        if self._browser:
+            self._browser.close()
+            self._pw.stop()
+
+
+def describe(status, html):
+    title = re.search(r"<title[^>]*>(.*?)</title>", html or "", re.S | re.I)
+    title = title.group(1).strip()[:100] if title else "(no title)"
+    low = (html or "").lower()
+    hints = [w for w in ("captcha", "cloudflare", "access denied", "challenge", "blocked",
+                         "enable javascript", "robot") if w in low]
+    links = low.count("/adresse/")
+    return (f"status {status}, {len(html or '')} characters, title '{title}', "
+            f"{links} address links" + (f", contains: {', '.join(hints)}" if hints else ""))
+
+
+def save_debug(name, html):
     DEBUG_DIR.mkdir(exist_ok=True)
     safe = re.sub(r"[^\w-]", "_", name)[:80]
-    try:
-        (DEBUG_DIR / f"{safe}.html").write_text(page.content(), encoding="utf-8")
-        page.screenshot(path=str(DEBUG_DIR / f"{safe}.png"), full_page=True)
-    except Exception as exc:
-        print(f"  could not save debug files: {exc}")
+    (DEBUG_DIR / f"{safe}.html").write_text(html or "", encoding="utf-8")
 
 
-def dismiss_cookies(page):
-    for label in ("Afvis alle", "Kun nødvendige", "Tillad alle", "Accepter alle"):
-        try:
-            page.get_by_role("button", name=re.compile(label, re.I)).first.click(timeout=2000)
-            return
-        except Exception:
-            continue
-
-
-def read_list_page(page, url):
-    page.goto(url, wait_until="domcontentloaded", timeout=60000)
-    try:
-        page.wait_for_selector('a[href*="/adresse/"]', timeout=20000)
-    except PWTimeout:
-        return []
-    page.wait_for_timeout(800)
-    raw = page.eval_on_selector_all(
-        'a[href*="/adresse/"]',
-        "els => els.map(e => [e.getAttribute('href'), e.innerText])")
+def rows_from_html(html):
+    soup = BeautifulSoup(html, "html.parser")
     rows = {}
-    for href, text in raw:
-        row = parse_row(href or "", text or "")
+    for a in soup.select('a[href*="/adresse/"]'):
+        row = parse_row(a.get("href", ""), a.get_text("\n"))
         if row:
             rows[row["url"] + "|" + row["sale_date"]] = row
     return list(rows.values())
 
 
-def crawl_postcode(page, pc, since):
+def list_url(pc, n):
+    return f"{BASE}/postnummer/{pc}/solgte/villa" + (f"?page={n}" if n > 1 else "")
+
+
+def read_list_page(fetcher, url):
+    status, html = fetcher.get(url, wait_for='a[href*="/adresse/"]')
+    return rows_from_html(html), status, html
+
+
+def choose_mode(fetcher):
+    """Check that the list can be read; switch to the browser if plain requests fail."""
+    url = list_url(POSTCODES[0], 1)
+    rows, status, html = read_list_page(fetcher, url)
+    print(f"Test (plain request): {describe(status, html)} -> {len(rows)} sales read")
+    if rows:
+        return True
+    save_debug("test_plain_request", html)
+    fetcher.switch_to_browser()
+    rows, status, html = read_list_page(fetcher, url)
+    print(f"Test (browser): {describe(status, html)} -> {len(rows)} sales read")
+    if rows:
+        return True
+    save_debug("test_browser", html)
+    return False
+
+
+def crawl_postcode(fetcher, pc, since):
     found = {}
     for n in range(1, MAX_PAGES_PER_POSTCODE + 1):
-        url = f"{BASE}/postnummer/{pc}/solgte/villa" + (f"?page={n}" if n > 1 else "")
-        rows = read_list_page(page, url)
+        url = list_url(pc, n)
+        rows, status, html = read_list_page(fetcher, url)
         if not rows:
             if n == 1:
-                print(f"  no sales found on {url}")
-                save_debug(page, f"list_{pc}")
+                print(f"  no sales found on {url}: {describe(status, html)}")
+                save_debug(f"list_{pc}", html)
             break
         for r in rows:
             if r["sale_date"] >= since:
@@ -254,18 +327,11 @@ def crawl_postcode(page, pc, since):
     return found
 
 
-def read_detail(page, url):
-    page.goto(url, wait_until="domcontentloaded", timeout=60000)
-    try:
-        page.wait_for_selector("text=Boligens historie", timeout=20000)
-    except PWTimeout:
-        pass
-    for _ in range(6):                  # scroll so lazy sections render
-        page.mouse.wheel(0, 2500)
-        page.wait_for_timeout(250)
-    lat, lon = parse_coords(page.content())
-    events = parse_history(page.inner_text("body"))
-    return lat, lon, events
+def read_detail(fetcher, url):
+    status, html = fetcher.get(url, wait_for="text=Boligens historie")
+    lat, lon = parse_coords(html)
+    text = BeautifulSoup(html, "html.parser").get_text("\n")
+    return lat, lon, parse_history(text), status, html
 
 # ------------------------------------------------------------------- main ---
 def load_data():
@@ -293,15 +359,13 @@ def main():
     data = load_data()
     sales = {s["id"]: s for s in data.get("sales", [])}
     today = date.today()
-    total_rows = 0
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch()
-        ctx = browser.new_context(locale="da-DK", user_agent=USER_AGENT,
-                                  viewport={"width": 1400, "height": 1000})
-        page = ctx.new_page()
-        page.goto(BASE, wait_until="domcontentloaded", timeout=60000)
-        dismiss_cookies(page)
+    fetcher = Fetcher()
+    try:
+        if not choose_mode(fetcher):
+            print("Boligsiden's sales list could not be read, neither with a plain request nor "
+                  "with a browser. See the lines above and the debug files.")
+            sys.exit(1)
 
         # 1) new sales from the lists
         for pc in POSTCODES:
@@ -311,8 +375,7 @@ def main():
             else:
                 since = (today - timedelta(days=int(FIRST_RUN_MONTHS * 30.5))).isoformat()
             print(f"{pc}: collecting sales since {since}")
-            rows = crawl_postcode(page, pc, since)
-            total_rows += len(rows)
+            rows = crawl_postcode(fetcher, pc, since)
             added = 0
             for key, r in rows.items():
                 if r["handel"].lower() != "fri handel":
@@ -327,19 +390,15 @@ def main():
                 added += 1
             print(f"{pc}: {added} new sales in range")
 
-        if total_rows == 0:
-            print("No sales could be read at all - the site layout may have changed. "
-                  "See the debug files.")
-            sys.exit(1)
-
         # 2) listing price + location from each new sale's own page
         todo = [s for s in sales.values()
                 if not s["history_checked"] and s["attempts"] < MAX_DETAIL_ATTEMPTS]
         print(f"Reading {len(todo)} house pages")
+        saved_debug = 0
         for i, s in enumerate(todo[:MAX_DETAIL_PAGES_PER_RUN], 1):
             s["attempts"] += 1
             try:
-                lat, lon, events = read_detail(page, s["url"])
+                lat, lon, events, status, html = read_detail(fetcher, s["url"])
             except Exception as exc:
                 print(f"  {s['address']}: failed ({exc})")
                 continue
@@ -348,15 +407,17 @@ def main():
             if events:
                 s["asking_price"], s["first_asking_price"] = derive_asking(events, s["sale_price"])
                 s["history_checked"] = True
-            elif s["attempts"] == 1 and len(list(DEBUG_DIR.glob("detail_*"))) < 3:
-                save_debug(page, "detail_" + s["url"].rsplit("/", 1)[-1])
+            elif saved_debug < 3:
+                print(f"  no history found: {describe(status, html)}")
+                save_debug("detail_" + s["url"].rsplit("/", 1)[-1], html)
+                saved_debug += 1
             print(f"  [{i}/{len(todo)}] {s['address']}: sold {s['sale_price']:,}, "
                   f"asking {s['asking_price'] or '-'}")
             if i % 25 == 0:
                 write_data(sales)
             time.sleep(DELAY_SECONDS)
-
-        browser.close()
+    finally:
+        fetcher.close()
 
     write_data(sales)
     print(f"Saved {len(sales)} sales to {DATA_FILE}")
