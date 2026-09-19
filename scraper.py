@@ -104,6 +104,7 @@ def to_int(s):
 
 def parse_row(href, text):
     """Parse one sale from the 'solgte' list. Returns dict or None."""
+    text = re.sub(r"[\u00a0\u2007\u202f\u200b]", " ", text)
     if "Salgsdato" not in text or "Villa" not in text:
         return None
     m_date, m_price = RE_DATE.search(text), RE_PRICE.search(text)
@@ -121,7 +122,7 @@ def parse_row(href, text):
     return {
         "url": url.split("?")[0],
         "address": address,
-        "handel": handel.group(1).strip() if handel else "",
+        "handel": re.sub(r"\s+", " ", handel.group(1)).strip() if handel else "",
         "sale_date": f"{y}-{mth}-{d}",
         "sale_price": to_int(m_price.group(1)),
         "m2_price": to_int(m2.group(1)) if m2 else None,
@@ -157,6 +158,7 @@ def parse_history(text):
             ("Vis hele historikken", "Prisudvikling i", "Solgte boliger i området")]
     ends = [e for e in ends if e > 0]
     block = text[start:min(ends)] if ends else text[start:start + 4000]
+    block = re.sub(r"[\u00a0\u2007\u202f\u200b]", " ", block)
     events, pending = [], None
     for line in (l.strip() for l in block.splitlines()):
         if (not line or line.lower() in MONTHS or re.fullmatch(r"\d{4}", line)
@@ -376,19 +378,27 @@ def main():
                 since = (today - timedelta(days=int(FIRST_RUN_MONTHS * 30.5))).isoformat()
             print(f"{pc}: collecting sales since {since}")
             rows = crawl_postcode(fetcher, pc, since)
-            added = 0
+            added, other_handel, out_of_range, known_already = 0, {}, 0, 0
             for key, r in rows.items():
                 if r["handel"].lower() != "fri handel":
+                    other_handel[r["handel"]] = other_handel.get(r["handel"], 0) + 1
                     continue
-                if not (PRICE_MIN <= r["sale_price"] <= PRICE_MAX):
+                if not (PRICE_MIN <= (r["sale_price"] or 0) <= PRICE_MAX):
+                    out_of_range += 1
                     continue
                 if key in sales:
+                    known_already += 1
                     continue
                 sales[key] = {**r, "id": key, "postcode": pc, "lat": None, "lon": None,
                               "asking_price": None, "first_asking_price": None,
                               "history_checked": False, "attempts": 0}
                 added += 1
-            print(f"{pc}: {added} new sales in range")
+            print(f"{pc}: {len(rows)} sales read, {added} new in range; skipped "
+                  f"{out_of_range} outside price range, {known_already} already saved, "
+                  f"other handelstype: {other_handel or 'none'}")
+            if rows and not added and not known_already:
+                sample = next(iter(rows.values()))
+                print(f"  example of a sale that was read: {sample}")
 
         # 2) listing price + location from each new sale's own page
         todo = [s for s in sales.values()
