@@ -1,1 +1,401 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>House sales, Copenhagen west</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏡</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;700;900&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root {
+  --paper: #F2F3EF; --surface: #FFFFFF; --ink: #1C2427; --muted: #5D696B; --line: #D3D8D2;
+  --ask: #B8861B;      /* ochre facades */
+  --sale: #2E6B64;     /* verdigris roofs */
+  --above: #A3402F;    /* sold above asking */
+  --font: "Schibsted Grotesk", "Helvetica Neue", Arial, sans-serif;
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+@media (prefers-color-scheme: dark) {
+  :root { --paper: #141A1C; --surface: #1C2427; --ink: #E7ECE9; --muted: #9AA7A8; --line: #2F3A3D;
+          --ask: #E0B04A; --sale: #5FB3A8; --above: #E07A66; }
+}
+*, *::before, *::after { box-sizing: inherit; }
+html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--font);
+       font-size: 16px; line-height: 1.5; font-variant-numeric: tabular-nums; }
+.wrap { max-width: 1100px; margin: 0 auto; padding: 24px 20px 64px; }
 
+nav.areas { display: flex; flex-wrap: wrap; gap: 4px 18px; border-bottom: 1px solid var(--line); padding-bottom: 12px; }
+nav.areas button { font: inherit; font-size: 15px; background: none; border: 0; padding: 4px 0; color: var(--muted);
+                   cursor: pointer; border-bottom: 2px solid transparent; }
+nav.areas button:hover { color: var(--ink); }
+nav.areas button[aria-pressed="true"] { color: var(--ink); font-weight: 700; border-bottom-color: var(--ink); }
+button:focus-visible, select:focus-visible, a:focus-visible { outline: 2px solid var(--sale); outline-offset: 3px; }
+
+header.hero { display: grid; grid-template-columns: 1fr auto; gap: 16px 32px; align-items: end; margin: 36px 0 28px; }
+h1 { font-size: clamp(3rem, 9vw, 6.5rem); font-weight: 900; letter-spacing: -0.035em; line-height: .9; margin: 0; }
+.summary { grid-column: 1 / -1; font-size: 1.15rem; max-width: 62ch; margin: 0; color: var(--ink); }
+.summary strong { font-weight: 700; }
+.controls { display: flex; gap: 12px; }
+.controls label { display: flex; flex-direction: column; font-size: 13px; color: var(--muted); gap: 2px; }
+select { font: inherit; font-size: 15px; color: var(--ink); background: var(--surface); border: 1px solid var(--line);
+         border-radius: 6px; padding: 6px 8px; }
+
+section.chart { border-top: 1px solid var(--line); padding: 20px 0 8px; }
+section.chart h2 { font-size: 1.25rem; margin: 0; font-weight: 700; }
+section.chart p { margin: 2px 0 12px; color: var(--muted); font-size: 14px; }
+.canvas-box { position: relative; height: 280px; }
+.key { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: 0; }
+
+section.sales { border-top: 1px solid var(--line); margin-top: 24px; padding-top: 20px; }
+section.sales h2 { font-size: 1.25rem; margin: 0 0 12px; }
+.table-box { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; min-width: 640px; }
+th, td { text-align: right; padding: 8px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+th:first-child, td:first-child { text-align: left; white-space: normal; }
+th { font-weight: 500; color: var(--muted); }
+td a { color: var(--ink); text-decoration-color: var(--line); text-underline-offset: 3px; }
+td.below { color: var(--sale); } td.above { color: var(--above); }
+.more { font: inherit; margin-top: 12px; background: none; border: 1px solid var(--line); border-radius: 6px;
+        padding: 6px 12px; color: var(--ink); cursor: pointer; }
+footer { margin-top: 40px; color: var(--muted); font-size: 13px; }
+.notice { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 20px; margin-top: 32px; max-width: 60ch; }
+
+
+.picks { list-style: none; margin: 0; padding: 0; counter-reset: pick; }
+.pick { border-top: 1px solid var(--line); padding: 22px 0 22px 64px; position: relative; }
+.pick::before { counter-increment: pick; content: counter(pick); position: absolute; left: 0; top: 16px;
+                font-size: 2.6rem; font-weight: 900; letter-spacing: -0.04em; color: var(--sale); line-height: 1; }
+.pick h2 { font-size: 1.35rem; margin: 0; line-height: 1.25; }
+.pick h2 a { color: var(--ink); text-underline-offset: 4px; text-decoration-color: var(--line); }
+.pick .where { color: var(--muted); font-size: 14px; margin: 2px 0 10px; }
+.tag { display: inline-block; font-size: 12px; border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; margin-left: 6px; color: var(--muted); vertical-align: 2px; }
+.facts { display: flex; flex-wrap: wrap; gap: 6px 22px; margin: 0 0 10px; padding: 0; }
+.facts div { display: flex; flex-direction: column; }
+.facts dt { font-size: 12px; color: var(--muted); }
+.facts dd { margin: 0; font-weight: 500; }
+.why { margin: 0; padding-left: 18px; }
+.why li { margin: 2px 0; }
+.why li.warn { color: var(--above); }
+.score { position: absolute; right: 0; top: 22px; text-align: right; }
+.score b { display: block; font-size: 1.6rem; font-weight: 900; line-height: 1; }
+.score span { font-size: 12px; color: var(--muted); }
+.pick .body { padding-right: 90px; }
+.method { color: var(--muted); font-size: 14px; max-width: 70ch; margin-top: 28px; }
+@media (max-width: 640px) { .pick { padding-left: 44px; } .pick::before { font-size: 2rem; } .pick .body { padding-right: 0; } .score { position: static; text-align: left; margin-bottom: 8px; } .score b { display: inline; font-size: 1.2rem; margin-right: 6px; } }
+@media (max-width: 640px) {
+  header.hero { grid-template-columns: 1fr; }
+  .canvas-box { height: 230px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="areas" id="areas" aria-label="Choose area"></nav>
+  <main id="main"></main>
+  <footer id="footer"></footer>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const MONTHS = ["jan","feb","mar","apr","maj","jun","jul","aug","sep","okt","nov","dec"];
+const AREA_COLORS = ["#2E6B64","#B8861B","#A3402F","#4D6FA3","#7A5C99","#3F8F4A","#C0619A","#6B7A2E","#2C8FB0"];
+const nf0 = new Intl.NumberFormat("da-DK", { maximumFractionDigits: 0 });
+const nf1 = new Intl.NumberFormat("da-DK", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+const nf2 = new Intl.NumberFormat("da-DK", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const mio = v => nf2.format(v / 1e6) + " mio. kr.";
+const kr = v => nf0.format(v) + " kr.";
+const pct = v => nf1.format(v) + " %";
+
+let DATA = null, LIST = null, charts = [];
+const state = { area: null, months: 24, gran: "month", tableAll: false, pickDay: null };
+
+function median(a) {
+  if (!a.length) return null;
+  const s = [...a].sort((x, y) => x - y), m = Math.floor(s.length / 2);
+  return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2;
+}
+function periodOf(dateStr, gran) {
+  const [y, m, d] = dateStr.split("-").map(Number);
+  if (gran === "month") return { idx: y * 12 + (m - 1), frac: (d - 1) / 31 };
+  const q = Math.floor((m - 1) / 3);
+  return { idx: y * 4 + q, frac: (((m - 1) % 3) * 31 + d - 1) / 93 };
+}
+function periodLabel(idx, gran) {
+  if (gran === "month") return MONTHS[idx % 12] + " " + String(Math.floor(idx / 12)).slice(2);
+  return "K" + (idx % 4 + 1) + " " + String(Math.floor(idx / 4)).slice(2);
+}
+function inPeriod(s) {
+  if (!state.months) return true;
+  const cut = new Date(); cut.setMonth(cut.getMonth() - state.months);
+  return s.sale_date >= cut.toISOString().slice(0, 10);
+}
+function rowsFor(area) {
+  return DATA.sales.filter(s => s.area && (!area || s.area === area) && inPeriod(s));
+}
+function medianSeries(rows, field) {
+  const g = new Map();
+  rows.forEach(s => {
+    if (s[field] == null) return;
+    const { idx } = periodOf(s.sale_date, state.gran);
+    if (!g.has(idx)) g.set(idx, []);
+    g.get(idx).push(s[field]);
+  });
+  return [...g.entries()].sort((a, b) => a[0] - b[0]).map(([idx, v]) => ({ x: idx + 0.5, y: median(v), n: v.length }));
+}
+function pointSeries(rows, field) {
+  return rows.filter(s => s[field] != null).map(s => {
+    const { idx, frac } = periodOf(s.sale_date, state.gran);
+    return { x: idx + frac, y: s[field], s };
+  });
+}
+
+function baseOptions(yFormat, xMin, xMax) {
+  const grid = css("--line"), muted = css("--muted");
+  return {
+    responsive: true, maintainAspectRatio: false, animation: false,
+    interaction: { mode: "nearest", intersect: true },
+    plugins: {
+      legend: { display: false },
+      tooltip: { callbacks: {
+        title: items => { const r = items[0].raw; return r.s ? r.s.address : periodLabel(Math.floor(r.x), state.gran) + (r.n ? ` (${r.n} sales)` : ""); },
+        label: item => (item.dataset.label ? item.dataset.label + ": " : "") + yFormat(item.raw.y),
+      } },
+    },
+    scales: {
+      x: { type: "linear", min: xMin, max: xMax, grid: { color: grid }, border: { color: grid },
+           ticks: { color: muted, stepSize: state.gran === "month" && xMax - xMin > 15 ? 3 : 1,
+                    callback: v => Number.isInteger(v) ? periodLabel(v, state.gran) : "" } },
+      y: { grid: { color: grid }, border: { display: false }, ticks: { color: muted, callback: yFormat } },
+    },
+  };
+}
+function xRange(rows) {
+  const idx = rows.map(s => periodOf(s.sale_date, state.gran).idx);
+  return idx.length ? [Math.min(...idx), Math.max(...idx) + 1] : [0, 1];
+}
+const shortMio = v => nf1.format(v / 1e6) + " mio.";
+
+function priceChart(canvas, rows, field, color, label) {
+  const [xMin, xMax] = xRange(rows);
+  return new Chart(canvas, {
+    type: "scatter",
+    data: { datasets: [
+      { type: "line", label: "Median", data: medianSeries(rows, field), borderColor: color, backgroundColor: color,
+        borderWidth: 2.5, pointRadius: 3, tension: 0.25 },
+      { label, data: pointSeries(rows, field), backgroundColor: color + "40", borderColor: color + "80", pointRadius: 3.5 },
+    ] },
+    options: baseOptions(mio, xMin, xMax),
+  });
+}
+function pctChart(canvas, rows) {
+  const [xMin, xMax] = xRange(rows);
+  const pts = pointSeries(rows, "pct_below"), sale = css("--sale"), above = css("--above");
+  const opts = baseOptions(pct, xMin, xMax);
+  return new Chart(canvas, {
+    type: "scatter",
+    data: { datasets: [
+      { type: "line", label: "Median", data: medianSeries(rows, "pct_below"), borderColor: css("--ink"),
+        backgroundColor: css("--ink"), borderWidth: 2.5, pointRadius: 3, tension: 0.25 },
+      { label: "House", data: pts, pointRadius: 3.5,
+        backgroundColor: pts.map(p => (p.y >= 0 ? sale : above) + "55"),
+        borderColor: pts.map(p => (p.y >= 0 ? sale : above) + "99") },
+      { type: "line", label: "", data: [{ x: xMin, y: 0 }, { x: xMax, y: 0 }], borderColor: css("--muted"),
+        borderWidth: 1, borderDash: [4, 4], pointRadius: 0, tooltip: { enabled: false } },
+    ] },
+    options: { ...opts, plugins: { ...opts.plugins, tooltip: { ...opts.plugins.tooltip,
+      filter: i => i.datasetIndex !== 2 } } },
+  });
+}
+function compareChart(canvas, field, fmt) {
+  const all = rowsFor(null), [xMin, xMax] = xRange(all);
+  return new Chart(canvas, {
+    type: "line",
+    data: { datasets: DATA.areas.map((a, i) => ({
+      label: a, data: medianSeries(all.filter(s => s.area === a), field),
+      borderColor: AREA_COLORS[i % 9], backgroundColor: AREA_COLORS[i % 9],
+      borderWidth: 2, pointRadius: 2, tension: 0.25 })) },
+    options: { ...baseOptions(fmt, xMin, xMax),
+      plugins: { legend: { display: true, position: "bottom", labels: { color: css("--muted"), boxWidth: 10, boxHeight: 10, usePointStyle: true } },
+                 tooltip: { callbacks: { title: it => periodLabel(Math.floor(it[0].raw.x), state.gran),
+                                         label: it => `${it.dataset.label}: ${fmt(it.raw.y)} (${it.raw.n})` } } } },
+  });
+}
+
+function controlsHTML() {
+  return `<div class="controls">
+    <label>Period<select id="months">
+      ${[[12, "Last 12 months"], [24, "Last 24 months"], [0, "All data"]].map(([v, t]) =>
+        `<option value="${v}"${state.months === v ? " selected" : ""}>${t}</option>`).join("")}
+    </select></label>
+    <label>Group by<select id="gran">${[["month", "Month"], ["quarter", "Quarter"]].map(([v, t]) =>
+        `<option value="${v}"${state.gran === v ? " selected" : ""}>${t}</option>`).join("")}</select></label>
+  </div>`;
+}
+function chartSection(id, title, text) {
+  return `<section class="chart"><h2>${title}</h2><p>${text}</p><div class="canvas-box"><canvas id="${id}"></canvas></div></section>`;
+}
+function periodWords() { return state.months ? `the last ${state.months} months` : "the collected period"; }
+
+function render() {
+  charts.forEach(c => c.destroy()); charts = [];
+  document.querySelectorAll("#areas button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.area === (state.area || ""))));
+  if (state.area === PICKS) return renderPicks();
+  state.area ? renderArea() : renderCompare();
+  $("#months").onchange = e => { state.months = Number(e.target.value); render(); };
+  $("#gran").onchange = e => { state.gran = e.target.value; render(); };
+}
+
+function renderArea() {
+  const rows = rowsFor(state.area);
+  const withAsk = rows.filter(s => s.pct_below != null);
+  const medPct = median(withAsk.map(s => s.pct_below));
+  let summary = `No houses in this price range sold in ${periodWords()}.`;
+  if (rows.length) {
+    summary = `<strong>${rows.length}</strong> houses sold in ${periodWords()}, at a median of <strong>${mio(median(rows.map(s => s.sale_price)))}</strong>` +
+      ` (${kr(Math.round(median(rows.filter(s => s.m2_price).map(s => s.m2_price)) || 0))} per m²).`;
+    if (medPct != null) summary += medPct >= 0
+      ? ` The typical house sold <strong>${pct(medPct)} below</strong> its asking price.`
+      : ` The typical house sold <strong>${pct(-medPct)} above</strong> its asking price.`;
+  }
+  $("#main").innerHTML = `
+    <header class="hero"><h1>${state.area}</h1>${controlsHTML()}<p class="summary">${summary}</p></header>
+    ${chartSection("c1", "Asking price", `<span class="key" style="background:var(--ask)"></span>Line: median per ${state.gran}. Dots: individual houses, asking price when sold.`)}
+    ${chartSection("c2", "Sale price", `<span class="key" style="background:var(--sale)"></span>What the houses actually sold for.`)}
+    ${chartSection("c3", "Sold below asking", `Positive = sold below asking price. <span class="key" style="background:var(--above);margin-left:8px"></span>Red dots sold above asking. ${rows.length - withAsk.length} sales had no asking price (sold without being listed on Boligsiden).`)}
+    <section class="sales"><h2>Sales</h2><div class="table-box">${salesTable(rows)}</div></section>`;
+  charts.push(priceChart($("#c1"), rows, "asking_price", css("--ask"), "Asking"));
+  charts.push(priceChart($("#c2"), rows, "sale_price", css("--sale"), "Sold"));
+  charts.push(pctChart($("#c3"), rows));
+  const more = $("#more"); if (more) more.onclick = () => { state.tableAll = true; render(); };
+}
+
+function salesTable(rows) {
+  if (!rows.length) return "";
+  const shown = state.tableAll ? rows : rows.slice(0, 40);
+  const body = shown.map(s => {
+    const p = s.pct_below;
+    const cls = p == null ? "" : p >= 0 ? "below" : "above";
+    const pTxt = p == null ? "–" : p >= 0 ? pct(p) + " below" : pct(-p) + " above";
+    return `<tr><td><a href="${s.url}" target="_blank" rel="noopener">${s.address}</a></td>
+      <td>${s.sale_date.split("-").reverse().join("-")}</td>
+      <td>${s.asking_price ? kr(s.asking_price) : "–"}</td><td>${kr(s.sale_price)}</td>
+      <td>${s.m2_price ? kr(s.m2_price) : "–"}</td><td class="${cls}">${pTxt}</td></tr>`;
+  }).join("");
+  const more = rows.length > shown.length ? `<button class="more" id="more">Show all ${rows.length} sales</button>` : "";
+  return `<table><thead><tr><th>Address</th><th>Sold</th><th>Asking price</th><th>Sale price</th><th>Per m²</th><th>vs. asking</th></tr></thead><tbody>${body}</tbody></table>${more}`;
+}
+
+function renderCompare() {
+  const summaryRows = DATA.areas.map(a => {
+    const r = rowsFor(a), mp = median(r.filter(s => s.pct_below != null).map(s => s.pct_below));
+    return `<tr><td>${a}</td><td>${r.length}</td>
+      <td>${r.length ? shortMio(median(r.filter(s => s.asking_price).map(s => s.asking_price)) || 0) : "–"}</td>
+      <td>${r.length ? shortMio(median(r.map(s => s.sale_price))) : "–"}</td>
+      <td>${r.length ? kr(Math.round(median(r.filter(s => s.m2_price).map(s => s.m2_price)) || 0)) : "–"}</td>
+      <td class="${mp == null ? "" : mp >= 0 ? "below" : "above"}">${mp == null ? "–" : mp >= 0 ? pct(mp) + " below" : pct(-mp) + " above"}</td></tr>`;
+  }).join("");
+  $("#main").innerHTML = `
+    <header class="hero"><h1>All areas</h1>${controlsHTML()}
+      <p class="summary">Medians for ${periodWords()}. Pick an area above to see individual houses.</p></header>
+    <div class="table-box"><table><thead><tr><th>Area</th><th>Sales</th><th>Asking</th><th>Sold</th><th>Per m²</th><th>vs. asking</th></tr></thead>
+      <tbody>${summaryRows}</tbody></table></div>
+    ${chartSection("k1", "Asking price", `Median per ${state.gran}. With few sales per month, grouping by quarter gives smoother lines.`)}
+    ${chartSection("k2", "Sale price", `Median per ${state.gran}.`)}
+    ${chartSection("k3", "Sold below asking", `Median per ${state.gran}. Positive = below asking price.`)}`;
+  charts.push(compareChart($("#k1"), "asking_price", mio));
+  charts.push(compareChart($("#k2"), "sale_price", mio));
+  charts.push(compareChart($("#k3"), "pct_below", pct));
+}
+
+
+const PICKS = "__picks";
+function esc(s) { return String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]); }
+function dayLabel(d) { return new Date(d + "T12:00:00").toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long" }); }
+
+function renderPicks() {
+  const days = Object.keys(LIST.picks || {}).sort().reverse();
+  const day = state.pickDay && days.includes(state.pickDay) ? state.pickDay : days[0];
+  const urls = (LIST.picks || {})[day] || [];
+  const picks = urls.map(u => LIST.listings[u]).filter(Boolean);
+  const nNew = picks.filter(l => l.pick_type === "new").length;
+  const cap = nf0.format(LIST.price_max / 1e6);
+  const intro = !day ? "No picks yet. They appear after the first morning run."
+    : nNew ? `${nNew} of these came on the market in the last day. Ranked by how cheap they are for what you get.`
+    : `No new houses under ${cap} mio. came on the market in the last day, so these are the best from earlier this week.`;
+  const fact = (label, value) => value ? `<div><dt>${label}</dt><dd>${value}</dd></div>` : "";
+  const items = picks.map(l => `<li class="pick"><div class="score"><b>${l.score ?? "–"}</b><span>score</span></div><div class="body">
+      <h2><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.address || l.url)}</a>${l.pick_type === "earlier" ? '<span class="tag">earlier this week</span>' : ""}</h2>
+      <p class="where">${esc(l.area)}${l.days_total != null ? `, ${l.days_total} day${l.days_total === 1 ? "" : "s"} on the market` : ""}</p>
+      <dl class="facts">${fact("Asking price", kr(l.price))}${fact("Living area", l.living_m2 && l.living_m2 + " m²")}
+        ${fact("Per m²", l.m2_price && kr(l.m2_price))}${fact("Rooms", l.rooms)}${fact("Plot", l.plot_m2 && nf0.format(l.plot_m2) + " m²")}
+        ${fact("Public valuation", l.valuation && kr(l.valuation))}${fact("Built", l.year_built)}${fact("Owner costs", l.owner_cost_month && kr(l.owner_cost_month) + "/md.")}</dl>
+      <ul class="why">${(l.reasons || []).map(r => `<li>${esc(r)}</li>`).join("")}${(l.warnings || []).map(r => `<li class="warn">${esc(r)}</li>`).join("")}</ul>
+    </div></li>`).join("");
+  const active = Object.values(LIST.listings).filter(l => l.active && l.area).sort((a, b) => (b.score ?? -999) - (a.score ?? -999));
+  const rows = active.map(l => `<tr><td><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.address || l.url)}</a></td><td>${esc(l.area)}</td>
+      <td>${kr(l.price)}</td><td>${l.m2_price ? kr(l.m2_price) : "–"}</td><td>${l.plot_m2 ? nf0.format(l.plot_m2) + " m²" : "–"}</td><td>${l.score ?? "–"}</td></tr>`).join("");
+  $("#main").innerHTML = `
+    <header class="hero"><h1>Today's picks</h1>
+      <div class="controls">${days.length > 1 ? `<label>Day<select id="pickday">${days.map(d => `<option value="${d}"${d === day ? " selected" : ""}>${dayLabel(d)}</option>`).join("")}</select></label>` : ""}</div>
+      <p class="summary">${day ? dayLabel(day) + ". " : ""}${intro}</p></header>
+    <ol class="picks">${items}</ol>
+    <p class="method">The score (−100 to 100) weighs m² price against what houses actually sell for in the area (40 %),
+      asking price against the public valuation compared with other listings (20 %), plot size per million (15 %),
+      rooms per million (10 %) and how few houses under ${cap} mio. are for sale in the area (15 %).
+      It is a screening tool: condition, location on the street and energy label are not in it.</p>
+    <section class="sales"><h2>All houses for sale under ${cap} mio.</h2><div class="table-box"><table>
+      <thead><tr><th>Address</th><th>Area</th><th>Asking price</th><th>Per m²</th><th>Plot</th><th>Score</th></tr></thead>
+      <tbody>${rows}</tbody></table></div></section>`;
+  const sel = $("#pickday"); if (sel) sel.onchange = e => { state.pickDay = e.target.value; render(); };
+}
+
+function selectArea(area) {
+  state.area = area || null; state.tableAll = false;
+  history.replaceState(null, "", area ? "#" + (area === PICKS ? "picks" : encodeURIComponent(area)) : location.pathname);
+  render();
+}
+
+async function init() {
+  const dataUrl = new URL("data.json", location.href).href;
+  try {
+    const res = await fetch(dataUrl + "?v=" + Date.now());
+    if (!res.ok) throw new Error("the server answered " + res.status + (res.status === 404 ? " (file not found)" : ""));
+    DATA = await res.json();
+  } catch (e) {
+    const local = location.protocol === "file:";
+    $("#main").innerHTML = `<div class="notice"><h2 style="margin-top:0">Could not load the data</h2>
+      <p>${local ? "This page was opened as a file on your computer, which can't load the data. Open it at your GitHub Pages address instead (https://YOUR-NAME.github.io/boligpriser/)."
+        : `The page tried to load <code>${esc(dataUrl)}</code>, but ${esc(e.message || e)}.`}</p>
+      <p>If the collector has not run yet: in your GitHub repository open <b>Actions</b>, choose <b>Update house prices</b>
+      and click <b>Run workflow</b>. When it finishes, reload this page.</p></div>`;
+    return;
+  }
+  try {
+    const r2 = await fetch("listings.json?v=" + Date.now());
+    if (r2.ok) LIST = await r2.json();
+  } catch (e) { LIST = null; }
+  $("#areas").innerHTML = (LIST ? [`<button data-area="${PICKS}">Today's picks</button>`] : [])
+    .concat([`<button data-area="">All areas</button>`])
+    .concat(DATA.areas.map(a => `<button data-area="${a}">${a}</button>`)).join("");
+  $("#areas").onclick = e => { const b = e.target.closest("button"); if (b) selectArea(b.dataset.area); };
+  const [lo, hi] = DATA.price_range;
+  $("#footer").textContent = `Villas sold in fri handel for ${nf0.format(lo / 1e6)}–${nf0.format(hi / 1e6)} mio. kr. ` +
+    `Asking price is the last price before the sale. Data from boligsiden.dk, updated ` +
+    new Date(DATA.updated).toLocaleString("da-DK", { dateStyle: "long", timeStyle: "short" }) + ".";
+  const fromHash = decodeURIComponent(location.hash.slice(1));
+  if (fromHash === "picks" && LIST) selectArea(PICKS);
+  else if (DATA.areas.includes(fromHash)) selectArea(fromHash);
+  else selectArea(LIST ? PICKS : DATA.areas[0]);
+}
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => DATA && render());
+init();
+</script>
+</body>
+</html>
