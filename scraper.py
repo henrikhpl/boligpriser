@@ -28,13 +28,15 @@ OVERLAP_DAYS = 21              # later runs re-check this many days back (late r
 MAX_PAGES_PER_POSTCODE = 150
 MAX_DETAIL_PAGES_PER_RUN = 1500
 MAX_DETAIL_ATTEMPTS = 3
+# An asking price further than this from the sale price is treated as an old, unrelated listing
+ASK_MIN_RATIO, ASK_MAX_RATIO = 0.80, 1.25
 DELAY_SECONDS = 1.5            # pause between page loads, to be gentle on the site
 
-POSTCODES = ["2500", "2720", "2700", "2400", "2870", "2820", "2610", "2650"]
+POSTCODES = ["2500", "2720", "2700", "2400", "2860", "2870", "2820", "2610", "2650"]
 AREA_ORDER = ["Valby", "Vanløse", "Brønshøj", "Emdrup", "København NV",
-              "Dyssegård", "Vangede", "Rødovre", "Hvidovre"]
+              "Søborg", "Dyssegård", "Vangede", "Rødovre", "Hvidovre"]
 SIMPLE_AREAS = {"2500": "Valby", "2720": "Vanløse", "2700": "Brønshøj",
-                "2870": "Dyssegård", "2610": "Rødovre", "2650": "Hvidovre"}
+                "2860": "Søborg", "2870": "Dyssegård", "2610": "Rødovre", "2650": "Hvidovre"}
 
 # Emdrup = houses in 2400 inside this outline (latitude, longitude corners).
 # It is an approximation - adjust the corners if houses land in the wrong area.
@@ -233,7 +235,7 @@ def derive_asking(events, sale_price):
         if "udbudt" in label or "til salg" in label:
             first_ask = e["price"]
     first_ask = first_ask or last_ask
-    if last_ask and not (0.6 * sale_price <= last_ask <= 1.6 * sale_price):
+    if last_ask and not (ASK_MIN_RATIO * sale_price <= last_ask <= ASK_MAX_RATIO * sale_price):
         return None, None              # looks like an unrelated old listing
     return last_ask, first_ask
 
@@ -390,6 +392,8 @@ def write_data(sales):
     for s in sales.values():
         s["area"] = assign_area(s["postcode"], s.get("lat"), s.get("lon"))
         ask, sale = s.get("asking_price"), s["sale_price"]
+        if ask and not (ASK_MIN_RATIO * sale <= ask <= ASK_MAX_RATIO * sale):
+            s["asking_price"] = s["first_asking_price"] = ask = None     # clean older data too
         s["pct_below"] = round((ask - sale) / ask * 100, 2) if ask else None
     out = {
         "updated": datetime.now(timezone.utc).isoformat(timespec="minutes"),
