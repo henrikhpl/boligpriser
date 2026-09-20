@@ -46,6 +46,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/
           git diff --cached --quiet || git commit -m "Update house prices and picks $(date -u +%F)"
+          git pull --rebase origin main   # include stars saved from the dashboard during the run
           git push
 
       - name: Publish the dashboard
