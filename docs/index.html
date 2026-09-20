@@ -88,6 +88,25 @@ footer { margin-top: 40px; color: var(--muted); font-size: 13px; }
 .pick .body { padding-right: 90px; }
 .method { color: var(--muted); font-size: 14px; max-width: 70ch; margin-top: 28px; }
 @media (max-width: 640px) { .pick { padding-left: 44px; } .pick::before { font-size: 2rem; } .pick .body { padding-right: 0; } .score { position: static; text-align: left; margin-bottom: 8px; } .score b { display: inline; font-size: 1.2rem; margin-right: 6px; } }
+
+.star { font: inherit; font-size: 1.5rem; line-height: 1; background: none; border: 0; cursor: pointer; color: var(--muted); padding: 2px 6px; margin-left: -6px; }
+.star[aria-pressed="true"] { color: var(--ask); }
+.star:hover { color: var(--ask); }
+td .star { font-size: 1.15rem; }
+.taste { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 14px 18px; margin: 0 0 8px; max-width: 70ch; }
+.taste p { margin: 0; }
+.taste .muted { color: var(--muted); font-size: 14px; margin-top: 4px; }
+.panel { position: fixed; left: 50%; bottom: calc(20px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); width: min(560px, calc(100% - 32px));
+         background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 18px 20px; box-shadow: 0 10px 30px rgba(0,0,0,.18); z-index: 10; }
+.panel h2 { margin: 0 0 6px; font-size: 1.15rem; }
+.panel ol { padding-left: 20px; margin: 8px 0; font-size: 14px; }
+.panel input { font: inherit; width: 100%; padding: 8px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); color: var(--ink); margin: 6px 0 10px; }
+.panel .row { display: flex; gap: 8px; justify-content: flex-end; }
+.btn { font: inherit; border-radius: 6px; padding: 7px 14px; cursor: pointer; border: 1px solid var(--line); background: none; color: var(--ink); }
+.btn.primary { background: var(--sale); border-color: var(--sale); color: #fff; }
+.toast { position: fixed; left: 50%; bottom: calc(20px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--ink); color: var(--paper);
+         padding: 10px 16px; border-radius: 8px; font-size: 14px; z-index: 11; max-width: calc(100% - 32px); }
+.linkish { font: inherit; background: none; border: 0; padding: 0; color: inherit; text-decoration: underline; cursor: pointer; }
 @media (max-width: 640px) {
   header.hero { grid-template-columns: 1fr; }
   .canvas-box { height: 230px; }
@@ -181,6 +200,7 @@ function xRange(rows) {
   return idx.length ? [Math.min(...idx), Math.max(...idx) + 1] : [0, 1];
 }
 const shortMio = v => nf1.format(v / 1e6) + " mio.";
+const perM2 = v => nf0.format(Math.round(v)) + " kr./m²";
 
 function priceChart(canvas, rows, field, color, label) {
   const [xMin, xMax] = xRange(rows);
@@ -298,26 +318,137 @@ function renderCompare() {
     return `<tr><td>${a}</td><td>${r.length}</td>
       <td>${r.length ? shortMio(median(r.filter(s => s.asking_price).map(s => s.asking_price)) || 0) : "–"}</td>
       <td>${r.length ? shortMio(median(r.map(s => s.sale_price))) : "–"}</td>
+      <td>${r.some(s => s.m2_ask) ? kr(Math.round(median(r.filter(s => s.m2_ask).map(s => s.m2_ask)))) : "–"}</td>
       <td>${r.length ? kr(Math.round(median(r.filter(s => s.m2_price).map(s => s.m2_price)) || 0)) : "–"}</td>
       <td class="${mp == null ? "" : mp >= 0 ? "below" : "above"}">${mp == null ? "–" : mp >= 0 ? pct(mp) + " below" : pct(-mp) + " above"}</td></tr>`;
   }).join("");
   $("#main").innerHTML = `
     <header class="hero"><h1>All areas</h1>${controlsHTML()}
       <p class="summary">Medians for ${periodWords()}. Pick an area above to see individual houses.</p></header>
-    <div class="table-box"><table><thead><tr><th>Area</th><th>Sales</th><th>Asking</th><th>Sold</th><th>Per m²</th><th>vs. asking</th></tr></thead>
+    <div class="table-box"><table><thead><tr><th>Area</th><th>Sales</th><th>Asking</th><th>Sold</th><th>Asking per m²</th><th>Sold per m²</th><th>vs. asking</th></tr></thead>
       <tbody>${summaryRows}</tbody></table></div>
     ${chartSection("k1", "Asking price", `Median per ${state.gran}. With few sales per month, grouping by quarter gives smoother lines.`)}
     ${chartSection("k2", "Sale price", `Median per ${state.gran}.`)}
+    ${chartSection("k4", "Asking price per m²", `Median per ${state.gran}. The last asking price divided by the living area.`)}
+    ${chartSection("k5", "Sale price per m²", `Median per ${state.gran}. The sale price divided by the living area.`)}
     ${chartSection("k3", "Sold below asking", `Median per ${state.gran}. Positive = below asking price.`)}`;
   charts.push(compareChart($("#k1"), "asking_price", mio));
   charts.push(compareChart($("#k2"), "sale_price", mio));
+  charts.push(compareChart($("#k4"), "m2_ask", perM2));
+  charts.push(compareChart($("#k5"), "m2_price", perM2));
   charts.push(compareChart($("#k3"), "pct_below", pct));
 }
 
 
+
+/* ---------- stars: saved to docs/stars.json in the repository via the GitHub API ---------- */
+const TOKEN_KEY = "boligpriser-github-token";
+let STARS = {};
+const REPO = { owner: location.hostname.split(".")[0], repo: location.pathname.split("/").filter(Boolean)[0] || "" };
+const STARS_API = () => `https://api.github.com/repos/${REPO.owner}/${REPO.repo}/contents/docs/stars.json`;
+function getToken() { try { return localStorage.getItem(TOKEN_KEY) || ""; } catch (e) { return ""; } }
+function setToken(t) { try { t ? localStorage.setItem(TOKEN_KEY, t) : localStorage.removeItem(TOKEN_KEY); } catch (e) {} }
+const ghHeaders = () => ({ Authorization: "Bearer " + getToken(), Accept: "application/vnd.github+json" });
+function b64encode(s) { let bin = ""; new TextEncoder().encode(s).forEach(b => bin += String.fromCharCode(b)); return btoa(bin); }
+function b64decode(s) { const bin = atob(s.replace(/\n/g, "")); return new TextDecoder().decode(Uint8Array.from(bin, c => c.charCodeAt(0))); }
+
+async function ghGetStars() {
+  const r = await fetch(STARS_API() + "?ref=main&t=" + Date.now(), { headers: ghHeaders(), cache: "no-store" });
+  if (r.status === 404) return { data: {}, sha: null };
+  if (r.status === 401 || r.status === 403) throw new Error("the key was not accepted (" + r.status + ")");
+  if (!r.ok) throw new Error("GitHub answered " + r.status);
+  const j = await r.json();
+  return { data: JSON.parse(b64decode(j.content) || "{}"), sha: j.sha };
+}
+async function ghPutStars(data, sha) {
+  const body = { message: "Update stars", branch: "main", content: b64encode(JSON.stringify(data, null, 1)) };
+  if (sha) body.sha = sha;
+  const r = await fetch(STARS_API(), { method: "PUT", headers: ghHeaders(), body: JSON.stringify(body) });
+  if (!r.ok) throw new Error("GitHub answered " + r.status);
+}
+async function loadStars() {
+  if (getToken()) { try { STARS = (await ghGetStars()).data; return; } catch (e) {} }
+  try { const r = await fetch(new URL("stars.json", location.href).href + "?v=" + Date.now()); if (r.ok) STARS = await r.json(); } catch (e) {}
+}
+function starButton(url) {
+  const on = !!STARS[url];
+  return `<button class="star" data-star="${esc(url)}" aria-pressed="${on}" title="${on ? "Remove star" : "Star: show me more like this"}" aria-label="${on ? "Remove star" : "Star this house"}">${on ? "★" : "☆"}</button>`;
+}
+let toastTimer;
+function toast(msg) {
+  let t = $(".toast"); if (!t) { t = document.createElement("div"); t.className = "toast"; t.setAttribute("role", "status"); document.body.appendChild(t); }
+  t.textContent = msg; clearTimeout(toastTimer); toastTimer = setTimeout(() => t.remove(), 4000);
+}
+async function toggleStar(url) {
+  if (!getToken()) return showConnect(url);
+  const was = !!STARS[url];
+  const entry = { starred: new Date().toISOString().slice(0, 10), address: (LIST && LIST.listings[url] || {}).address || "" };
+  const before = { ...STARS };
+  if (was) delete STARS[url]; else STARS[url] = entry;
+  render();
+  try {
+    for (let attempt = 0; ; attempt++) {
+      const { data, sha } = await ghGetStars();
+      if (was) delete data[url]; else data[url] = entry;
+      try { await ghPutStars(data, sha); STARS = data; break; }
+      catch (e) { if (attempt >= 1) throw e; }       // someone else saved in between: read again and retry once
+    }
+    toast(was ? "Star removed." : "Starred. The ranking learns from it from the next morning run.");
+  } catch (e) {
+    STARS = before; render();
+    toast("Could not save the star: " + e.message);
+  }
+}
+function showConnect(pendingUrl) {
+  if ($(".panel")) return;
+  const p = document.createElement("div"); p.className = "panel"; p.setAttribute("role", "dialog"); p.setAttribute("aria-label", "Connect to GitHub");
+  p.innerHTML = `<h2>Connect this device to save stars</h2>
+    <p style="margin:0;font-size:14px">Stars are saved in your GitHub repository, so this device needs a personal key once.</p>
+    <ol><li>On GitHub: your picture → <b>Settings</b> → <b>Developer settings</b> → <b>Personal access tokens</b> → <b>Fine-grained tokens</b> → <b>Generate new token</b>.</li>
+      <li>Repository access: <b>Only select repositories</b> → <b>${esc(REPO.repo)}</b>. Permissions: <b>Contents</b> → <b>Read and write</b>.</li>
+      <li>Generate, copy the key and paste it here.</li></ol>
+    <input type="password" id="tok" placeholder="github_pat_…" autocomplete="off" aria-label="GitHub key">
+    <div class="row"><button class="btn" id="tok-cancel">Cancel</button><button class="btn primary" id="tok-save">Save key</button></div>`;
+  document.body.appendChild(p);
+  $("#tok").focus();
+  $("#tok-cancel").onclick = () => p.remove();
+  $("#tok-save").onclick = async () => {
+    const t = $("#tok").value.trim(); if (!t) return;
+    setToken(t);
+    try { STARS = (await ghGetStars()).data; p.remove(); toast("Connected. Stars are now saved to GitHub.");
+      const fl = $("#footer .linkish"); if (fl) fl.textContent = "Disconnect this device from GitHub"; if (pendingUrl) toggleStar(pendingUrl); else render(); }
+    catch (e) { setToken(""); toast("That key did not work: " + e.message); }
+  };
+}
+
 const PICKS = "__picks";
 function esc(s) { return String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]); }
 function dayLabel(d) { return new Date(d + "T12:00:00").toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long" }); }
+
+
+function tasteBox() {
+  const t = LIST.taste || {}, n = Object.keys(STARS).length;
+  if (!n) return `<div class="taste"><p>Star (☆) the houses you like. The ranking will start leaning towards similar houses from the next morning run.</p></div>`;
+  if (!t.n_used) return `<div class="taste"><p>${n} starred house${n === 1 ? "" : "s"}. The ranking takes ${n === 1 ? "it" : "them"} into account from the next morning run.</p></div>`;
+  const list = a => a.join(", ");
+  let txt = `Learning from <b>${t.n_used}</b> starred house${t.n_used === 1 ? "" : "s"}, which now count for <b>${t.share} %</b> of the score.`;
+  if (t.likes && t.likes.length) txt += ` Your stars seem to favour: ${esc(list(t.likes))}.`;
+  if (t.dislikes && t.dislikes.length) txt += ` Less important to you: ${esc(list(t.dislikes))}.`;
+  const more = t.n_used < 3 ? `<p class="muted">With fewer than 3 stars it looks for similar houses. From 3 stars it also learns which features your stars have in common.</p>` : "";
+  return `<div class="taste"><p>${txt}</p>${more}</div>`;
+}
+function starredSection() {
+  const urls = Object.keys(STARS);
+  if (!urls.length) return "";
+  const rows = urls.map(u => {
+    const l = LIST.listings[u] || {}, s = STARS[u];
+    const status = l.active ? "for sale" : l.url ? "no longer listed" : "–";
+    return `<tr><td>${starButton(u)}<a href="${esc(u)}" target="_blank" rel="noopener">${esc(l.address || s.address || u)}</a></td>
+      <td>${esc(l.area || "")}</td><td>${l.price ? kr(l.price) : "–"}</td><td>${status}</td><td>${esc(s.starred || "")}</td></tr>`;
+  }).join("");
+  return `<section class="sales"><h2>Your starred houses</h2><div class="table-box"><table>
+    <thead><tr><th>Address</th><th>Area</th><th>Asking price</th><th>Status</th><th>Starred</th></tr></thead><tbody>${rows}</tbody></table></div></section>`;
+}
 
 function renderPicks() {
   const days = Object.keys(LIST.picks || {}).sort().reverse();
@@ -331,7 +462,7 @@ function renderPicks() {
     : `No new houses under ${cap} mio. came on the market in the last day, so these are the best from earlier this week.`;
   const fact = (label, value) => value ? `<div><dt>${label}</dt><dd>${value}</dd></div>` : "";
   const items = picks.map(l => `<li class="pick"><div class="score"><b>${l.score ?? "–"}</b><span>score</span></div><div class="body">
-      <h2><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.address || l.url)}</a>${l.pick_type === "earlier" ? '<span class="tag">earlier this week</span>' : ""}</h2>
+      <h2>${starButton(l.url)}<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.address || l.url)}</a>${l.pick_type === "earlier" ? '<span class="tag">earlier this week</span>' : ""}</h2>
       <p class="where">${esc(l.area)}${l.days_total != null ? `, ${l.days_total} day${l.days_total === 1 ? "" : "s"} on the market` : ""}</p>
       <dl class="facts">${fact("Asking price", kr(l.price))}${fact("Living area", l.living_m2 && l.living_m2 + " m²")}
         ${fact("Per m²", l.m2_price && kr(l.m2_price))}${fact("Rooms", l.rooms)}${fact("Plot", l.plot_m2 && nf0.format(l.plot_m2) + " m²")}
@@ -339,17 +470,20 @@ function renderPicks() {
       <ul class="why">${(l.reasons || []).map(r => `<li>${esc(r)}</li>`).join("")}${(l.warnings || []).map(r => `<li class="warn">${esc(r)}</li>`).join("")}</ul>
     </div></li>`).join("");
   const active = Object.values(LIST.listings).filter(l => l.active && l.area).sort((a, b) => (b.score ?? -999) - (a.score ?? -999));
-  const rows = active.map(l => `<tr><td><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.address || l.url)}</a></td><td>${esc(l.area)}</td>
+  const rows = active.map(l => `<tr><td>${starButton(l.url)}<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.address || l.url)}</a></td><td>${esc(l.area)}</td>
       <td>${kr(l.price)}</td><td>${l.m2_price ? kr(l.m2_price) : "–"}</td><td>${l.plot_m2 ? nf0.format(l.plot_m2) + " m²" : "–"}</td><td>${l.score ?? "–"}</td></tr>`).join("");
   $("#main").innerHTML = `
     <header class="hero"><h1>Today's picks</h1>
       <div class="controls">${days.length > 1 ? `<label>Day<select id="pickday">${days.map(d => `<option value="${d}"${d === day ? " selected" : ""}>${dayLabel(d)}</option>`).join("")}</select></label>` : ""}</div>
       <p class="summary">${day ? dayLabel(day) + ". " : ""}${intro}</p></header>
+    ${tasteBox()}
     <ol class="picks">${items}</ol>
     <p class="method">The score (−100 to 100) weighs m² price against what houses actually sell for in the area (40 %),
       asking price against the public valuation compared with other listings (20 %), plot size per million (15 %),
       rooms per million (10 %) and how few houses under ${cap} mio. are for sale in the area (15 %).
-      It is a screening tool: condition, location on the street and energy label are not in it.</p>
+      Once you star houses, a growing share of the score (up to 60 % at 12 stars) comes from how much a house
+      resembles the ones you starred. It is a screening tool: condition, location on the street and energy label are not in it.</p>
+    ${starredSection()}
     <section class="sales"><h2>All houses for sale under ${cap} mio.</h2><div class="table-box"><table>
       <thead><tr><th>Address</th><th>Area</th><th>Asking price</th><th>Per m²</th><th>Plot</th><th>Score</th></tr></thead>
       <tbody>${rows}</tbody></table></div></section>`;
@@ -368,6 +502,9 @@ async function init() {
     const res = await fetch(dataUrl + "?v=" + Date.now());
     if (!res.ok) throw new Error("the server answered " + res.status + (res.status === 404 ? " (file not found)" : ""));
     DATA = await res.json();
+    DATA.sales.forEach(s => {
+      s.m2_ask = s.asking_price && s.m2_price && s.sale_price ? Math.round(s.asking_price * s.m2_price / s.sale_price) : null;
+    });
   } catch (e) {
     const local = location.protocol === "file:";
     $("#main").innerHTML = `<div class="notice"><h2 style="margin-top:0">Could not load the data</h2>
@@ -381,6 +518,8 @@ async function init() {
     const r2 = await fetch("listings.json?v=" + Date.now());
     if (r2.ok) LIST = await r2.json();
   } catch (e) { LIST = null; }
+  if (LIST) await loadStars();
+  $("#main").addEventListener("click", e => { const b = e.target.closest("[data-star]"); if (b) toggleStar(b.dataset.star); });
   $("#areas").innerHTML = (LIST ? [`<button data-area="${PICKS}">Today's picks</button>`] : [])
     .concat([`<button data-area="">All areas</button>`])
     .concat(DATA.areas.map(a => `<button data-area="${a}">${a}</button>`)).join("");
@@ -388,7 +527,13 @@ async function init() {
   const [lo, hi] = DATA.price_range;
   $("#footer").textContent = `Villas sold in fri handel for ${nf0.format(lo / 1e6)}–${nf0.format(hi / 1e6)} mio. kr. ` +
     `Asking price is the last price before the sale. Data from boligsiden.dk, updated ` +
-    new Date(DATA.updated).toLocaleString("da-DK", { dateStyle: "long", timeStyle: "short" }) + ".";
+    new Date(DATA.updated).toLocaleString("da-DK", { dateStyle: "long", timeStyle: "short" }) + ". ";
+  if (LIST) {
+    const b = document.createElement("button"); b.className = "linkish";
+    b.textContent = getToken() ? "Disconnect this device from GitHub" : "Connect this device to save stars";
+    b.onclick = () => { if (getToken()) { setToken(""); toast("Disconnected."); b.textContent = "Connect this device to save stars"; } else showConnect(); };
+    $("#footer").appendChild(b);
+  }
   const fromHash = decodeURIComponent(location.hash.slice(1));
   if (fromHash === "picks" && LIST) selectArea(PICKS);
   else if (DATA.areas.includes(fromHash)) selectArea(fromHash);
