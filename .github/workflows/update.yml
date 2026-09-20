@@ -27,12 +27,16 @@ jobs:
       - name: Collect sales from boligsiden.dk
         run: python scraper.py
 
+      - name: Find today's picks
+        run: python listings.py
+        continue-on-error: true   # a problem here should not stop the sales data being saved
+
       - name: Save updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data.json
-          git diff --cached --quiet || git commit -m "Update house prices $(date -u +%F)"
+          git add docs/
+          git diff --cached --quiet || git commit -m "Update house prices and picks $(date -u +%F)"
           git push
 
       - name: Keep debug files (only created if something went wrong)
