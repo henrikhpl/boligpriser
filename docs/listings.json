@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-20T07:39+00:00",
+ "updated": "2026-09-20T10:22+00:00",
  "price_max": 9000000,
  "benchmarks": {
   "Valby": {
@@ -63,6 +63,13 @@
    "months": 3
   }
  },
+ "taste": {
+  "n_stars": 0,
+  "n_used": 0,
+  "share": 0,
+  "likes": [],
+  "dislikes": []
+ },
  "picks": {
   "2026-09-20": [
    "https://www.boligsiden.dk/adresse/viemosevej-63a-2610-roedovre",
@@ -98,7 +105,7 @@
    "signals": {
     "m2": -0.384,
     "valuation": 0.026,
-    "plot": -0.409,
+    "plot": -0.408,
     "rooms": -0.147,
     "scarcity": 0.2
    },
@@ -108,7 +115,8 @@
    ],
    "warnings": [
     "m² price 38 % above the area's level (87.198 vs. 63.013 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -48
   },
   "https://www.boligsiden.dk/adresse/danshoejvej-58-2500-valby": {
    "url": "https://www.boligsiden.dk/adresse/danshoejvej-58-2500-valby",
@@ -135,7 +143,7 @@
    "signals": {
     "m2": -0.256,
     "valuation": -0.18,
-    "plot": -0.455,
+    "plot": -0.453,
     "rooms": -0.059,
     "scarcity": 0.2
    },
@@ -144,7 +152,8 @@
    ],
    "warnings": [
     "m² price 26 % above the area's level (79.134 vs. 63.013 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -44
   },
   "https://www.boligsiden.dk/adresse/aahaven-86-2500-valby": {
    "url": "https://www.boligsiden.dk/adresse/aahaven-86-2500-valby",
@@ -171,7 +180,7 @@
    "signals": {
     "m2": 0.069,
     "valuation": -0.096,
-    "plot": -0.138,
+    "plot": -0.136,
     "rooms": -0.247,
     "scarcity": 0.2
    },
@@ -181,7 +190,8 @@
    ],
    "warnings": [
     "4 rooms for 8,5 mio."
-   ]
+   ],
+   "base_score": -2
   },
   "https://www.boligsiden.dk/adresse/kongshaven-44-2500-valby": {
    "url": "https://www.boligsiden.dk/adresse/kongshaven-44-2500-valby",
@@ -208,7 +218,7 @@
    "signals": {
     "m2": -0.12,
     "valuation": -0.309,
-    "plot": -0.179,
+    "plot": -0.177,
     "rooms": -0.289,
     "scarcity": 0.2
    },
@@ -217,7 +227,8 @@
    ],
    "warnings": [
     "asking price is 1.90× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": -34
   },
   "https://www.boligsiden.dk/adresse/humlehaven-62-1--2500-valby": {
    "url": "https://www.boligsiden.dk/adresse/humlehaven-62-1--2500-valby",
@@ -242,7 +253,7 @@
    "score": 6,
    "signals": {
     "m2": -0.157,
-    "plot": 0.396,
+    "plot": 0.4,
     "rooms": -0.086,
     "scarcity": 0.2
    },
@@ -252,7 +263,8 @@
    ],
    "warnings": [
     "m² price 16 % above the area's level (72.917 vs. 63.013 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": 6
   },
   "https://www.boligsiden.dk/adresse/lindehaven-28-2500-valby": {
    "url": "https://www.boligsiden.dk/adresse/lindehaven-28-2500-valby",
@@ -279,7 +291,7 @@
    "signals": {
     "m2": -0.037,
     "valuation": -0.118,
-    "plot": -0.143,
+    "plot": -0.141,
     "rooms": -0.229,
     "scarcity": 0.2
    },
@@ -288,7 +300,8 @@
    ],
    "warnings": [
     "asking price is 1.62× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": -13
   },
   "https://www.boligsiden.dk/adresse/kongshaven-88-2500-valby": {
    "url": "https://www.boligsiden.dk/adresse/kongshaven-88-2500-valby",
@@ -315,7 +328,7 @@
    "signals": {
     "m2": 0.172,
     "valuation": -0.123,
-    "plot": -0.041,
+    "plot": -0.039,
     "rooms": 0.038,
     "scarcity": 0.2
    },
@@ -325,7 +338,8 @@
    ],
    "warnings": [
     "asking price is 1.63× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": 18
   },
   "https://www.boligsiden.dk/adresse/vigerslevstraede-9-2500-valby": {
    "url": "https://www.boligsiden.dk/adresse/vigerslevstraede-9-2500-valby",
@@ -347,10 +361,10 @@
    "detail_checked": true,
    "active": true,
    "area": "Valby",
-   "score": -4,
+   "score": -3,
    "signals": {
     "m2": -0.154,
-    "plot": -0.025,
+    "plot": -0.022,
     "rooms": 0.238,
     "scarcity": 0.2
    },
@@ -360,7 +374,8 @@
    ],
    "warnings": [
     "m² price 15 % above the area's level (72.702 vs. 63.013 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -3
   },
   "https://www.boligsiden.dk/adresse/egemarkevej-8-2720-vanloese": {
    "url": "https://www.boligsiden.dk/adresse/egemarkevej-8-2720-vanloese",
@@ -387,14 +402,15 @@
    "signals": {
     "m2": -0.014,
     "valuation": 0.002,
-    "plot": -0.251,
+    "plot": -0.249,
     "rooms": -0.059,
     "scarcity": 0.0
    },
    "reasons": [],
    "warnings": [
     "small plot for the price: 625 m²"
-   ]
+   ],
+   "base_score": -12
   },
   "https://www.boligsiden.dk/adresse/tudskaervej-24-2720-vanloese": {
    "url": "https://www.boligsiden.dk/adresse/tudskaervej-24-2720-vanloese",
@@ -421,7 +437,7 @@
    "signals": {
     "m2": 0.227,
     "valuation": -0.018,
-    "plot": -0.148,
+    "plot": -0.145,
     "rooms": -0.377,
     "scarcity": 0.0
    },
@@ -430,7 +446,8 @@
    ],
    "warnings": [
     "3 rooms for 7,7 mio."
-   ]
+   ],
+   "base_score": 7
   },
   "https://www.boligsiden.dk/adresse/hvidtjoernevej-2-2720-vanloese": {
    "url": "https://www.boligsiden.dk/adresse/hvidtjoernevej-2-2720-vanloese",
@@ -457,14 +474,15 @@
    "signals": {
     "m2": -0.205,
     "valuation": -0.048,
-    "plot": -0.744,
+    "plot": -0.743,
     "rooms": -0.289,
     "scarcity": 0.0
    },
    "reasons": [],
    "warnings": [
     "m² price 20 % above the area's level (76.749 vs. 63.705 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -45
   },
   "https://www.boligsiden.dk/adresse/slotsherrensvej-25-2720-vanloese": {
    "url": "https://www.boligsiden.dk/adresse/slotsherrensvej-25-2720-vanloese",
@@ -491,7 +509,7 @@
    "signals": {
     "m2": 0.083,
     "valuation": 0.009,
-    "plot": -0.52,
+    "plot": -0.518,
     "rooms": -0.4,
     "scarcity": 0.0
    },
@@ -500,7 +518,8 @@
    ],
    "warnings": [
     "small plot for the price: 377 m²"
-   ]
+   ],
+   "base_score": -16
   },
   "https://www.boligsiden.dk/adresse/jyllingevej-106-2720-vanloese": {
    "url": "https://www.boligsiden.dk/adresse/jyllingevej-106-2720-vanloese",
@@ -527,7 +546,7 @@
    "signals": {
     "m2": 0.421,
     "valuation": 0.275,
-    "plot": -0.267,
+    "plot": -0.265,
     "rooms": 0.163,
     "scarcity": 0.0
    },
@@ -538,7 +557,8 @@
    ],
    "warnings": [
     "small plot for the price: 396 m²"
-   ]
+   ],
+   "base_score": 48
   },
   "https://www.boligsiden.dk/adresse/slotsherrensvej-35-2720-vanloese": {
    "url": "https://www.boligsiden.dk/adresse/slotsherrensvej-35-2720-vanloese",
@@ -565,7 +585,7 @@
    "signals": {
     "m2": 0.458,
     "valuation": 0.4,
-    "plot": -0.027,
+    "plot": -0.024,
     "rooms": -0.086,
     "scarcity": 0.0
    },
@@ -573,7 +593,8 @@
     "m² price 46 % below the area's level (34.498 vs. 63.705 kr./m², sales last 6 months)",
     "asking price is 0.87× the public valuation (typical 1.45×)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 57
   },
   "https://www.boligsiden.dk/adresse/hasselvej-13-2720-vanloese": {
    "url": "https://www.boligsiden.dk/adresse/hasselvej-13-2720-vanloese",
@@ -600,7 +621,7 @@
    "signals": {
     "m2": 0.01,
     "valuation": 0.187,
-    "plot": -0.358,
+    "plot": -0.356,
     "rooms": -0.435,
     "scarcity": 0.0
    },
@@ -609,7 +630,8 @@
    ],
    "warnings": [
     "small plot for the price: 536 m²"
-   ]
+   ],
+   "base_score": -13
   },
   "https://www.boligsiden.dk/adresse/slotsherrensvej-52-2720-vanloese": {
    "url": "https://www.boligsiden.dk/adresse/slotsherrensvej-52-2720-vanloese",
@@ -636,7 +658,7 @@
    "signals": {
     "m2": 0.119,
     "valuation": -0.241,
-    "plot": -0.491,
+    "plot": -0.489,
     "rooms": 0.0,
     "scarcity": 0.0
    },
@@ -645,7 +667,8 @@
    ],
    "warnings": [
     "small plot for the price: 400 m²"
-   ]
+   ],
+   "base_score": -15
   },
   "https://www.boligsiden.dk/adresse/aalekistevej-17-2720-vanloese": {
    "url": "https://www.boligsiden.dk/adresse/aalekistevej-17-2720-vanloese",
@@ -672,7 +695,7 @@
    "signals": {
     "m2": 0.227,
     "valuation": 0.346,
-    "plot": -0.491,
+    "plot": -0.489,
     "rooms": -0.2,
     "scarcity": 0.0
    },
@@ -682,7 +705,8 @@
    ],
    "warnings": [
     "small plot for the price: 400 m²"
-   ]
+   ],
+   "base_score": 20
   },
   "https://www.boligsiden.dk/adresse/egholmvej-8-2720-vanloese": {
    "url": "https://www.boligsiden.dk/adresse/egholmvej-8-2720-vanloese",
@@ -709,7 +733,7 @@
    "signals": {
     "m2": 0.027,
     "valuation": -0.103,
-    "plot": -0.371,
+    "plot": -0.37,
     "rooms": -0.076,
     "scarcity": 0.0
    },
@@ -718,7 +742,8 @@
    ],
    "warnings": [
     "small plot for the price: 534 m²"
-   ]
+   ],
+   "base_score": -18
   },
   "https://www.boligsiden.dk/adresse/bjernedevej-8-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/bjernedevej-8-2700-broenshoej",
@@ -745,15 +770,16 @@
    "signals": {
     "m2": -0.155,
     "valuation": -0.047,
-    "plot": -0.228,
+    "plot": -0.226,
     "rooms": -0.289,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [],
    "warnings": [
     "m² price 15 % above the area's level (62.990 vs. 54.548 kr./m², sales last 6 months)"
    ],
-   "pick_type": "new"
+   "pick_type": "new",
+   "base_score": -49
   },
   "https://www.boligsiden.dk/adresse/faksingevej-11b-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/faksingevej-11b-2700-broenshoej",
@@ -780,9 +806,9 @@
    "signals": {
     "m2": -0.278,
     "valuation": -0.026,
-    "plot": 0.242,
+    "plot": 0.245,
     "rooms": -0.2,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [
     "large plot for the price: 731 m²"
@@ -790,7 +816,8 @@
    "warnings": [
     "m² price 28 % above the area's level (69.709 vs. 54.548 kr./m², sales last 6 months)"
    ],
-   "pick_type": "new"
+   "pick_type": "new",
+   "base_score": -40
   },
   "https://www.boligsiden.dk/adresse/degnemose-alle-30-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/degnemose-alle-30-2700-broenshoej",
@@ -817,9 +844,9 @@
    "signals": {
     "m2": -0.026,
     "valuation": 0.261,
-    "plot": -0.397,
+    "plot": -0.395,
     "rooms": -0.059,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [
     "asking price is 1.07× the public valuation (typical 1.45×)"
@@ -827,7 +854,8 @@
    "warnings": [
     "small plot for the price: 503 m²"
    ],
-   "pick_type": "new"
+   "pick_type": "new",
+   "base_score": -21
   },
   "https://www.boligsiden.dk/adresse/dyssevaenget-60-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/dyssevaenget-60-2700-broenshoej",
@@ -850,18 +878,19 @@
    "detail_checked": true,
    "active": true,
    "area": "Brønshøj",
-   "score": -42,
+   "score": -41,
    "signals": {
     "m2": -0.215,
     "valuation": -0.097,
-    "plot": 0.014,
+    "plot": 0.017,
     "rooms": -0.031,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [],
    "warnings": [
     "m² price 21 % above the area's level (66.265 vs. 54.548 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -41
   },
   "https://www.boligsiden.dk/adresse/risvangen-43-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/risvangen-43-2700-broenshoej",
@@ -888,16 +917,17 @@
    "signals": {
     "m2": -0.005,
     "valuation": 0.21,
-    "plot": -0.57,
+    "plot": -0.569,
     "rooms": -0.415,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [
     "asking price is 1.14× the public valuation (typical 1.45×)"
    ],
    "warnings": [
     "small plot for the price: 346 m²"
-   ]
+   ],
+   "base_score": -30
   },
   "https://www.boligsiden.dk/adresse/hf.-birkevang-184-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/hf.-birkevang-184-2700-broenshoej",
@@ -924,16 +954,17 @@
    "signals": {
     "m2": -0.108,
     "valuation": -0.596,
-    "plot": -0.321,
+    "plot": -0.319,
     "rooms": 0.067,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [
     "4 rooms for 6,0 mio."
    ],
    "warnings": [
     "asking price is 2.31× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": -56
   },
   "https://www.boligsiden.dk/adresse/kongemarksvej-6-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/kongemarksvej-6-2700-broenshoej",
@@ -960,14 +991,15 @@
    "signals": {
     "m2": 0.053,
     "valuation": -0.023,
-    "plot": -0.041,
+    "plot": -0.038,
     "rooms": -0.015,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [
     "m² price 5 % below the area's level (51.671 vs. 54.548 kr./m², sales last 6 months)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": -13
   },
   "https://www.boligsiden.dk/adresse/broenshoejvej-27-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/broenshoejvej-27-2700-broenshoej",
@@ -994,14 +1026,15 @@
    "signals": {
     "m2": -0.123,
     "valuation": -0.011,
-    "plot": -0.455,
+    "plot": -0.454,
     "rooms": -0.081,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [],
    "warnings": [
     "small plot for the price: 465 m²"
-   ]
+   ],
+   "base_score": -45
   },
   "https://www.boligsiden.dk/adresse/toelloesevej-10-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/toelloesevej-10-2700-broenshoej",
@@ -1028,9 +1061,9 @@
    "signals": {
     "m2": -0.128,
     "valuation": 0.064,
-    "plot": -0.524,
+    "plot": -0.522,
     "rooms": 0.2,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [
     "6 rooms for 8,0 mio.",
@@ -1038,7 +1071,8 @@
    ],
    "warnings": [
     "small plot for the price: 374 m²"
-   ]
+   ],
+   "base_score": -35
   },
   "https://www.boligsiden.dk/adresse/bakkekammen-38-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/bakkekammen-38-2700-broenshoej",
@@ -1065,16 +1099,17 @@
    "signals": {
     "m2": 0.062,
     "valuation": -0.035,
-    "plot": 0.254,
+    "plot": 0.258,
     "rooms": 0.103,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [
     "large plot for the price: 893 m²",
     "m² price 6 % below the area's level (51.146 vs. 54.548 kr./m², sales last 6 months)",
     "5 rooms for 7,2 mio."
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 2
   },
   "https://www.boligsiden.dk/adresse/kongstedvej-9c-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/kongstedvej-9c-2700-broenshoej",
@@ -1101,14 +1136,15 @@
    "signals": {
     "m2": -0.085,
     "valuation": -0.089,
-    "plot": -0.435,
+    "plot": -0.434,
     "rooms": -0.111,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [],
    "warnings": [
     "small plot for the price: 499 m²"
-   ]
+   ],
+   "base_score": -46
   },
   "https://www.boligsiden.dk/adresse/muldager-55-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/muldager-55-2700-broenshoej",
@@ -1135,9 +1171,9 @@
    "signals": {
     "m2": 0.189,
     "valuation": -0.115,
-    "plot": 0.199,
+    "plot": 0.202,
     "rooms": 0.28,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [
     "m² price 19 % below the area's level (44.243 vs. 54.548 kr./m², sales last 6 months)",
@@ -1146,7 +1182,8 @@
    ],
    "warnings": [
     "asking price is 1.61× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": 13
   },
   "https://www.boligsiden.dk/adresse/pilesvinget-81-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/pilesvinget-81-2700-broenshoej",
@@ -1173,16 +1210,17 @@
    "signals": {
     "m2": -0.21,
     "valuation": 0.095,
-    "plot": -0.458,
+    "plot": -0.457,
     "rooms": -0.22,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [
     "asking price is 1.31× the public valuation (typical 1.45×)"
    ],
    "warnings": [
     "m² price 21 % above the area's level (65.982 vs. 54.548 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -52
   },
   "https://www.boligsiden.dk/adresse/dybekaer-16a-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/dybekaer-16a-2700-broenshoej",
@@ -1205,20 +1243,21 @@
    "detail_checked": true,
    "active": true,
    "area": "Brønshøj",
-   "score": 17,
+   "score": 18,
    "signals": {
     "m2": 0.107,
     "valuation": 0.107,
-    "plot": 0.175,
+    "plot": 0.178,
     "rooms": 0.392,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [
     "m² price 11 % below the area's level (48.686 vs. 54.548 kr./m², sales last 6 months)",
     "5 rooms for 5,7 mio.",
     "large plot for the price: 663 m²"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 18
   },
   "https://www.boligsiden.dk/adresse/stenlillevej-4-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/stenlillevej-4-2700-broenshoej",
@@ -1245,16 +1284,17 @@
    "signals": {
     "m2": 0.013,
     "valuation": 0.136,
-    "plot": 0.074,
+    "plot": 0.077,
     "rooms": 0.231,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [
     "asking price is 1.25× the public valuation (typical 1.45×)",
     "5 rooms for 6,5 mio.",
     "large plot for the price: 685 m²"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 2
   },
   "https://www.boligsiden.dk/adresse/islevhusvej-35-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/islevhusvej-35-2700-broenshoej",
@@ -1276,12 +1316,12 @@
    "detail_checked": true,
    "active": true,
    "area": "Brønshøj",
-   "score": 5,
+   "score": 6,
    "signals": {
     "m2": 0.167,
-    "plot": -0.197,
+    "plot": -0.195,
     "rooms": 1.133,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [
     "m² price 17 % below the area's level (45.424 vs. 54.548 kr./m², sales last 6 months)",
@@ -1289,7 +1329,8 @@
    ],
    "warnings": [
     "small plot for the price: 591 m²"
-   ]
+   ],
+   "base_score": 6
   },
   "https://www.boligsiden.dk/adresse/broenshoejholms-alle-42-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/broenshoejholms-alle-42-2700-broenshoej",
@@ -1316,14 +1357,15 @@
    "signals": {
     "m2": -0.454,
     "valuation": 0.009,
-    "plot": -0.554,
+    "plot": -0.553,
     "rooms": -0.247,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [],
    "warnings": [
     "m² price 45 % above the area's level (79.318 vs. 54.548 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -76
   },
   "https://www.boligsiden.dk/adresse/moellebakken-7a-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/moellebakken-7a-2700-broenshoej",
@@ -1350,16 +1392,17 @@
    "signals": {
     "m2": -0.099,
     "valuation": -0.226,
-    "plot": -0.244,
+    "plot": -0.242,
     "rooms": 0.067,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [
     "4 rooms for 6,0 mio."
    ],
    "warnings": [
     "asking price is 1.78× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": -44
   },
   "https://www.boligsiden.dk/adresse/husumvej-102a-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/husumvej-102a-2700-broenshoej",
@@ -1386,9 +1429,9 @@
    "signals": {
     "m2": 0.076,
     "valuation": 0.246,
-    "plot": -0.392,
+    "plot": -0.391,
     "rooms": 0.279,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [
     "asking price is 1.09× the public valuation (typical 1.45×)",
@@ -1397,7 +1440,8 @@
    ],
    "warnings": [
     "small plot for the price: 373 m²"
-   ]
+   ],
+   "base_score": -3
   },
   "https://www.boligsiden.dk/adresse/dybekaer-8a-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/dybekaer-8a-2700-broenshoej",
@@ -1424,16 +1468,17 @@
    "signals": {
     "m2": 0.115,
     "valuation": 0.05,
-    "plot": 0.185,
+    "plot": 0.188,
     "rooms": 0.122,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [
     "m² price 11 % below the area's level (48.297 vs. 54.548 kr./m², sales last 6 months)",
     "large plot for the price: 663 m²",
     "4 rooms for 5,7 mio."
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 9
   },
   "https://www.boligsiden.dk/adresse/tersloesevej-12-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/tersloesevej-12-2700-broenshoej",
@@ -1460,14 +1505,15 @@
    "signals": {
     "m2": -0.084,
     "valuation": -0.119,
-    "plot": -0.106,
+    "plot": -0.103,
     "rooms": -0.283,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [],
    "warnings": [
     "m² price 8 % above the area's level (59.117 vs. 54.548 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -40
   },
   "https://www.boligsiden.dk/adresse/dybekaer-13-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/dybekaer-13-2700-broenshoej",
@@ -1494,16 +1540,17 @@
    "signals": {
     "m2": 0.206,
     "valuation": 0.142,
-    "plot": -0.065,
+    "plot": -0.062,
     "rooms": 0.323,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [
     "m² price 21 % below the area's level (43.335 vs. 54.548 kr./m², sales last 6 months)",
     "6 rooms for 7,2 mio.",
     "asking price is 1.24× the public valuation (typical 1.45×)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 18
   },
   "https://www.boligsiden.dk/adresse/dyssevaenget-46-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/dyssevaenget-46-2700-broenshoej",
@@ -1528,16 +1575,17 @@
    "score": 51,
    "signals": {
     "m2": 0.314,
-    "plot": 0.619,
+    "plot": 0.623,
     "rooms": 0.372,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [
     "m² price 31 % below the area's level (37.436 vs. 54.548 kr./m², sales last 6 months)",
     "large plot for the price: 1.112 m²",
     "6 rooms for 7,0 mio."
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 51
   },
   "https://www.boligsiden.dk/adresse/dyssevaenget-72a-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/dyssevaenget-72a-2700-broenshoej",
@@ -1564,16 +1612,17 @@
    "signals": {
     "m2": 0.168,
     "valuation": 0.327,
-    "plot": 0.066,
+    "plot": 0.07,
     "rooms": 0.067,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [
     "m² price 17 % below the area's level (45.410 vs. 54.548 kr./m², sales last 6 months)",
     "asking price is 0.97× the public valuation (typical 1.45×)",
     "large plot for the price: 785 m²"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 22
   },
   "https://www.boligsiden.dk/adresse/mellemvangen-14-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/mellemvangen-14-2700-broenshoej",
@@ -1600,16 +1649,17 @@
    "signals": {
     "m2": -0.198,
     "valuation": 0.145,
-    "plot": -0.321,
+    "plot": -0.319,
     "rooms": -0.333,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [
     "asking price is 1.24× the public valuation (typical 1.45×)"
    ],
    "warnings": [
     "m² price 20 % above the area's level (65.350 vs. 54.548 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -48
   },
   "https://www.boligsiden.dk/adresse/knabstrupvej-6-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/knabstrupvej-6-2700-broenshoej",
@@ -1636,9 +1686,9 @@
    "signals": {
     "m2": 0.128,
     "valuation": 0.174,
-    "plot": -0.524,
+    "plot": -0.522,
     "rooms": 0.2,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [
     "m² price 13 % below the area's level (47.589 vs. 54.548 kr./m², sales last 6 months)",
@@ -1647,7 +1697,8 @@
    ],
    "warnings": [
     "small plot for the price: 374 m²"
-   ]
+   ],
+   "base_score": -4
   },
   "https://www.boligsiden.dk/adresse/korsager-alle-15-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/korsager-alle-15-2700-broenshoej",
@@ -1670,18 +1721,19 @@
    "detail_checked": true,
    "active": true,
    "area": "Brønshøj",
-   "score": -56,
+   "score": -55,
    "signals": {
     "m2": -0.184,
     "valuation": -0.064,
-    "plot": -0.277,
+    "plot": -0.275,
     "rooms": -0.342,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [],
    "warnings": [
     "m² price 18 % above the area's level (64.586 vs. 54.548 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -55
   },
   "https://www.boligsiden.dk/adresse/sparresholmvej-8-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/sparresholmvej-8-2700-broenshoej",
@@ -1704,18 +1756,19 @@
    "detail_checked": true,
    "active": true,
    "area": "Brønshøj",
-   "score": -68,
+   "score": -67,
    "signals": {
     "m2": -0.267,
     "valuation": -0.109,
-    "plot": -0.35,
+    "plot": -0.348,
     "rooms": -0.289,
-    "scarcity": -1.9
+    "scarcity": -1.8
    },
    "reasons": [],
    "warnings": [
     "m² price 27 % above the area's level (69.139 vs. 54.548 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -67
   },
   "https://www.boligsiden.dk/adresse/boserupvej-3-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/boserupvej-3-2700-broenshoej",
@@ -1736,7 +1789,7 @@
    "valuation": 3932000,
    "year_built": 1929,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Brønshøj",
    "score": 14,
    "signals": {
@@ -1778,7 +1831,7 @@
    "signals": {
     "m2": -0.057,
     "valuation": 0.048,
-    "plot": -0.51,
+    "plot": -0.508,
     "rooms": -0.059,
     "scarcity": 0.8
    },
@@ -1788,7 +1841,8 @@
    ],
    "warnings": [
     "small plot for the price: 409 m²"
-   ]
+   ],
+   "base_score": -5
   },
   "https://www.boligsiden.dk/adresse/emdrup-engvej-4-2400-koebenhavn-nv": {
    "url": "https://www.boligsiden.dk/adresse/emdrup-engvej-4-2400-koebenhavn-nv",
@@ -1815,7 +1869,7 @@
    "signals": {
     "m2": -0.438,
     "valuation": -0.095,
-    "plot": -0.309,
+    "plot": -0.307,
     "rooms": -0.091,
     "scarcity": 0.8
    },
@@ -1824,7 +1878,8 @@
    ],
    "warnings": [
     "m² price 44 % above the area's level (84.446 vs. 58.734 kr./m², sales last 12 months)"
-   ]
+   ],
+   "base_score": -44
   },
   "https://www.boligsiden.dk/adresse/oktobervej-107-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/oktobervej-107-2860-soeborg",
@@ -1849,7 +1904,7 @@
    "score": 3,
    "signals": {
     "m2": 0.047,
-    "plot": 0.176,
+    "plot": 0.179,
     "rooms": 0.231,
     "scarcity": -1.6
    },
@@ -1858,7 +1913,8 @@
     "4 rooms for 5,2 mio.",
     "m² price 5 % below the area's level (46.571 vs. 48.881 kr./m², sales last 6 months)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 3
   },
   "https://www.boligsiden.dk/adresse/klintemarken-16-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/klintemarken-16-2860-soeborg",
@@ -1885,7 +1941,7 @@
    "signals": {
     "m2": 0.384,
     "valuation": 0.365,
-    "plot": 0.152,
+    "plot": 0.156,
     "rooms": -0.081,
     "scarcity": -1.6
    },
@@ -1894,7 +1950,8 @@
     "asking price is 0.92× the public valuation (typical 1.45×)",
     "large plot for the price: 984 m²"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 45
   },
   "https://www.boligsiden.dk/adresse/kagsaavej-19-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/kagsaavej-19-2860-soeborg",
@@ -1919,7 +1976,7 @@
    "score": 59,
    "signals": {
     "m2": 0.371,
-    "plot": 0.679,
+    "plot": 0.684,
     "rooms": 0.569,
     "scarcity": -1.6
    },
@@ -1928,7 +1985,8 @@
     "large plot for the price: 840 m²",
     "5 rooms for 5,1 mio."
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 59
   },
   "https://www.boligsiden.dk/adresse/buddinge-hovedgade-105-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/buddinge-hovedgade-105-2860-soeborg",
@@ -1951,11 +2009,11 @@
    "detail_checked": true,
    "active": true,
    "area": "Søborg",
-   "score": 56,
+   "score": 57,
    "signals": {
     "m2": 0.33,
     "valuation": 0.432,
-    "plot": 0.227,
+    "plot": 0.23,
     "rooms": 0.551,
     "scarcity": -1.6
    },
@@ -1964,7 +2022,8 @@
     "asking price is 0.82× the public valuation (typical 1.45×)",
     "8 rooms for 8,2 mio."
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 57
   },
   "https://www.boligsiden.dk/adresse/daltoftevej-7-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/daltoftevej-7-2860-soeborg",
@@ -1991,7 +2050,7 @@
    "signals": {
     "m2": -0.223,
     "valuation": -0.022,
-    "plot": 0.239,
+    "plot": 0.243,
     "rooms": -0.289,
     "scarcity": -1.6
    },
@@ -2000,7 +2059,8 @@
    ],
    "warnings": [
     "m² price 22 % above the area's level (59.787 vs. 48.881 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -37
   },
   "https://www.boligsiden.dk/adresse/juni-alle-39-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/juni-alle-39-2860-soeborg",
@@ -2027,7 +2087,7 @@
    "signals": {
     "m2": 0.053,
     "valuation": -0.07,
-    "plot": -0.118,
+    "plot": -0.115,
     "rooms": 0.143,
     "scarcity": -1.6
    },
@@ -2035,7 +2095,8 @@
     "m² price 5 % below the area's level (46.294 vs. 48.881 kr./m², sales last 6 months)",
     "5 rooms for 7,0 mio."
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": -14
   },
   "https://www.boligsiden.dk/adresse/snogegaardsvej-147-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/snogegaardsvej-147-2860-soeborg",
@@ -2062,7 +2123,7 @@
    "signals": {
     "m2": -0.139,
     "valuation": 0.098,
-    "plot": 0.098,
+    "plot": 0.101,
     "rooms": -0.107,
     "scarcity": -1.6
    },
@@ -2072,7 +2133,8 @@
    ],
    "warnings": [
     "m² price 14 % above the area's level (55.677 vs. 48.881 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -23
   },
   "https://www.boligsiden.dk/adresse/oktobervej-121-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/oktobervej-121-2860-soeborg",
@@ -2099,7 +2161,7 @@
    "signals": {
     "m2": 0.092,
     "valuation": -0.032,
-    "plot": 0.211,
+    "plot": 0.215,
     "rooms": 0.231,
     "scarcity": -1.6
    },
@@ -2108,7 +2170,8 @@
     "large plot for the price: 618 m²",
     "4 rooms for 5,2 mio."
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 6
   },
   "https://www.boligsiden.dk/adresse/gladsaxe-moellevej-139-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/gladsaxe-moellevej-139-2860-soeborg",
@@ -2135,7 +2198,7 @@
    "signals": {
     "m2": 0.408,
     "valuation": 0.354,
-    "plot": 0.322,
+    "plot": 0.325,
     "rooms": 0.433,
     "scarcity": -1.6
    },
@@ -2144,7 +2207,8 @@
     "asking price is 0.94× the public valuation (typical 1.45×)",
     "large plot for the price: 869 m²"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 65
   },
   "https://www.boligsiden.dk/adresse/stavnsbjerg-alle-38-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/stavnsbjerg-alle-38-2860-soeborg",
@@ -2171,7 +2235,7 @@
    "signals": {
     "m2": 0.205,
     "valuation": 0.179,
-    "plot": 0.169,
+    "plot": 0.173,
     "rooms": 0.208,
     "scarcity": -1.6
    },
@@ -2180,7 +2244,8 @@
     "asking price is 1.19× the public valuation (typical 1.45×)",
     "large plot for the price: 608 m²"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 26
   },
   "https://www.boligsiden.dk/adresse/juni-alle-91-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/juni-alle-91-2860-soeborg",
@@ -2207,7 +2272,7 @@
    "signals": {
     "m2": -0.035,
     "valuation": 0.139,
-    "plot": 0.014,
+    "plot": 0.017,
     "rooms": 0.231,
     "scarcity": -1.6
    },
@@ -2215,7 +2280,8 @@
     "asking price is 1.25× the public valuation (typical 1.45×)",
     "5 rooms for 6,5 mio."
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": -5
   },
   "https://www.boligsiden.dk/adresse/rensdyrvej-13-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/rensdyrvej-13-2860-soeborg",
@@ -2242,7 +2308,7 @@
    "signals": {
     "m2": 0.134,
     "valuation": 0.047,
-    "plot": 0.436,
+    "plot": 0.44,
     "rooms": 0.044,
     "scarcity": -1.6
    },
@@ -2251,7 +2317,8 @@
     "m² price 13 % below the area's level (42.350 vs. 48.881 kr./m², sales last 6 months)",
     "asking price is 1.38× the public valuation (typical 1.45×)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 17
   },
   "https://www.boligsiden.dk/adresse/juni-alle-180-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/juni-alle-180-2860-soeborg",
@@ -2278,7 +2345,7 @@
    "signals": {
     "m2": 0.131,
     "valuation": 0.046,
-    "plot": 0.39,
+    "plot": 0.395,
     "rooms": 0.011,
     "scarcity": -1.6
    },
@@ -2287,7 +2354,8 @@
     "m² price 13 % below the area's level (42.461 vs. 48.881 kr./m², sales last 6 months)",
     "asking price is 1.38× the public valuation (typical 1.45×)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 15
   },
   "https://www.boligsiden.dk/adresse/pilegaardens-haveby-44-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/pilegaardens-haveby-44-2860-soeborg",
@@ -2317,7 +2385,8 @@
    "reasons": [
     "3 rooms for 3,0 mio."
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": -11
   },
   "https://www.boligsiden.dk/adresse/maj-alle-15-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/maj-alle-15-2860-soeborg",
@@ -2344,7 +2413,7 @@
    "signals": {
     "m2": 0.101,
     "valuation": -0.066,
-    "plot": -0.231,
+    "plot": -0.229,
     "rooms": 0.0,
     "scarcity": -1.6
    },
@@ -2353,7 +2422,8 @@
    ],
    "warnings": [
     "small plot for the price: 604 m²"
-   ]
+   ],
+   "base_score": -17
   },
   "https://www.boligsiden.dk/adresse/augustvej-81-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/augustvej-81-2860-soeborg",
@@ -2380,7 +2450,7 @@
    "signals": {
     "m2": 0.309,
     "valuation": 0.218,
-    "plot": 0.155,
+    "plot": 0.158,
     "rooms": 0.123,
     "scarcity": -1.6
    },
@@ -2389,7 +2459,8 @@
     "asking price is 1.13× the public valuation (typical 1.45×)",
     "large plot for the price: 646 m²"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 36
   },
   "https://www.boligsiden.dk/adresse/markkrogen-1b-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/markkrogen-1b-2860-soeborg",
@@ -2416,7 +2487,7 @@
    "signals": {
     "m2": -0.285,
     "valuation": 0.183,
-    "plot": -0.3,
+    "plot": -0.298,
     "rooms": 0.091,
     "scarcity": -1.6
    },
@@ -2426,7 +2497,8 @@
    ],
    "warnings": [
     "m² price 29 % above the area's level (62.821 vs. 48.881 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -43
   },
   "https://www.boligsiden.dk/adresse/forsvarsvej-8-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/forsvarsvej-8-2860-soeborg",
@@ -2453,7 +2525,7 @@
    "signals": {
     "m2": 0.149,
     "valuation": 0.02,
-    "plot": 0.27,
+    "plot": 0.274,
     "rooms": 0.163,
     "scarcity": -1.6
    },
@@ -2462,7 +2534,8 @@
     "large plot for the price: 686 m²",
     "4 rooms for 5,5 mio."
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 15
   },
   "https://www.boligsiden.dk/adresse/graesmarken-28-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/graesmarken-28-2860-soeborg",
@@ -2489,7 +2562,7 @@
    "signals": {
     "m2": 0.102,
     "valuation": 0.028,
-    "plot": -0.152,
+    "plot": -0.15,
     "rooms": -0.012,
     "scarcity": -1.6
    },
@@ -2499,7 +2572,8 @@
    ],
    "warnings": [
     "small plot for the price: 674 m²"
-   ]
+   ],
+   "base_score": -9
   },
   "https://www.boligsiden.dk/adresse/onsbjerg-alle-33-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/onsbjerg-alle-33-2860-soeborg",
@@ -2526,7 +2600,7 @@
    "signals": {
     "m2": 0.189,
     "valuation": 0.145,
-    "plot": 0.095,
+    "plot": 0.098,
     "rooms": -0.127,
     "scarcity": -1.6
    },
@@ -2535,7 +2609,8 @@
     "asking price is 1.24× the public valuation (typical 1.45×)",
     "large plot for the price: 591 m²"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 12
   },
   "https://www.boligsiden.dk/adresse/aprilvej-88-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/aprilvej-88-2860-soeborg",
@@ -2562,7 +2637,7 @@
    "signals": {
     "m2": 0.444,
     "valuation": 0.323,
-    "plot": 0.081,
+    "plot": 0.084,
     "rooms": 0.5,
     "scarcity": -1.6
    },
@@ -2571,7 +2646,8 @@
     "asking price is 0.98× the public valuation (typical 1.45×)",
     "6 rooms for 6,4 mio."
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 54
   },
   "https://www.boligsiden.dk/adresse/augustvej-14-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/augustvej-14-2860-soeborg",
@@ -2598,7 +2674,7 @@
    "signals": {
     "m2": 0.143,
     "valuation": 0.195,
-    "plot": 0.317,
+    "plot": 0.321,
     "rooms": 0.28,
     "scarcity": -1.6
    },
@@ -2607,7 +2683,8 @@
     "large plot for the price: 646 m²",
     "asking price is 1.17× the public valuation (typical 1.45×)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 28
   },
   "https://www.boligsiden.dk/adresse/praestebrovej-17-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/praestebrovej-17-2860-soeborg",
@@ -2634,7 +2711,7 @@
    "signals": {
     "m2": 0.56,
     "valuation": 0.391,
-    "plot": 0.576,
+    "plot": 0.58,
     "rooms": 2.521,
     "scarcity": -1.6
    },
@@ -2643,7 +2720,8 @@
     "asking price is 0.88× the public valuation (typical 1.45×)",
     "large plot for the price: 773 m²"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 70
   },
   "https://www.boligsiden.dk/adresse/udmarken-15-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/udmarken-15-2860-soeborg",
@@ -2670,7 +2748,7 @@
    "signals": {
     "m2": 0.243,
     "valuation": 0.169,
-    "plot": 0.412,
+    "plot": 0.417,
     "rooms": 0.404,
     "scarcity": -1.6
    },
@@ -2679,7 +2757,8 @@
     "large plot for the price: 790 m²",
     "5 rooms for 5,7 mio."
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 43
   },
   "https://www.boligsiden.dk/adresse/kagsaavej-56-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/kagsaavej-56-2860-soeborg",
@@ -2706,7 +2785,7 @@
    "signals": {
     "m2": 0.065,
     "valuation": 0.166,
-    "plot": 0.566,
+    "plot": 0.571,
     "rooms": 0.334,
     "scarcity": -1.6
    },
@@ -2715,7 +2794,8 @@
     "5 rooms for 6,0 mio.",
     "asking price is 1.21× the public valuation (typical 1.45×)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 23
   },
   "https://www.boligsiden.dk/adresse/stavnsbjerg-alle-37-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/stavnsbjerg-alle-37-2860-soeborg",
@@ -2742,7 +2822,7 @@
    "signals": {
     "m2": 0.269,
     "valuation": 0.066,
-    "plot": -0.059,
+    "plot": -0.057,
     "rooms": -0.015,
     "scarcity": -1.6
    },
@@ -2750,7 +2830,8 @@
     "m² price 27 % below the area's level (35.726 vs. 48.881 kr./m², sales last 6 months)",
     "asking price is 1.35× the public valuation (typical 1.45×)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 13
   },
   "https://www.boligsiden.dk/adresse/fruevej-59-2870-dyssegaard": {
    "url": "https://www.boligsiden.dk/adresse/fruevej-59-2870-dyssegaard",
@@ -2777,7 +2858,7 @@
    "signals": {
     "m2": 0.022,
     "valuation": -0.032,
-    "plot": -0.29,
+    "plot": -0.288,
     "rooms": -0.111,
     "scarcity": 0.5
    },
@@ -2787,7 +2868,8 @@
    ],
    "warnings": [
     "small plot for the price: 627 m²"
-   ]
+   ],
+   "base_score": 2
   },
   "https://www.boligsiden.dk/adresse/munkely-10b-2870-dyssegaard": {
    "url": "https://www.boligsiden.dk/adresse/munkely-10b-2870-dyssegaard",
@@ -2814,7 +2896,7 @@
    "signals": {
     "m2": 0.13,
     "valuation": 0.126,
-    "plot": -0.418,
+    "plot": -0.416,
     "rooms": -0.248,
     "scarcity": 0.5
    },
@@ -2825,7 +2907,8 @@
    ],
    "warnings": [
     "small plot for the price: 486 m²"
-   ]
+   ],
+   "base_score": 13
   },
   "https://www.boligsiden.dk/adresse/vangedevej-151-1--2870-dyssegaard": {
    "url": "https://www.boligsiden.dk/adresse/vangedevej-151-1--2870-dyssegaard",
@@ -2852,7 +2935,7 @@
    "signals": {
     "m2": 0.136,
     "valuation": 0.052,
-    "plot": -0.088,
+    "plot": -0.086,
     "rooms": 0.067,
     "scarcity": 0.5
    },
@@ -2861,7 +2944,8 @@
     "m² price 14 % below the area's level (54.708 vs. 63.349 kr./m², sales last 6 months)",
     "asking price is 1.37× the public valuation (typical 1.45×)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 30
   },
   "https://www.boligsiden.dk/adresse/gladsaxevej-6-2870-dyssegaard": {
    "url": "https://www.boligsiden.dk/adresse/gladsaxevej-6-2870-dyssegaard",
@@ -2886,7 +2970,7 @@
    "score": 24,
    "signals": {
     "m2": 0.072,
-    "plot": 0.053,
+    "plot": 0.056,
     "rooms": -0.2,
     "scarcity": 0.5
    },
@@ -2897,7 +2981,8 @@
    ],
    "warnings": [
     "4 rooms for 8,0 mio."
-   ]
+   ],
+   "base_score": 24
   },
   "https://www.boligsiden.dk/adresse/soenderengen-42-0--2870-dyssegaard": {
    "url": "https://www.boligsiden.dk/adresse/soenderengen-42-0--2870-dyssegaard",
@@ -2924,7 +3009,7 @@
    "signals": {
     "m2": -0.416,
     "valuation": -0.232,
-    "plot": -0.156,
+    "plot": -0.153,
     "rooms": -0.314,
     "scarcity": 0.5
    },
@@ -2933,7 +3018,8 @@
    ],
    "warnings": [
     "m² price 42 % above the area's level (89.679 vs. 63.349 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -50
   },
   "https://www.boligsiden.dk/adresse/toftekaersvej-44-2820-gentofte": {
    "url": "https://www.boligsiden.dk/adresse/toftekaersvej-44-2820-gentofte",
@@ -2960,7 +3046,7 @@
    "signals": {
     "m2": -0.107,
     "valuation": 0.24,
-    "plot": 0.098,
+    "plot": 0.101,
     "rooms": -0.247,
     "scarcity": 0.4
    },
@@ -2971,7 +3057,8 @@
    ],
    "warnings": [
     "m² price 11 % above the area's level (60.248 vs. 54.418 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": 14
   },
   "https://www.boligsiden.dk/adresse/garderhoejvej-29-2820-gentofte": {
    "url": "https://www.boligsiden.dk/adresse/garderhoejvej-29-2820-gentofte",
@@ -3020,7 +3107,7 @@
    "signals": {
     "m2": 0.039,
     "valuation": 0.166,
-    "plot": -0.663,
+    "plot": -0.662,
     "rooms": -0.2,
     "scarcity": 0.4
    },
@@ -3031,7 +3118,8 @@
    ],
    "warnings": [
     "small plot for the price: 265 m²"
-   ]
+   ],
+   "base_score": 7
   },
   "https://www.boligsiden.dk/adresse/fuglegaardsvaenget-1-2820-gentofte": {
    "url": "https://www.boligsiden.dk/adresse/fuglegaardsvaenget-1-2820-gentofte",
@@ -3056,7 +3144,7 @@
    "score": 85,
    "signals": {
     "m2": 0.342,
-    "plot": 0.238,
+    "plot": 0.241,
     "rooms": 0.4,
     "scarcity": 0.4
    },
@@ -3066,7 +3154,8 @@
     "7 rooms for 8,0 mio."
    ],
    "warnings": [],
-   "pick_type": "earlier"
+   "pick_type": "earlier",
+   "base_score": 85
   },
   "https://www.boligsiden.dk/adresse/nymosevej-16-0--2820-gentofte": {
    "url": "https://www.boligsiden.dk/adresse/nymosevej-16-0--2820-gentofte",
@@ -3093,7 +3182,7 @@
    "signals": {
     "m2": -0.327,
     "valuation": -0.107,
-    "plot": 0.256,
+    "plot": 0.26,
     "rooms": -0.342,
     "scarcity": 0.4
    },
@@ -3103,7 +3192,8 @@
    ],
    "warnings": [
     "m² price 33 % above the area's level (72.228 vs. 54.418 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -22
   },
   "https://www.boligsiden.dk/adresse/roerskaersvej-22-2820-gentofte": {
    "url": "https://www.boligsiden.dk/adresse/roerskaersvej-22-2820-gentofte",
@@ -3130,7 +3220,7 @@
    "signals": {
     "m2": -0.046,
     "valuation": 0.233,
-    "plot": -0.326,
+    "plot": -0.324,
     "rooms": -0.436,
     "scarcity": 0.4
    },
@@ -3140,7 +3230,8 @@
    ],
    "warnings": [
     "small plot for the price: 563 m²"
-   ]
+   ],
+   "base_score": 0
   },
   "https://www.boligsiden.dk/adresse/lyngbyvej-435-2820-gentofte": {
    "url": "https://www.boligsiden.dk/adresse/lyngbyvej-435-2820-gentofte",
@@ -3167,7 +3258,7 @@
    "signals": {
     "m2": 0.361,
     "valuation": 0.267,
-    "plot": -0.127,
+    "plot": -0.125,
     "rooms": 0.455,
     "scarcity": 0.4
    },
@@ -3176,7 +3267,8 @@
     "only 6 houses under 9 mio. for sale in Vangede",
     "asking price is 1.06× the public valuation (typical 1.45×)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 70
   },
   "https://www.boligsiden.dk/adresse/viemosevej-63a-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/viemosevej-63a-2610-roedovre",
@@ -3203,7 +3295,7 @@
    "signals": {
     "m2": 0.199,
     "valuation": 0.008,
-    "plot": 0.362,
+    "plot": 0.366,
     "rooms": 0.164,
     "scarcity": -5.1
    },
@@ -3213,7 +3305,8 @@
     "4 rooms for 5,5 mio."
    ],
    "warnings": [],
-   "pick_type": "new"
+   "pick_type": "new",
+   "base_score": 23
   },
   "https://www.boligsiden.dk/adresse/viemosevej-80b-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/viemosevej-80b-2610-roedovre",
@@ -3236,11 +3329,11 @@
    "detail_checked": true,
    "active": true,
    "area": "Rødovre",
-   "score": 8,
+   "score": 9,
    "signals": {
     "m2": 0.116,
     "valuation": -0.085,
-    "plot": 0.241,
+    "plot": 0.245,
     "rooms": 0.28,
     "scarcity": -5.1
    },
@@ -3249,7 +3342,8 @@
     "large plot for the price: 609 m²",
     "4 rooms for 5,0 mio."
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 9
   },
   "https://www.boligsiden.dk/adresse/taarnvej-314-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/taarnvej-314-2610-roedovre",
@@ -3276,7 +3370,7 @@
    "signals": {
     "m2": 0.088,
     "valuation": -0.164,
-    "plot": -0.169,
+    "plot": -0.166,
     "rooms": 0.123,
     "scarcity": -5.1
    },
@@ -3286,7 +3380,8 @@
    ],
    "warnings": [
     "asking price is 1.69× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": -18
   },
   "https://www.boligsiden.dk/adresse/bluevang-alle-10-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/bluevang-alle-10-2610-roedovre",
@@ -3313,7 +3408,7 @@
    "signals": {
     "m2": 0.045,
     "valuation": -0.326,
-    "plot": -0.049,
+    "plot": -0.046,
     "rooms": -0.179,
     "scarcity": -5.1
    },
@@ -3322,7 +3417,8 @@
    ],
    "warnings": [
     "asking price is 1.92× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": -33
   },
   "https://www.boligsiden.dk/adresse/henry-heerups-vej-21-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/henry-heerups-vej-21-2610-roedovre",
@@ -3349,14 +3445,15 @@
    "signals": {
     "m2": -0.008,
     "valuation": -0.184,
-    "plot": -0.125,
+    "plot": -0.123,
     "rooms": -0.147,
     "scarcity": -5.1
    },
    "reasons": [],
    "warnings": [
     "asking price is 1.72× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": -33
   },
   "https://www.boligsiden.dk/adresse/nordkaervej-5-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/nordkaervej-5-2610-roedovre",
@@ -3383,14 +3480,15 @@
    "signals": {
     "m2": -0.174,
     "valuation": -0.312,
-    "plot": -0.148,
+    "plot": -0.145,
     "rooms": -0.247,
     "scarcity": -5.1
    },
    "reasons": [],
    "warnings": [
     "m² price 17 % above the area's level (58.465 vs. 49.821 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -60
   },
   "https://www.boligsiden.dk/adresse/kirkesvinget-14-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/kirkesvinget-14-2610-roedovre",
@@ -3413,11 +3511,11 @@
    "detail_checked": true,
    "active": true,
    "area": "Rødovre",
-   "score": -43,
+   "score": -42,
    "signals": {
     "m2": -0.452,
     "valuation": 0.36,
-    "plot": 0.092,
+    "plot": 0.095,
     "rooms": -0.36,
     "scarcity": -5.1
    },
@@ -3427,7 +3525,8 @@
    ],
    "warnings": [
     "m² price 45 % above the area's level (72.346 vs. 49.821 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -42
   },
   "https://www.boligsiden.dk/adresse/veronikavej-19-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/veronikavej-19-2610-roedovre",
@@ -3454,7 +3553,7 @@
    "signals": {
     "m2": 0.175,
     "valuation": 0.181,
-    "plot": 0.467,
+    "plot": 0.472,
     "rooms": 0.143,
     "scarcity": -5.1
    },
@@ -3463,7 +3562,8 @@
     "large plot for the price: 1.008 m²",
     "asking price is 1.19× the public valuation (typical 1.45×)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 30
   },
   "https://www.boligsiden.dk/adresse/ejbyvej-113-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/ejbyvej-113-2610-roedovre",
@@ -3490,14 +3590,15 @@
    "signals": {
     "m2": -0.333,
     "valuation": -0.445,
-    "plot": -0.221,
+    "plot": -0.218,
     "rooms": -0.265,
     "scarcity": -5.1
    },
    "reasons": [],
    "warnings": [
     "m² price 33 % above the area's level (66.387 vs. 49.821 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -83
   },
   "https://www.boligsiden.dk/adresse/lysbrovej-25-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/lysbrovej-25-2610-roedovre",
@@ -3524,7 +3625,7 @@
    "signals": {
     "m2": -0.072,
     "valuation": -0.186,
-    "plot": 0.089,
+    "plot": 0.092,
     "rooms": -0.2,
     "scarcity": -5.1
    },
@@ -3533,7 +3634,8 @@
    ],
    "warnings": [
     "asking price is 1.72× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": -33
   },
   "https://www.boligsiden.dk/adresse/medelbyvej-18a-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/medelbyvej-18a-2610-roedovre",
@@ -3560,14 +3662,15 @@
    "signals": {
     "m2": -0.221,
     "valuation": 0.005,
-    "plot": -0.376,
+    "plot": -0.374,
     "rooms": -0.143,
     "scarcity": -5.1
    },
    "reasons": [],
    "warnings": [
     "m² price 22 % above the area's level (60.815 vs. 49.821 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -54
   },
   "https://www.boligsiden.dk/adresse/madumvej-22b-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/madumvej-22b-2610-roedovre",
@@ -3594,7 +3697,7 @@
    "signals": {
     "m2": -0.076,
     "valuation": -0.418,
-    "plot": -0.327,
+    "plot": -0.325,
     "rooms": 0.129,
     "scarcity": -5.1
    },
@@ -3603,7 +3706,8 @@
    ],
    "warnings": [
     "asking price is 2.05× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": -52
   },
   "https://www.boligsiden.dk/adresse/rudebaekvej-14-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/rudebaekvej-14-2610-roedovre",
@@ -3630,14 +3734,15 @@
    "signals": {
     "m2": -0.116,
     "valuation": -0.111,
-    "plot": -0.003,
+    "plot": 0.0,
     "rooms": -0.086,
     "scarcity": -5.1
    },
    "reasons": [],
    "warnings": [
     "m² price 12 % above the area's level (55.582 vs. 49.821 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -34
   },
   "https://www.boligsiden.dk/adresse/knud-anchers-vej-8-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/knud-anchers-vej-8-2610-roedovre",
@@ -3664,14 +3769,15 @@
    "signals": {
     "m2": 0.15,
     "valuation": -0.022,
-    "plot": -0.103,
+    "plot": -0.101,
     "rooms": 0.0,
     "scarcity": -5.1
    },
    "reasons": [
     "m² price 15 % below the area's level (42.335 vs. 49.821 kr./m², sales last 6 months)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": -5
   },
   "https://www.boligsiden.dk/adresse/torsoevej-13-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/torsoevej-13-2610-roedovre",
@@ -3698,7 +3804,7 @@
    "signals": {
     "m2": -0.363,
     "valuation": -0.719,
-    "plot": -0.094,
+    "plot": -0.091,
     "rooms": 0.318,
     "scarcity": -5.1
    },
@@ -3707,7 +3813,8 @@
    ],
    "warnings": [
     "m² price 36 % above the area's level (67.906 vs. 49.821 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -67
   },
   "https://www.boligsiden.dk/adresse/aamosevej-37-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/aamosevej-37-2610-roedovre",
@@ -3734,7 +3841,7 @@
    "signals": {
     "m2": 0.241,
     "valuation": -0.13,
-    "plot": 0.571,
+    "plot": 0.576,
     "rooms": 0.455,
     "scarcity": -5.1
    },
@@ -3745,7 +3852,8 @@
    ],
    "warnings": [
     "asking price is 1.64× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": 28
   },
   "https://www.boligsiden.dk/adresse/torbistvej-21-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/torbistvej-21-2610-roedovre",
@@ -3772,7 +3880,7 @@
    "signals": {
     "m2": 0.046,
     "valuation": -0.102,
-    "plot": 0.712,
+    "plot": 0.717,
     "rooms": 0.28,
     "scarcity": -5.1
    },
@@ -3783,7 +3891,8 @@
    ],
    "warnings": [
     "asking price is 1.60× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": 7
   },
   "https://www.boligsiden.dk/adresse/resenbrovej-12-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/resenbrovej-12-2610-roedovre",
@@ -3805,10 +3914,10 @@
    "detail_checked": true,
    "active": true,
    "area": "Rødovre",
-   "score": 20,
+   "score": 21,
    "signals": {
     "m2": 0.241,
-    "plot": -0.052,
+    "plot": -0.05,
     "rooms": 0.372,
     "scarcity": -5.1
    },
@@ -3816,7 +3925,8 @@
     "m² price 24 % below the area's level (37.831 vs. 49.821 kr./m², sales last 6 months)",
     "6 rooms for 7,0 mio."
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 21
   },
   "https://www.boligsiden.dk/adresse/pantervej-5a-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/pantervej-5a-2610-roedovre",
@@ -3843,14 +3953,15 @@
    "signals": {
     "m2": -0.504,
     "valuation": -0.13,
-    "plot": 0.011,
+    "plot": 0.014,
     "rooms": -0.2,
     "scarcity": -5.1
    },
    "reasons": [],
    "warnings": [
     "m² price 50 % above the area's level (74.938 vs. 49.821 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -66
   },
   "https://www.boligsiden.dk/adresse/vojensvej-66-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/vojensvej-66-2610-roedovre",
@@ -3877,7 +3988,7 @@
    "signals": {
     "m2": 0.158,
     "valuation": 0.052,
-    "plot": -0.035,
+    "plot": -0.032,
     "rooms": 0.112,
     "scarcity": -5.1
    },
@@ -3886,7 +3997,8 @@
     "4 rooms for 5,8 mio.",
     "asking price is 1.37× the public valuation (typical 1.45×)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 5
   },
   "https://www.boligsiden.dk/adresse/noerupvej-1-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/noerupvej-1-2610-roedovre",
@@ -3913,7 +4025,7 @@
    "signals": {
     "m2": 0.095,
     "valuation": -0.149,
-    "plot": 0.585,
+    "plot": 0.59,
     "rooms": -0.261,
     "scarcity": -5.1
    },
@@ -3923,7 +4035,8 @@
    ],
    "warnings": [
     "asking price is 1.66× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": -5
   },
   "https://www.boligsiden.dk/adresse/nyager-vaenge-8-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/nyager-vaenge-8-2610-roedovre",
@@ -3950,14 +4063,15 @@
    "signals": {
     "m2": -0.089,
     "valuation": -0.236,
-    "plot": -0.242,
+    "plot": -0.24,
     "rooms": 0.0,
     "scarcity": -5.1
    },
    "reasons": [],
    "warnings": [
     "asking price is 1.79× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": -45
   },
   "https://www.boligsiden.dk/adresse/mosehusvej-4-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/mosehusvej-4-2610-roedovre",
@@ -3984,7 +4098,7 @@
    "signals": {
     "m2": 0.022,
     "valuation": -0.169,
-    "plot": 0.223,
+    "plot": 0.226,
     "rooms": 0.067,
     "scarcity": -5.1
    },
@@ -3995,7 +4109,8 @@
    ],
    "warnings": [
     "asking price is 1.69× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": -11
   },
   "https://www.boligsiden.dk/adresse/groenlunds-alle-21-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/groenlunds-alle-21-2610-roedovre",
@@ -4020,14 +4135,15 @@
    "score": -63,
    "signals": {
     "m2": -0.126,
-    "plot": -0.344,
+    "plot": -0.342,
     "rooms": -0.385,
     "scarcity": -5.1
    },
    "reasons": [],
    "warnings": [
     "small plot for the price: 502 m²"
-   ]
+   ],
+   "base_score": -63
   },
   "https://www.boligsiden.dk/adresse/forsythiastien-39-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/forsythiastien-39-2610-roedovre",
@@ -4052,7 +4168,7 @@
    "score": 44,
    "signals": {
     "m2": 0.37,
-    "plot": 1.403,
+    "plot": 1.41,
     "rooms": -0.057,
     "scarcity": -5.1
    },
@@ -4060,7 +4176,8 @@
     "m² price 37 % below the area's level (31.389 vs. 49.821 kr./m², sales last 6 months)",
     "large plot for the price: 400 m²"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 44
   },
   "https://www.boligsiden.dk/adresse/fundervej-27-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/fundervej-27-2610-roedovre",
@@ -4083,18 +4200,19 @@
    "detail_checked": true,
    "active": true,
    "area": "Rødovre",
-   "score": -51,
+   "score": -50,
    "signals": {
     "m2": -0.05,
     "valuation": -0.87,
-    "plot": -0.208,
+    "plot": -0.205,
     "rooms": -0.111,
     "scarcity": -5.1
    },
    "reasons": [],
    "warnings": [
     "asking price is 2.71× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": -50
   },
   "https://www.boligsiden.dk/adresse/noerregaardsvej-102-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/noerregaardsvej-102-2610-roedovre",
@@ -4121,7 +4239,7 @@
    "signals": {
     "m2": -0.068,
     "valuation": -0.388,
-    "plot": 0.281,
+    "plot": 0.284,
     "rooms": -0.2,
     "scarcity": -5.1
    },
@@ -4130,7 +4248,8 @@
    ],
    "warnings": [
     "asking price is 2.01× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": -36
   },
   "https://www.boligsiden.dk/adresse/koldbyvej-22-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/koldbyvej-22-2610-roedovre",
@@ -4157,7 +4276,7 @@
    "signals": {
     "m2": 0.074,
     "valuation": -0.04,
-    "plot": 0.483,
+    "plot": 0.487,
     "rooms": -0.094,
     "scarcity": -5.1
    },
@@ -4165,7 +4284,8 @@
     "large plot for the price: 771 m²",
     "m² price 7 % below the area's level (46.124 vs. 49.821 kr./m², sales last 6 months)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 3
   },
   "https://www.boligsiden.dk/adresse/vamdrupvej-22-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/vamdrupvej-22-2610-roedovre",
@@ -4192,14 +4312,15 @@
    "signals": {
     "m2": -0.061,
     "valuation": -0.254,
-    "plot": -0.139,
+    "plot": -0.136,
     "rooms": -0.147,
     "scarcity": -5.1
    },
    "reasons": [],
    "warnings": [
     "asking price is 1.82× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": -43
   },
   "https://www.boligsiden.dk/adresse/guldsmedevej-60-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/guldsmedevej-60-2610-roedovre",
@@ -4226,7 +4347,7 @@
    "signals": {
     "m2": 0.224,
     "valuation": -0.378,
-    "plot": 0.109,
+    "plot": 0.112,
     "rooms": 0.334,
     "scarcity": -5.1
    },
@@ -4237,7 +4358,8 @@
    ],
    "warnings": [
     "asking price is 2.00× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": 1
   },
   "https://www.boligsiden.dk/adresse/bluevang-alle-15-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/bluevang-alle-15-2610-roedovre",
@@ -4264,7 +4386,7 @@
    "signals": {
     "m2": 0.105,
     "valuation": -0.144,
-    "plot": 0.126,
+    "plot": 0.13,
     "rooms": 0.338,
     "scarcity": -5.1
    },
@@ -4275,7 +4397,8 @@
    ],
    "warnings": [
     "asking price is 1.66× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": 2
   },
   "https://www.boligsiden.dk/adresse/roengaard-alle-28b-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/roengaard-alle-28b-2610-roedovre",
@@ -4302,7 +4425,7 @@
    "signals": {
     "m2": -0.18,
     "valuation": -0.145,
-    "plot": 1.032,
+    "plot": 1.038,
     "rooms": 0.28,
     "scarcity": -5.1
    },
@@ -4312,7 +4435,8 @@
    ],
    "warnings": [
     "m² price 18 % above the area's level (58.765 vs. 49.821 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -18
   },
   "https://www.boligsiden.dk/adresse/ved-faestningen-1-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/ved-faestningen-1-2610-roedovre",
@@ -4339,7 +4463,7 @@
    "signals": {
     "m2": 0.068,
     "valuation": -0.114,
-    "plot": -0.154,
+    "plot": -0.151,
     "rooms": -0.13,
     "scarcity": -5.1
    },
@@ -4347,8 +4471,9 @@
     "m² price 7 % below the area's level (46.416 vs. 49.821 kr./m², sales last 6 months)"
    ],
    "warnings": [
-    "small plot for the price: 611 m²"
-   ]
+    "asking price is 1.61× the public valuation (typical 1.45×)"
+   ],
+   "base_score": -23
   },
   "https://www.boligsiden.dk/adresse/elvergaardsvej-12a-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/elvergaardsvej-12a-2610-roedovre",
@@ -4375,7 +4500,7 @@
    "signals": {
     "m2": -0.012,
     "valuation": 0.051,
-    "plot": -0.233,
+    "plot": -0.23,
     "rooms": -0.111,
     "scarcity": -5.1
    },
@@ -4384,7 +4509,8 @@
    ],
    "warnings": [
     "small plot for the price: 678 m²"
-   ]
+   ],
+   "base_score": -25
   },
   "https://www.boligsiden.dk/adresse/torbistvej-17-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/torbistvej-17-2610-roedovre",
@@ -4411,7 +4537,7 @@
    "signals": {
     "m2": 0.187,
     "valuation": -0.148,
-    "plot": 0.427,
+    "plot": 0.431,
     "rooms": 0.067,
     "scarcity": -5.1
    },
@@ -4422,7 +4548,8 @@
    ],
    "warnings": [
     "asking price is 1.66× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": 13
   },
   "https://www.boligsiden.dk/adresse/engbovej-75-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/engbovej-75-2610-roedovre",
@@ -4445,19 +4572,21 @@
    "detail_checked": true,
    "active": true,
    "area": "Rødovre",
-   "score": 24,
+   "score": 25,
    "signals": {
     "m2": 0.31,
     "valuation": -0.016,
-    "plot": 0.024,
+    "plot": 0.027,
     "rooms": 0.334,
     "scarcity": -5.1
    },
    "reasons": [
     "m² price 31 % below the area's level (34.365 vs. 49.821 kr./m², sales last 6 months)",
-    "5 rooms for 6,0 mio."
+    "5 rooms for 6,0 mio.",
+    "large plot for the price: 603 m²"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 25
   },
   "https://www.boligsiden.dk/adresse/fundervej-13-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/fundervej-13-2610-roedovre",
@@ -4484,7 +4613,7 @@
    "signals": {
     "m2": 0.04,
     "valuation": -0.169,
-    "plot": -0.203,
+    "plot": -0.2,
     "rooms": -0.147,
     "scarcity": -5.1
    },
@@ -4493,7 +4622,8 @@
    ],
    "warnings": [
     "asking price is 1.69× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": -31
   },
   "https://www.boligsiden.dk/adresse/stovbyvej-2-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/stovbyvej-2-2610-roedovre",
@@ -4520,14 +4650,15 @@
    "signals": {
     "m2": 0.001,
     "valuation": -0.063,
-    "plot": 0.139,
+    "plot": 0.142,
     "rooms": 0.016,
     "scarcity": -5.1
    },
    "reasons": [
     "large plot for the price: 704 m²"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": -12
   },
   "https://www.boligsiden.dk/adresse/islevvangen-9-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/islevvangen-9-2610-roedovre",
@@ -4554,7 +4685,7 @@
    "signals": {
     "m2": 0.306,
     "valuation": -0.012,
-    "plot": 0.232,
+    "plot": 0.235,
     "rooms": 0.433,
     "scarcity": -5.1
    },
@@ -4563,7 +4694,8 @@
     "6 rooms for 6,7 mio.",
     "large plot for the price: 810 m²"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 34
   },
   "https://www.boligsiden.dk/adresse/froeslevvej-53-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/froeslevvej-53-2610-roedovre",
@@ -4590,14 +4722,15 @@
    "signals": {
     "m2": -0.062,
     "valuation": -0.065,
-    "plot": -0.078,
+    "plot": -0.076,
     "rooms": -0.059,
     "scarcity": -5.1
    },
    "reasons": [],
    "warnings": [
     "m² price 6 % above the area's level (52.928 vs. 49.821 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -29
   },
   "https://www.boligsiden.dk/adresse/joelbyvej-20-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/joelbyvej-20-2610-roedovre",
@@ -4624,7 +4757,7 @@
    "signals": {
     "m2": 0.147,
     "valuation": -0.236,
-    "plot": -0.06,
+    "plot": -0.057,
     "rooms": -0.016,
     "scarcity": -5.1
    },
@@ -4633,7 +4766,8 @@
    ],
    "warnings": [
     "asking price is 1.79× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": -15
   },
   "https://www.boligsiden.dk/adresse/skaerbaekvej-58-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/skaerbaekvej-58-2610-roedovre",
@@ -4660,7 +4794,7 @@
    "signals": {
     "m2": -0.617,
     "valuation": -0.521,
-    "plot": 0.086,
+    "plot": 0.09,
     "rooms": -0.294,
     "scarcity": -5.1
    },
@@ -4669,7 +4803,8 @@
    ],
    "warnings": [
     "m² price 62 % above the area's level (80.557 vs. 49.821 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -79
   },
   "https://www.boligsiden.dk/adresse/taebyvej-52-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/taebyvej-52-2610-roedovre",
@@ -4696,7 +4831,7 @@
    "signals": {
     "m2": 0.195,
     "valuation": 0.185,
-    "plot": 0.354,
+    "plot": 0.358,
     "rooms": 0.111,
     "scarcity": -5.1
    },
@@ -4705,7 +4840,8 @@
     "large plot for the price: 957 m²",
     "asking price is 1.18× the public valuation (typical 1.45×)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 30
   },
   "https://www.boligsiden.dk/adresse/carl-danfeldts-alle-4-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/carl-danfeldts-alle-4-2610-roedovre",
@@ -4732,7 +4868,7 @@
    "signals": {
     "m2": -0.039,
     "valuation": -0.306,
-    "plot": 0.413,
+    "plot": 0.417,
     "rooms": 0.194,
     "scarcity": -5.1
    },
@@ -4742,7 +4878,8 @@
    ],
    "warnings": [
     "asking price is 1.89× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": -14
   },
   "https://www.boligsiden.dk/adresse/hviddingvej-20a-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/hviddingvej-20a-2610-roedovre",
@@ -4769,14 +4906,15 @@
    "signals": {
     "m2": -0.018,
     "valuation": -0.004,
-    "plot": 0.635,
+    "plot": 0.64,
     "rooms": -0.015,
     "scarcity": -5.1
    },
    "reasons": [
     "large plot for the price: 1.043 m²"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": -2
   },
   "https://www.boligsiden.dk/adresse/kaerbyvej-146-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/kaerbyvej-146-2610-roedovre",
@@ -4803,7 +4941,7 @@
    "signals": {
     "m2": 0.356,
     "valuation": 0.161,
-    "plot": 0.701,
+    "plot": 0.706,
     "rooms": 0.423,
     "scarcity": -5.1
    },
@@ -4812,7 +4950,8 @@
     "large plot for the price: 751 m²",
     "4 rooms for 4,5 mio."
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 54
   },
   "https://www.boligsiden.dk/adresse/noerregaardsvej-200-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/noerregaardsvej-200-2610-roedovre",
@@ -4839,7 +4978,7 @@
    "signals": {
     "m2": 0.08,
     "valuation": 0.007,
-    "plot": 0.196,
+    "plot": 0.199,
     "rooms": 0.067,
     "scarcity": -5.1
    },
@@ -4848,7 +4987,8 @@
     "large plot for the price: 704 m²",
     "4 rooms for 6,0 mio."
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 2
   },
   "https://www.boligsiden.dk/adresse/henry-heerups-vej-6-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/henry-heerups-vej-6-2610-roedovre",
@@ -4875,7 +5015,7 @@
    "signals": {
     "m2": 0.026,
     "valuation": -0.14,
-    "plot": -0.178,
+    "plot": -0.175,
     "rooms": -0.059,
     "scarcity": -5.1
    },
@@ -4884,7 +5024,8 @@
    ],
    "warnings": [
     "asking price is 1.65× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": -27
   },
   "https://www.boligsiden.dk/adresse/krarupvej-37-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/krarupvej-37-2610-roedovre",
@@ -4911,7 +5052,7 @@
    "signals": {
     "m2": 0.073,
     "valuation": -0.135,
-    "plot": 0.104,
+    "plot": 0.107,
     "rooms": -0.03,
     "scarcity": -5.1
    },
@@ -4921,7 +5062,8 @@
    ],
    "warnings": [
     "asking price is 1.64× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": -11
   },
   "https://www.boligsiden.dk/adresse/guldsmedevej-32-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/guldsmedevej-32-2610-roedovre",
@@ -4948,7 +5090,7 @@
    "signals": {
     "m2": 0.186,
     "valuation": -0.093,
-    "plot": 0.636,
+    "plot": 0.64,
     "rooms": 0.023,
     "scarcity": -5.1
    },
@@ -4956,7 +5098,8 @@
     "m² price 19 % below the area's level (40.558 vs. 49.821 kr./m², sales last 6 months)",
     "large plot for the price: 1.004 m²"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 15
   },
   "https://www.boligsiden.dk/adresse/madumvej-38a-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/madumvej-38a-2610-roedovre",
@@ -4983,7 +5126,7 @@
    "signals": {
     "m2": 0.361,
     "valuation": 0.121,
-    "plot": 0.148,
+    "plot": 0.151,
     "rooms": 0.6,
     "scarcity": -5.1
    },
@@ -4992,7 +5135,8 @@
     "6 rooms for 6,0 mio.",
     "asking price is 1.27× the public valuation (typical 1.45×)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 43
   },
   "https://www.boligsiden.dk/adresse/annexgaardsvej-62-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/annexgaardsvej-62-2610-roedovre",
@@ -5019,14 +5163,15 @@
    "signals": {
     "m2": -0.121,
     "valuation": 0.016,
-    "plot": -0.205,
+    "plot": -0.202,
     "rooms": -0.109,
     "scarcity": -5.1
    },
    "reasons": [],
    "warnings": [
     "m² price 12 % above the area's level (55.867 vs. 49.821 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -37
   },
   "https://www.boligsiden.dk/adresse/slaavang-alle-16-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/slaavang-alle-16-2610-roedovre",
@@ -5053,7 +5198,7 @@
    "signals": {
     "m2": 0.091,
     "valuation": -0.416,
-    "plot": 0.213,
+    "plot": 0.216,
     "rooms": 0.143,
     "scarcity": -5.1
    },
@@ -5064,7 +5209,8 @@
    ],
    "warnings": [
     "asking price is 2.05× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": -14
   },
   "https://www.boligsiden.dk/adresse/damhus-boulevard-80b-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/damhus-boulevard-80b-2610-roedovre",
@@ -5082,18 +5228,26 @@
    "last_seen": "2026-09-20",
    "active": true,
    "area": "Rødovre",
-   "score": 23,
+   "score": 37,
    "signals": {
     "m2": 0.248,
-    "plot": -0.039,
+    "valuation": 0.377,
+    "plot": -0.036,
     "rooms": 0.505,
     "scarcity": -5.1
    },
    "reasons": [
     "m² price 25 % below the area's level (37.445 vs. 49.821 kr./m², sales last 6 months)",
+    "asking price is 0.90× the public valuation (typical 1.45×)",
     "8 rooms for 8,5 mio."
    ],
-   "warnings": []
+   "warnings": [],
+   "lat": 55.66774,
+   "lon": 12.463318,
+   "valuation": 9419000,
+   "year_built": 1934,
+   "detail_checked": true,
+   "base_score": 37
   },
   "https://www.boligsiden.dk/adresse/noerregaardsvej-32-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/noerregaardsvej-32-2610-roedovre",
@@ -5120,7 +5274,7 @@
    "signals": {
     "m2": 0.012,
     "valuation": -0.279,
-    "plot": 0.242,
+    "plot": 0.245,
     "rooms": -0.015,
     "scarcity": -5.1
    },
@@ -5130,7 +5284,8 @@
    ],
    "warnings": [
     "asking price is 1.85× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": -19
   },
   "https://www.boligsiden.dk/adresse/krarupvej-39-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/krarupvej-39-2610-roedovre",
@@ -5157,7 +5312,7 @@
    "signals": {
     "m2": 0.093,
     "valuation": -0.002,
-    "plot": 0.162,
+    "plot": 0.165,
     "rooms": 0.372,
     "scarcity": -5.1
    },
@@ -5166,7 +5321,8 @@
     "6 rooms for 7,0 mio.",
     "large plot for the price: 798 m²"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 10
   },
   "https://www.boligsiden.dk/adresse/slotsherrensvej-304-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/slotsherrensvej-304-2610-roedovre",
@@ -5193,7 +5349,7 @@
    "signals": {
     "m2": 0.548,
     "valuation": 0.214,
-    "plot": 1.247,
+    "plot": 1.254,
     "rooms": 0.779,
     "scarcity": -5.1
    },
@@ -5202,7 +5358,8 @@
     "large plot for the price: 992 m²",
     "asking price is 1.14× the public valuation (typical 1.45×)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 61
   },
   "https://www.boligsiden.dk/adresse/roedovrevej-21-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/roedovrevej-21-2610-roedovre",
@@ -5229,7 +5386,7 @@
    "signals": {
     "m2": 0.071,
     "valuation": 0.035,
-    "plot": -0.149,
+    "plot": -0.147,
     "rooms": 0.2,
     "scarcity": -5.1
    },
@@ -5240,7 +5397,8 @@
    ],
    "warnings": [
     "small plot for the price: 668 m²"
-   ]
+   ],
+   "base_score": -7
   },
   "https://www.boligsiden.dk/adresse/knud-anchers-vej-24-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/knud-anchers-vej-24-2610-roedovre",
@@ -5267,7 +5425,7 @@
    "signals": {
     "m2": 0.108,
     "valuation": -0.036,
-    "plot": -0.213,
+    "plot": -0.211,
     "rooms": 0.0,
     "scarcity": -5.1
    },
@@ -5276,7 +5434,8 @@
    ],
    "warnings": [
     "small plot for the price: 618 m²"
-   ]
+   ],
+   "base_score": -14
   },
   "https://www.boligsiden.dk/adresse/damhus-boulevard-74-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/damhus-boulevard-74-2610-roedovre",
@@ -5301,14 +5460,15 @@
    "score": -63,
    "signals": {
     "m2": -0.281,
-    "plot": -0.123,
+    "plot": -0.12,
     "rooms": -0.111,
     "scarcity": -5.1
    },
    "reasons": [],
    "warnings": [
     "m² price 28 % above the area's level (63.840 vs. 49.821 kr./m², sales last 6 months)"
-   ]
+   ],
+   "base_score": -63
   },
   "https://www.boligsiden.dk/adresse/troldkaervej-8-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/troldkaervej-8-2610-roedovre",
@@ -5335,7 +5495,7 @@
    "signals": {
     "m2": 0.109,
     "valuation": 0.009,
-    "plot": -0.038,
+    "plot": -0.035,
     "rooms": 0.238,
     "scarcity": -5.1
    },
@@ -5343,7 +5503,8 @@
     "m² price 11 % below the area's level (44.374 vs. 49.821 kr./m², sales last 6 months)",
     "6 rooms for 7,8 mio."
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 1
   },
   "https://www.boligsiden.dk/adresse/kaergaardsvej-7-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/kaergaardsvej-7-2650-hvidovre",
@@ -5370,7 +5531,7 @@
    "signals": {
     "m2": 0.014,
     "valuation": 0.031,
-    "plot": 0.34,
+    "plot": 0.344,
     "rooms": -0.015,
     "scarcity": -3.8
    },
@@ -5379,7 +5540,8 @@
     "asking price is 1.40× the public valuation (typical 1.45×)",
     "m² price 1 % below the area's level (46.360 vs. 47.023 kr./m², sales last 3 months)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 0
   },
   "https://www.boligsiden.dk/adresse/soenderkaer-54-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/soenderkaer-54-2650-hvidovre",
@@ -5406,7 +5568,7 @@
    "signals": {
     "m2": -0.138,
     "valuation": 0.057,
-    "plot": -0.151,
+    "plot": -0.148,
     "rooms": -0.467,
     "scarcity": -3.8
    },
@@ -5415,7 +5577,8 @@
    ],
    "warnings": [
     "m² price 14 % above the area's level (53.527 vs. 47.023 kr./m², sales last 3 months)"
-   ]
+   ],
+   "base_score": -42
   },
   "https://www.boligsiden.dk/adresse/roennebaervej-12-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/roennebaervej-12-2650-hvidovre",
@@ -5442,7 +5605,7 @@
    "signals": {
     "m2": -0.063,
     "valuation": -0.08,
-    "plot": 0.194,
+    "plot": 0.197,
     "rooms": 0.067,
     "scarcity": -3.8
    },
@@ -5452,7 +5615,8 @@
    ],
    "warnings": [
     "m² price 6 % above the area's level (49.979 vs. 47.023 kr./m², sales last 3 months)"
-   ]
+   ],
+   "base_score": -16
   },
   "https://www.boligsiden.dk/adresse/ege-alle-42-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/ege-alle-42-2650-hvidovre",
@@ -5479,7 +5643,7 @@
    "signals": {
     "m2": -0.202,
     "valuation": -0.114,
-    "plot": 0.058,
+    "plot": 0.061,
     "rooms": -0.059,
     "scarcity": -3.8
    },
@@ -5488,7 +5652,8 @@
    ],
    "warnings": [
     "m² price 20 % above the area's level (56.520 vs. 47.023 kr./m², sales last 3 months)"
-   ]
+   ],
+   "base_score": -40
   },
   "https://www.boligsiden.dk/adresse/brostykkevej-86-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/brostykkevej-86-2650-hvidovre",
@@ -5515,7 +5680,7 @@
    "signals": {
     "m2": 0.279,
     "valuation": 0.353,
-    "plot": -0.283,
+    "plot": -0.281,
     "rooms": -0.012,
     "scarcity": -3.8
    },
@@ -5525,7 +5690,8 @@
    ],
    "warnings": [
     "small plot for the price: 456 m²"
-   ]
+   ],
+   "base_score": 20
   },
   "https://www.boligsiden.dk/adresse/strandloebervej-33-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/strandloebervej-33-2650-hvidovre",
@@ -5552,14 +5718,15 @@
    "signals": {
     "m2": -0.127,
     "valuation": -0.002,
-    "plot": -0.054,
+    "plot": -0.052,
     "rooms": -0.247,
     "scarcity": -3.8
    },
    "reasons": [],
    "warnings": [
     "m² price 13 % above the area's level (52.978 vs. 47.023 kr./m², sales last 3 months)"
-   ]
+   ],
+   "base_score": -36
   },
   "https://www.boligsiden.dk/adresse/hvidovre-boulevard-10-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/hvidovre-boulevard-10-2650-hvidovre",
@@ -5586,7 +5753,7 @@
    "signals": {
     "m2": 0.353,
     "valuation": 0.341,
-    "plot": 0.036,
+    "plot": 0.039,
     "rooms": 0.746,
     "scarcity": -3.8
    },
@@ -5595,7 +5762,8 @@
     "asking price is 0.95× the public valuation (typical 1.45×)",
     "6 rooms for 5,5 mio."
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 49
   },
   "https://www.boligsiden.dk/adresse/rudboelvej-5-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/rudboelvej-5-2650-hvidovre",
@@ -5622,7 +5790,7 @@
    "signals": {
     "m2": 0.107,
     "valuation": 0.033,
-    "plot": 0.156,
+    "plot": 0.159,
     "rooms": -0.045,
     "scarcity": -3.8
    },
@@ -5631,7 +5799,8 @@
     "large plot for the price: 760 m²",
     "asking price is 1.40× the public valuation (typical 1.45×)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 2
   },
   "https://www.boligsiden.dk/adresse/tvaerskovvej-4-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/tvaerskovvej-4-2650-hvidovre",
@@ -5658,7 +5827,7 @@
    "signals": {
     "m2": 0.297,
     "valuation": 0.17,
-    "plot": -0.083,
+    "plot": -0.08,
     "rooms": 0.067,
     "scarcity": -3.8
    },
@@ -5667,7 +5836,8 @@
     "asking price is 1.20× the public valuation (typical 1.45×)",
     "4 rooms for 6,0 mio."
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 22
   },
   "https://www.boligsiden.dk/adresse/plovheldvej-9-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/plovheldvej-9-2650-hvidovre",
@@ -5694,7 +5864,7 @@
    "signals": {
     "m2": -0.23,
     "valuation": -0.021,
-    "plot": 0.29,
+    "plot": 0.293,
     "rooms": -0.247,
     "scarcity": -3.8
    },
@@ -5703,7 +5873,8 @@
    ],
    "warnings": [
     "m² price 23 % above the area's level (57.828 vs. 47.023 kr./m², sales last 3 months)"
-   ]
+   ],
+   "base_score": -34
   },
   "https://www.boligsiden.dk/adresse/fagerstedvej-19-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/fagerstedvej-19-2650-hvidovre",
@@ -5730,7 +5901,7 @@
    "signals": {
     "m2": -0.063,
     "valuation": -0.121,
-    "plot": -0.074,
+    "plot": -0.071,
     "rooms": 0.28,
     "scarcity": -3.8
    },
@@ -5739,7 +5910,8 @@
    ],
    "warnings": [
     "m² price 6 % above the area's level (49.967 vs. 47.023 kr./m², sales last 3 months)"
-   ]
+   ],
+   "base_score": -23
   },
   "https://www.boligsiden.dk/adresse/bjeverskov-alle-3-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/bjeverskov-alle-3-2650-hvidovre",
@@ -5766,7 +5938,7 @@
    "signals": {
     "m2": -0.338,
     "valuation": -0.3,
-    "plot": 0.285,
+    "plot": 0.289,
     "rooms": -0.261,
     "scarcity": -3.8
    },
@@ -5775,7 +5947,8 @@
    ],
    "warnings": [
     "m² price 34 % above the area's level (62.936 vs. 47.023 kr./m², sales last 3 months)"
-   ]
+   ],
+   "base_score": -60
   },
   "https://www.boligsiden.dk/adresse/aertebjergvej-39-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/aertebjergvej-39-2650-hvidovre",
@@ -5802,7 +5975,7 @@
    "signals": {
     "m2": 0.057,
     "valuation": -0.067,
-    "plot": 0.282,
+    "plot": 0.286,
     "rooms": 0.123,
     "scarcity": -3.8
    },
@@ -5811,7 +5984,8 @@
     "m² price 6 % below the area's level (44.354 vs. 47.023 kr./m², sales last 3 months)",
     "4 rooms for 5,7 mio."
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 1
   },
   "https://www.boligsiden.dk/adresse/storegade-8a-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/storegade-8a-2650-hvidovre",
@@ -5838,7 +6012,7 @@
    "signals": {
     "m2": -0.379,
     "valuation": -0.495,
-    "plot": 0.52,
+    "plot": 0.525,
     "rooms": -0.351,
     "scarcity": -3.8
    },
@@ -5847,7 +6021,8 @@
    ],
    "warnings": [
     "m² price 38 % above the area's level (64.868 vs. 47.023 kr./m², sales last 3 months)"
-   ]
+   ],
+   "base_score": -67
   },
   "https://www.boligsiden.dk/adresse/noerremarksvej-21-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/noerremarksvej-21-2650-hvidovre",
@@ -5874,7 +6049,7 @@
    "signals": {
     "m2": -0.325,
     "valuation": -0.168,
-    "plot": 0.099,
+    "plot": 0.102,
     "rooms": -0.086,
     "scarcity": -3.8
    },
@@ -5883,7 +6058,8 @@
    ],
    "warnings": [
     "m² price 32 % above the area's level (62.289 vs. 47.023 kr./m², sales last 3 months)"
-   ]
+   ],
+   "base_score": -54
   },
   "https://www.boligsiden.dk/adresse/parallelvej-75-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/parallelvej-75-2650-hvidovre",
@@ -5910,7 +6086,7 @@
    "signals": {
     "m2": 0.076,
     "valuation": -0.103,
-    "plot": 0.301,
+    "plot": 0.305,
     "rooms": 0.334,
     "scarcity": -3.8
    },
@@ -5921,7 +6097,8 @@
    ],
    "warnings": [
     "asking price is 1.60× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": 7
   },
   "https://www.boligsiden.dk/adresse/birke-alle-22-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/birke-alle-22-2650-hvidovre",
@@ -5948,7 +6125,7 @@
    "signals": {
     "m2": -0.077,
     "valuation": 0.169,
-    "plot": -0.032,
+    "plot": -0.029,
     "rooms": 0.366,
     "scarcity": -3.8
    },
@@ -5958,7 +6135,8 @@
    ],
    "warnings": [
     "m² price 8 % above the area's level (50.649 vs. 47.023 kr./m², sales last 3 months)"
-   ]
+   ],
+   "base_score": -6
   },
   "https://www.boligsiden.dk/adresse/ulsevej-2-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/ulsevej-2-2650-hvidovre",
@@ -5981,11 +6159,11 @@
    "detail_checked": true,
    "active": true,
    "area": "Hvidovre",
-   "score": -30,
+   "score": -29,
    "signals": {
     "m2": -0.133,
     "valuation": 0.172,
-    "plot": 0.003,
+    "plot": 0.006,
     "rooms": -0.543,
     "scarcity": -3.8
    },
@@ -5994,7 +6172,8 @@
    ],
    "warnings": [
     "m² price 13 % above the area's level (53.275 vs. 47.023 kr./m², sales last 3 months)"
-   ]
+   ],
+   "base_score": -29
   },
   "https://www.boligsiden.dk/adresse/stenstykkevej-19-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/stenstykkevej-19-2650-hvidovre",
@@ -6021,7 +6200,7 @@
    "signals": {
     "m2": -0.072,
     "valuation": 0.06,
-    "plot": -0.077,
+    "plot": -0.074,
     "rooms": 0.4,
     "scarcity": -3.8
    },
@@ -6031,7 +6210,8 @@
    ],
    "warnings": [
     "m² price 7 % above the area's level (50.426 vs. 47.023 kr./m², sales last 3 months)"
-   ]
+   ],
+   "base_score": -12
   },
   "https://www.boligsiden.dk/adresse/baarsevej-10-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/baarsevej-10-2650-hvidovre",
@@ -6058,14 +6238,15 @@
    "signals": {
     "m2": -0.247,
     "valuation": -0.123,
-    "plot": -0.537,
+    "plot": -0.535,
     "rooms": -0.058,
     "scarcity": -3.8
    },
    "reasons": [],
    "warnings": [
     "m² price 25 % above the area's level (58.639 vs. 47.023 kr./m², sales last 3 months)"
-   ]
+   ],
+   "base_score": -62
   },
   "https://www.boligsiden.dk/adresse/sandholtvej-41-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/sandholtvej-41-2650-hvidovre",
@@ -6092,7 +6273,7 @@
    "signals": {
     "m2": 0.245,
     "valuation": 0.166,
-    "plot": -0.259,
+    "plot": -0.257,
     "rooms": 0.746,
     "scarcity": -3.8
    },
@@ -6103,7 +6284,8 @@
    ],
    "warnings": [
     "small plot for the price: 400 m²"
-   ]
+   ],
+   "base_score": 18
   },
   "https://www.boligsiden.dk/adresse/rosmosevej-36-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/rosmosevej-36-2650-hvidovre",
@@ -6130,7 +6312,7 @@
    "signals": {
     "m2": -0.058,
     "valuation": 0.062,
-    "plot": 0.46,
+    "plot": 0.464,
     "rooms": 0.164,
     "scarcity": -3.8
    },
@@ -6141,7 +6323,8 @@
    ],
    "warnings": [
     "m² price 6 % above the area's level (49.729 vs. 47.023 kr./m², sales last 3 months)"
-   ]
+   ],
+   "base_score": 1
   },
   "https://www.boligsiden.dk/adresse/nymarksvej-1-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/nymarksvej-1-2650-hvidovre",
@@ -6168,7 +6351,7 @@
    "signals": {
     "m2": 0.286,
     "valuation": 0.144,
-    "plot": 0.197,
+    "plot": 0.2,
     "rooms": 0.38,
     "scarcity": -3.8
    },
@@ -6177,7 +6360,8 @@
     "5 rooms for 5,8 mio.",
     "large plot for the price: 681 m²"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 38
   },
   "https://www.boligsiden.dk/adresse/poppel-alle-3a-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/poppel-alle-3a-2650-hvidovre",
@@ -6204,7 +6388,7 @@
    "signals": {
     "m2": -0.329,
     "valuation": -0.522,
-    "plot": -0.127,
+    "plot": -0.124,
     "rooms": 0.372,
     "scarcity": -3.8
    },
@@ -6213,7 +6397,8 @@
    ],
    "warnings": [
     "m² price 33 % above the area's level (62.511 vs. 47.023 kr./m², sales last 3 months)"
-   ]
+   ],
+   "base_score": -63
   },
   "https://www.boligsiden.dk/adresse/kaermark-48-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/kaermark-48-2650-hvidovre",
@@ -6240,7 +6425,7 @@
    "signals": {
     "m2": 0.066,
     "valuation": 0.097,
-    "plot": -0.112,
+    "plot": -0.109,
     "rooms": 0.143,
     "scarcity": -3.8
    },
@@ -6249,7 +6434,8 @@
     "asking price is 1.31× the public valuation (typical 1.45×)",
     "5 rooms for 7,0 mio."
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": -4
   },
   "https://www.boligsiden.dk/adresse/guldbaervaenget-1-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/guldbaervaenget-1-2650-hvidovre",
@@ -6276,7 +6462,7 @@
    "signals": {
     "m2": 0.079,
     "valuation": 0.116,
-    "plot": 0.563,
+    "plot": 0.568,
     "rooms": 0.231,
     "scarcity": -3.8
    },
@@ -6285,7 +6471,8 @@
     "m² price 8 % below the area's level (43.329 vs. 47.023 kr./m², sales last 3 months)",
     "asking price is 1.28× the public valuation (typical 1.45×)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 19
   },
   "https://www.boligsiden.dk/adresse/fortvaenget-1-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/fortvaenget-1-2650-hvidovre",
@@ -6312,7 +6499,7 @@
    "signals": {
     "m2": 0.366,
     "valuation": 0.27,
-    "plot": 0.36,
+    "plot": 0.364,
     "rooms": 0.6,
     "scarcity": -3.8
    },
@@ -6321,7 +6508,8 @@
     "large plot for the price: 801 m²",
     "asking price is 1.06× the public valuation (typical 1.45×)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 59
   },
   "https://www.boligsiden.dk/adresse/frydenstrands-alle-28-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/frydenstrands-alle-28-2650-hvidovre",
@@ -6348,7 +6536,7 @@
    "signals": {
     "m2": 0.186,
     "valuation": 0.232,
-    "plot": 0.295,
+    "plot": 0.299,
     "rooms": 0.524,
     "scarcity": -3.8
    },
@@ -6357,7 +6545,8 @@
     "asking price is 1.11× the public valuation (typical 1.45×)",
     "large plot for the price: 667 m²"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 36
   },
   "https://www.boligsiden.dk/adresse/engstrupgaardsvej-38-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/engstrupgaardsvej-38-2650-hvidovre",
@@ -6384,7 +6573,7 @@
    "signals": {
     "m2": 0.085,
     "valuation": 0.046,
-    "plot": 0.476,
+    "plot": 0.48,
     "rooms": 0.392,
     "scarcity": -3.8
    },
@@ -6393,7 +6582,8 @@
     "4 rooms for 4,6 mio.",
     "m² price 9 % below the area's level (43.004 vs. 47.023 kr./m², sales last 3 months)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 21
   },
   "https://www.boligsiden.dk/adresse/tureby-alle-13-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/tureby-alle-13-2650-hvidovre",
@@ -6420,7 +6610,7 @@
    "signals": {
     "m2": 0.017,
     "valuation": 0.061,
-    "plot": -0.163,
+    "plot": -0.161,
     "rooms": -0.1,
     "scarcity": -3.8
    },
@@ -6430,7 +6620,8 @@
    ],
    "warnings": [
     "small plot for the price: 730 m²"
-   ]
+   ],
+   "base_score": -19
   },
   "https://www.boligsiden.dk/adresse/eriksminde-alle-7-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/eriksminde-alle-7-2650-hvidovre",
@@ -6457,7 +6648,7 @@
    "signals": {
     "m2": -0.309,
     "valuation": -0.142,
-    "plot": 0.106,
+    "plot": 0.109,
     "rooms": -0.314,
     "scarcity": -3.8
    },
@@ -6466,7 +6657,8 @@
    ],
    "warnings": [
     "m² price 31 % above the area's level (61.549 vs. 47.023 kr./m², sales last 3 months)"
-   ]
+   ],
+   "base_score": -57
   },
   "https://www.boligsiden.dk/adresse/sjoelundvej-39-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/sjoelundvej-39-2650-hvidovre",
@@ -6493,14 +6685,15 @@
    "signals": {
     "m2": -0.152,
     "valuation": -0.75,
-    "plot": -0.165,
+    "plot": -0.162,
     "rooms": -0.111,
     "scarcity": -3.8
    },
    "reasons": [],
    "warnings": [
     "asking price is 2.53× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": -59
   },
   "https://www.boligsiden.dk/adresse/landlystvej-49-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/landlystvej-49-2650-hvidovre",
@@ -6527,7 +6720,7 @@
    "signals": {
     "m2": 0.221,
     "valuation": 0.292,
-    "plot": 0.068,
+    "plot": 0.071,
     "rooms": -0.04,
     "scarcity": -3.8
    },
@@ -6536,7 +6729,8 @@
     "asking price is 1.03× the public valuation (typical 1.45×)",
     "large plot for the price: 524 m²"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 23
   },
   "https://www.boligsiden.dk/adresse/elkaervej-16-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/elkaervej-16-2650-hvidovre",
@@ -6563,7 +6757,7 @@
    "signals": {
     "m2": 0.22,
     "valuation": 0.292,
-    "plot": -0.321,
+    "plot": -0.319,
     "rooms": 0.334,
     "scarcity": -3.8
    },
@@ -6574,7 +6768,8 @@
    ],
    "warnings": [
     "small plot for the price: 400 m²"
-   ]
+   ],
+   "base_score": 18
   },
   "https://www.boligsiden.dk/adresse/brobyvej-39-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/brobyvej-39-2650-hvidovre",
@@ -6601,7 +6796,7 @@
    "signals": {
     "m2": 0.158,
     "valuation": 0.043,
-    "plot": -0.373,
+    "plot": -0.371,
     "rooms": 0.477,
     "scarcity": -3.8
    },
@@ -6612,7 +6807,8 @@
    ],
    "warnings": [
     "small plot for the price: 400 m²"
-   ]
+   ],
+   "base_score": -1
   },
   "https://www.boligsiden.dk/adresse/vestre-strandvej-12-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/vestre-strandvej-12-2650-hvidovre",
@@ -6639,7 +6835,7 @@
    "signals": {
     "m2": -0.142,
     "valuation": 0.017,
-    "plot": 0.861,
+    "plot": 0.867,
     "rooms": -0.018,
     "scarcity": -3.8
    },
@@ -6648,7 +6844,8 @@
    ],
    "warnings": [
     "m² price 14 % above the area's level (53.681 vs. 47.023 kr./m², sales last 3 months)"
-   ]
+   ],
+   "base_score": -14
   },
   "https://www.boligsiden.dk/adresse/nordlundsvej-50-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/nordlundsvej-50-2650-hvidovre",
@@ -6675,7 +6872,7 @@
    "signals": {
     "m2": 0.084,
     "valuation": 0.062,
-    "plot": 0.235,
+    "plot": 0.239,
     "rooms": -0.015,
     "scarcity": -3.8
    },
@@ -6684,7 +6881,8 @@
     "m² price 8 % below the area's level (43.085 vs. 47.023 kr./m², sales last 3 months)",
     "asking price is 1.36× the public valuation (typical 1.45×)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 5
   },
   "https://www.boligsiden.dk/adresse/engstrupgaardsvej-22-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/engstrupgaardsvej-22-2650-hvidovre",
@@ -6707,11 +6905,11 @@
    "detail_checked": true,
    "active": true,
    "area": "Hvidovre",
-   "score": 29,
+   "score": 30,
    "signals": {
     "m2": 0.193,
     "valuation": 0.093,
-    "plot": 0.358,
+    "plot": 0.362,
     "rooms": 0.28,
     "scarcity": -3.8
    },
@@ -6720,7 +6918,8 @@
     "large plot for the price: 666 m²",
     "4 rooms for 5,0 mio."
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 30
   },
   "https://www.boligsiden.dk/adresse/engholm-alle-36-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/engholm-alle-36-2650-hvidovre",
@@ -6747,7 +6946,7 @@
    "signals": {
     "m2": 0.17,
     "valuation": 0.13,
-    "plot": 0.594,
+    "plot": 0.598,
     "rooms": 0.164,
     "scarcity": -3.8
    },
@@ -6756,7 +6955,8 @@
     "large plot for the price: 860 m²",
     "asking price is 1.26× the public valuation (typical 1.45×)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 28
   },
   "https://www.boligsiden.dk/adresse/engvadvej-5-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/engvadvej-5-2650-hvidovre",
@@ -6783,7 +6983,7 @@
    "signals": {
     "m2": 0.094,
     "valuation": -0.098,
-    "plot": 0.631,
+    "plot": 0.636,
     "rooms": -0.04,
     "scarcity": -3.8
    },
@@ -6791,7 +6991,8 @@
     "large plot for the price: 800 m²",
     "m² price 9 % below the area's level (42.583 vs. 47.023 kr./m², sales last 3 months)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 4
   },
   "https://www.boligsiden.dk/adresse/baarsevej-26-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/baarsevej-26-2650-hvidovre",
@@ -6818,14 +7019,15 @@
    "signals": {
     "m2": -0.269,
     "valuation": -0.027,
-    "plot": -0.525,
+    "plot": -0.523,
     "rooms": -0.385,
     "scarcity": -3.8
    },
    "reasons": [],
    "warnings": [
     "m² price 27 % above the area's level (59.663 vs. 47.023 kr./m², sales last 3 months)"
-   ]
+   ],
+   "base_score": -68
   },
   "https://www.boligsiden.dk/adresse/avedoerestraede-5-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/avedoerestraede-5-2650-hvidovre",
@@ -6852,7 +7054,7 @@
    "signals": {
     "m2": 0.104,
     "valuation": -0.199,
-    "plot": 0.447,
+    "plot": 0.451,
     "rooms": 0.079,
     "scarcity": -3.8
    },
@@ -6863,7 +7065,8 @@
    ],
    "warnings": [
     "asking price is 1.74× the public valuation (typical 1.45×)"
-   ]
+   ],
+   "base_score": 2
   },
   "https://www.boligsiden.dk/adresse/bavnevej-50-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/bavnevej-50-2650-hvidovre",
@@ -6890,7 +7093,7 @@
    "signals": {
     "m2": 0.034,
     "valuation": 0.126,
-    "plot": -0.075,
+    "plot": -0.073,
     "rooms": 0.0,
     "scarcity": -3.8
    },
@@ -6898,7 +7101,8 @@
     "asking price is 1.27× the public valuation (typical 1.45×)",
     "m² price 3 % below the area's level (45.426 vs. 47.023 kr./m², sales last 3 months)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": -8
   },
   "https://www.boligsiden.dk/adresse/maagevej-7b-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/maagevej-7b-2650-hvidovre",
@@ -6925,7 +7129,7 @@
    "signals": {
     "m2": 0.184,
     "valuation": 0.256,
-    "plot": 0.586,
+    "plot": 0.59,
     "rooms": 1.134,
     "scarcity": -3.8
    },
@@ -6934,7 +7138,8 @@
     "large plot for the price: 700 m²",
     "asking price is 1.08× the public valuation (typical 1.45×)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 41
   },
   "https://www.boligsiden.dk/adresse/krebsevej-48-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/krebsevej-48-2650-hvidovre",
@@ -6961,7 +7166,7 @@
    "signals": {
     "m2": 0.219,
     "valuation": 0.145,
-    "plot": 0.318,
+    "plot": 0.322,
     "rooms": 0.6,
     "scarcity": -3.8
    },
@@ -6970,7 +7175,8 @@
     "large plot for the price: 776 m²",
     "6 rooms for 6,0 mio."
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 36
   },
   "https://www.boligsiden.dk/adresse/graensevej-24-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/graensevej-24-2650-hvidovre",
@@ -6997,7 +7203,7 @@
    "signals": {
     "m2": 0.244,
     "valuation": 0.196,
-    "plot": 0.245,
+    "plot": 0.249,
     "rooms": 0.737,
     "scarcity": -3.8
    },
@@ -7006,7 +7212,8 @@
     "7 rooms for 6,4 mio.",
     "asking price is 1.16× the public valuation (typical 1.45×)"
    ],
-   "warnings": []
+   "warnings": [],
+   "base_score": 38
   },
   "https://www.boligsiden.dk/adresse/broendbyskel-17-2650-hvidovre-5e29a225-3fd0-445c-a85d-e8644d404da9": {
    "url": "https://www.boligsiden.dk/adresse/broendbyskel-17-2650-hvidovre-5e29a225-3fd0-445c-a85d-e8644d404da9",
@@ -7030,7 +7237,7 @@
    "score": 11,
    "signals": {
     "m2": 0.191,
-    "plot": -0.143,
+    "plot": -0.141,
     "rooms": 0.779,
     "scarcity": -3.8
    },
@@ -7040,7 +7247,8 @@
    ],
    "warnings": [
     "small plot for the price: 605 m²"
-   ]
+   ],
+   "base_score": 11
   },
   "https://www.boligsiden.dk/adresse/broendbyskel-20-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/broendbyskel-20-2650-hvidovre",
@@ -7067,7 +7275,7 @@
    "signals": {
     "m2": 0.134,
     "valuation": -0.036,
-    "plot": -0.149,
+    "plot": -0.147,
     "rooms": 0.111,
     "scarcity": -3.8
    },
@@ -7077,7 +7285,8 @@
    ],
    "warnings": [
     "small plot for the price: 601 m²"
-   ]
+   ],
+   "base_score": -6
   }
  }
 }
