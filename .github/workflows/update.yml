@@ -7,11 +7,20 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 180
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v5
 
@@ -38,6 +47,16 @@ jobs:
           git add docs/
           git diff --cached --quiet || git commit -m "Update house prices and picks $(date -u +%F)"
           git push
+
+      - name: Publish the dashboard
+        uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
 
       - name: Keep debug files (only created if something went wrong)
         if: always()
