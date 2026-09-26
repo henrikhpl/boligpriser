@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-25T04:26+00:00",
+ "updated": "2026-09-26T04:25+00:00",
  "areas": [
   "Valby",
   "Vanløse",
@@ -142,6 +142,24 @@
    "attempts": 1,
    "area": "Vangede",
    "pct_below": 2.17
+  },
+  {
+   "url": "https://www.boligsiden.dk/adresse/christiansdal-74-2610-roedovre",
+   "address": "Christiansdal 74, 2610 Rødovre",
+   "handel": "Fri handel",
+   "sale_date": "2026-08-19",
+   "sale_price": 7100000,
+   "m2_price": 45615,
+   "id": "https://www.boligsiden.dk/adresse/christiansdal-74-2610-roedovre|2026-08-19",
+   "postcode": "2610",
+   "lat": 55.678856,
+   "lon": 12.462781,
+   "asking_price": 7250000,
+   "first_asking_price": 7250000,
+   "history_checked": true,
+   "attempts": 1,
+   "area": "Rødovre",
+   "pct_below": 2.07
   },
   {
    "url": "https://www.boligsiden.dk/adresse/valhoejs-alle-33-2610-roedovre",
