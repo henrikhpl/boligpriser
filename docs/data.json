@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-01T04:29+00:00",
+ "updated": "2026-10-02T04:28+00:00",
  "areas": [
   "Valby",
   "Vanløse",
@@ -664,6 +664,24 @@
    "attempts": 1,
    "area": "Søborg",
    "pct_below": -3.23
+  },
+  {
+   "url": "https://www.boligsiden.dk/adresse/soenderengen-58-2870-dyssegaard",
+   "address": "Sønderengen 58, 2870 Dyssegård",
+   "handel": "Fri handel",
+   "sale_date": "2026-07-14",
+   "sale_price": 9400000,
+   "m2_price": 62479,
+   "id": "https://www.boligsiden.dk/adresse/soenderengen-58-2870-dyssegaard|2026-07-14",
+   "postcode": "2870",
+   "lat": 55.733185,
+   "lon": 12.532242,
+   "asking_price": null,
+   "first_asking_price": null,
+   "history_checked": true,
+   "attempts": 1,
+   "area": "Dyssegård",
+   "pct_below": null
   },
   {
    "url": "https://www.boligsiden.dk/adresse/baekkebo-10-2870-dyssegaard",
