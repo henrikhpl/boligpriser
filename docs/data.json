@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T04:27+00:00",
+ "updated": "2026-10-04T06:03+00:00",
  "areas": [
   "Valby",
   "Vanløse",
@@ -17,6 +17,24 @@
   10000000
  ],
  "sales": [
+  {
+   "url": "https://www.boligsiden.dk/adresse/soebyvej-5-2650-hvidovre",
+   "address": "Søbyvej 5, 2650 Hvidovre",
+   "handel": "Fri handel",
+   "sale_date": "2026-09-30",
+   "sale_price": 6910000,
+   "m2_price": 49340,
+   "id": "https://www.boligsiden.dk/adresse/soebyvej-5-2650-hvidovre|2026-09-30",
+   "postcode": "2650",
+   "lat": 55.630234,
+   "lon": 12.494321,
+   "asking_price": null,
+   "first_asking_price": null,
+   "history_checked": true,
+   "attempts": 1,
+   "area": "Hvidovre",
+   "pct_below": null
+  },
   {
    "url": "https://www.boligsiden.dk/adresse/m-bechs-alle-15-2650-hvidovre",
    "address": "M Bechs Alle 15, 2650 Hvidovre",
@@ -106,6 +124,24 @@
    "attempts": 2,
    "area": "Hvidovre",
    "pct_below": 3.59
+  },
+  {
+   "url": "https://www.boligsiden.dk/adresse/krarupvej-39-2610-roedovre",
+   "address": "Krarupvej 39, 2610 Rødovre",
+   "handel": "Fri handel",
+   "sale_date": "2026-08-26",
+   "sale_price": 6810000,
+   "m2_price": 43978,
+   "id": "https://www.boligsiden.dk/adresse/krarupvej-39-2610-roedovre|2026-08-26",
+   "postcode": "2610",
+   "lat": 55.71357,
+   "lon": 12.444982,
+   "asking_price": 6995000,
+   "first_asking_price": 6995000,
+   "history_checked": true,
+   "attempts": 1,
+   "area": "Rødovre",
+   "pct_below": 2.64
   },
   {
    "url": "https://www.boligsiden.dk/adresse/engholm-alle-22-2650-hvidovre",
