@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T04:28+00:00",
+ "updated": "2026-10-12T04:32+00:00",
  "areas": [
   "Valby",
   "Vanløse",
@@ -124,6 +124,24 @@
    "attempts": 1,
    "area": "Hvidovre",
    "pct_below": -1.08
+  },
+  {
+   "url": "https://www.boligsiden.dk/adresse/skovmosevej-27-2820-gentofte",
+   "address": "Skovmosevej 27, 2820 Gentofte",
+   "handel": "Fri handel",
+   "sale_date": "2026-08-27",
+   "sale_price": 9600000,
+   "m2_price": 67511,
+   "id": "https://www.boligsiden.dk/adresse/skovmosevej-27-2820-gentofte|2026-08-27",
+   "postcode": "2820",
+   "lat": 55.7687,
+   "lon": 12.528364,
+   "asking_price": 9995000,
+   "first_asking_price": 9995000,
+   "history_checked": true,
+   "attempts": 1,
+   "area": null,
+   "pct_below": 3.95
   },
   {
    "url": "https://www.boligsiden.dk/adresse/landlystvej-41-2650-hvidovre",
