@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T04:33+00:00",
+ "updated": "2026-10-14T04:43+00:00",
  "price_max": 9000000,
  "benchmarks": {
   "Valby": {
@@ -15,9 +15,9 @@
    "months": 6
   },
   "Brønshøj": {
-   "sold_m2": 53406,
-   "expected_ask_m2": 55092,
-   "n": 26,
+   "sold_m2": 52879,
+   "expected_ask_m2": 54419,
+   "n": 25,
    "months": 6
   },
   "Emdrup": {
@@ -208,6 +208,9 @@
    "https://www.boligsiden.dk/adresse/rosenholms-alle-24-2500-valby",
    "https://www.boligsiden.dk/adresse/bredegaards-alle-3-2650-hvidovre",
    "https://www.boligsiden.dk/adresse/krogebjerg-1-2720-vanloese"
+  ],
+  "2026-10-14": [
+   "https://www.boligsiden.dk/adresse/bredegaards-alle-48-2650-hvidovre"
   ]
  },
  "listings": {
@@ -220,11 +223,11 @@
    "plot_m2": 435,
    "rooms": 4,
    "owner_cost_month": 4290,
-   "days_on_market": 28,
-   "days_total": 28,
+   "days_on_market": 29,
+   "days_total": 29,
    "postcode": "2500",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.666252,
    "lon": 12.4996805,
    "valuation": 5319000,
@@ -235,7 +238,7 @@
    "score": -23,
    "signals": {
     "m2": -0.384,
-    "valuation": 0.01,
+    "valuation": 0.007,
     "plot": -0.42,
     "rooms": -0.168,
     "scarcity": 0.1
@@ -259,11 +262,11 @@
    "plot_m2": 455,
    "rooms": 5,
    "owner_cost_month": 4606,
-   "days_on_market": 37,
-   "days_total": 37,
+   "days_on_market": 38,
+   "days_total": 38,
    "postcode": "2500",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.663048,
    "lon": 12.488153,
    "valuation": 4970000,
@@ -274,7 +277,7 @@
    "score": -18,
    "signals": {
     "m2": -0.256,
-    "valuation": -0.2,
+    "valuation": -0.204,
     "plot": -0.465,
     "rooms": -0.081,
     "scarcity": 0.1
@@ -298,11 +301,11 @@
    "plot_m2": 719,
    "rooms": 4,
    "owner_cost_month": 4616,
-   "days_on_market": 39,
-   "days_total": 39,
+   "days_on_market": 40,
+   "days_total": 40,
    "postcode": "2500",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.649662,
    "lon": 12.491857,
    "valuation": 5353000,
@@ -310,10 +313,10 @@
    "detail_checked": true,
    "active": true,
    "area": "Valby",
-   "score": 15,
+   "score": 14,
    "signals": {
     "m2": 0.069,
-    "valuation": -0.114,
+    "valuation": -0.118,
     "plot": -0.154,
     "rooms": -0.265,
     "scarcity": 0.1
@@ -326,7 +329,7 @@
    "warnings": [
     "4 rooms for 8,5 mio."
    ],
-   "base_score": -7,
+   "base_score": -8,
    "taste": 90
   },
   "https://www.boligsiden.dk/adresse/kongshaven-44-2500-valby": {
@@ -338,11 +341,11 @@
    "plot_m2": 725,
    "rooms": 4,
    "owner_cost_month": 4508,
-   "days_on_market": 64,
-   "days_total": 64,
+   "days_on_market": 65,
+   "days_total": 65,
    "postcode": "2500",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.65506,
    "lon": 12.494502,
    "valuation": 4746000,
@@ -353,7 +356,7 @@
    "score": -4,
    "signals": {
     "m2": -0.076,
-    "valuation": -0.279,
+    "valuation": -0.283,
     "plot": -0.162,
     "rooms": -0.278,
     "scarcity": 0.1
@@ -377,11 +380,11 @@
    "plot_m2": 720,
    "rooms": 3,
    "owner_cost_month": 2492,
-   "days_on_market": 103,
-   "days_total": 103,
+   "days_on_market": 104,
+   "days_total": 104,
    "postcode": "2500",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.64758,
    "lon": 12.4952965,
    "year_built": 1950,
@@ -415,11 +418,11 @@
    "plot_m2": 698,
    "rooms": 4,
    "owner_cost_month": 4135,
-   "days_on_market": 119,
-   "days_total": 119,
+   "days_on_market": 120,
+   "days_total": 120,
    "postcode": "2500",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.65317,
    "lon": 12.5006895,
    "valuation": 5124000,
@@ -430,7 +433,7 @@
    "score": 12,
    "signals": {
     "m2": 0.001,
-    "valuation": -0.096,
+    "valuation": -0.099,
     "plot": -0.128,
     "rooms": -0.219,
     "scarcity": 0.1
@@ -443,7 +446,7 @@
     "4 rooms for 8,0 mio."
    ],
    "base_score": -11,
-   "taste": 91
+   "taste": 90
   },
   "https://www.boligsiden.dk/adresse/kongshaven-88-2500-valby": {
    "url": "https://www.boligsiden.dk/adresse/kongshaven-88-2500-valby",
@@ -454,11 +457,11 @@
    "plot_m2": 725,
    "rooms": 5,
    "owner_cost_month": 3921,
-   "days_on_market": 216,
-   "days_total": 216,
+   "days_on_market": 217,
+   "days_total": 217,
    "postcode": "2500",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.653854,
    "lon": 12.489067,
    "valuation": 4735000,
@@ -469,7 +472,7 @@
    "score": 28,
    "signals": {
     "m2": 0.172,
-    "valuation": -0.142,
+    "valuation": -0.146,
     "plot": -0.059,
     "rooms": 0.013,
     "scarcity": 0.1
@@ -495,11 +498,11 @@
    "plot_m2": 742,
    "rooms": 6,
    "owner_cost_month": 3658,
-   "days_on_market": 397,
-   "days_total": 397,
+   "days_on_market": 398,
+   "days_total": 398,
    "postcode": "2500",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.662006,
    "lon": 12.484398,
    "year_built": 1893,
@@ -568,11 +571,11 @@
    "plot_m2": 644,
    "rooms": 3,
    "owner_cost_month": 3480,
-   "days_on_market": 40,
-   "days_total": 40,
+   "days_on_market": 41,
+   "days_total": 41,
    "postcode": "2720",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.691177,
    "lon": 12.469304,
    "valuation": 5218000,
@@ -580,10 +583,10 @@
    "detail_checked": true,
    "active": true,
    "area": "Vanløse",
-   "score": 0,
+   "score": 1,
    "signals": {
     "m2": 0.257,
-    "valuation": -0.035,
+    "valuation": -0.039,
     "plot": -0.164,
     "rooms": -0.392,
     "scarcity": 0.0
@@ -595,7 +598,7 @@
     "3 rooms for 7,7 mio."
    ],
    "base_score": 8,
-   "taste": 38
+   "taste": 39
   },
   "https://www.boligsiden.dk/adresse/hvidtjoernevej-2-2720-vanloese": {
    "url": "https://www.boligsiden.dk/adresse/hvidtjoernevej-2-2720-vanloese",
@@ -606,11 +609,11 @@
    "plot_m2": 226,
    "rooms": 4,
    "owner_cost_month": 4673,
-   "days_on_market": 48,
-   "days_total": 48,
+   "days_on_market": 49,
+   "days_total": 49,
    "postcode": "2720",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.67971,
    "lon": 12.481219,
    "valuation": 5927000,
@@ -621,7 +624,7 @@
    "score": -54,
    "signals": {
     "m2": -0.157,
-    "valuation": -0.066,
+    "valuation": -0.069,
     "plot": -0.749,
     "rooms": -0.306,
     "scarcity": 0.0
@@ -642,11 +645,11 @@
    "plot_m2": 377,
    "rooms": 3,
    "owner_cost_month": 4778,
-   "days_on_market": 55,
-   "days_total": 55,
+   "days_on_market": 56,
+   "days_total": 56,
    "postcode": "2720",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.695507,
    "lon": 12.489365,
    "valuation": 5573000,
@@ -654,10 +657,10 @@
    "detail_checked": true,
    "active": true,
    "area": "Vanløse",
-   "score": -24,
+   "score": -25,
    "signals": {
     "m2": 0.119,
-    "valuation": -0.007,
+    "valuation": -0.011,
     "plot": -0.529,
     "rooms": -0.414,
     "scarcity": 0.0
@@ -668,7 +671,7 @@
    "warnings": [
     "small plot for the price: 377 m²"
    ],
-   "base_score": -13,
+   "base_score": -14,
    "taste": 22
   },
   "https://www.boligsiden.dk/adresse/jyllingevej-106-2720-vanloese": {
@@ -720,11 +723,11 @@
    "plot_m2": 669,
    "rooms": 4,
    "owner_cost_month": 5858,
-   "days_on_market": 104,
-   "days_total": 104,
+   "days_on_market": 105,
+   "days_total": 105,
    "postcode": "2720",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.696342,
    "lon": 12.48695,
    "valuation": 8048000,
@@ -732,10 +735,10 @@
    "detail_checked": true,
    "active": true,
    "area": "Vanløse",
-   "score": 40,
+   "score": 41,
    "signals": {
     "m2": 0.517,
-    "valuation": 0.433,
+    "valuation": 0.431,
     "plot": 0.029,
     "rooms": -0.039,
     "scarcity": 0.0
@@ -747,7 +750,7 @@
    ],
    "warnings": [],
    "base_score": 60,
-   "taste": 41,
+   "taste": 42,
    "pick_type": "earlier"
   },
   "https://www.boligsiden.dk/adresse/hasselvej-13-2720-vanloese": {
@@ -797,11 +800,11 @@
    "plot_m2": 400,
    "rooms": 5,
    "owner_cost_month": 3759,
-   "days_on_market": 5,
-   "days_total": 199,
+   "days_on_market": 6,
+   "days_total": 200,
    "postcode": "2720",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.69757,
    "lon": 12.484893,
    "valuation": 4449000,
@@ -809,10 +812,10 @@
    "detail_checked": true,
    "active": true,
    "area": "Vanløse",
-   "score": -24,
+   "score": -25,
    "signals": {
     "m2": 0.153,
-    "valuation": -0.262,
+    "valuation": -0.266,
     "plot": -0.5,
     "rooms": -0.024,
     "scarcity": 0.0
@@ -823,7 +826,7 @@
    "warnings": [
     "small plot for the price: 400 m²"
    ],
-   "base_score": -13,
+   "base_score": -14,
    "taste": 21
   },
   "https://www.boligsiden.dk/adresse/aalekistevej-17-2720-vanloese": {
@@ -835,11 +838,11 @@
    "plot_m2": 400,
    "rooms": 4,
    "owner_cost_month": 5097,
-   "days_on_market": 280,
-   "days_total": 280,
+   "days_on_market": 281,
+   "days_total": 281,
    "postcode": "2720",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.67871,
    "lon": 12.484855,
    "valuation": 8437000,
@@ -847,10 +850,10 @@
    "detail_checked": true,
    "active": true,
    "area": "Vanløse",
-   "score": 0,
+   "score": -1,
    "signals": {
     "m2": 0.258,
-    "valuation": 0.335,
+    "valuation": 0.332,
     "plot": -0.5,
     "rooms": -0.219,
     "scarcity": 0.0
@@ -1029,11 +1032,11 @@
    "plot_m2": 822,
    "rooms": 5,
    "owner_cost_month": 3866,
-   "days_on_market": 28,
-   "days_total": 120,
+   "days_on_market": 29,
+   "days_total": 121,
    "postcode": "2700",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.706654,
    "lon": 12.465729,
    "valuation": 5193000,
@@ -1043,8 +1046,8 @@
    "area": "Brønshøj",
    "score": -8,
    "signals": {
-    "m2": -0.203,
-    "valuation": -0.115,
+    "m2": -0.218,
+    "valuation": -0.119,
     "plot": -0.004,
     "rooms": -0.054,
     "scarcity": -1.7
@@ -1053,9 +1056,9 @@
     "similar to a house you starred: Bakkekammen 38, 2700 Brønshøj"
    ],
    "warnings": [
-    "m² price 20 % above the area's level (66.265 vs. 55.092 kr./m², sales last 6 months)"
+    "m² price 22 % above the area's level (66.265 vs. 54.419 kr./m², sales last 6 months)"
    ],
-   "base_score": -43,
+   "base_score": -44,
    "taste": 99
   },
   "https://www.boligsiden.dk/adresse/risvangen-43-2700-broenshoej": {
@@ -1067,11 +1070,11 @@
    "plot_m2": 346,
    "rooms": 3,
    "owner_cost_month": 4489,
-   "days_on_market": 39,
-   "days_total": 39,
+   "days_on_market": 40,
+   "days_total": 40,
    "postcode": "2700",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.7071,
    "lon": 12.502451,
    "valuation": 7159000,
@@ -1079,10 +1082,10 @@
    "detail_checked": true,
    "active": true,
    "area": "Brønshøj",
-   "score": 4,
+   "score": 3,
    "signals": {
-    "m2": 0.066,
-    "valuation": 0.245,
+    "m2": 0.054,
+    "valuation": 0.243,
     "plot": -0.551,
     "rooms": -0.392,
     "scarcity": -1.7
@@ -1090,12 +1093,12 @@
    "reasons": [
     "similar to a house you starred: Degnemose Allé 30, 2700 Brønshøj",
     "asking price is 1.07× the public valuation (typical 1.42×)",
-    "m² price 7 % below the area's level (51.454 vs. 55.092 kr./m², sales last 6 months)"
+    "m² price 5 % below the area's level (51.454 vs. 54.419 kr./m², sales last 6 months)"
    ],
    "warnings": [
     "small plot for the price: 346 m²"
    ],
-   "base_score": -21,
+   "base_score": -22,
    "taste": 89
   },
   "https://www.boligsiden.dk/adresse/hf.-birkevang-184-2700-broenshoej": {
@@ -1107,11 +1110,11 @@
    "plot_m2": 400,
    "rooms": 4,
    "owner_cost_month": 3480,
-   "days_on_market": 46,
-   "days_total": 46,
+   "days_on_market": 47,
+   "days_total": 47,
    "postcode": "2700",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.71342,
    "lon": 12.47049,
    "valuation": 2593000,
@@ -1119,10 +1122,10 @@
    "detail_checked": true,
    "active": true,
    "area": "Brønshøj",
-   "score": -25,
+   "score": -26,
    "signals": {
-    "m2": -0.098,
-    "valuation": -0.623,
+    "m2": -0.111,
+    "valuation": -0.629,
     "plot": -0.333,
     "rooms": 0.041,
     "scarcity": -1.7
@@ -1134,7 +1137,7 @@
    "warnings": [
     "asking price is 2.31× the public valuation (typical 1.42×)"
    ],
-   "base_score": -56,
+   "base_score": -58,
    "taste": 84
   },
   "https://www.boligsiden.dk/adresse/kongemarksvej-6-2700-broenshoej": {
@@ -1146,11 +1149,11 @@
    "plot_m2": 612,
    "rooms": 4,
    "owner_cost_month": 3898,
-   "days_on_market": 50,
-   "days_total": 50,
+   "days_on_market": 51,
+   "days_total": 51,
    "postcode": "2700",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.71014,
    "lon": 12.464157,
    "valuation": 4382000,
@@ -1158,20 +1161,20 @@
    "detail_checked": true,
    "active": true,
    "area": "Brønshøj",
-   "score": 12,
+   "score": 11,
    "signals": {
-    "m2": 0.062,
-    "valuation": -0.041,
+    "m2": 0.05,
+    "valuation": -0.044,
     "plot": -0.058,
     "rooms": -0.039,
     "scarcity": -1.7
    },
    "reasons": [
     "similar to a house you starred: Stenlillevej 4, 2700 Brønshøj",
-    "m² price 6 % below the area's level (51.671 vs. 55.092 kr./m², sales last 6 months)"
+    "m² price 5 % below the area's level (51.671 vs. 54.419 kr./m², sales last 6 months)"
    ],
    "warnings": [],
-   "base_score": -14,
+   "base_score": -15,
    "taste": 95
   },
   "https://www.boligsiden.dk/adresse/broenshoejvej-27-2700-broenshoej": {
@@ -1183,11 +1186,11 @@
    "plot_m2": 465,
    "rooms": 5,
    "owner_cost_month": 4764,
-   "days_on_market": 57,
-   "days_total": 57,
+   "days_on_market": 58,
+   "days_total": 58,
    "postcode": "2700",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.700764,
    "lon": 12.498178,
    "valuation": 5936000,
@@ -1195,10 +1198,10 @@
    "detail_checked": true,
    "active": true,
    "area": "Brønshøj",
-   "score": -11,
+   "score": -12,
    "signals": {
-    "m2": -0.112,
-    "valuation": -0.029,
+    "m2": -0.126,
+    "valuation": -0.032,
     "plot": -0.466,
     "rooms": -0.103,
     "scarcity": -1.7
@@ -1209,7 +1212,7 @@
    "warnings": [
     "small plot for the price: 465 m²"
    ],
-   "base_score": -45,
+   "base_score": -47,
    "taste": 96
   },
   "https://www.boligsiden.dk/adresse/toelloesevej-10-2700-broenshoej": {
@@ -1221,11 +1224,11 @@
    "plot_m2": 374,
    "rooms": 6,
    "owner_cost_month": 4906,
-   "days_on_market": 68,
-   "days_total": 68,
+   "days_on_market": 69,
+   "days_total": 69,
    "postcode": "2700",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.70547,
    "lon": 12.489167,
    "valuation": 5896000,
@@ -1233,10 +1236,10 @@
    "detail_checked": true,
    "active": true,
    "area": "Brønshøj",
-   "score": -4,
+   "score": -6,
    "signals": {
-    "m2": -0.117,
-    "valuation": 0.048,
+    "m2": -0.131,
+    "valuation": 0.045,
     "plot": -0.533,
     "rooms": 0.171,
     "scarcity": -1.7
@@ -1249,8 +1252,8 @@
    "warnings": [
     "small plot for the price: 374 m²"
    ],
-   "base_score": -35,
-   "taste": 95
+   "base_score": -37,
+   "taste": 94
   },
   "https://www.boligsiden.dk/adresse/bakkekammen-38-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/bakkekammen-38-2700-broenshoej",
@@ -1261,11 +1264,11 @@
    "plot_m2": 893,
    "rooms": 5,
    "owner_cost_month": 4193,
-   "days_on_market": 68,
-   "days_total": 68,
+   "days_on_market": 69,
+   "days_total": 69,
    "postcode": "2700",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.704857,
    "lon": 12.458819,
    "valuation": 4836000,
@@ -1273,21 +1276,21 @@
    "detail_checked": true,
    "active": true,
    "area": "Brønshøj",
-   "score": 22,
+   "score": 21,
    "signals": {
-    "m2": 0.072,
-    "valuation": -0.053,
+    "m2": 0.06,
+    "valuation": -0.056,
     "plot": 0.231,
     "rooms": 0.076,
     "scarcity": -1.7
    },
    "reasons": [
     "large plot for the price: 893 m²",
-    "m² price 7 % below the area's level (51.146 vs. 55.092 kr./m², sales last 6 months)",
+    "m² price 6 % below the area's level (51.146 vs. 54.419 kr./m², sales last 6 months)",
     "5 rooms for 7,2 mio."
    ],
    "warnings": [],
-   "base_score": 0,
+   "base_score": -1,
    "taste": 94
   },
   "https://www.boligsiden.dk/adresse/kongstedvej-9c-2700-broenshoej": {
@@ -1299,11 +1302,11 @@
    "plot_m2": 499,
    "rooms": 5,
    "owner_cost_month": 4282,
-   "days_on_market": 71,
-   "days_total": 71,
+   "days_on_market": 72,
+   "days_total": 72,
    "postcode": "2700",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.699463,
    "lon": 12.475505,
    "valuation": 5702000,
@@ -1313,8 +1316,8 @@
    "area": "Brønshøj",
    "score": -9,
    "signals": {
-    "m2": -0.044,
-    "valuation": -0.077,
+    "m2": -0.057,
+    "valuation": -0.081,
     "plot": -0.43,
     "rooms": -0.108,
     "scarcity": -1.7
@@ -1325,7 +1328,7 @@
    "warnings": [
     "small plot for the price: 499 m²"
    ],
-   "base_score": -41,
+   "base_score": -42,
    "taste": 94
   },
   "https://www.boligsiden.dk/adresse/muldager-55-2700-broenshoej": {
@@ -1337,11 +1340,11 @@
    "plot_m2": 588,
    "rooms": 4,
    "owner_cost_month": 3121,
-   "days_on_market": 83,
-   "days_total": 83,
+   "days_on_market": 84,
+   "days_total": 84,
    "postcode": "2700",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.717007,
    "lon": 12.465495,
    "valuation": 3093000,
@@ -1349,23 +1352,23 @@
    "detail_checked": true,
    "active": true,
    "area": "Brønshøj",
-   "score": 28,
+   "score": 27,
    "signals": {
-    "m2": 0.197,
-    "valuation": -0.134,
+    "m2": 0.187,
+    "valuation": -0.138,
     "plot": 0.176,
     "rooms": 0.25,
     "scarcity": -1.7
    },
    "reasons": [
     "similar to a house you starred: Stenlillevej 4, 2700 Brønshøj",
-    "m² price 20 % below the area's level (44.243 vs. 55.092 kr./m², sales last 6 months)",
+    "m² price 19 % below the area's level (44.243 vs. 54.419 kr./m², sales last 6 months)",
     "large plot for the price: 588 m²"
    ],
    "warnings": [
     "asking price is 1.61× the public valuation (typical 1.42×)"
    ],
-   "base_score": 11,
+   "base_score": 10,
    "taste": 89,
    "pick_type": "earlier"
   },
@@ -1378,11 +1381,11 @@
    "plot_m2": 436,
    "rooms": 4,
    "owner_cost_month": 4917,
-   "days_on_market": 99,
-   "days_total": 255,
+   "days_on_market": 100,
+   "days_total": 256,
    "postcode": "2700",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.708572,
    "lon": 12.486477,
    "valuation": 6251000,
@@ -1390,10 +1393,10 @@
    "detail_checked": true,
    "active": true,
    "area": "Brønshøj",
-   "score": -20,
+   "score": -21,
    "signals": {
-    "m2": -0.198,
-    "valuation": 0.079,
+    "m2": -0.212,
+    "valuation": 0.076,
     "plot": -0.468,
     "rooms": -0.238,
     "scarcity": -1.7
@@ -1403,9 +1406,9 @@
     "asking price is 1.31× the public valuation (typical 1.42×)"
    ],
    "warnings": [
-    "m² price 20 % above the area's level (65.982 vs. 55.092 kr./m², sales last 6 months)"
+    "m² price 21 % above the area's level (65.982 vs. 54.419 kr./m², sales last 6 months)"
    ],
-   "base_score": -52,
+   "base_score": -53,
    "taste": 87
   },
   "https://www.boligsiden.dk/adresse/dybekaer-16a-2700-broenshoej": {
@@ -1417,11 +1420,11 @@
    "plot_m2": 663,
    "rooms": 5,
    "owner_cost_month": 3692,
-   "days_on_market": 103,
-   "days_total": 103,
+   "days_on_market": 104,
+   "days_total": 104,
    "postcode": "2700",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.708954,
    "lon": 12.454523,
    "valuation": 4443000,
@@ -1429,21 +1432,21 @@
    "detail_checked": true,
    "active": true,
    "area": "Brønshøj",
-   "score": 40,
+   "score": 39,
    "signals": {
-    "m2": 0.155,
-    "valuation": 0.132,
+    "m2": 0.144,
+    "valuation": 0.129,
     "plot": 0.206,
     "rooms": 0.42,
     "scarcity": -1.7
    },
    "reasons": [
     "similar to a house you starred: Bakkekammen 38, 2700 Brønshøj",
-    "m² price 15 % below the area's level (46.568 vs. 55.092 kr./m², sales last 6 months)",
+    "m² price 14 % below the area's level (46.568 vs. 54.419 kr./m², sales last 6 months)",
     "5 rooms for 5,5 mio."
    ],
    "warnings": [],
-   "base_score": 25,
+   "base_score": 24,
    "taste": 93,
    "pick_type": "earlier"
   },
@@ -1532,11 +1535,11 @@
    "plot_m2": 372,
    "rooms": 4,
    "owner_cost_month": 4407,
-   "days_on_market": 112,
-   "days_total": 112,
+   "days_on_market": 113,
+   "days_total": 113,
    "postcode": "2700",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.706985,
    "lon": 12.501903,
    "valuation": 5918000,
@@ -1546,18 +1549,17 @@
    "area": "Brønshøj",
    "score": -35,
    "signals": {
-    "m2": -0.398,
-    "valuation": 0.021,
+    "m2": -0.416,
+    "valuation": 0.018,
     "plot": -0.549,
     "rooms": -0.243,
     "scarcity": -1.7
    },
    "reasons": [
-    "similar to a house you starred: Bjernedevej 8, 2700 Brønshøj",
-    "asking price is 1.39× the public valuation (typical 1.42×)"
+    "similar to a house you starred: Bjernedevej 8, 2700 Brønshøj"
    ],
    "warnings": [
-    "m² price 40 % above the area's level (77.031 vs. 55.092 kr./m², sales last 6 months)"
+    "m² price 42 % above the area's level (77.031 vs. 54.419 kr./m², sales last 6 months)"
    ],
    "base_score": -75,
    "taste": 92
@@ -1610,11 +1612,11 @@
    "plot_m2": 373,
    "rooms": 5,
    "owner_cost_month": 3549,
-   "days_on_market": 124,
-   "days_total": 124,
+   "days_on_market": 125,
+   "days_total": 125,
    "postcode": "2700",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.706543,
    "lon": 12.478589,
    "valuation": 5723000,
@@ -1622,10 +1624,10 @@
    "detail_checked": true,
    "active": true,
    "area": "Brønshøj",
-   "score": 14,
+   "score": 13,
    "signals": {
-    "m2": 0.085,
-    "valuation": 0.233,
+    "m2": 0.074,
+    "valuation": 0.231,
     "plot": -0.404,
     "rooms": 0.248,
     "scarcity": -1.7
@@ -1633,12 +1635,12 @@
    "reasons": [
     "similar to a house you starred: Degnemose Allé 30, 2700 Brønshøj",
     "asking price is 1.09× the public valuation (typical 1.42×)",
-    "m² price 9 % below the area's level (50.403 vs. 55.092 kr./m², sales last 6 months)"
+    "m² price 7 % below the area's level (50.403 vs. 54.419 kr./m², sales last 6 months)"
    ],
    "warnings": [
     "small plot for the price: 373 m²"
    ],
-   "base_score": -4,
+   "base_score": -5,
    "taste": 84
   },
   "https://www.boligsiden.dk/adresse/dybekaer-8a-2700-broenshoej": {
@@ -1650,11 +1652,11 @@
    "plot_m2": 663,
    "rooms": 4,
    "owner_cost_month": 3495,
-   "days_on_market": 134,
-   "days_total": 134,
+   "days_on_market": 135,
+   "days_total": 135,
    "postcode": "2700",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.708347,
    "lon": 12.454616,
    "valuation": 4141000,
@@ -1662,21 +1664,21 @@
    "detail_checked": true,
    "active": true,
    "area": "Brønshøj",
-   "score": 26,
+   "score": 25,
    "signals": {
-    "m2": 0.123,
-    "valuation": 0.034,
+    "m2": 0.112,
+    "valuation": 0.03,
     "plot": 0.163,
     "rooms": 0.095,
     "scarcity": -1.7
    },
    "reasons": [
     "similar to a house you starred: Bakkekammen 38, 2700 Brønshøj",
-    "m² price 12 % below the area's level (48.297 vs. 55.092 kr./m², sales last 6 months)",
+    "m² price 11 % below the area's level (48.297 vs. 54.419 kr./m², sales last 6 months)",
     "large plot for the price: 663 m²"
    ],
    "warnings": [],
-   "base_score": 7,
+   "base_score": 6,
    "taste": 92
   },
   "https://www.boligsiden.dk/adresse/tersloesevej-12-2700-broenshoej": {
@@ -1726,11 +1728,11 @@
    "plot_m2": 666,
    "rooms": 6,
    "owner_cost_month": 4754,
-   "days_on_market": 153,
-   "days_total": 153,
+   "days_on_market": 154,
+   "days_total": 154,
    "postcode": "2700",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.70832,
    "lon": 12.454023,
    "valuation": 5835000,
@@ -1738,21 +1740,21 @@
    "detail_checked": true,
    "active": true,
    "area": "Brønshøj",
-   "score": 40,
+   "score": 39,
    "signals": {
-    "m2": 0.241,
-    "valuation": 0.158,
+    "m2": 0.232,
+    "valuation": 0.155,
     "plot": -0.049,
     "rooms": 0.339,
     "scarcity": -1.7
    },
    "reasons": [
     "similar to a house you starred: Bakkekammen 38, 2700 Brønshøj",
-    "m² price 24 % below the area's level (41.811 vs. 55.092 kr./m², sales last 6 months)",
+    "m² price 23 % below the area's level (41.811 vs. 54.419 kr./m², sales last 6 months)",
     "6 rooms for 7,0 mio."
    ],
    "warnings": [],
-   "base_score": 24,
+   "base_score": 23,
    "taste": 94,
    "pick_type": "earlier"
   },
@@ -1765,31 +1767,31 @@
    "plot_m2": 1112,
    "rooms": 6,
    "owner_cost_month": 4795,
-   "days_on_market": 175,
-   "days_total": 175,
+   "days_on_market": 176,
+   "days_total": 176,
    "postcode": "2700",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.704903,
    "lon": 12.466497,
    "year_built": 1935,
    "detail_checked": true,
    "active": true,
    "area": "Brønshøj",
-   "score": 64,
+   "score": 63,
    "signals": {
-    "m2": 0.345,
+    "m2": 0.337,
     "plot": 0.648,
     "rooms": 0.388,
     "scarcity": -1.7
    },
    "reasons": [
     "similar to a house you starred: Bakkekammen 38, 2700 Brønshøj",
-    "m² price 34 % below the area's level (36.098 vs. 55.092 kr./m², sales last 6 months)",
+    "m² price 34 % below the area's level (36.098 vs. 54.419 kr./m², sales last 6 months)",
     "large plot for the price: 1.112 m²"
    ],
    "warnings": [],
-   "base_score": 55,
+   "base_score": 54,
    "taste": 96,
    "pick_type": "earlier"
   },
@@ -1802,11 +1804,11 @@
    "plot_m2": 785,
    "rooms": 5,
    "owner_cost_month": 4474,
-   "days_on_market": 183,
-   "days_total": 183,
+   "days_on_market": 184,
+   "days_total": 184,
    "postcode": "2700",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.707535,
    "lon": 12.465076,
    "valuation": 7694000,
@@ -1814,21 +1816,21 @@
    "detail_checked": true,
    "active": true,
    "area": "Brønshøj",
-   "score": 47,
+   "score": 46,
    "signals": {
-    "m2": 0.231,
-    "valuation": 0.362,
+    "m2": 0.221,
+    "valuation": 0.359,
     "plot": 0.121,
     "rooms": 0.116,
     "scarcity": -1.7
    },
    "reasons": [
     "similar to a house you starred: Bakkekammen 38, 2700 Brønshøj",
-    "m² price 23 % below the area's level (42.381 vs. 55.092 kr./m², sales last 6 months)",
+    "m² price 22 % below the area's level (42.381 vs. 54.419 kr./m², sales last 6 months)",
     "asking price is 0.91× the public valuation (typical 1.42×)"
    ],
    "warnings": [],
-   "base_score": 34,
+   "base_score": 33,
    "taste": 93,
    "pick_type": "earlier"
   },
@@ -1880,11 +1882,11 @@
    "plot_m2": 374,
    "rooms": 6,
    "owner_cost_month": 4580,
-   "days_on_market": 211,
-   "days_total": 211,
+   "days_on_market": 212,
+   "days_total": 212,
    "postcode": "2700",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.70612,
    "lon": 12.488366,
    "valuation": 6684000,
@@ -1894,21 +1896,21 @@
    "area": "Brønshøj",
    "score": 17,
    "signals": {
-    "m2": 0.136,
-    "valuation": 0.16,
+    "m2": 0.126,
+    "valuation": 0.157,
     "plot": -0.533,
     "rooms": 0.171,
     "scarcity": -1.7
    },
    "reasons": [
     "similar to a house you starred: Degnemose Allé 30, 2700 Brønshøj",
-    "m² price 14 % below the area's level (47.589 vs. 55.092 kr./m², sales last 6 months)",
+    "m² price 13 % below the area's level (47.589 vs. 54.419 kr./m², sales last 6 months)",
     "asking price is 1.20× the public valuation (typical 1.42×)"
    ],
    "warnings": [
     "small plot for the price: 374 m²"
    ],
-   "base_score": -4,
+   "base_score": -5,
    "taste": 91
   },
   "https://www.boligsiden.dk/adresse/korsager-alle-15-2700-broenshoej": {
@@ -1920,11 +1922,11 @@
    "plot_m2": 518,
    "rooms": 3,
    "owner_cost_month": 4030,
-   "days_on_market": 230,
-   "days_total": 230,
+   "days_on_market": 231,
+   "days_total": 231,
    "postcode": "2700",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.708252,
    "lon": 12.476908,
    "valuation": 4735000,
@@ -1932,10 +1934,10 @@
    "detail_checked": true,
    "active": true,
    "area": "Brønshøj",
-   "score": -14,
+   "score": -16,
    "signals": {
-    "m2": -0.124,
-    "valuation": -0.037,
+    "m2": -0.138,
+    "valuation": -0.041,
     "plot": -0.26,
     "rooms": -0.331,
     "scarcity": -1.7
@@ -1944,9 +1946,9 @@
     "similar to a house you starred: Bjernedevej 8, 2700 Brønshøj"
    ],
    "warnings": [
-    "m² price 12 % above the area's level (61.930 vs. 55.092 kr./m², sales last 6 months)"
+    "m² price 14 % above the area's level (61.930 vs. 54.419 kr./m², sales last 6 months)"
    ],
-   "base_score": -47,
+   "base_score": -49,
    "taste": 92
   },
   "https://www.boligsiden.dk/adresse/sparresholmvej-8-2700-broenshoej": {
@@ -1958,11 +1960,11 @@
    "plot_m2": 574,
    "rooms": 4,
    "owner_cost_month": 4167,
-   "days_on_market": 250,
-   "days_total": 250,
+   "days_on_market": 251,
+   "days_total": 251,
    "postcode": "2700",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.70241,
    "lon": 12.499522,
    "valuation": 5601000,
@@ -1970,10 +1972,10 @@
    "detail_checked": true,
    "active": true,
    "area": "Brønshøj",
-   "score": -29,
+   "score": -30,
    "signals": {
-    "m2": -0.255,
-    "valuation": -0.128,
+    "m2": -0.27,
+    "valuation": -0.131,
     "plot": -0.362,
     "rooms": -0.306,
     "scarcity": -1.7
@@ -1982,9 +1984,9 @@
     "similar to a house you starred: Bjernedevej 8, 2700 Brønshøj"
    ],
    "warnings": [
-    "m² price 25 % above the area's level (69.139 vs. 55.092 kr./m², sales last 6 months)"
+    "m² price 27 % above the area's level (69.139 vs. 54.419 kr./m², sales last 6 months)"
    ],
-   "base_score": -68,
+   "base_score": -70,
    "taste": 94
   },
   "https://www.boligsiden.dk/adresse/boserupvej-3-2700-broenshoej": {
@@ -1996,11 +1998,11 @@
    "plot_m2": 789,
    "rooms": 4,
    "owner_cost_month": 3708,
-   "days_on_market": 18,
-   "days_total": 297,
+   "days_on_market": 19,
+   "days_total": 298,
    "postcode": "2700",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.712982,
    "lon": 12.466706,
    "valuation": 3932000,
@@ -2010,8 +2012,8 @@
    "area": "Brønshøj",
    "score": 33,
    "signals": {
-    "m2": 0.089,
-    "valuation": 0.019,
+    "m2": 0.078,
+    "valuation": 0.015,
     "plot": 0.435,
     "rooms": 0.136,
     "scarcity": -1.7
@@ -2019,10 +2021,10 @@
    "reasons": [
     "similar to a house you starred: Stenlillevej 4, 2700 Brønshøj",
     "large plot for the price: 789 m²",
-    "m² price 9 % below the area's level (50.183 vs. 55.092 kr./m², sales last 6 months)"
+    "m² price 8 % below the area's level (50.183 vs. 54.419 kr./m², sales last 6 months)"
    ],
    "warnings": [],
-   "base_score": 13,
+   "base_score": 12,
    "taste": 97,
    "pick_type": "earlier"
   },
@@ -2074,11 +2076,11 @@
    "plot_m2": 597,
    "rooms": 5,
    "owner_cost_month": 4232,
-   "days_on_market": 133,
-   "days_total": 133,
+   "days_on_market": 134,
+   "days_total": 134,
    "postcode": "2400",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.723343,
    "lon": 12.5348215,
    "valuation": 5547000,
@@ -2089,7 +2091,7 @@
    "score": -40,
    "signals": {
     "m2": -0.435,
-    "valuation": -0.113,
+    "valuation": -0.117,
     "plot": -0.322,
     "rooms": -0.113,
     "scarcity": 0.9
@@ -2148,11 +2150,11 @@
    "plot_m2": 984,
    "rooms": 5,
    "owner_cost_month": 6310,
-   "days_on_market": 28,
-   "days_total": 903,
+   "days_on_market": 29,
+   "days_total": 904,
    "postcode": "2860",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.74762,
    "lon": 12.486144,
    "valuation": 9450000,
@@ -2163,7 +2165,7 @@
    "score": 27,
    "signals": {
     "m2": 0.395,
-    "valuation": 0.354,
+    "valuation": 0.352,
     "plot": 0.131,
     "rooms": -0.103,
     "scarcity": -1.2
@@ -2175,7 +2177,7 @@
    ],
    "warnings": [],
    "base_score": 44,
-   "taste": 39,
+   "taste": 38,
    "pick_type": "earlier"
   },
   "https://www.boligsiden.dk/adresse/kagsaavej-19-2860-soeborg": {
@@ -2187,11 +2189,11 @@
    "plot_m2": 840,
    "rooms": 5,
    "owner_cost_month": 3861,
-   "days_on_market": 30,
-   "days_total": 30,
+   "days_on_market": 31,
+   "days_total": 31,
    "postcode": "2860",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.73444,
    "lon": 12.453558,
    "year_built": 1927,
@@ -2224,11 +2226,11 @@
    "plot_m2": 994,
    "rooms": 8,
    "owner_cost_month": 5227,
-   "days_on_market": 32,
-   "days_total": 385,
+   "days_on_market": 33,
+   "days_total": 386,
    "postcode": "2860",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.74427,
    "lon": 12.48696,
    "valuation": 10026000,
@@ -2236,10 +2238,10 @@
    "detail_checked": true,
    "active": true,
    "area": "Søborg",
-   "score": 38,
+   "score": 39,
    "signals": {
     "m2": 0.341,
-    "valuation": 0.422,
+    "valuation": 0.42,
     "plot": 0.204,
     "rooms": 0.513,
     "scarcity": -1.2
@@ -2251,7 +2253,7 @@
    ],
    "warnings": [],
    "base_score": 57,
-   "taste": 41,
+   "taste": 42,
    "pick_type": "earlier"
   },
   "https://www.boligsiden.dk/adresse/daltoftevej-7-2860-soeborg": {
@@ -2263,11 +2265,11 @@
    "plot_m2": 1095,
    "rooms": 4,
    "owner_cost_month": 5285,
-   "days_on_market": 34,
-   "days_total": 34,
+   "days_on_market": 35,
+   "days_total": 35,
    "postcode": "2860",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.729168,
    "lon": 12.504052,
    "valuation": 6075000,
@@ -2278,7 +2280,7 @@
    "score": -22,
    "signals": {
     "m2": -0.202,
-    "valuation": -0.04,
+    "valuation": -0.043,
     "plot": 0.217,
     "rooms": -0.306,
     "scarcity": -1.2
@@ -2301,11 +2303,11 @@
    "plot_m2": 606,
    "rooms": 5,
    "owner_cost_month": 4029,
-   "days_on_market": 35,
-   "days_total": 35,
+   "days_on_market": 36,
+   "days_total": 36,
    "postcode": "2860",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.72628,
    "lon": 12.465707,
    "valuation": 4516000,
@@ -2316,7 +2318,7 @@
    "score": -12,
    "signals": {
     "m2": 0.069,
-    "valuation": -0.088,
+    "valuation": -0.091,
     "plot": -0.134,
     "rooms": 0.116,
     "scarcity": -1.2
@@ -2329,7 +2331,7 @@
     "small plot for the price: 606 m²"
    ],
    "base_score": -15,
-   "taste": 48
+   "taste": 49
   },
   "https://www.boligsiden.dk/adresse/snogegaardsvej-147-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/snogegaardsvej-147-2860-soeborg",
@@ -2340,11 +2342,11 @@
    "plot_m2": 965,
    "rooms": 5,
    "owner_cost_month": 5383,
-   "days_on_market": 49,
-   "days_total": 49,
+   "days_on_market": 50,
+   "days_total": 50,
    "postcode": "2860",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.750156,
    "lon": 12.497479,
    "valuation": 6855000,
@@ -2355,7 +2357,7 @@
    "score": -9,
    "signals": {
     "m2": -0.12,
-    "valuation": 0.083,
+    "valuation": 0.08,
     "plot": 0.077,
     "rooms": -0.128,
     "scarcity": -1.2
@@ -2368,7 +2370,7 @@
     "m² price 12 % above the area's level (55.677 vs. 49.728 kr./m², sales last 6 months)"
    ],
    "base_score": -23,
-   "taste": 67
+   "taste": 66
   },
   "https://www.boligsiden.dk/adresse/oktobervej-121-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/oktobervej-121-2860-soeborg",
@@ -2456,11 +2458,11 @@
    "plot_m2": 608,
    "rooms": 4,
    "owner_cost_month": 4111,
-   "days_on_market": 63,
-   "days_total": 63,
+   "days_on_market": 64,
+   "days_total": 64,
    "postcode": "2860",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.722588,
    "lon": 12.465841,
    "valuation": 4453000,
@@ -2471,7 +2473,7 @@
    "score": 19,
    "signals": {
     "m2": 0.218,
-    "valuation": 0.165,
+    "valuation": 0.162,
     "plot": 0.147,
     "rooms": 0.179,
     "scarcity": -1.2
@@ -2494,11 +2496,11 @@
    "plot_m2": 647,
    "rooms": 5,
    "owner_cost_month": 3934,
-   "days_on_market": 85,
-   "days_total": 85,
+   "days_on_market": 86,
+   "days_total": 86,
    "postcode": "2860",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.725826,
    "lon": 12.458023,
    "valuation": 5209000,
@@ -2509,7 +2511,7 @@
    "score": -5,
    "signals": {
     "m2": -0.017,
-    "valuation": 0.125,
+    "valuation": 0.122,
     "plot": -0.005,
     "rooms": 0.201,
     "scarcity": -1.2
@@ -2568,12 +2570,12 @@
    "living_m2": 70,
    "plot_m2": 648,
    "rooms": 3,
-   "owner_cost_month": 3581,
-   "days_on_market": 90,
-   "days_total": 90,
+   "owner_cost_month": 3782,
+   "days_on_market": 91,
+   "days_total": 91,
    "postcode": "2860",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.726078,
    "lon": 12.458334,
    "valuation": 3434000,
@@ -2584,7 +2586,7 @@
    "score": -2,
    "signals": {
     "m2": 0.146,
-    "valuation": 0.03,
+    "valuation": 0.026,
     "plot": 0.365,
     "rooms": -0.013,
     "scarcity": -1.2
@@ -2596,7 +2598,7 @@
    ],
    "warnings": [],
    "base_score": 14,
-   "taste": 26
+   "taste": 25
   },
   "https://www.boligsiden.dk/adresse/pilegaardens-haveby-44-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/pilegaardens-haveby-44-2860-soeborg",
@@ -2639,11 +2641,11 @@
    "plot_m2": 604,
    "rooms": 5,
    "owner_cost_month": 4344,
-   "days_on_market": 106,
-   "days_total": 106,
+   "days_on_market": 107,
+   "days_total": 107,
    "postcode": "2860",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.7271,
    "lon": 12.466933,
    "valuation": 5178000,
@@ -2654,7 +2656,7 @@
    "score": -11,
    "signals": {
     "m2": 0.144,
-    "valuation": -0.05,
+    "valuation": -0.054,
     "plot": -0.221,
     "rooms": 0.008,
     "scarcity": -1.2
@@ -2677,11 +2679,11 @@
    "plot_m2": 646,
    "rooms": 4,
    "owner_cost_month": 4418,
-   "days_on_market": 139,
-   "days_total": 404,
+   "days_on_market": 140,
+   "days_total": 405,
    "postcode": "2860",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.728527,
    "lon": 12.462236,
    "valuation": 5027000,
@@ -2692,7 +2694,7 @@
    "score": 22,
    "signals": {
     "m2": 0.321,
-    "valuation": 0.205,
+    "valuation": 0.202,
     "plot": 0.134,
     "rooms": 0.096,
     "scarcity": -1.2
@@ -2715,11 +2717,11 @@
    "plot_m2": 605,
    "rooms": 6,
    "owner_cost_month": 5631,
-   "days_on_market": 147,
-   "days_total": 147,
+   "days_on_market": 148,
+   "days_total": 148,
    "postcode": "2860",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.74825,
    "lon": 12.480272,
    "valuation": 7430000,
@@ -2730,7 +2732,7 @@
    "score": -45,
    "signals": {
     "m2": -0.263,
-    "valuation": 0.169,
+    "valuation": 0.166,
     "plot": -0.313,
     "rooms": 0.065,
     "scarcity": -1.2
@@ -2754,11 +2756,11 @@
    "plot_m2": 686,
    "rooms": 4,
    "owner_cost_month": 3322,
-   "days_on_market": 167,
-   "days_total": 370,
+   "days_on_market": 168,
+   "days_total": 371,
    "postcode": "2860",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.735584,
    "lon": 12.457801,
    "valuation": 3875000,
@@ -2769,7 +2771,7 @@
    "score": 9,
    "signals": {
     "m2": 0.163,
-    "valuation": 0.003,
+    "valuation": 0.0,
     "plot": 0.246,
     "rooms": 0.135,
     "scarcity": -1.2
@@ -2792,11 +2794,11 @@
    "plot_m2": 674,
    "rooms": 5,
    "owner_cost_month": 4299,
-   "days_on_market": 172,
-   "days_total": 172,
+   "days_on_market": 173,
+   "days_total": 173,
    "postcode": "2860",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.741524,
    "lon": 12.487618,
    "valuation": 5752000,
@@ -2807,7 +2809,7 @@
    "score": -2,
    "signals": {
     "m2": 0.118,
-    "valuation": 0.012,
+    "valuation": 0.008,
     "plot": -0.168,
     "rooms": -0.036,
     "scarcity": -1.2
@@ -2830,11 +2832,11 @@
    "plot_m2": 591,
    "rooms": 3,
    "owner_cost_month": 4147,
-   "days_on_market": 173,
-   "days_total": 173,
+   "days_on_market": 174,
+   "days_total": 174,
    "postcode": "2860",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.72154,
    "lon": 12.4657545,
    "valuation": 4438000,
@@ -2845,7 +2847,7 @@
    "score": -4,
    "signals": {
     "m2": 0.203,
-    "valuation": 0.131,
+    "valuation": 0.128,
     "plot": 0.075,
     "rooms": -0.148,
     "scarcity": -1.2
@@ -2857,7 +2859,7 @@
    ],
    "warnings": [],
    "base_score": 11,
-   "taste": 26
+   "taste": 25
   },
   "https://www.boligsiden.dk/adresse/aprilvej-88-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/aprilvej-88-2860-soeborg",
@@ -2868,11 +2870,11 @@
    "plot_m2": 679,
    "rooms": 6,
    "owner_cost_month": 5158,
-   "days_on_market": 194,
-   "days_total": 475,
+   "days_on_market": 195,
+   "days_total": 476,
    "postcode": "2860",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.725388,
    "lon": 12.458541,
    "valuation": 6521000,
@@ -2883,7 +2885,7 @@
    "score": 27,
    "signals": {
     "m2": 0.453,
-    "valuation": 0.311,
+    "valuation": 0.309,
     "plot": 0.061,
     "rooms": 0.464,
     "scarcity": -1.2
@@ -2944,11 +2946,11 @@
    "plot_m2": 773,
    "rooms": 11,
    "owner_cost_month": 4127,
-   "days_on_market": 253,
-   "days_total": 253,
+   "days_on_market": 254,
+   "days_total": 254,
    "postcode": "2860",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.73414,
    "lon": 12.455936,
    "valuation": 5662000,
@@ -2959,7 +2961,7 @@
    "score": 45,
    "signals": {
     "m2": 0.567,
-    "valuation": 0.381,
+    "valuation": 0.378,
     "plot": 0.547,
     "rooms": 2.437,
     "scarcity": -1.2
@@ -2983,11 +2985,11 @@
    "plot_m2": 790,
    "rooms": 5,
    "owner_cost_month": 3967,
-   "days_on_market": 265,
-   "days_total": 274,
+   "days_on_market": 266,
+   "days_total": 275,
    "postcode": "2860",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.75007,
    "lon": 12.47765,
    "valuation": 4733000,
@@ -2998,7 +3000,7 @@
    "score": 39,
    "signals": {
     "m2": 0.256,
-    "valuation": 0.155,
+    "valuation": 0.152,
     "plot": 0.386,
     "rooms": 0.37,
     "scarcity": -1.2
@@ -3060,11 +3062,11 @@
    "plot_m2": 600,
    "rooms": 4,
    "owner_cost_month": 4062,
-   "days_on_market": 413,
-   "days_total": 413,
+   "days_on_market": 414,
+   "days_total": 414,
    "postcode": "2860",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.7223,
    "lon": 12.465865,
    "valuation": 4801000,
@@ -3072,10 +3074,10 @@
    "detail_checked": true,
    "active": true,
    "area": "Søborg",
-   "score": 1,
+   "score": 2,
    "signals": {
     "m2": 0.282,
-    "valuation": 0.05,
+    "valuation": 0.047,
     "plot": -0.077,
     "rooms": -0.039,
     "scarcity": -1.2
@@ -3097,11 +3099,11 @@
    "plot_m2": 627,
    "rooms": 5,
    "owner_cost_month": 5217,
-   "days_on_market": 27,
-   "days_total": 27,
+   "days_on_market": 28,
+   "days_total": 28,
    "postcode": "2870",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.734814,
    "lon": 12.533538,
    "valuation": 6017000,
@@ -3112,7 +3114,7 @@
    "score": -4,
    "signals": {
     "m2": 0.045,
-    "valuation": -0.05,
+    "valuation": -0.053,
     "plot": -0.303,
     "rooms": -0.133,
     "scarcity": 0.5
@@ -3136,11 +3138,11 @@
    "plot_m2": 486,
    "rooms": 4,
    "owner_cost_month": 4703,
-   "days_on_market": 39,
-   "days_total": 112,
+   "days_on_market": 40,
+   "days_total": 113,
    "postcode": "2870",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.731247,
    "lon": 12.521985,
    "valuation": 6716000,
@@ -3151,7 +3153,7 @@
    "score": -1,
    "signals": {
     "m2": 0.151,
-    "valuation": 0.111,
+    "valuation": 0.108,
     "plot": -0.429,
     "rooms": -0.266,
     "scarcity": 0.5
@@ -3176,11 +3178,11 @@
    "plot_m2": 671,
    "rooms": 5,
    "owner_cost_month": 3860,
-   "days_on_market": 50,
-   "days_total": 50,
+   "days_on_market": 51,
+   "days_total": 51,
    "postcode": "2870",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.737957,
    "lon": 12.524133,
    "valuation": 5459000,
@@ -3188,10 +3190,10 @@
    "detail_checked": true,
    "active": true,
    "area": "Dyssegård",
-   "score": 18,
+   "score": 17,
    "signals": {
     "m2": 0.157,
-    "valuation": 0.036,
+    "valuation": 0.033,
     "plot": -0.105,
     "rooms": 0.041,
     "scarcity": 0.5
@@ -3202,7 +3204,7 @@
     "asking price is 1.37× the public valuation (typical 1.42×)"
    ],
    "warnings": [],
-   "base_score": 30,
+   "base_score": 29,
    "taste": 41
   },
   "https://www.boligsiden.dk/adresse/gladsaxevej-6-2870-dyssegaard": {
@@ -3214,11 +3216,11 @@
    "plot_m2": 827,
    "rooms": 4,
    "owner_cost_month": 4095,
-   "days_on_market": 67,
-   "days_total": 67,
+   "days_on_market": 68,
+   "days_total": 68,
    "postcode": "2870",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.72799,
    "lon": 12.523514,
    "year_built": 1921,
@@ -3290,11 +3292,11 @@
    "plot_m2": 916,
    "rooms": 4,
    "owner_cost_month": 6349,
-   "days_on_market": 42,
-   "days_total": 42,
+   "days_on_market": 43,
+   "days_total": 43,
    "postcode": "2820",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.74874,
    "lon": 12.507821,
    "valuation": 7721000,
@@ -3305,14 +3307,14 @@
    "score": 4,
    "signals": {
     "m2": -0.112,
-    "valuation": 0.227,
+    "valuation": 0.225,
     "plot": 0.078,
     "rooms": -0.265,
     "scarcity": 0.3
    },
    "reasons": [
-    "asking price is 1.10× the public valuation (typical 1.42×)",
     "only 7 houses under 9 mio. for sale in Vangede",
+    "asking price is 1.10× the public valuation (typical 1.42×)",
     "large plot for the price: 916 m²"
    ],
    "warnings": [
@@ -3330,11 +3332,11 @@
    "plot_m2": 1524,
    "rooms": 4,
    "owner_cost_month": 5783,
-   "days_on_market": 84,
-   "days_total": 84,
+   "days_on_market": 85,
+   "days_total": 85,
    "postcode": "2820",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.76808,
    "lon": 12.5270605,
    "valuation": 7337000,
@@ -3352,11 +3354,11 @@
    "plot_m2": 265,
    "rooms": 4,
    "owner_cost_month": 4898,
-   "days_on_market": 118,
-   "days_total": 118,
+   "days_on_market": 119,
+   "days_total": 119,
    "postcode": "2820",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.737946,
    "lon": 12.537916,
    "valuation": 6620000,
@@ -3367,7 +3369,7 @@
    "score": -21,
    "signals": {
     "m2": 0.034,
-    "valuation": 0.152,
+    "valuation": 0.149,
     "plot": -0.669,
     "rooms": -0.219,
     "scarcity": 0.3
@@ -3392,11 +3394,11 @@
    "plot_m2": 972,
    "rooms": 7,
    "owner_cost_month": 5980,
-   "days_on_market": 127,
-   "days_total": 127,
+   "days_on_market": 128,
+   "days_total": 128,
    "postcode": "2820",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.742256,
    "lon": 12.533627,
    "year_built": 1946,
@@ -3429,11 +3431,11 @@
    "plot_m2": 900,
    "rooms": 3,
    "owner_cost_month": 2848,
-   "days_on_market": 162,
-   "days_total": 162,
+   "days_on_market": 163,
+   "days_total": 163,
    "postcode": "2820",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.744453,
    "lon": 12.520014,
    "valuation": 4551000,
@@ -3444,7 +3446,7 @@
    "score": -27,
    "signals": {
     "m2": -0.334,
-    "valuation": -0.126,
+    "valuation": -0.129,
     "plot": 0.233,
     "rooms": -0.358,
     "scarcity": 0.3
@@ -3457,7 +3459,7 @@
     "m² price 33 % above the area's level (72.228 vs. 54.158 kr./m², sales last 12 months)"
    ],
    "base_score": -29,
-   "taste": 40
+   "taste": 39
   },
   "https://www.boligsiden.dk/adresse/roerskaersvej-22-2820-gentofte": {
    "url": "https://www.boligsiden.dk/adresse/roerskaersvej-22-2820-gentofte",
@@ -3507,11 +3509,11 @@
    "plot_m2": 471,
    "rooms": 5,
    "owner_cost_month": 4224,
-   "days_on_market": 245,
-   "days_total": 245,
+   "days_on_market": 246,
+   "days_total": 246,
    "postcode": "2820",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.75225,
    "lon": 12.522703,
    "valuation": 5179000,
@@ -3522,7 +3524,7 @@
    "score": 37,
    "signals": {
     "m2": 0.358,
-    "valuation": 0.255,
+    "valuation": 0.252,
     "plot": -0.143,
     "rooms": 0.42,
     "scarcity": 0.3
@@ -3536,7 +3538,7 @@
     "small plot for the price: 471 m²"
    ],
    "base_score": 64,
-   "taste": 28,
+   "taste": 29,
    "pick_type": "earlier"
   },
   "https://www.boligsiden.dk/adresse/viemosevej-63a-2610-roedovre": {
@@ -3587,11 +3589,11 @@
    "plot_m2": 609,
    "rooms": 4,
    "owner_cost_month": 3632,
-   "days_on_market": 27,
-   "days_total": 27,
+   "days_on_market": 28,
+   "days_total": 28,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.714527,
    "lon": 12.447565,
    "valuation": 3179000,
@@ -3602,10 +3604,10 @@
    "score": 6,
    "signals": {
     "m2": 0.185,
-    "valuation": 0.029,
+    "valuation": 0.026,
     "plot": 0.385,
     "rooms": 0.42,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "m² price 19 % below the area's level (38.757 vs. 47.583 kr./m², sales last 6 months)",
@@ -3625,11 +3627,11 @@
    "plot_m2": 465,
    "rooms": 4,
    "owner_cost_month": 3485,
-   "days_on_market": 27,
-   "days_total": 27,
+   "days_on_market": 28,
+   "days_total": 28,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.686607,
    "lon": 12.450881,
    "valuation": 3378000,
@@ -3640,10 +3642,10 @@
    "score": -33,
    "signals": {
     "m2": 0.046,
-    "valuation": -0.184,
+    "valuation": -0.188,
     "plot": -0.184,
     "rooms": 0.096,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "m² price 5 % below the area's level (45.415 vs. 47.583 kr./m², sales last 6 months)",
@@ -3664,11 +3666,11 @@
    "plot_m2": 728,
    "rooms": 4,
    "owner_cost_month": 4217,
-   "days_on_market": 28,
-   "days_total": 28,
+   "days_on_market": 29,
+   "days_total": 29,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.71027,
    "lon": 12.448745,
    "valuation": 4058000,
@@ -3679,17 +3681,17 @@
    "score": -27,
    "signals": {
     "m2": -0.0,
-    "valuation": -0.349,
+    "valuation": -0.353,
     "plot": -0.067,
     "rooms": -0.199,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [],
    "warnings": [
     "asking price is 1.92× the public valuation (typical 1.42×)"
    ],
    "base_score": -40,
-   "taste": 56
+   "taste": 57
   },
   "https://www.boligsiden.dk/adresse/henry-heerups-vej-21-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/henry-heerups-vej-21-2610-roedovre",
@@ -3700,11 +3702,11 @@
    "plot_m2": 644,
    "rooms": 4,
    "owner_cost_month": 3901,
-   "days_on_market": 29,
-   "days_total": 161,
+   "days_on_market": 30,
+   "days_total": 162,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.68505,
    "lon": 12.43994,
    "valuation": 4370000,
@@ -3715,10 +3717,10 @@
    "score": -38,
    "signals": {
     "m2": -0.055,
-    "valuation": -0.204,
+    "valuation": -0.208,
     "plot": -0.141,
     "rooms": -0.167,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [],
    "warnings": [
@@ -3772,11 +3774,11 @@
    "plot_m2": 804,
    "rooms": 3,
    "owner_cost_month": 3373,
-   "days_on_market": 39,
-   "days_total": 122,
+   "days_on_market": 40,
+   "days_total": 123,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.681355,
    "lon": 12.466643,
    "valuation": 8090000,
@@ -3787,10 +3789,10 @@
    "score": -32,
    "signals": {
     "m2": -0.52,
-    "valuation": 0.349,
+    "valuation": 0.347,
     "plot": 0.072,
     "rooms": -0.375,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "asking price is 0.93× the public valuation (typical 1.42×)",
@@ -3850,11 +3852,11 @@
    "plot_m2": 666,
    "rooms": 4,
    "owner_cost_month": 4240,
-   "days_on_market": 42,
-   "days_total": 42,
+   "days_on_market": 43,
+   "days_total": 43,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.687115,
    "lon": 12.448883,
    "valuation": 4158000,
@@ -3862,19 +3864,19 @@
    "detail_checked": true,
    "active": true,
    "area": "Rødovre",
-   "score": -54,
+   "score": -55,
    "signals": {
     "m2": -0.282,
-    "valuation": -0.35,
+    "valuation": -0.355,
     "plot": -0.168,
     "rooms": -0.219,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [],
    "warnings": [
     "m² price 28 % above the area's level (61.007 vs. 47.583 kr./m², sales last 6 months)"
    ],
-   "base_score": -72,
+   "base_score": -73,
    "taste": 49
   },
   "https://www.boligsiden.dk/adresse/lysbrovej-25-2610-roedovre": {
@@ -3886,11 +3888,11 @@
    "plot_m2": 641,
    "rooms": 3,
    "owner_cost_month": 4224,
-   "days_on_market": 48,
-   "days_total": 48,
+   "days_on_market": 49,
+   "days_total": 49,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.71253,
    "lon": 12.444264,
    "valuation": 3490000,
@@ -3901,10 +3903,10 @@
    "score": -42,
    "signals": {
     "m2": -0.123,
-    "valuation": -0.206,
+    "valuation": -0.21,
     "plot": 0.069,
     "rooms": -0.219,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "large plot for the price: 641 m²"
@@ -3913,7 +3915,7 @@
     "m² price 12 % above the area's level (53.431 vs. 47.583 kr./m², sales last 6 months)"
    ],
    "base_score": -41,
-   "taste": 27
+   "taste": 28
   },
   "https://www.boligsiden.dk/adresse/medelbyvej-18a-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/medelbyvej-18a-2610-roedovre",
@@ -3924,11 +3926,11 @@
    "plot_m2": 343,
    "rooms": 3,
    "owner_cost_month": 3412,
-   "days_on_market": 48,
-   "days_total": 48,
+   "days_on_market": 49,
+   "days_total": 49,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.670166,
    "lon": 12.466062,
    "valuation": 3881000,
@@ -3939,10 +3941,10 @@
    "score": -68,
    "signals": {
     "m2": -0.278,
-    "valuation": -0.012,
+    "valuation": -0.016,
     "plot": -0.387,
     "rooms": -0.163,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [],
    "warnings": [
@@ -3960,11 +3962,11 @@
    "plot_m2": 562,
    "rooms": 6,
    "owner_cost_month": 3797,
-   "days_on_market": 49,
-   "days_total": 49,
+   "days_on_market": 50,
+   "days_total": 50,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.702847,
    "lon": 12.439478,
    "valuation": 4140000,
@@ -3975,10 +3977,10 @@
    "score": -50,
    "signals": {
     "m2": -0.1,
-    "valuation": -0.408,
+    "valuation": -0.412,
     "plot": -0.323,
     "rooms": 0.128,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "6 rooms for 8,3 mio."
@@ -4034,11 +4036,11 @@
    "plot_m2": 704,
    "rooms": 5,
    "owner_cost_month": 4646,
-   "days_on_market": 55,
-   "days_total": 55,
+   "days_on_market": 56,
+   "days_total": 56,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.68588,
    "lon": 12.449757,
    "valuation": 5404000,
@@ -4046,20 +4048,20 @@
    "detail_checked": true,
    "active": true,
    "area": "Rødovre",
-   "score": 2,
+   "score": 3,
    "signals": {
     "m2": 0.133,
-    "valuation": -0.013,
+    "valuation": -0.016,
     "plot": -0.097,
     "rooms": 0.001,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "m² price 13 % below the area's level (41.276 vs. 47.583 kr./m², sales last 6 months)"
    ],
    "warnings": [],
    "base_score": -6,
-   "taste": 63
+   "taste": 64
   },
   "https://www.boligsiden.dk/adresse/torsoevej-13-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/torsoevej-13-2610-roedovre",
@@ -4070,11 +4072,11 @@
    "plot_m2": 756,
    "rooms": 7,
    "owner_cost_month": 3931,
-   "days_on_market": 55,
-   "days_total": 55,
+   "days_on_market": 56,
+   "days_total": 56,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.709854,
    "lon": 12.441718,
    "valuation": 3413000,
@@ -4082,13 +4084,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Rødovre",
-   "score": -57,
+   "score": -58,
    "signals": {
     "m2": -0.343,
-    "valuation": -0.645,
+    "valuation": -0.65,
     "plot": -0.055,
     "rooms": 0.366,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "7 rooms for 8,0 mio."
@@ -4108,11 +4110,11 @@
    "plot_m2": 848,
    "rooms": 5,
    "owner_cost_month": 4133,
-   "days_on_market": 56,
-   "days_total": 56,
+   "days_on_market": 57,
+   "days_total": 57,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.707245,
    "lon": 12.431382,
    "valuation": 3359000,
@@ -4120,13 +4122,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Rødovre",
-   "score": 17,
+   "score": 18,
    "signals": {
     "m2": 0.205,
-    "valuation": -0.149,
+    "valuation": -0.153,
     "plot": 0.542,
     "rooms": 0.42,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "m² price 20 % below the area's level (37.831 vs. 47.583 kr./m², sales last 6 months)",
@@ -4137,7 +4139,7 @@
     "asking price is 1.64× the public valuation (typical 1.42×)"
    ],
    "base_score": 23,
-   "taste": 50
+   "taste": 51
   },
   "https://www.boligsiden.dk/adresse/torbistvej-21-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/torbistvej-21-2610-roedovre",
@@ -4148,11 +4150,11 @@
    "plot_m2": 840,
    "rooms": 4,
    "owner_cost_month": 3338,
-   "days_on_market": 57,
-   "days_total": 57,
+   "days_on_market": 58,
+   "days_total": 58,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.703163,
    "lon": 12.449663,
    "valuation": 3130000,
@@ -4163,10 +4165,10 @@
    "score": -4,
    "signals": {
     "m2": 0.001,
-    "valuation": -0.121,
+    "valuation": -0.124,
     "plot": 0.681,
     "rooms": 0.25,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "large plot for the price: 840 m²",
@@ -4187,11 +4189,11 @@
    "plot_m2": 651,
    "rooms": 6,
    "owner_cost_month": 3928,
-   "days_on_market": 61,
-   "days_total": 61,
+   "days_on_market": 62,
+   "days_total": 62,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.703445,
    "lon": 12.443144,
    "year_built": 1950,
@@ -4203,7 +4205,7 @@
     "m2": 0.205,
     "plot": -0.07,
     "rooms": 0.339,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "m² price 20 % below the area's level (37.831 vs. 47.583 kr./m², sales last 6 months)",
@@ -4211,7 +4213,7 @@
    ],
    "warnings": [],
    "base_score": 14,
-   "taste": 50
+   "taste": 52
   },
   "https://www.boligsiden.dk/adresse/pantervej-5a-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/pantervej-5a-2610-roedovre",
@@ -4222,11 +4224,11 @@
    "plot_m2": 595,
    "rooms": 3,
    "owner_cost_month": 4013,
-   "days_on_market": 62,
-   "days_total": 62,
+   "days_on_market": 63,
+   "days_total": 63,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.668995,
    "lon": 12.476844,
    "valuation": 3663000,
@@ -4237,10 +4239,10 @@
    "score": -63,
    "signals": {
     "m2": -0.373,
-    "valuation": -0.102,
+    "valuation": -0.106,
     "plot": 0.034,
     "rooms": -0.186,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "large plot for the price: 595 m²"
@@ -4298,11 +4300,11 @@
    "plot_m2": 1011,
    "rooms": 3,
    "owner_cost_month": 3982,
-   "days_on_market": 67,
-   "days_total": 67,
+   "days_on_market": 68,
+   "days_total": 68,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.693005,
    "lon": 12.454583,
    "valuation": 3904000,
@@ -4310,13 +4312,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Rødovre",
-   "score": -9,
+   "score": -8,
    "signals": {
     "m2": 0.052,
-    "valuation": -0.168,
+    "valuation": -0.172,
     "plot": 0.556,
     "rooms": -0.279,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "large plot for the price: 1.011 m²",
@@ -4326,7 +4328,7 @@
     "asking price is 1.66× the public valuation (typical 1.42×)"
    ],
    "base_score": -10,
-   "taste": 48
+   "taste": 49
   },
   "https://www.boligsiden.dk/adresse/nyager-vaenge-8-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/nyager-vaenge-8-2610-roedovre",
@@ -4337,11 +4339,11 @@
    "plot_m2": 595,
    "rooms": 5,
    "owner_cost_month": 4524,
-   "days_on_market": 69,
-   "days_total": 69,
+   "days_on_market": 70,
+   "days_total": 70,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.689972,
    "lon": 12.446682,
    "valuation": 4468000,
@@ -4349,20 +4351,20 @@
    "detail_checked": true,
    "active": true,
    "area": "Rødovre",
-   "score": -42,
+   "score": -43,
    "signals": {
     "m2": -0.112,
-    "valuation": -0.226,
+    "valuation": -0.23,
     "plot": -0.238,
     "rooms": 0.0,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [],
    "warnings": [
     "asking price is 1.75× the public valuation (typical 1.42×)"
    ],
-   "base_score": -46,
-   "taste": 34
+   "base_score": -47,
+   "taste": 35
   },
   "https://www.boligsiden.dk/adresse/mosehusvej-4-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/mosehusvej-4-2610-roedovre",
@@ -4373,11 +4375,11 @@
    "plot_m2": 900,
    "rooms": 5,
    "owner_cost_month": 4619,
-   "days_on_market": 71,
-   "days_total": 71,
+   "days_on_market": 72,
+   "days_total": 72,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.706497,
    "lon": 12.43325,
    "valuation": 4426000,
@@ -4385,13 +4387,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Rødovre",
-   "score": -6,
+   "score": -7,
    "signals": {
     "m2": -0.024,
-    "valuation": -0.189,
+    "valuation": -0.193,
     "plot": 0.2,
     "rooms": 0.041,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "large plot for the price: 900 m²",
@@ -4400,7 +4402,7 @@
    "warnings": [
     "asking price is 1.69× the public valuation (typical 1.42×)"
    ],
-   "base_score": -18,
+   "base_score": -19,
    "taste": 65
   },
   "https://www.boligsiden.dk/adresse/groenlunds-alle-21-2610-roedovre": {
@@ -4412,30 +4414,30 @@
    "plot_m2": 502,
    "rooms": 4,
    "owner_cost_month": 4279,
-   "days_on_market": 71,
-   "days_total": 71,
+   "days_on_market": 72,
+   "days_total": 72,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.68675,
    "lon": 12.459715,
    "year_built": 1935,
    "detail_checked": true,
    "active": true,
    "area": "Rødovre",
-   "score": -37,
+   "score": -36,
    "signals": {
     "m2": -0.058,
     "plot": -0.283,
     "rooms": -0.108,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [],
    "warnings": [
     "small plot for the price: 502 m²"
    ],
    "base_score": -43,
-   "taste": 41
+   "taste": 42
   },
   "https://www.boligsiden.dk/adresse/forsythiastien-39-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/forsythiastien-39-2610-roedovre",
@@ -4446,11 +4448,11 @@
    "plot_m2": 400,
    "rooms": 1,
    "owner_cost_month": 1158,
-   "days_on_market": 76,
-   "days_total": 76,
+   "days_on_market": 77,
+   "days_total": 77,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.69189,
    "lon": 12.440511,
    "year_built": 2008,
@@ -4462,7 +4464,7 @@
     "m2": 0.34,
     "plot": 1.358,
     "rooms": -0.079,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "m² price 34 % below the area's level (31.389 vs. 47.583 kr./m², sales last 6 months)",
@@ -4481,11 +4483,11 @@
    "plot_m2": 700,
    "rooms": 5,
    "owner_cost_month": 3863,
-   "days_on_market": 85,
-   "days_total": 85,
+   "days_on_market": 86,
+   "days_total": 86,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.71288,
    "lon": 12.443001,
    "valuation": 3322000,
@@ -4496,10 +4498,10 @@
    "score": -63,
    "signals": {
     "m2": -0.069,
-    "valuation": -0.849,
+    "valuation": -0.856,
     "plot": -0.201,
     "rooms": -0.108,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [],
    "warnings": [
@@ -4517,11 +4519,11 @@
    "plot_m2": 754,
    "rooms": 3,
    "owner_cost_month": 3662,
-   "days_on_market": 95,
-   "days_total": 175,
+   "days_on_market": 96,
+   "days_total": 176,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.69094,
    "lon": 12.447926,
    "valuation": 2983000,
@@ -4532,10 +4534,10 @@
    "score": -46,
    "signals": {
     "m2": -0.118,
-    "valuation": -0.411,
+    "valuation": -0.416,
     "plot": 0.257,
     "rooms": -0.219,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "large plot for the price: 754 m²"
@@ -4544,7 +4546,7 @@
     "asking price is 2.01× the public valuation (typical 1.42×)"
    ],
    "base_score": -43,
-   "taste": 22
+   "taste": 23
   },
   "https://www.boligsiden.dk/adresse/koldbyvej-22-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/koldbyvej-22-2610-roedovre",
@@ -4555,11 +4557,11 @@
    "plot_m2": 771,
    "rooms": 3,
    "owner_cost_month": 3911,
-   "days_on_market": 97,
-   "days_total": 97,
+   "days_on_market": 98,
+   "days_total": 98,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.70783,
    "lon": 12.443377,
    "valuation": 3517000,
@@ -4570,10 +4572,10 @@
    "score": -12,
    "signals": {
     "m2": 0.031,
-    "valuation": -0.057,
+    "valuation": -0.061,
     "plot": 0.455,
     "rooms": -0.116,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "large plot for the price: 771 m²",
@@ -4581,7 +4583,7 @@
    ],
    "warnings": [],
    "base_score": -3,
-   "taste": 30
+   "taste": 31
   },
   "https://www.boligsiden.dk/adresse/vamdrupvej-22-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/vamdrupvej-22-2610-roedovre",
@@ -4592,11 +4594,11 @@
    "plot_m2": 634,
    "rooms": 4,
    "owner_cost_month": 4654,
-   "days_on_market": 99,
-   "days_total": 99,
+   "days_on_market": 100,
+   "days_total": 100,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.669533,
    "lon": 12.46917,
    "valuation": 4128000,
@@ -4607,10 +4609,10 @@
    "score": -38,
    "signals": {
     "m2": -0.111,
-    "valuation": -0.275,
+    "valuation": -0.279,
     "plot": -0.155,
     "rooms": -0.167,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [],
    "warnings": [
@@ -4628,11 +4630,11 @@
    "plot_m2": 653,
    "rooms": 5,
    "owner_cost_month": 3887,
-   "days_on_market": 99,
-   "days_total": 99,
+   "days_on_market": 100,
+   "days_total": 100,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.700043,
    "lon": 12.445735,
    "valuation": 3005000,
@@ -4643,10 +4645,10 @@
    "score": -16,
    "signals": {
     "m2": 0.187,
-    "valuation": -0.401,
+    "valuation": -0.406,
     "plot": 0.089,
     "rooms": 0.302,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "m² price 19 % below the area's level (38.677 vs. 47.583 kr./m², sales last 6 months)",
@@ -4662,17 +4664,17 @@
   "https://www.boligsiden.dk/adresse/bluevang-alle-15-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/bluevang-alle-15-2610-roedovre",
    "address": "Bluevang Alle 15, 2610 Rødovre",
-   "price": 5975000,
-   "m2_price": 44573,
+   "price": 5795000,
+   "m2_price": 43230,
    "living_m2": 124,
    "plot_m2": 661,
    "rooms": 5,
    "owner_cost_month": 3767,
-   "days_on_market": 103,
-   "days_total": 103,
+   "days_on_market": 104,
+   "days_total": 104,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.7108,
    "lon": 12.449871,
    "valuation": 3605000,
@@ -4680,23 +4682,23 @@
    "detail_checked": true,
    "active": true,
    "area": "Rødovre",
-   "score": -9,
+   "score": -4,
    "signals": {
-    "m2": 0.063,
-    "valuation": -0.164,
-    "plot": 0.106,
-    "rooms": 0.306,
-    "scarcity": -4.9
+    "m2": 0.091,
+    "valuation": -0.133,
+    "plot": 0.14,
+    "rooms": 0.347,
+    "scarcity": -4.8
    },
    "reasons": [
-    "5 rooms for 6,0 mio.",
-    "m² price 6 % below the area's level (44.573 vs. 47.583 kr./m², sales last 6 months)",
+    "m² price 9 % below the area's level (43.230 vs. 47.583 kr./m², sales last 6 months)",
+    "5 rooms for 5,8 mio.",
     "large plot for the price: 661 m²"
    ],
    "warnings": [
-    "asking price is 1.66× the public valuation (typical 1.42×)"
+    "asking price is 1.61× the public valuation (typical 1.42×)"
    ],
-   "base_score": -5,
+   "base_score": 1,
    "taste": 40
   },
   "https://www.boligsiden.dk/adresse/roengaard-alle-28b-2610-roedovre": {
@@ -4708,11 +4710,11 @@
    "plot_m2": 997,
    "rooms": 4,
    "owner_cost_month": 3925,
-   "days_on_market": 113,
-   "days_total": 113,
+   "days_on_market": 114,
+   "days_total": 114,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.707397,
    "lon": 12.437538,
    "valuation": 3012000,
@@ -4723,10 +4725,10 @@
    "score": -25,
    "signals": {
     "m2": -0.235,
-    "valuation": -0.164,
+    "valuation": -0.168,
     "plot": 0.995,
     "rooms": 0.25,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "large plot for the price: 997 m²",
@@ -4735,8 +4737,8 @@
    "warnings": [
     "m² price 23 % above the area's level (58.765 vs. 47.583 kr./m², sales last 6 months)"
    ],
-   "base_score": -25,
-   "taste": 38
+   "base_score": -26,
+   "taste": 39
   },
   "https://www.boligsiden.dk/adresse/ved-faestningen-1-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/ved-faestningen-1-2610-roedovre",
@@ -4747,11 +4749,11 @@
    "plot_m2": 611,
    "rooms": 4,
    "owner_cost_month": 4372,
-   "days_on_market": 116,
+   "days_on_market": 117,
    "days_total": 327,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.68862,
    "lon": 12.440411,
    "valuation": 4557000,
@@ -4762,10 +4764,10 @@
    "score": -33,
    "signals": {
     "m2": 0.025,
-    "valuation": -0.132,
+    "valuation": -0.136,
     "plot": -0.169,
     "rooms": -0.151,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "m² price 2 % below the area's level (46.416 vs. 47.583 kr./m², sales last 6 months)"
@@ -4785,11 +4787,11 @@
    "plot_m2": 678,
    "rooms": 5,
    "owner_cost_month": 5492,
-   "days_on_market": 117,
-   "days_total": 117,
+   "days_on_market": 118,
+   "days_total": 118,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.680035,
    "lon": 12.4663315,
    "valuation": 6548000,
@@ -4800,10 +4802,10 @@
    "score": -21,
    "signals": {
     "m2": -0.06,
-    "valuation": 0.035,
+    "valuation": 0.032,
     "plot": -0.247,
     "rooms": -0.133,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "asking price is 1.37× the public valuation (typical 1.42×)"
@@ -4812,7 +4814,7 @@
     "small plot for the price: 678 m²"
    ],
    "base_score": -32,
-   "taste": 57
+   "taste": 56
   },
   "https://www.boligsiden.dk/adresse/torbistvej-17-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/torbistvej-17-2610-roedovre",
@@ -4863,11 +4865,11 @@
    "plot_m2": 603,
    "rooms": 5,
    "owner_cost_month": 3643,
-   "days_on_market": 118,
-   "days_total": 118,
+   "days_on_market": 119,
+   "days_total": 119,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.692432,
    "lon": 12.448725,
    "valuation": 4075000,
@@ -4875,13 +4877,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Rødovre",
-   "score": 12,
+   "score": 13,
    "signals": {
     "m2": 0.314,
-    "valuation": 0.019,
+    "valuation": 0.015,
     "plot": 0.058,
     "rooms": 0.37,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "m² price 31 % below the area's level (32.645 vs. 47.583 kr./m², sales last 6 months)",
@@ -4890,7 +4892,7 @@
    ],
    "warnings": [],
    "base_score": 29,
-   "taste": 31
+   "taste": 32
   },
   "https://www.boligsiden.dk/adresse/fundervej-13-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/fundervej-13-2610-roedovre",
@@ -4901,11 +4903,11 @@
    "plot_m2": 587,
    "rooms": 4,
    "owner_cost_month": 4357,
-   "days_on_market": 118,
-   "days_total": 118,
+   "days_on_market": 119,
+   "days_total": 119,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.711697,
    "lon": 12.443359,
    "valuation": 4427000,
@@ -4913,20 +4915,20 @@
    "detail_checked": true,
    "active": true,
    "area": "Rødovre",
-   "score": -40,
+   "score": -39,
    "signals": {
     "m2": -0.005,
-    "valuation": -0.189,
+    "valuation": -0.193,
     "plot": -0.217,
     "rooms": -0.167,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [],
    "warnings": [
     "asking price is 1.69× the public valuation (typical 1.42×)"
    ],
    "base_score": -37,
-   "taste": 26
+   "taste": 27
   },
   "https://www.boligsiden.dk/adresse/stovbyvej-2-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/stovbyvej-2-2610-roedovre",
@@ -4937,11 +4939,11 @@
    "plot_m2": 704,
    "rooms": 4,
    "owner_cost_month": 4103,
-   "days_on_market": 125,
-   "days_total": 125,
+   "days_on_market": 126,
+   "days_total": 126,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.695812,
    "lon": 12.455333,
    "valuation": 4091000,
@@ -4949,19 +4951,19 @@
    "detail_checked": true,
    "active": true,
    "area": "Rødovre",
-   "score": -10,
+   "score": -11,
    "signals": {
     "m2": -0.046,
-    "valuation": -0.08,
+    "valuation": -0.084,
     "plot": 0.118,
     "rooms": -0.008,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "large plot for the price: 704 m²"
    ],
    "warnings": [],
-   "base_score": -19,
+   "base_score": -20,
    "taste": 58
   },
   "https://www.boligsiden.dk/adresse/islevvangen-9-2610-roedovre": {
@@ -4973,11 +4975,11 @@
    "plot_m2": 810,
    "rooms": 6,
    "owner_cost_month": 4244,
-   "days_on_market": 125,
-   "days_total": 125,
+   "days_on_market": 126,
+   "days_total": 126,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.705524,
    "lon": 12.439276,
    "valuation": 4569000,
@@ -4985,13 +4987,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Rødovre",
-   "score": 24,
+   "score": 23,
    "signals": {
     "m2": 0.273,
-    "valuation": -0.029,
+    "valuation": -0.032,
     "plot": 0.209,
     "rooms": 0.399,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "m² price 27 % below the area's level (34.599 vs. 47.583 kr./m², sales last 6 months)",
@@ -4999,8 +5001,8 @@
     "large plot for the price: 810 m²"
    ],
    "warnings": [],
-   "base_score": 29,
-   "taste": 54
+   "base_score": 28,
+   "taste": 55
   },
   "https://www.boligsiden.dk/adresse/froeslevvej-53-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/froeslevvej-53-2610-roedovre",
@@ -5011,11 +5013,11 @@
    "plot_m2": 769,
    "rooms": 5,
    "owner_cost_month": 5054,
-   "days_on_market": 126,
-   "days_total": 126,
+   "days_on_market": 127,
+   "days_total": 127,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.66697,
    "lon": 12.460591,
    "valuation": 5507000,
@@ -5026,17 +5028,17 @@
    "score": -20,
    "signals": {
     "m2": -0.112,
-    "valuation": -0.083,
+    "valuation": -0.087,
     "plot": -0.095,
     "rooms": -0.081,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [],
    "warnings": [
     "m² price 11 % above the area's level (52.928 vs. 47.583 kr./m², sales last 6 months)"
    ],
    "base_score": -36,
-   "taste": 63
+   "taste": 64
   },
   "https://www.boligsiden.dk/adresse/joelbyvej-20-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/joelbyvej-20-2610-roedovre",
@@ -5047,11 +5049,11 @@
    "plot_m2": 600,
    "rooms": 4,
    "owner_cost_month": 4225,
-   "days_on_market": 126,
-   "days_total": 205,
+   "days_on_market": 127,
+   "days_total": 206,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.6884,
    "lon": 12.444173,
    "valuation": 3632000,
@@ -5059,13 +5061,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Rødovre",
-   "score": -23,
+   "score": -24,
    "signals": {
     "m2": 0.135,
-    "valuation": -0.218,
+    "valuation": -0.222,
     "plot": -0.048,
     "rooms": -0.009,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "m² price 13 % below the area's level (41.176 vs. 47.583 kr./m², sales last 6 months)"
@@ -5073,7 +5075,7 @@
    "warnings": [
     "asking price is 1.73× the public valuation (typical 1.42×)"
    ],
-   "base_score": -14,
+   "base_score": -15,
    "taste": 24
   },
   "https://www.boligsiden.dk/adresse/skaerbaekvej-58-2610-roedovre": {
@@ -5123,11 +5125,11 @@
    "plot_m2": 957,
    "rooms": 5,
    "owner_cost_month": 5318,
-   "days_on_market": 134,
-   "days_total": 134,
+   "days_on_market": 135,
+   "days_total": 135,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.686054,
    "lon": 12.454948,
    "valuation": 6094000,
@@ -5138,10 +5140,10 @@
    "score": 26,
    "signals": {
     "m2": 0.157,
-    "valuation": 0.171,
+    "valuation": 0.168,
     "plot": 0.329,
     "rooms": 0.085,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "m² price 16 % below the area's level (40.117 vs. 47.583 kr./m², sales last 6 months)",
@@ -5171,7 +5173,7 @@
    "valuation": 3539000,
    "year_built": 1930,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -16,
    "signals": {
@@ -5238,11 +5240,11 @@
    "plot_m2": 751,
    "rooms": 4,
    "owner_cost_month": 3568,
-   "days_on_market": 139,
-   "days_total": 290,
+   "days_on_market": 140,
+   "days_total": 291,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.70113,
    "lon": 12.452274,
    "valuation": 3701000,
@@ -5250,13 +5252,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Rødovre",
-   "score": 26,
+   "score": 25,
    "signals": {
     "m2": 0.325,
-    "valuation": 0.147,
+    "valuation": 0.144,
     "plot": 0.67,
     "rooms": 0.389,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "m² price 33 % below the area's level (32.107 vs. 47.583 kr./m², sales last 6 months)",
@@ -5264,7 +5266,7 @@
     "4 rooms for 4,5 mio."
    ],
    "warnings": [],
-   "base_score": 50,
+   "base_score": 49,
    "taste": 27
   },
   "https://www.boligsiden.dk/adresse/noerregaardsvej-200-2610-roedovre": {
@@ -5276,11 +5278,11 @@
    "plot_m2": 704,
    "rooms": 4,
    "owner_cost_month": 4057,
-   "days_on_market": 140,
-   "days_total": 140,
+   "days_on_market": 141,
+   "days_total": 141,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.68817,
    "lon": 12.437242,
    "valuation": 4167000,
@@ -5288,13 +5290,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Rødovre",
-   "score": -5,
+   "score": -6,
    "signals": {
     "m2": 0.036,
-    "valuation": -0.01,
+    "valuation": -0.014,
     "plot": 0.174,
     "rooms": 0.041,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "large plot for the price: 704 m²",
@@ -5302,7 +5304,7 @@
     "4 rooms for 6,0 mio."
    ],
    "warnings": [],
-   "base_score": -4,
+   "base_score": -5,
    "taste": 46
   },
   "https://www.boligsiden.dk/adresse/henry-heerups-vej-6-2610-roedovre": {
@@ -5391,11 +5393,11 @@
    "plot_m2": 1004,
    "rooms": 4,
    "owner_cost_month": 3917,
-   "days_on_market": 148,
-   "days_total": 148,
+   "days_on_market": 149,
+   "days_total": 149,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.702084,
    "lon": 12.446072,
    "valuation": 3947000,
@@ -5403,13 +5405,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Rødovre",
-   "score": 11,
+   "score": 12,
    "signals": {
     "m2": 0.148,
-    "valuation": -0.112,
+    "valuation": -0.116,
     "plot": 0.605,
     "rooms": -0.001,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "large plot for the price: 1.004 m²",
@@ -5419,7 +5421,7 @@
     "asking price is 1.58× the public valuation (typical 1.42×)"
    ],
    "base_score": 9,
-   "taste": 59
+   "taste": 60
   },
   "https://www.boligsiden.dk/adresse/madumvej-38a-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/madumvej-38a-2610-roedovre",
@@ -5468,11 +5470,11 @@
    "plot_m2": 701,
    "rooms": 5,
    "owner_cost_month": 5564,
-   "days_on_market": 162,
-   "days_total": 162,
+   "days_on_market": 163,
+   "days_total": 163,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.67915,
    "lon": 12.467732,
    "valuation": 6296000,
@@ -5483,10 +5485,10 @@
    "score": -29,
    "signals": {
     "m2": -0.174,
-    "valuation": -0.001,
+    "valuation": -0.004,
     "plot": -0.219,
     "rooms": -0.131,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [],
    "warnings": [
@@ -5504,11 +5506,11 @@
    "plot_m2": 833,
    "rooms": 5,
    "owner_cost_month": 3725,
-   "days_on_market": 162,
-   "days_total": 162,
+   "days_on_market": 163,
+   "days_total": 163,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.709732,
    "lon": 12.448949,
    "valuation": 3411000,
@@ -5516,13 +5518,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Rødovre",
-   "score": -16,
+   "score": -15,
    "signals": {
     "m2": 0.075,
-    "valuation": -0.399,
+    "valuation": -0.404,
     "plot": 0.225,
     "rooms": 0.148,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "large plot for the price: 833 m²",
@@ -5533,7 +5535,7 @@
     "asking price is 1.99× the public valuation (typical 1.42×)"
    ],
    "base_score": -15,
-   "taste": 41
+   "taste": 42
   },
   "https://www.boligsiden.dk/adresse/damhus-boulevard-80b-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/damhus-boulevard-80b-2610-roedovre",
@@ -5544,20 +5546,20 @@
    "plot_m2": 802,
    "rooms": 8,
    "owner_cost_month": 5150,
-   "days_on_market": 187,
-   "days_total": 187,
+   "days_on_market": 188,
+   "days_total": 188,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "active": true,
    "area": "Rødovre",
    "score": 24,
    "signals": {
     "m2": 0.236,
-    "valuation": 0.385,
+    "valuation": 0.383,
     "plot": -0.029,
     "rooms": 0.513,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "m² price 24 % below the area's level (36.344 vs. 47.583 kr./m², sales last 6 months)",
@@ -5582,11 +5584,11 @@
    "plot_m2": 792,
    "rooms": 4,
    "owner_cost_month": 5078,
-   "days_on_market": 187,
-   "days_total": 187,
+   "days_on_market": 188,
+   "days_total": 188,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.691265,
    "lon": 12.457627,
    "valuation": 3507000,
@@ -5597,10 +5599,10 @@
    "score": -27,
    "signals": {
     "m2": -0.034,
-    "valuation": -0.3,
+    "valuation": -0.305,
     "plot": 0.219,
     "rooms": -0.039,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "large plot for the price: 792 m²"
@@ -5697,11 +5699,11 @@
    "plot_m2": 668,
    "rooms": 6,
    "owner_cost_month": 5991,
-   "days_on_market": 210,
-   "days_total": 210,
+   "days_on_market": 211,
+   "days_total": 211,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.673553,
    "lon": 12.463229,
    "valuation": 5720000,
@@ -5712,10 +5714,10 @@
    "score": -5,
    "signals": {
     "m2": 0.028,
-    "valuation": 0.019,
+    "valuation": 0.015,
     "plot": -0.165,
     "rooms": 0.171,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "6 rooms for 8,0 mio.",
@@ -5736,11 +5738,11 @@
    "plot_m2": 618,
    "rooms": 5,
    "owner_cost_month": 5677,
-   "days_on_market": 267,
-   "days_total": 267,
+   "days_on_market": 268,
+   "days_total": 268,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.68587,
    "lon": 12.447758,
    "valuation": 5328000,
@@ -5751,10 +5753,10 @@
    "score": -19,
    "signals": {
     "m2": 0.067,
-    "valuation": -0.054,
+    "valuation": -0.057,
     "plot": -0.228,
     "rooms": -0.024,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "m² price 7 % below the area's level (44.417 vs. 47.583 kr./m², sales last 6 months)"
@@ -5763,7 +5765,7 @@
     "small plot for the price: 618 m²"
    ],
    "base_score": -20,
-   "taste": 42
+   "taste": 43
   },
   "https://www.boligsiden.dk/adresse/damhus-boulevard-74-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/damhus-boulevard-74-2610-roedovre",
@@ -5774,11 +5776,11 @@
    "plot_m2": 775,
    "rooms": 5,
    "owner_cost_month": 4526,
-   "days_on_market": 278,
-   "days_total": 278,
+   "days_on_market": 279,
+   "days_total": 279,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.668217,
    "lon": 12.463936,
    "year_built": 1930,
@@ -5790,7 +5792,7 @@
     "m2": -0.342,
     "plot": -0.139,
     "rooms": -0.133,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [],
    "warnings": [
@@ -5808,11 +5810,11 @@
    "plot_m2": 732,
    "rooms": 6,
    "owner_cost_month": 4581,
-   "days_on_market": 334,
-   "days_total": 334,
+   "days_on_market": 335,
+   "days_total": 335,
    "postcode": "2610",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.677017,
    "lon": 12.448053,
    "valuation": 5400000,
@@ -5823,10 +5825,10 @@
    "score": -3,
    "signals": {
     "m2": 0.067,
-    "valuation": -0.008,
+    "valuation": -0.011,
     "plot": -0.056,
     "rooms": 0.208,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "m² price 7 % below the area's level (44.374 vs. 47.583 kr./m², sales last 6 months)",
@@ -5845,11 +5847,11 @@
    "plot_m2": 855,
    "rooms": 4,
    "owner_cost_month": 4192,
-   "days_on_market": 28,
-   "days_total": 28,
+   "days_on_market": 29,
+   "days_total": 29,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.62149,
    "lon": 12.456757,
    "valuation": 4628000,
@@ -5860,10 +5862,10 @@
    "score": 6,
    "signals": {
     "m2": 0.054,
-    "valuation": 0.015,
+    "valuation": 0.011,
     "plot": 0.316,
     "rooms": -0.039,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "large plot for the price: 855 m²",
@@ -5882,11 +5884,11 @@
    "plot_m2": 500,
    "rooms": 2,
    "owner_cost_month": 4038,
-   "days_on_market": 30,
-   "days_total": 30,
+   "days_on_market": 31,
+   "days_total": 31,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.649414,
    "lon": 12.479193,
    "valuation": 4391000,
@@ -5894,13 +5896,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Hvidovre",
-   "score": -40,
+   "score": -41,
    "signals": {
     "m2": -0.092,
-    "valuation": 0.041,
+    "valuation": 0.038,
     "plot": -0.167,
     "rooms": -0.479,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "asking price is 1.37× the public valuation (typical 1.42×)"
@@ -5908,7 +5910,7 @@
    "warnings": [
     "2 rooms for 6,0 mio."
    ],
-   "base_score": -38,
+   "base_score": -39,
    "taste": 27
   },
   "https://www.boligsiden.dk/adresse/roennebaervej-12-2650-hvidovre": {
@@ -5920,11 +5922,11 @@
    "plot_m2": 703,
    "rooms": 4,
    "owner_cost_month": 3919,
-   "days_on_market": 30,
-   "days_total": 30,
+   "days_on_market": 31,
+   "days_total": 31,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.62238,
    "lon": 12.458194,
    "valuation": 3833000,
@@ -5932,21 +5934,23 @@
    "detail_checked": true,
    "active": true,
    "area": "Hvidovre",
-   "score": -10,
+   "score": -11,
    "signals": {
     "m2": -0.02,
-    "valuation": -0.098,
+    "valuation": -0.102,
     "plot": 0.172,
     "rooms": 0.041,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "large plot for the price: 703 m²",
     "4 rooms for 6,0 mio."
    ],
-   "warnings": [],
-   "base_score": -14,
-   "taste": 51
+   "warnings": [
+    "asking price is 1.56× the public valuation (typical 1.42×)"
+   ],
+   "base_score": -15,
+   "taste": 50
   },
   "https://www.boligsiden.dk/adresse/ege-alle-42-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/ege-alle-42-2650-hvidovre",
@@ -5957,11 +5961,11 @@
    "plot_m2": 883,
    "rooms": 5,
    "owner_cost_month": 4946,
-   "days_on_market": 34,
-   "days_total": 34,
+   "days_on_market": 35,
+   "days_total": 35,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.648285,
    "lon": 12.479997,
    "valuation": 5266000,
@@ -5972,10 +5976,10 @@
    "score": -16,
    "signals": {
     "m2": -0.153,
-    "valuation": -0.133,
+    "valuation": -0.137,
     "plot": 0.039,
     "rooms": -0.081,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "large plot for the price: 883 m²"
@@ -6034,11 +6038,11 @@
    "plot_m2": 789,
    "rooms": 4,
    "owner_cost_month": 5156,
-   "days_on_market": 41,
-   "days_total": 41,
+   "days_on_market": 42,
+   "days_total": 42,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.62092,
    "lon": 12.4794655,
    "valuation": 5857000,
@@ -6049,10 +6053,10 @@
    "score": -16,
    "signals": {
     "m2": -0.081,
-    "valuation": -0.018,
+    "valuation": -0.022,
     "plot": -0.072,
     "rooms": -0.265,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [],
    "warnings": [
@@ -6070,11 +6074,11 @@
    "plot_m2": 559,
    "rooms": 6,
    "owner_cost_month": 4431,
-   "days_on_market": 42,
+   "days_on_market": 43,
    "days_total": 541,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.626457,
    "lon": 12.472709,
    "valuation": 5759000,
@@ -6082,13 +6086,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Hvidovre",
-   "score": 22,
+   "score": 21,
    "signals": {
     "m2": 0.379,
-    "valuation": 0.33,
+    "valuation": 0.328,
     "plot": 0.017,
     "rooms": 0.704,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 38 % below the area's level (30.435 vs. 49.018 kr./m², sales last 3 months)",
@@ -6097,7 +6101,7 @@
    ],
    "warnings": [],
    "base_score": 50,
-   "taste": 18
+   "taste": 17
   },
   "https://www.boligsiden.dk/adresse/rudboelvej-5-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/rudboelvej-5-2650-hvidovre",
@@ -6108,11 +6112,11 @@
    "plot_m2": 760,
    "rooms": 4,
    "owner_cost_month": 4982,
-   "days_on_market": 43,
-   "days_total": 43,
+   "days_on_market": 44,
+   "days_total": 44,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.630043,
    "lon": 12.461047,
    "valuation": 4781000,
@@ -6120,20 +6124,20 @@
    "detail_checked": true,
    "active": true,
    "area": "Hvidovre",
-   "score": 5,
+   "score": 4,
    "signals": {
     "m2": 0.143,
-    "valuation": 0.017,
+    "valuation": 0.013,
     "plot": 0.134,
     "rooms": -0.068,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 14 % below the area's level (42.001 vs. 49.018 kr./m², sales last 3 months)",
     "large plot for the price: 760 m²"
    ],
    "warnings": [],
-   "base_score": 4,
+   "base_score": 3,
    "taste": 53
   },
   "https://www.boligsiden.dk/adresse/tvaerskovvej-4-2650-hvidovre": {
@@ -6183,11 +6187,11 @@
    "plot_m2": 1076,
    "rooms": 4,
    "owner_cost_month": 4923,
-   "days_on_market": 46,
-   "days_total": 46,
+   "days_on_market": 47,
+   "days_total": 47,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.662346,
    "lon": 12.47164,
    "valuation": 5743000,
@@ -6195,23 +6199,22 @@
    "detail_checked": true,
    "active": true,
    "area": "Hvidovre",
-   "score": -6,
+   "score": -8,
    "signals": {
     "m2": -0.11,
-    "valuation": 0.023,
+    "valuation": 0.019,
     "plot": 0.345,
     "rooms": -0.219,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
-    "large plot for the price: 1.076 m²",
-    "asking price is 1.39× the public valuation (typical 1.42×)"
+    "large plot for the price: 1.076 m²"
    ],
    "warnings": [
     "m² price 11 % above the area's level (54.425 vs. 49.018 kr./m², sales last 3 months)"
    ],
-   "base_score": -17,
-   "taste": 63
+   "base_score": -18,
+   "taste": 62
   },
   "https://www.boligsiden.dk/adresse/fagerstedvej-19-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/fagerstedvej-19-2650-hvidovre",
@@ -6260,11 +6263,11 @@
    "plot_m2": 820,
    "rooms": 3,
    "owner_cost_month": 3841,
-   "days_on_market": 49,
-   "days_total": 49,
+   "days_on_market": 50,
+   "days_total": 50,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.644264,
    "lon": 12.478976,
    "valuation": 3451000,
@@ -6275,10 +6278,10 @@
    "score": -38,
    "signals": {
     "m2": -0.244,
-    "valuation": -0.281,
+    "valuation": -0.285,
     "plot": 0.302,
     "rooms": -0.256,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "large plot for the price: 820 m²"
@@ -6298,11 +6301,11 @@
    "plot_m2": 717,
    "rooms": 4,
    "owner_cost_month": 4197,
-   "days_on_market": 54,
-   "days_total": 54,
+   "days_on_market": 55,
+   "days_total": 55,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.637535,
    "lon": 12.465326,
    "valuation": 3684000,
@@ -6310,13 +6313,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Hvidovre",
-   "score": 5,
+   "score": 4,
    "signals": {
     "m2": 0.127,
-    "valuation": -0.047,
+    "valuation": -0.051,
     "plot": 0.304,
     "rooms": 0.136,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 13 % below the area's level (42.796 vs. 49.018 kr./m², sales last 3 months)",
@@ -6336,11 +6339,11 @@
    "plot_m2": 1104,
    "rooms": 3,
    "owner_cost_month": 3493,
-   "days_on_market": 54,
-   "days_total": 54,
+   "days_on_market": 55,
+   "days_total": 55,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.64255,
    "lon": 12.443654,
    "valuation": 3415000,
@@ -6351,10 +6354,10 @@
    "score": -49,
    "signals": {
     "m2": -0.323,
-    "valuation": -0.52,
+    "valuation": -0.526,
     "plot": 0.492,
     "rooms": -0.367,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "large plot for the price: 1.104 m²"
@@ -6374,11 +6377,11 @@
    "plot_m2": 755,
    "rooms": 4,
    "owner_cost_month": 4341,
-   "days_on_market": 56,
+   "days_on_market": 57,
    "days_total": 272,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.657,
    "lon": 12.466372,
    "valuation": 4137000,
@@ -6389,10 +6392,10 @@
    "score": -36,
    "signals": {
     "m2": -0.234,
-    "valuation": -0.153,
+    "valuation": -0.157,
     "plot": 0.11,
     "rooms": -0.081,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "large plot for the price: 755 m²"
@@ -6412,11 +6415,11 @@
    "plot_m2": 766,
    "rooms": 5,
    "owner_cost_month": 4005,
-   "days_on_market": 57,
-   "days_total": 57,
+   "days_on_market": 58,
+   "days_total": 58,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.619823,
    "lon": 12.453874,
    "valuation": 3752000,
@@ -6427,10 +6430,10 @@
    "score": 14,
    "signals": {
     "m2": 0.143,
-    "valuation": -0.084,
+    "valuation": -0.088,
     "plot": 0.321,
     "rooms": 0.347,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 14 % below the area's level (41.993 vs. 49.018 kr./m², sales last 3 months)",
@@ -6488,11 +6491,11 @@
    "plot_m2": 689,
    "rooms": 2,
    "owner_cost_month": 5119,
-   "days_on_market": 60,
-   "days_total": 60,
+   "days_on_market": 61,
+   "days_total": 61,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.637104,
    "lon": 12.4820385,
    "valuation": 5832000,
@@ -6503,10 +6506,10 @@
    "score": -20,
    "signals": {
     "m2": -0.087,
-    "valuation": 0.158,
+    "valuation": 0.155,
     "plot": -0.016,
     "rooms": -0.554,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "asking price is 1.20× the public valuation (typical 1.42×)"
@@ -6514,7 +6517,7 @@
    "warnings": [
     "2 rooms for 7,0 mio."
    ],
-   "base_score": -26,
+   "base_score": -27,
    "taste": 50
   },
   "https://www.boligsiden.dk/adresse/stenstykkevej-19-2650-hvidovre": {
@@ -6526,11 +6529,11 @@
    "plot_m2": 725,
    "rooms": 7,
    "owner_cost_month": 4847,
-   "days_on_market": 62,
-   "days_total": 62,
+   "days_on_market": 63,
+   "days_total": 63,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.63873,
    "lon": 12.494431,
    "valuation": 5876000,
@@ -6538,13 +6541,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Hvidovre",
-   "score": 2,
+   "score": 1,
    "signals": {
     "m2": -0.029,
-    "valuation": 0.045,
+    "valuation": 0.041,
     "plot": -0.094,
     "rooms": 0.366,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "7 rooms for 8,0 mio.",
@@ -6599,11 +6602,11 @@
    "plot_m2": 400,
    "rooms": 6,
    "owner_cost_month": 4228,
-   "days_on_market": 69,
-   "days_total": 69,
+   "days_on_market": 70,
+   "days_total": 70,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.627342,
    "lon": 12.464191,
    "valuation": 4552000,
@@ -6614,10 +6617,10 @@
    "score": -6,
    "signals": {
     "m2": 0.275,
-    "valuation": 0.152,
+    "valuation": 0.149,
     "plot": -0.273,
     "rooms": 0.704,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 28 % below the area's level (35.520 vs. 49.018 kr./m², sales last 3 months)",
@@ -6628,7 +6631,7 @@
     "small plot for the price: 400 m²"
    ],
    "base_score": 20,
-   "taste": 9
+   "taste": 8
   },
   "https://www.boligsiden.dk/adresse/rosmosevej-36-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/rosmosevej-36-2650-hvidovre",
@@ -6639,11 +6642,11 @@
    "plot_m2": 788,
    "rooms": 4,
    "owner_cost_month": 3791,
-   "days_on_market": 69,
-   "days_total": 69,
+   "days_on_market": 70,
+   "days_total": 70,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.641716,
    "lon": 12.454925,
    "valuation": 4045000,
@@ -6654,10 +6657,10 @@
    "score": 6,
    "signals": {
     "m2": -0.015,
-    "valuation": 0.046,
+    "valuation": 0.043,
     "plot": 0.433,
     "rooms": 0.136,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "large plot for the price: 788 m²",
@@ -6666,7 +6669,7 @@
    ],
    "warnings": [],
    "base_score": 4,
-   "taste": 57
+   "taste": 56
   },
   "https://www.boligsiden.dk/adresse/nymarksvej-1-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/nymarksvej-1-2650-hvidovre",
@@ -6677,11 +6680,11 @@
    "plot_m2": 681,
    "rooms": 5,
    "owner_cost_month": 4133,
-   "days_on_market": 74,
-   "days_total": 74,
+   "days_on_market": 75,
+   "days_total": 75,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.620613,
    "lon": 12.456012,
    "valuation": 4673000,
@@ -6692,10 +6695,10 @@
    "score": 22,
    "signals": {
     "m2": 0.315,
-    "valuation": 0.129,
+    "valuation": 0.126,
     "plot": 0.174,
     "rooms": 0.347,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 32 % below the area's level (33.565 vs. 49.018 kr./m², sales last 3 months)",
@@ -6791,11 +6794,11 @@
    "plot_m2": 997,
    "rooms": 5,
    "owner_cost_month": 4708,
-   "days_on_market": 103,
-   "days_total": 103,
+   "days_on_market": 104,
+   "days_total": 104,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.623344,
    "lon": 12.464347,
    "valuation": 5076000,
@@ -6806,15 +6809,15 @@
    "score": 26,
    "signals": {
     "m2": 0.116,
-    "valuation": 0.102,
+    "valuation": 0.098,
     "plot": 0.534,
     "rooms": 0.201,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "large plot for the price: 997 m²",
     "m² price 12 % below the area's level (43.329 vs. 49.018 kr./m², sales last 3 months)",
-    "asking price is 1.28× the public valuation (typical 1.42×)"
+    "5 rooms for 6,5 mio."
    ],
    "warnings": [],
    "base_score": 22,
@@ -6829,11 +6832,11 @@
    "plot_m2": 801,
    "rooms": 6,
    "owner_cost_month": 5014,
-   "days_on_market": 104,
-   "days_total": 491,
+   "days_on_market": 105,
+   "days_total": 492,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.619747,
    "lon": 12.452015,
    "valuation": 5671000,
@@ -6844,10 +6847,10 @@
    "score": 33,
    "signals": {
     "m2": 0.392,
-    "valuation": 0.258,
+    "valuation": 0.255,
     "plot": 0.335,
     "rooms": 0.562,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 39 % below the area's level (29.804 vs. 49.018 kr./m², sales last 3 months)",
@@ -6868,11 +6871,11 @@
    "plot_m2": 667,
    "rooms": 5,
    "owner_cost_month": 4201,
-   "days_on_market": 110,
-   "days_total": 110,
+   "days_on_market": 111,
+   "days_total": 111,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.62143,
    "lon": 12.472398,
    "valuation": 4714000,
@@ -6883,10 +6886,10 @@
    "score": 34,
    "signals": {
     "m2": 0.219,
-    "valuation": 0.219,
+    "valuation": 0.216,
     "plot": 0.271,
     "rooms": 0.488,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 22 % below the area's level (38.299 vs. 49.018 kr./m², sales last 3 months)",
@@ -6907,11 +6910,11 @@
    "plot_m2": 666,
    "rooms": 4,
    "owner_cost_month": 3426,
-   "days_on_market": 113,
-   "days_total": 113,
+   "days_on_market": 114,
+   "days_total": 114,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.623154,
    "lon": 12.453021,
    "valuation": 3327000,
@@ -6922,10 +6925,10 @@
    "score": 5,
    "signals": {
     "m2": 0.123,
-    "valuation": 0.03,
+    "valuation": 0.027,
     "plot": 0.448,
     "rooms": 0.359,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "large plot for the price: 666 m²",
@@ -6945,11 +6948,11 @@
    "plot_m2": 730,
    "rooms": 5,
    "owner_cost_month": 5419,
-   "days_on_market": 118,
-   "days_total": 118,
+   "days_on_market": 119,
+   "days_total": 119,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.641823,
    "lon": 12.480824,
    "valuation": 6533000,
@@ -6960,10 +6963,10 @@
    "score": -7,
    "signals": {
     "m2": 0.057,
-    "valuation": 0.045,
+    "valuation": 0.042,
     "plot": -0.179,
     "rooms": -0.122,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 6 % below the area's level (46.216 vs. 49.018 kr./m², sales last 3 months)",
@@ -6973,7 +6976,7 @@
     "small plot for the price: 730 m²"
    ],
    "base_score": -17,
-   "taste": 62
+   "taste": 61
   },
   "https://www.boligsiden.dk/adresse/eriksminde-alle-7-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/eriksminde-alle-7-2650-hvidovre",
@@ -7022,11 +7025,11 @@
    "plot_m2": 738,
    "rooms": 5,
    "owner_cost_month": 4050,
-   "days_on_market": 124,
-   "days_total": 124,
+   "days_on_market": 125,
+   "days_total": 125,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.629818,
    "lon": 12.462696,
    "valuation": 3549000,
@@ -7037,17 +7040,17 @@
    "score": -53,
    "signals": {
     "m2": -0.056,
-    "valuation": -0.7,
+    "valuation": -0.706,
     "plot": -0.142,
     "rooms": -0.092,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [],
    "warnings": [
     "asking price is 2.42× the public valuation (typical 1.42×)"
    ],
    "base_score": -48,
-   "taste": 17
+   "taste": 16
   },
   "https://www.boligsiden.dk/adresse/landlystvej-49-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/landlystvej-49-2650-hvidovre",
@@ -7096,11 +7099,11 @@
    "plot_m2": 400,
    "rooms": 5,
    "owner_cost_month": 4293,
-   "days_on_market": 124,
-   "days_total": 124,
+   "days_on_market": 125,
+   "days_total": 125,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.629105,
    "lon": 12.464166,
    "valuation": 5845000,
@@ -7111,10 +7114,10 @@
    "score": -1,
    "signals": {
     "m2": 0.289,
-    "valuation": 0.316,
+    "valuation": 0.314,
     "plot": -0.298,
     "rooms": 0.37,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 29 % below the area's level (34.853 vs. 49.018 kr./m², sales last 3 months)",
@@ -7136,11 +7139,11 @@
    "plot_m2": 400,
    "rooms": 6,
    "owner_cost_month": 3942,
-   "days_on_market": 131,
-   "days_total": 131,
+   "days_on_market": 132,
+   "days_total": 132,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.628403,
    "lon": 12.461336,
    "valuation": 4688000,
@@ -7151,10 +7154,10 @@
    "score": -18,
    "signals": {
     "m2": 0.192,
-    "valuation": 0.027,
+    "valuation": 0.024,
     "plot": -0.385,
     "rooms": 0.442,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 19 % below the area's level (39.592 vs. 49.018 kr./m², sales last 3 months)",
@@ -7176,11 +7179,11 @@
    "plot_m2": 893,
    "rooms": 3,
    "owner_cost_month": 3582,
-   "days_on_market": 137,
-   "days_total": 137,
+   "days_on_market": 138,
+   "days_total": 138,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.61967,
    "lon": 12.450829,
    "valuation": 3430000,
@@ -7191,10 +7194,10 @@
    "score": -17,
    "signals": {
     "m2": -0.095,
-    "valuation": 0.0,
+    "valuation": -0.003,
     "plot": 0.827,
     "rooms": -0.042,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "large plot for the price: 893 m²"
@@ -7214,11 +7217,11 @@
    "plot_m2": 788,
    "rooms": 4,
    "owner_cost_month": 4372,
-   "days_on_market": 139,
-   "days_total": 139,
+   "days_on_market": 140,
+   "days_total": 140,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.640774,
    "lon": 12.458898,
    "valuation": 4780000,
@@ -7226,13 +7229,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Hvidovre",
-   "score": 9,
+   "score": 8,
    "signals": {
     "m2": 0.121,
-    "valuation": 0.046,
+    "valuation": 0.043,
     "plot": 0.212,
     "rooms": -0.039,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 12 % below the area's level (43.085 vs. 49.018 kr./m², sales last 3 months)",
@@ -7241,7 +7244,7 @@
    ],
    "warnings": [],
    "base_score": 6,
-   "taste": 60
+   "taste": 57
   },
   "https://www.boligsiden.dk/adresse/engstrupgaardsvej-22-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/engstrupgaardsvej-22-2650-hvidovre",
@@ -7252,11 +7255,11 @@
    "plot_m2": 666,
    "rooms": 4,
    "owner_cost_month": 3824,
-   "days_on_market": 140,
-   "days_total": 140,
+   "days_on_market": 141,
+   "days_total": 141,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.621872,
    "lon": 12.454081,
    "valuation": 3801000,
@@ -7267,10 +7270,10 @@
    "score": 11,
    "signals": {
     "m2": 0.226,
-    "valuation": 0.077,
+    "valuation": 0.074,
     "plot": 0.332,
     "rooms": 0.25,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 23 % below the area's level (37.927 vs. 49.018 kr./m², sales last 3 months)",
@@ -7290,11 +7293,11 @@
    "plot_m2": 860,
    "rooms": 4,
    "owner_cost_month": 4174,
-   "days_on_market": 140,
-   "days_total": 140,
+   "days_on_market": 141,
+   "days_total": 141,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.61967,
    "lon": 12.47105,
    "valuation": 4363000,
@@ -7302,13 +7305,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Hvidovre",
-   "score": 24,
+   "score": 23,
    "signals": {
     "m2": 0.233,
-    "valuation": 0.148,
+    "valuation": 0.145,
     "plot": 0.623,
     "rooms": 0.179,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 23 % below the area's level (37.620 vs. 49.018 kr./m², sales last 3 months)",
@@ -7317,7 +7320,7 @@
    ],
    "warnings": [],
    "base_score": 35,
-   "taste": 45
+   "taste": 44
   },
   "https://www.boligsiden.dk/adresse/engvadvej-5-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/engvadvej-5-2650-hvidovre",
@@ -7328,11 +7331,11 @@
    "plot_m2": 800,
    "rooms": 3,
    "owner_cost_month": 3543,
-   "days_on_market": 142,
-   "days_total": 142,
+   "days_on_market": 143,
+   "days_total": 143,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.620358,
    "lon": 12.452954,
    "valuation": 3142000,
@@ -7343,10 +7346,10 @@
    "score": -5,
    "signals": {
     "m2": 0.166,
-    "valuation": -0.072,
+    "valuation": -0.075,
     "plot": 0.667,
     "rooms": -0.024,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 17 % below the area's level (40.878 vs. 49.018 kr./m², sales last 3 months)",
@@ -7354,7 +7357,7 @@
    ],
    "warnings": [],
    "base_score": 12,
-   "taste": 23
+   "taste": 22
   },
   "https://www.boligsiden.dk/adresse/baarsevej-26-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/baarsevej-26-2650-hvidovre",
@@ -7365,11 +7368,11 @@
    "plot_m2": 364,
    "rooms": 3,
    "owner_cost_month": 4619,
-   "days_on_market": 148,
-   "days_total": 148,
+   "days_on_market": 149,
+   "days_total": 149,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.639145,
    "lon": 12.482629,
    "valuation": 5240000,
@@ -7377,13 +7380,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Hvidovre",
-   "score": -65,
+   "score": -66,
    "signals": {
     "m2": -0.217,
-    "valuation": -0.045,
+    "valuation": -0.048,
     "plot": -0.533,
     "rooms": -0.399,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [],
    "warnings": [
@@ -7401,11 +7404,11 @@
    "plot_m2": 842,
    "rooms": 4,
    "owner_cost_month": 4658,
-   "days_on_market": 152,
-   "days_total": 152,
+   "days_on_market": 153,
+   "days_total": 153,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.642986,
    "lon": 12.442856,
    "valuation": 3412000,
@@ -7416,10 +7419,10 @@
    "score": 2,
    "signals": {
     "m2": 0.14,
-    "valuation": -0.219,
+    "valuation": -0.223,
     "plot": 0.42,
     "rooms": 0.054,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "large plot for the price: 842 m²",
@@ -7441,11 +7444,11 @@
    "plot_m2": 726,
    "rooms": 5,
    "owner_cost_month": 5551,
-   "days_on_market": 153,
-   "days_total": 153,
+   "days_on_market": 154,
+   "days_total": 154,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.622967,
    "lon": 12.4897585,
    "valuation": 6316000,
@@ -7453,13 +7456,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Hvidovre",
-   "score": 12,
+   "score": 11,
    "signals": {
     "m2": 0.131,
-    "valuation": 0.167,
+    "valuation": 0.164,
     "plot": -0.032,
     "rooms": 0.041,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 13 % below the area's level (42.585 vs. 49.018 kr./m², sales last 3 months)",
@@ -7468,7 +7471,7 @@
    ],
    "warnings": [],
    "base_score": 6,
-   "taste": 64
+   "taste": 63
   },
   "https://www.boligsiden.dk/adresse/maagevej-7b-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/maagevej-7b-2650-hvidovre",
@@ -7479,11 +7482,11 @@
    "plot_m2": 700,
    "rooms": 6,
    "owner_cost_month": 3887,
-   "days_on_market": 188,
-   "days_total": 188,
+   "days_on_market": 189,
+   "days_total": 189,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.61811,
    "lon": 12.473256,
    "valuation": 4170000,
@@ -7494,10 +7497,10 @@
    "score": 19,
    "signals": {
     "m2": 0.217,
-    "valuation": 0.243,
+    "valuation": 0.241,
     "plot": 0.556,
     "rooms": 1.083,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 22 % below the area's level (38.370 vs. 49.018 kr./m², sales last 3 months)",
@@ -7517,11 +7520,11 @@
    "plot_m2": 776,
    "rooms": 6,
    "owner_cost_month": 4518,
-   "days_on_market": 202,
-   "days_total": 370,
+   "days_on_market": 203,
+   "days_total": 371,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.618755,
    "lon": 12.480606,
    "valuation": 4843000,
@@ -7529,13 +7532,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Hvidovre",
-   "score": 24,
+   "score": 22,
    "signals": {
     "m2": 0.251,
-    "valuation": 0.131,
+    "valuation": 0.128,
     "plot": 0.294,
     "rooms": 0.562,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 25 % below the area's level (36.734 vs. 49.018 kr./m², sales last 3 months)",
@@ -7543,8 +7546,8 @@
     "6 rooms for 6,0 mio."
    ],
    "warnings": [],
-   "base_score": 38,
-   "taste": 41
+   "base_score": 37,
+   "taste": 39
   },
   "https://www.boligsiden.dk/adresse/graensevej-24-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/graensevej-24-2650-hvidovre",
@@ -7555,11 +7558,11 @@
    "plot_m2": 788,
    "rooms": 6,
    "owner_cost_month": 4696,
-   "days_on_market": 214,
-   "days_total": 643,
+   "days_on_market": 215,
+   "days_total": 644,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.64304,
    "lon": 12.459102,
    "valuation": 5534000,
@@ -7570,10 +7573,10 @@
    "score": 27,
    "signals": {
     "m2": 0.274,
-    "valuation": 0.182,
+    "valuation": 0.179,
     "plot": 0.222,
     "rooms": 0.453,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 27 % below the area's level (35.568 vs. 49.018 kr./m², sales last 3 months)",
@@ -7593,11 +7596,11 @@
    "plot_m2": 605,
    "rooms": 8,
    "owner_cost_month": 7413,
-   "days_on_market": 215,
-   "days_total": 215,
+   "days_on_market": 216,
+   "days_total": 216,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.656914,
    "lon": 12.456687,
    "detail_checked": true,
@@ -7608,7 +7611,7 @@
     "m2": 0.224,
     "plot": -0.159,
     "rooms": 0.737,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 22 % below the area's level (38.036 vs. 49.018 kr./m², sales last 3 months)",
@@ -7629,11 +7632,11 @@
    "plot_m2": 601,
    "rooms": 5,
    "owner_cost_month": 4347,
-   "days_on_market": 230,
-   "days_total": 636,
+   "days_on_market": 231,
+   "days_total": 637,
    "postcode": "2650",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.657234,
    "lon": 12.457054,
    "valuation": 4795000,
@@ -7644,10 +7647,10 @@
    "score": -18,
    "signals": {
     "m2": 0.169,
-    "valuation": -0.054,
+    "valuation": -0.057,
     "plot": -0.165,
     "rooms": 0.085,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 17 % below the area's level (40.742 vs. 49.018 kr./m², sales last 3 months)",
@@ -7657,7 +7660,7 @@
     "small plot for the price: 601 m²"
    ],
    "base_score": -5,
-   "taste": 21
+   "taste": 22
   },
   "https://www.boligsiden.dk/adresse/randboelvej-44-2720-vanloese": {
    "url": "https://www.boligsiden.dk/adresse/randboelvej-44-2720-vanloese",
@@ -7668,11 +7671,11 @@
    "plot_m2": 465,
    "rooms": 4,
    "owner_cost_month": 5190,
-   "days_on_market": 22,
-   "days_total": 309,
+   "days_on_market": 23,
+   "days_total": 310,
    "postcode": "2720",
    "first_seen": "2026-09-22",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.6914,
    "lon": 12.498292,
    "valuation": 7546000,
@@ -7683,7 +7686,7 @@
    "score": 36,
    "signals": {
     "m2": 0.636,
-    "valuation": 0.628,
+    "valuation": 0.627,
     "plot": 0.163,
     "rooms": 0.563,
     "scarcity": 0.0
@@ -7695,7 +7698,7 @@
    ],
    "warnings": [],
    "base_score": 76,
-   "taste": 8,
+   "taste": 9,
    "pick_type": "earlier"
   },
   "https://www.boligsiden.dk/adresse/torsoevej-15-2610-roedovre": {
@@ -7748,11 +7751,11 @@
    "plot_m2": 714,
    "rooms": 5,
    "owner_cost_month": 4969,
-   "days_on_market": 22,
-   "days_total": 22,
+   "days_on_market": 23,
+   "days_total": 23,
    "postcode": "2650",
    "first_seen": "2026-09-22",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.633064,
    "lon": 12.479321,
    "valuation": 6972000,
@@ -7763,10 +7766,10 @@
    "score": -1,
    "signals": {
     "m2": -0.053,
-    "valuation": 0.175,
+    "valuation": 0.172,
     "plot": -0.129,
     "rooms": -0.048,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "asking price is 1.18× the public valuation (typical 1.42×)"
@@ -7787,11 +7790,11 @@
    "plot_m2": 723,
    "rooms": 5,
    "owner_cost_month": 4083,
-   "days_on_market": 22,
-   "days_total": 22,
+   "days_on_market": 23,
+   "days_total": 23,
    "postcode": "2650",
    "first_seen": "2026-09-22",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.63801,
    "lon": 12.464686,
    "valuation": 4387000,
@@ -7802,10 +7805,10 @@
    "score": 6,
    "signals": {
     "m2": 0.122,
-    "valuation": -0.064,
+    "valuation": -0.067,
     "plot": 0.087,
     "rooms": 0.174,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 12 % below the area's level (43.024 vs. 49.018 kr./m², sales last 3 months)",
@@ -7865,11 +7868,11 @@
    "plot_m2": 663,
    "rooms": 4,
    "owner_cost_month": 4379,
-   "days_on_market": 22,
-   "days_total": 22,
+   "days_on_market": 23,
+   "days_total": 23,
    "postcode": "2650",
    "first_seen": "2026-09-22",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.635864,
    "lon": 12.470082,
    "valuation": 4570000,
@@ -7880,15 +7883,15 @@
    "score": 13,
    "signals": {
     "m2": 0.086,
-    "valuation": 0.11,
+    "valuation": 0.107,
     "plot": 0.143,
     "rooms": 0.077,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 9 % below the area's level (44.784 vs. 49.018 kr./m², sales last 3 months)",
-    "asking price is 1.27× the public valuation (typical 1.42×)",
-    "large plot for the price: 663 m²"
+    "large plot for the price: 663 m²",
+    "asking price is 1.27× the public valuation (typical 1.42×)"
    ],
    "warnings": [],
    "base_score": 6,
@@ -7904,11 +7907,11 @@
    "plot_m2": 646,
    "rooms": 3,
    "owner_cost_month": 3814,
-   "days_on_market": 21,
-   "days_total": 21,
+   "days_on_market": 22,
+   "days_total": 22,
    "postcode": "2860",
    "first_seen": "2026-09-23",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.729004,
    "lon": 12.465166,
    "valuation": 3348000,
@@ -7919,7 +7922,7 @@
    "score": -44,
    "signals": {
     "m2": -0.291,
-    "valuation": -0.173,
+    "valuation": -0.177,
     "plot": 0.154,
     "rooms": -0.163,
     "scarcity": -1.2
@@ -7943,11 +7946,11 @@
    "plot_m2": 635,
    "rooms": 3,
    "owner_cost_month": 5530,
-   "days_on_market": 21,
-   "days_total": 21,
+   "days_on_market": 22,
+   "days_total": 22,
    "postcode": "2870",
    "first_seen": "2026-09-23",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.736755,
    "lon": 12.526298,
    "valuation": 5440000,
@@ -7958,7 +7961,7 @@
    "score": -22,
    "signals": {
     "m2": -0.17,
-    "valuation": -0.032,
+    "valuation": -0.035,
     "plot": -0.206,
     "rooms": -0.414,
     "scarcity": 0.5
@@ -7969,7 +7972,7 @@
    "warnings": [
     "m² price 17 % above the area's level (75.926 vs. 64.895 kr./m², sales last 6 months)"
    ],
-   "base_score": -21,
+   "base_score": -22,
    "taste": 38,
    "pick_type": "new"
   },
@@ -8021,11 +8024,11 @@
    "plot_m2": 761,
    "rooms": 4,
    "owner_cost_month": 4071,
-   "days_on_market": 20,
-   "days_total": 126,
+   "days_on_market": 21,
+   "days_total": 127,
    "postcode": "2610",
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.683834,
    "lon": 12.4358,
    "valuation": 3800000,
@@ -8033,13 +8036,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Rødovre",
-   "score": -31,
+   "score": -30,
    "signals": {
     "m2": -0.214,
-    "valuation": -0.182,
+    "valuation": -0.186,
     "plot": 0.189,
     "rooms": -0.024,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "large plot for the price: 761 m²"
@@ -8048,7 +8051,7 @@
     "m² price 21 % above the area's level (57.769 vs. 47.583 kr./m², sales last 6 months)"
    ],
    "base_score": -39,
-   "taste": 47,
+   "taste": 49,
    "pick_type": "earlier"
   },
   "https://www.boligsiden.dk/adresse/torndalsvej-7-2650-hvidovre": {
@@ -8060,11 +8063,11 @@
    "plot_m2": 721,
    "rooms": 4,
    "owner_cost_month": 4146,
-   "days_on_market": 20,
-   "days_total": 20,
+   "days_on_market": 21,
+   "days_total": 21,
    "postcode": "2650",
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.62009,
    "lon": 12.462514,
    "valuation": 3891000,
@@ -8075,10 +8078,10 @@
    "score": 1,
    "signals": {
     "m2": 0.04,
-    "valuation": 0.008,
+    "valuation": 0.005,
     "plot": 0.311,
     "rooms": 0.136,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "large plot for the price: 721 m²",
@@ -8099,11 +8102,11 @@
    "plot_m2": 705,
    "rooms": 3,
    "owner_cost_month": 4766,
-   "days_on_market": 20,
-   "days_total": 20,
+   "days_on_market": 21,
+   "days_total": 21,
    "postcode": "2650",
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.640957,
    "lon": 12.480544,
    "valuation": 5316000,
@@ -8111,20 +8114,20 @@
    "detail_checked": true,
    "active": true,
    "area": "Hvidovre",
-   "score": -33,
+   "score": -34,
    "signals": {
     "m2": -0.266,
-    "valuation": -0.056,
+    "valuation": -0.06,
     "plot": -0.119,
     "rooms": -0.414,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [],
    "warnings": [
     "m² price 27 % above the area's level (62.049 vs. 49.018 kr./m², sales last 3 months)"
    ],
    "base_score": -59,
-   "taste": 72,
+   "taste": 71,
    "pick_type": "new"
   },
   "https://www.boligsiden.dk/adresse/hvidovreskellet-49-2650-hvidovre": {
@@ -8136,11 +8139,11 @@
    "plot_m2": 640,
    "rooms": 4,
    "owner_cost_month": 4091,
-   "days_on_market": 20,
-   "days_total": 20,
+   "days_on_market": 21,
+   "days_total": 21,
    "postcode": "2650",
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.631172,
    "lon": 12.470398,
    "valuation": 4338000,
@@ -8148,13 +8151,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Hvidovre",
-   "score": -22,
+   "score": -23,
    "signals": {
     "m2": -0.098,
-    "valuation": 0.03,
+    "valuation": 0.026,
     "plot": 0.067,
     "rooms": 0.041,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "large plot for the price: 640 m²",
@@ -8177,11 +8180,11 @@
    "plot_m2": 800,
    "rooms": 4,
    "owner_cost_month": 4472,
-   "days_on_market": 20,
-   "days_total": 20,
+   "days_on_market": 21,
+   "days_total": 21,
    "postcode": "2650",
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.63481,
    "lon": 12.488429,
    "year_built": 1939,
@@ -8193,7 +8196,7 @@
     "m2": 0.047,
     "plot": -0.0,
     "rooms": -0.219,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 5 % below the area's level (46.700 vs. 49.018 kr./m², sales last 3 months)"
@@ -8202,7 +8205,7 @@
     "4 rooms for 8,0 mio."
    ],
    "base_score": -20,
-   "taste": 71,
+   "taste": 70,
    "pick_type": "new"
   },
   "https://www.boligsiden.dk/adresse/taebyvej-19a-2610-roedovre": {
@@ -8214,11 +8217,11 @@
    "plot_m2": 1182,
    "rooms": 7,
    "owner_cost_month": 5643,
-   "days_on_market": 19,
-   "days_total": 32,
+   "days_on_market": 20,
+   "days_total": 33,
    "postcode": "2610",
    "first_seen": "2026-09-25",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.685596,
    "lon": 12.461402,
    "valuation": 22837000,
@@ -8229,10 +8232,10 @@
    "score": 26,
    "signals": {
     "m2": 0.073,
-    "valuation": 0.777,
+    "valuation": 0.776,
     "plot": 0.629,
     "rooms": 0.507,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "asking price is 0.32× the public valuation (typical 1.42×)",
@@ -8253,11 +8256,11 @@
    "plot_m2": 600,
    "rooms": 5,
    "owner_cost_month": 5513,
-   "days_on_market": 102,
-   "days_total": 102,
+   "days_on_market": 103,
+   "days_total": 103,
    "postcode": "2650",
    "first_seen": "2026-09-25",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.61995,
    "lon": 12.486778,
    "valuation": 7878000,
@@ -8265,13 +8268,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Hvidovre",
-   "score": -37,
+   "score": -38,
    "signals": {
     "m2": -0.121,
-    "valuation": 0.198,
+    "valuation": 0.196,
     "plot": -0.333,
     "rooms": -0.133,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "asking price is 1.14× the public valuation (typical 1.42×)"
@@ -8280,7 +8283,7 @@
     "small plot for the price: 600 m²"
    ],
    "base_score": -33,
-   "taste": 25,
+   "taste": 24,
    "pick_type": "earlier"
   },
   "https://www.boligsiden.dk/adresse/danhaven-35a-2500-valby": {
@@ -8332,11 +8335,11 @@
    "plot_m2": 749,
    "rooms": 4,
    "owner_cost_month": 3998,
-   "days_on_market": 64,
-   "days_total": 64,
+   "days_on_market": 65,
+   "days_total": 65,
    "postcode": "2610",
    "first_seen": "2026-09-26",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.705414,
    "lon": 12.448522,
    "valuation": 4014000,
@@ -8344,22 +8347,22 @@
    "detail_checked": true,
    "active": true,
    "area": "Rødovre",
-   "score": 38,
+   "score": 39,
    "signals": {
     "m2": 0.389,
-    "valuation": 0.301,
+    "valuation": 0.299,
     "plot": 0.874,
     "rooms": 0.563,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "m² price 39 % below the area's level (29.097 vs. 47.583 kr./m², sales last 6 months)",
-    "asking price is 1.00× the public valuation (typical 1.42×)",
-    "large plot for the price: 749 m²"
+    "large plot for the price: 749 m²",
+    "asking price is 1.00× the public valuation (typical 1.42×)"
    ],
    "warnings": [],
    "base_score": 64,
-   "taste": 31,
+   "taste": 32,
    "pick_type": "earlier"
   },
   "https://www.boligsiden.dk/adresse/hvidovre-strandvej-141-2650-hvidovre": {
@@ -8371,11 +8374,11 @@
    "plot_m2": 845,
    "rooms": 4,
    "owner_cost_month": 4458,
-   "days_on_market": 16,
-   "days_total": 186,
+   "days_on_market": 17,
+   "days_total": 187,
    "postcode": "2650",
    "first_seen": "2026-09-28",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.617535,
    "lon": 12.48235,
    "valuation": 4802000,
@@ -8386,10 +8389,10 @@
    "score": 16,
    "signals": {
     "m2": 0.206,
-    "valuation": 0.087,
+    "valuation": 0.084,
     "plot": 0.352,
     "rooms": -0.0,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 21 % below the area's level (38.934 vs. 49.018 kr./m², sales last 3 months)",
@@ -8449,11 +8452,11 @@
    "plot_m2": 421,
    "rooms": 2,
    "owner_cost_month": 3850,
-   "days_on_market": 15,
-   "days_total": 15,
+   "days_on_market": 16,
+   "days_total": 16,
    "postcode": "2650",
    "first_seen": "2026-09-29",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.660114,
    "lon": 12.476159,
    "valuation": 3369000,
@@ -8461,19 +8464,19 @@
    "detail_checked": true,
    "active": true,
    "area": "Hvidovre",
-   "score": -73,
+   "score": -74,
    "signals": {
     "m2": -0.406,
-    "valuation": -0.041,
+    "valuation": -0.045,
     "plot": -0.158,
     "rooms": -0.375,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [],
    "warnings": [
     "m² price 41 % above the area's level (68.897 vs. 49.018 kr./m², sales last 3 months)"
    ],
-   "base_score": -72,
+   "base_score": -73,
    "taste": 12,
    "pick_type": "new"
   },
@@ -8486,11 +8489,11 @@
    "plot_m2": 382,
    "rooms": 8,
    "owner_cost_month": 4286,
-   "days_on_market": 14,
-   "days_total": 14,
+   "days_on_market": 15,
+   "days_total": 15,
    "postcode": "2700",
    "first_seen": "2026-09-30",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.700714,
    "lon": 12.477289,
    "valuation": 6925000,
@@ -8498,10 +8501,10 @@
    "detail_checked": true,
    "active": true,
    "area": "Brønshøj",
-   "score": 16,
+   "score": 15,
    "signals": {
-    "m2": 0.089,
-    "valuation": 0.169,
+    "m2": 0.078,
+    "valuation": 0.166,
     "plot": -0.534,
     "rooms": 0.523,
     "scarcity": -1.7
@@ -8509,12 +8512,12 @@
    "reasons": [
     "similar to a house you starred: Degnemose Allé 30, 2700 Brønshøj",
     "8 rooms for 8,2 mio.",
-    "m² price 9 % below the area's level (50.184 vs. 55.092 kr./m², sales last 6 months)"
+    "asking price is 1.18× the public valuation (typical 1.42×)"
    ],
    "warnings": [
     "small plot for the price: 382 m²"
    ],
-   "base_score": -3,
+   "base_score": -4,
    "taste": 86,
    "pick_type": "new"
   },
@@ -8565,11 +8568,11 @@
    "plot_m2": 788,
    "rooms": 6,
    "owner_cost_month": 4221,
-   "days_on_market": 14,
-   "days_total": 14,
+   "days_on_market": 15,
+   "days_total": 15,
    "postcode": "2650",
    "first_seen": "2026-09-30",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.64442,
    "lon": 12.458963,
    "valuation": 4619000,
@@ -8580,10 +8583,10 @@
    "score": 30,
    "signals": {
     "m2": 0.206,
-    "valuation": 0.089,
+    "valuation": 0.086,
     "plot": 0.314,
     "rooms": 0.562,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 21 % below the area's level (38.903 vs. 49.018 kr./m², sales last 3 months)",
@@ -8604,11 +8607,11 @@
    "plot_m2": 1400,
    "rooms": 6,
    "owner_cost_month": 6412,
-   "days_on_market": 13,
-   "days_total": 13,
+   "days_on_market": 14,
+   "days_total": 14,
    "postcode": "2610",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.70304,
    "lon": 12.437705,
    "valuation": 6212000,
@@ -8619,10 +8622,10 @@
    "score": 12,
    "signals": {
     "m2": 0.128,
-    "valuation": -0.017,
+    "valuation": -0.02,
     "plot": 0.555,
     "rooms": 0.041,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "large plot for the price: 1.400 m²",
@@ -8643,11 +8646,11 @@
    "plot_m2": 937,
    "rooms": 5,
    "owner_cost_month": 3902,
-   "days_on_market": 13,
-   "days_total": 13,
+   "days_on_market": 14,
+   "days_total": 14,
    "postcode": "2610",
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.69224,
    "lon": 12.460465,
    "valuation": 3965000,
@@ -8658,10 +8661,10 @@
    "score": 8,
    "signals": {
     "m2": 0.115,
-    "valuation": -0.239,
+    "valuation": -0.243,
     "plot": 0.339,
     "rooms": 0.116,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "large plot for the price: 937 m²",
@@ -8672,7 +8675,7 @@
     "asking price is 1.76× the public valuation (typical 1.42×)"
    ],
    "base_score": 0,
-   "taste": 66,
+   "taste": 67,
    "pick_type": "new"
   },
   "https://www.boligsiden.dk/adresse/rosmosevej-62-2650-hvidovre": {
@@ -8722,11 +8725,11 @@
    "plot_m2": 678,
    "rooms": 5,
    "owner_cost_month": 5569,
-   "days_on_market": 42,
-   "days_total": 42,
+   "days_on_market": 43,
+   "days_total": 43,
    "postcode": "2860",
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.72662,
    "lon": 12.511735,
    "valuation": 5940000,
@@ -8737,7 +8740,7 @@
    "score": -17,
    "signals": {
     "m2": -0.001,
-    "valuation": -0.063,
+    "valuation": -0.067,
     "plot": -0.247,
     "rooms": -0.133,
     "scarcity": -1.2
@@ -8797,11 +8800,11 @@
    "plot_m2": 854,
    "rooms": 7,
    "owner_cost_month": 4813,
-   "days_on_market": 11,
-   "days_total": 11,
+   "days_on_market": 12,
+   "days_total": 12,
    "postcode": "2860",
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.74598,
    "lon": 12.478595,
    "valuation": 6302000,
@@ -8809,10 +8812,10 @@
    "detail_checked": true,
    "active": true,
    "area": "Søborg",
-   "score": 20,
+   "score": 21,
    "signals": {
     "m2": 0.185,
-    "valuation": 0.137,
+    "valuation": 0.134,
     "plot": 0.102,
     "rooms": 0.411,
     "scarcity": -1.2
@@ -8836,11 +8839,11 @@
    "plot_m2": 520,
    "rooms": 5,
    "owner_cost_month": 5056,
-   "days_on_market": 11,
-   "days_total": 256,
+   "days_on_market": 12,
+   "days_total": 257,
    "postcode": "2820",
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.75098,
    "lon": 12.526425,
    "valuation": 6417000,
@@ -8848,10 +8851,10 @@
    "detail_checked": true,
    "active": true,
    "area": "Vangede",
-   "score": -21,
+   "score": -22,
    "signals": {
     "m2": -0.016,
-    "valuation": 0.037,
+    "valuation": 0.034,
     "plot": -0.409,
     "rooms": -0.113,
     "scarcity": 0.3
@@ -8864,7 +8867,7 @@
     "small plot for the price: 520 m²"
    ],
    "base_score": -6,
-   "taste": 17,
+   "taste": 16,
    "pick_type": "earlier"
   },
   "https://www.boligsiden.dk/adresse/vojensvej-51-2610-roedovre": {
@@ -8876,11 +8879,11 @@
    "plot_m2": 700,
    "rooms": 5,
    "owner_cost_month": 4776,
-   "days_on_market": 11,
-   "days_total": 11,
+   "days_on_market": 12,
+   "days_total": 12,
    "postcode": "2610",
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.664967,
    "lon": 12.467836,
    "valuation": 5233000,
@@ -8891,10 +8894,10 @@
    "score": 12,
    "signals": {
     "m2": 0.142,
-    "valuation": 0.061,
+    "valuation": 0.058,
     "plot": 0.0,
     "rooms": 0.116,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "m² price 14 % below the area's level (40.811 vs. 47.583 kr./m², sales last 6 months)",
@@ -8903,7 +8906,7 @@
    ],
    "warnings": [],
    "base_score": 5,
-   "taste": 66,
+   "taste": 67,
    "pick_type": "new"
   },
   "https://www.boligsiden.dk/adresse/krogstens-alle-38-2650-hvidovre": {
@@ -8915,11 +8918,11 @@
    "plot_m2": 861,
    "rooms": 3,
    "owner_cost_month": 5386,
-   "days_on_market": 27,
-   "days_total": 154,
+   "days_on_market": 28,
+   "days_total": 155,
    "postcode": "2650",
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.648056,
    "lon": 12.483047,
    "valuation": 6858000,
@@ -8927,13 +8930,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Hvidovre",
-   "score": -14,
+   "score": -15,
    "signals": {
     "m2": -0.046,
-    "valuation": 0.089,
+    "valuation": 0.086,
     "plot": -0.033,
     "rooms": -0.474,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "asking price is 1.30× the public valuation (typical 1.42×)"
@@ -8941,8 +8944,8 @@
    "warnings": [
     "3 rooms for 8,9 mio."
    ],
-   "base_score": -26,
-   "taste": 62,
+   "base_score": -27,
+   "taste": 60,
    "pick_type": "earlier"
   },
   "https://www.boligsiden.dk/adresse/husumvej-95b-2700-broenshoej": {
@@ -8954,11 +8957,11 @@
    "plot_m2": 333,
    "rooms": 4,
    "owner_cost_month": 3286,
-   "days_on_market": 8,
-   "days_total": 8,
+   "days_on_market": 9,
+   "days_total": 9,
    "postcode": "2700",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.70653,
    "lon": 12.4775915,
    "valuation": 4076000,
@@ -8968,8 +8971,8 @@
    "area": "Brønshøj",
    "score": -17,
    "signals": {
-    "m2": -0.105,
-    "valuation": -0.085,
+    "m2": -0.118,
+    "valuation": -0.089,
     "plot": -0.472,
     "rooms": -0.009,
     "scarcity": -1.7
@@ -8980,7 +8983,7 @@
    "warnings": [
     "small plot for the price: 333 m²"
    ],
-   "base_score": -45,
+   "base_score": -46,
    "taste": 84,
    "pick_type": "new"
   },
@@ -8993,11 +8996,11 @@
    "plot_m2": 888,
    "rooms": 3,
    "owner_cost_month": 5019,
-   "days_on_market": 28,
-   "days_total": 28,
+   "days_on_market": 29,
+   "days_total": 29,
    "postcode": "2700",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.70821,
    "lon": 12.488986,
    "valuation": 5793000,
@@ -9005,10 +9008,10 @@
    "detail_checked": true,
    "active": true,
    "area": "Brønshøj",
-   "score": -16,
+   "score": -18,
    "signals": {
-    "m2": -0.251,
-    "valuation": -0.09,
+    "m2": -0.267,
+    "valuation": -0.094,
     "plot": -0.013,
     "rooms": -0.48,
     "scarcity": -1.7
@@ -9017,10 +9020,10 @@
     "similar to a house you starred: Bjernedevej 8, 2700 Brønshøj"
    ],
    "warnings": [
-    "m² price 25 % above the area's level (68.927 vs. 55.092 kr./m², sales last 6 months)"
+    "m² price 27 % above the area's level (68.927 vs. 54.419 kr./m², sales last 6 months)"
    ],
-   "base_score": -55,
-   "taste": 100,
+   "base_score": -57,
+   "taste": 99,
    "pick_type": "earlier"
   },
   "https://www.boligsiden.dk/adresse/lyngbyvej-416b-2820-gentofte": {
@@ -9032,11 +9035,11 @@
    "plot_m2": 896,
    "rooms": 4,
    "owner_cost_month": 4150,
-   "days_on_market": 28,
-   "days_total": 28,
+   "days_on_market": 29,
+   "days_total": 29,
    "postcode": "2820",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.75071,
    "lon": 12.52603,
    "valuation": 5685000,
@@ -9047,7 +9050,7 @@
    "score": 24,
    "signals": {
     "m2": -0.016,
-    "valuation": 0.26,
+    "valuation": 0.257,
     "plot": 0.494,
     "rooms": 0.041,
     "scarcity": 0.3
@@ -9111,11 +9114,11 @@
    "plot_m2": 645,
    "rooms": 8,
    "owner_cost_month": 4794,
-   "days_on_market": 8,
-   "days_total": 8,
+   "days_on_market": 9,
+   "days_total": 9,
    "postcode": "2650",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.6198,
    "lon": 12.486947,
    "valuation": 6179000,
@@ -9123,13 +9126,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Hvidovre",
-   "score": 0,
+   "score": -1,
    "signals": {
     "m2": 0.179,
-    "valuation": 0.057,
+    "valuation": 0.054,
     "plot": -0.223,
     "rooms": 0.505,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 18 % below the area's level (40.267 vs. 49.018 kr./m², sales last 3 months)",
@@ -9140,7 +9143,7 @@
     "small plot for the price: 645 m²"
    ],
    "base_score": 7,
-   "taste": 39,
+   "taste": 38,
    "pick_type": "new"
   },
   "https://www.boligsiden.dk/adresse/rudboelvej-14-2650-hvidovre": {
@@ -9152,11 +9155,11 @@
    "plot_m2": 730,
    "rooms": 3,
    "owner_cost_month": 4968,
-   "days_on_market": 8,
-   "days_total": 8,
+   "days_on_market": 9,
+   "days_total": 9,
    "postcode": "2650",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.63076,
    "lon": 12.460943,
    "valuation": 5638000,
@@ -9167,10 +9170,10 @@
    "score": -14,
    "signals": {
     "m2": 0.08,
-    "valuation": 0.067,
+    "valuation": 0.063,
     "plot": -0.027,
     "rooms": -0.375,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 8 % below the area's level (45.110 vs. 49.018 kr./m², sales last 3 months)",
@@ -9192,11 +9195,11 @@
    "plot_m2": 761,
    "rooms": 3,
    "owner_cost_month": 4302,
-   "days_on_market": 7,
-   "days_total": 7,
+   "days_on_market": 8,
+   "days_total": 8,
    "postcode": "2650",
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.636265,
    "lon": 12.460278,
    "valuation": 4443000,
@@ -9207,10 +9210,10 @@
    "score": -4,
    "signals": {
     "m2": 0.045,
-    "valuation": 0.084,
+    "valuation": 0.081,
     "plot": 0.312,
     "rooms": -0.192,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "large plot for the price: 761 m²",
@@ -9218,7 +9221,7 @@
     "asking price is 1.30× the public valuation (typical 1.42×)"
    ],
    "warnings": [],
-   "base_score": 1,
+   "base_score": 0,
    "taste": 41,
    "pick_type": "new"
   },
@@ -9231,11 +9234,11 @@
    "plot_m2": 814,
    "rooms": 5,
    "owner_cost_month": 5325,
-   "days_on_market": 7,
-   "days_total": 7,
+   "days_on_market": 8,
+   "days_total": 8,
    "postcode": "2650",
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.616997,
    "lon": 12.485283,
    "valuation": 7406000,
@@ -9243,21 +9246,21 @@
    "detail_checked": true,
    "active": true,
    "area": "Hvidovre",
-   "score": -2,
+   "score": -3,
    "signals": {
     "m2": 0.221,
-    "valuation": 0.147,
+    "valuation": 0.144,
     "plot": -0.096,
     "rooms": -0.133,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 22 % below the area's level (38.203 vs. 49.018 kr./m², sales last 3 months)",
     "asking price is 1.21× the public valuation (typical 1.42×)"
    ],
    "warnings": [],
-   "base_score": 8,
-   "taste": 35,
+   "base_score": 7,
+   "taste": 34,
    "pick_type": "new"
   },
   "https://www.boligsiden.dk/adresse/sydkaersvej-61-2650-hvidovre": {
@@ -9269,11 +9272,11 @@
    "plot_m2": 379,
    "rooms": 5,
    "owner_cost_month": 4635,
-   "days_on_market": 120,
-   "days_total": 120,
+   "days_on_market": 121,
+   "days_total": 121,
    "postcode": "2650",
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.64739,
    "lon": 12.488841,
    "valuation": 6002000,
@@ -9284,17 +9287,17 @@
    "score": -49,
    "signals": {
     "m2": -0.172,
-    "valuation": -0.05,
+    "valuation": -0.054,
     "plot": -0.578,
     "rooms": -0.131,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [],
    "warnings": [
     "m² price 17 % above the area's level (57.458 vs. 49.018 kr./m², sales last 3 months)"
    ],
    "base_score": -53,
-   "taste": 32,
+   "taste": 31,
    "pick_type": "earlier"
   },
   "https://www.boligsiden.dk/adresse/svankaervej-17-2720-vanloese": {
@@ -9306,11 +9309,11 @@
    "plot_m2": 614,
    "rooms": 3,
    "owner_cost_month": 4448,
-   "days_on_market": 6,
-   "days_total": 6,
+   "days_on_market": 7,
+   "days_total": 7,
    "postcode": "2720",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.693405,
    "lon": 12.469011,
    "valuation": 5514000,
@@ -9318,23 +9321,22 @@
    "detail_checked": true,
    "active": true,
    "area": "Vanløse",
-   "score": -6,
+   "score": -5,
    "signals": {
     "m2": 0.065,
-    "valuation": 0.02,
+    "valuation": 0.017,
     "plot": -0.203,
     "rooms": -0.392,
     "scarcity": 0.0
    },
    "reasons": [
-    "m² price 7 % below the area's level (61.981 vs. 66.308 kr./m², sales last 6 months)",
-    "asking price is 1.40× the public valuation (typical 1.42×)"
+    "m² price 7 % below the area's level (61.981 vs. 66.308 kr./m², sales last 6 months)"
    ],
    "warnings": [
     "3 rooms for 7,7 mio."
    ],
    "base_score": -10,
-   "taste": 53,
+   "taste": 54,
    "pick_type": "new"
   },
   "https://www.boligsiden.dk/adresse/bogenaesvej-14-2700-broenshoej": {
@@ -9346,11 +9348,11 @@
    "plot_m2": 720,
    "rooms": 4,
    "owner_cost_month": 4700,
-   "days_on_market": 6,
-   "days_total": 249,
+   "days_on_market": 7,
+   "days_total": 250,
    "postcode": "2700",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.711666,
    "lon": 12.465282,
    "valuation": 5237000,
@@ -9360,19 +9362,19 @@
    "area": "Brønshøj",
    "score": 36,
    "signals": {
-    "m2": 0.275,
-    "valuation": 0.089,
+    "m2": 0.266,
+    "valuation": 0.086,
     "plot": 0.059,
     "rooms": -0.081,
     "scarcity": -1.7
    },
    "reasons": [
     "similar to a house you starred: Stenlillevej 4, 2700 Brønshøj",
-    "m² price 27 % below the area's level (39.947 vs. 55.092 kr./m², sales last 6 months)",
+    "m² price 27 % below the area's level (39.947 vs. 54.419 kr./m², sales last 6 months)",
     "asking price is 1.30× the public valuation (typical 1.42×)"
    ],
    "warnings": [],
-   "base_score": 17,
+   "base_score": 16,
    "taste": 97,
    "pick_type": "earlier"
   },
@@ -9385,11 +9387,11 @@
    "plot_m2": 626,
    "rooms": 6,
    "owner_cost_month": 4695,
-   "days_on_market": 27,
-   "days_total": 27,
+   "days_on_market": 28,
+   "days_total": 28,
    "postcode": "2700",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.711967,
    "lon": 12.468032,
    "valuation": 5699000,
@@ -9397,23 +9399,23 @@
    "detail_checked": true,
    "active": true,
    "area": "Brønshøj",
-   "score": 15,
+   "score": 14,
    "signals": {
-    "m2": 0.213,
-    "valuation": -0.108,
+    "m2": 0.203,
+    "valuation": -0.112,
     "plot": -0.305,
     "rooms": 0.041,
     "scarcity": -1.7
    },
    "reasons": [
     "similar to a house you starred: Stenlillevej 4, 2700 Brønshøj",
-    "m² price 21 % below the area's level (43.370 vs. 55.092 kr./m², sales last 6 months)",
+    "m² price 20 % below the area's level (43.370 vs. 54.419 kr./m², sales last 6 months)",
     "6 rooms for 9,0 mio."
    ],
    "warnings": [
     "small plot for the price: 626 m²"
    ],
-   "base_score": -10,
+   "base_score": -11,
    "taste": 94,
    "pick_type": "earlier"
   },
@@ -9467,11 +9469,11 @@
    "plot_m2": 597,
    "rooms": 3,
    "owner_cost_month": 2821,
-   "days_on_market": 40,
-   "days_total": 40,
+   "days_on_market": 41,
+   "days_total": 41,
    "postcode": "2610",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.691624,
    "lon": 12.46395,
    "valuation": 5220000,
@@ -9482,10 +9484,10 @@
    "score": -21,
    "signals": {
     "m2": -0.524,
-    "valuation": 0.395,
+    "valuation": 0.393,
     "plot": 0.327,
     "rooms": 0.042,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "asking price is 0.86× the public valuation (typical 1.42×)",
@@ -9508,11 +9510,11 @@
    "plot_m2": 600,
    "rooms": 5,
    "owner_cost_month": 4411,
-   "days_on_market": 6,
-   "days_total": 6,
+   "days_on_market": 7,
+   "days_total": 7,
    "postcode": "2650",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.63108,
    "lon": 12.485874,
    "valuation": 5113000,
@@ -9523,10 +9525,10 @@
    "score": 1,
    "signals": {
     "m2": 0.108,
-    "valuation": 0.039,
+    "valuation": 0.036,
     "plot": -0.143,
     "rooms": 0.116,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 11 % below the area's level (43.705 vs. 49.018 kr./m², sales last 3 months)",
@@ -9549,11 +9551,11 @@
    "plot_m2": 788,
    "rooms": 6,
    "owner_cost_month": 4398,
-   "days_on_market": 22,
-   "days_total": 22,
+   "days_on_market": 23,
+   "days_total": 23,
    "postcode": "2650",
    "first_seen": "2026-10-08",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.640617,
    "lon": 12.458962,
    "valuation": 4660000,
@@ -9561,13 +9563,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Hvidovre",
-   "score": -30,
+   "score": -31,
    "signals": {
     "m2": -0.021,
-    "valuation": -0.355,
+    "valuation": -0.36,
     "plot": -0.125,
     "rooms": 0.041,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "6 rooms for 9,0 mio."
@@ -9575,8 +9577,8 @@
    "warnings": [
     "asking price is 1.93× the public valuation (typical 1.42×)"
    ],
-   "base_score": -38,
-   "taste": 47,
+   "base_score": -39,
+   "taste": 46,
    "pick_type": "earlier"
   },
   "https://www.boligsiden.dk/adresse/limfjordsvej-60b-2720-vanloese": {
@@ -9588,11 +9590,11 @@
    "plot_m2": 709,
    "rooms": 5,
    "owner_cost_month": 5034,
-   "days_on_market": 5,
-   "days_total": 5,
+   "days_on_market": 6,
+   "days_total": 6,
    "postcode": "2720",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.69449,
    "lon": 12.504238,
    "valuation": 16664000,
@@ -9603,7 +9605,7 @@
    "score": 22,
    "signals": {
     "m2": 0.184,
-    "valuation": 0.642,
+    "valuation": 0.641,
     "plot": -0.166,
     "rooms": -0.081,
     "scarcity": 0.0
@@ -9628,11 +9630,11 @@
    "plot_m2": 601,
    "rooms": 5,
    "owner_cost_month": 5463,
-   "days_on_market": 41,
-   "days_total": 41,
+   "days_on_market": 42,
+   "days_total": 42,
    "postcode": "2700",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.71666,
    "lon": 12.464103,
    "valuation": 3165000,
@@ -9640,22 +9642,22 @@
    "detail_checked": true,
    "active": true,
    "area": "Brønshøj",
-   "score": -14,
+   "score": -15,
    "signals": {
-    "m2": 0.102,
-    "valuation": -0.996,
+    "m2": 0.091,
+    "valuation": -1.003,
     "plot": -0.333,
     "rooms": -0.133,
     "scarcity": -1.7
    },
    "reasons": [
     "similar to a house you starred: Bjernedevej 8, 2700 Brønshøj",
-    "m² price 10 % below the area's level (49.494 vs. 55.092 kr./m², sales last 6 months)"
+    "m² price 9 % below the area's level (49.494 vs. 54.419 kr./m², sales last 6 months)"
    ],
    "warnings": [
     "asking price is 2.84× the public valuation (typical 1.42×)"
    ],
-   "base_score": -41,
+   "base_score": -42,
    "taste": 84,
    "pick_type": "earlier"
   },
@@ -9707,11 +9709,11 @@
    "plot_m2": 773,
    "rooms": 6,
    "owner_cost_month": 4020,
-   "days_on_market": 5,
-   "days_total": 5,
+   "days_on_market": 6,
+   "days_total": 6,
    "postcode": "2610",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.702515,
    "lon": 12.449674,
    "valuation": 5271000,
@@ -9719,13 +9721,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Rødovre",
-   "score": 5,
+   "score": 6,
    "signals": {
     "m2": 0.255,
-    "valuation": -0.059,
+    "valuation": -0.063,
     "plot": -0.028,
     "rooms": 0.178,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "m² price 25 % below the area's level (35.459 vs. 47.583 kr./m², sales last 6 months)",
@@ -9733,7 +9735,7 @@
    ],
    "warnings": [],
    "base_score": 11,
-   "taste": 44,
+   "taste": 45,
    "pick_type": "new"
   },
   "https://www.boligsiden.dk/adresse/tinderhoej-vaenge-3-2610-roedovre": {
@@ -9745,11 +9747,11 @@
    "plot_m2": 1052,
    "rooms": 5,
    "owner_cost_month": 4270,
-   "days_on_market": 5,
-   "days_total": 5,
+   "days_on_market": 6,
+   "days_total": 6,
    "postcode": "2610",
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.69407,
    "lon": 12.446238,
    "valuation": 3965000,
@@ -9760,10 +9762,10 @@
    "score": -6,
    "signals": {
     "m2": 0.009,
-    "valuation": -0.24,
+    "valuation": -0.244,
     "plot": 0.502,
     "rooms": 0.115,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "large plot for the price: 1.052 m²",
@@ -9785,23 +9787,23 @@
    "plot_m2": 773,
    "rooms": 7,
    "owner_cost_month": 4288,
-   "days_on_market": 4,
-   "days_total": 392,
+   "days_on_market": 5,
+   "days_total": 393,
    "postcode": "2610",
    "first_seen": "2026-10-10",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.69174,
    "lon": 12.453627,
    "year_built": 1932,
    "detail_checked": true,
    "active": true,
    "area": "Rødovre",
-   "score": 37,
+   "score": 38,
    "signals": {
     "m2": 0.395,
     "plot": 0.611,
     "rooms": 1.278,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "m² price 39 % below the area's level (28.807 vs. 47.583 kr./m², sales last 6 months)",
@@ -9822,11 +9824,11 @@
    "plot_m2": 520,
    "rooms": 4,
    "owner_cost_month": 3435,
-   "days_on_market": 3,
-   "days_total": 3,
+   "days_on_market": 4,
+   "days_total": 4,
    "postcode": "2610",
    "first_seen": "2026-10-11",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.703903,
    "lon": 12.438945,
    "valuation": 2895000,
@@ -9837,10 +9839,10 @@
    "score": 6,
    "signals": {
     "m2": 0.326,
-    "valuation": -0.031,
+    "valuation": -0.034,
     "plot": 0.223,
     "rooms": 0.469,
-    "scarcity": -4.9
+    "scarcity": -4.8
    },
    "reasons": [
     "m² price 33 % below the area's level (32.051 vs. 47.583 kr./m², sales last 6 months)",
@@ -9849,7 +9851,7 @@
    ],
    "warnings": [],
    "base_score": 34,
-   "taste": 10,
+   "taste": 11,
    "pick_type": "new"
   },
   "https://www.boligsiden.dk/adresse/rosenholms-alle-24-2500-valby": {
@@ -9861,11 +9863,11 @@
    "plot_m2": 593,
    "rooms": 4,
    "owner_cost_month": 4739,
-   "days_on_market": 1,
-   "days_total": 1,
+   "days_on_market": 2,
+   "days_total": 2,
    "postcode": "2500",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.658173,
    "lon": 12.482105,
    "valuation": 5727000,
@@ -9876,7 +9878,7 @@
    "score": -1,
    "signals": {
     "m2": -0.083,
-    "valuation": -0.066,
+    "valuation": -0.07,
     "plot": -0.318,
     "rooms": -0.282,
     "scarcity": 0.1
@@ -9901,11 +9903,11 @@
    "plot_m2": 611,
    "rooms": 7,
    "owner_cost_month": 4861,
-   "days_on_market": 1,
-   "days_total": 274,
+   "days_on_market": 2,
+   "days_total": 275,
    "postcode": "2720",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.690937,
    "lon": 12.472311,
    "valuation": 6456000,
@@ -9916,7 +9918,7 @@
    "score": 33,
    "signals": {
     "m2": 0.458,
-    "valuation": 0.163,
+    "valuation": 0.16,
     "plot": -0.207,
     "rooms": 0.419,
     "scarcity": 0.0
@@ -9942,11 +9944,11 @@
    "plot_m2": 708,
    "rooms": 3,
    "owner_cost_month": 4205,
-   "days_on_market": 1,
-   "days_total": 1,
+   "days_on_market": 2,
+   "days_total": 2,
    "postcode": "2650",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.63476,
    "lon": 12.479477,
    "valuation": 4317000,
@@ -9954,13 +9956,13 @@
    "detail_checked": true,
    "active": true,
    "area": "Hvidovre",
-   "score": -17,
+   "score": -16,
    "signals": {
     "m2": 0.03,
-    "valuation": -0.033,
+    "valuation": -0.036,
     "plot": 0.114,
     "rooms": -0.263,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "large plot for the price: 708 m²",
@@ -9970,7 +9972,7 @@
     "3 rooms for 6,3 mio."
    ],
    "base_score": -16,
-   "taste": 41,
+   "taste": 42,
    "pick_type": "new"
   },
   "https://www.boligsiden.dk/adresse/hvidovrevej-358-2650-hvidovre": {
@@ -9982,11 +9984,11 @@
    "plot_m2": 599,
    "rooms": 5,
    "owner_cost_month": 4103,
-   "days_on_market": 1,
-   "days_total": 1,
+   "days_on_market": 2,
+   "days_total": 2,
    "postcode": "2650",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "lat": 55.63572,
    "lon": 12.479732,
    "valuation": 4674000,
@@ -9997,10 +9999,10 @@
    "score": 22,
    "signals": {
     "m2": 0.303,
-    "valuation": 0.129,
+    "valuation": 0.126,
     "plot": 0.033,
     "rooms": 0.347,
-    "scarcity": -5.0
+    "scarcity": -5.1
    },
    "reasons": [
     "m² price 30 % below the area's level (34.148 vs. 49.018 kr./m², sales last 3 months)",
@@ -10009,7 +10011,46 @@
    ],
    "warnings": [],
    "base_score": 32,
-   "taste": 45,
+   "taste": 46,
+   "pick_type": "new"
+  },
+  "https://www.boligsiden.dk/adresse/bredegaards-alle-48-2650-hvidovre": {
+   "url": "https://www.boligsiden.dk/adresse/bredegaards-alle-48-2650-hvidovre",
+   "address": "Bredegårds Alle 48, 2650 Hvidovre",
+   "price": 6495000,
+   "m2_price": 39761,
+   "living_m2": 114,
+   "plot_m2": 688,
+   "rooms": 5,
+   "owner_cost_month": 4524,
+   "days_on_market": 1,
+   "days_total": 1,
+   "postcode": "2650",
+   "first_seen": "2026-10-14",
+   "last_seen": "2026-10-14",
+   "lat": 55.634953,
+   "lon": 12.4701605,
+   "valuation": 5173000,
+   "year_built": 1963,
+   "detail_checked": true,
+   "active": true,
+   "area": "Hvidovre",
+   "score": 12,
+   "signals": {
+    "m2": 0.189,
+    "valuation": 0.115,
+    "plot": 0.059,
+    "rooms": 0.201,
+    "scarcity": -5.1
+   },
+   "reasons": [
+    "m² price 19 % below the area's level (39.761 vs. 49.018 kr./m², sales last 3 months)",
+    "asking price is 1.26× the public valuation (typical 1.42×)",
+    "5 rooms for 6,5 mio."
+   ],
+   "warnings": [],
+   "base_score": 17,
+   "taste": 49,
    "pick_type": "new"
   }
  }
