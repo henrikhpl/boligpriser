@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T04:39+00:00",
+ "updated": "2026-10-16T04:40+00:00",
  "areas": [
   "Valby",
   "Vanløse",
@@ -70,6 +70,24 @@
    "attempts": 1,
    "area": "Vanløse",
    "pct_below": 4.39
+  },
+  {
+   "url": "https://www.boligsiden.dk/adresse/kongstedvej-12-2700-broenshoej",
+   "address": "Kongstedvej 12, 2700 Brønshøj",
+   "handel": "Fri handel",
+   "sale_date": "2026-09-04",
+   "sale_price": 6075000,
+   "m2_price": 61581,
+   "id": "https://www.boligsiden.dk/adresse/kongstedvej-12-2700-broenshoej|2026-09-04",
+   "postcode": "2700",
+   "lat": 55.699184,
+   "lon": 12.476319,
+   "asking_price": null,
+   "first_asking_price": null,
+   "history_checked": true,
+   "attempts": 1,
+   "area": "Brønshøj",
+   "pct_below": null
   },
   {
    "url": "https://www.boligsiden.dk/adresse/solbakkevej-15-2820-gentofte",
