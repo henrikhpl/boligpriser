@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T04:38+00:00",
+ "updated": "2026-10-19T04:42+00:00",
  "areas": [
   "Valby",
   "Vanløse",
@@ -250,6 +250,24 @@
    "attempts": 1,
    "area": "Søborg",
    "pct_below": 9.01
+  },
+  {
+   "url": "https://www.boligsiden.dk/adresse/stenloesevej-95-2700-broenshoej",
+   "address": "Stenløsevej 95, 2700 Brønshøj",
+   "handel": "Fri handel",
+   "sale_date": "2026-08-20",
+   "sale_price": 7250000,
+   "m2_price": 40155,
+   "id": "https://www.boligsiden.dk/adresse/stenloesevej-95-2700-broenshoej|2026-08-20",
+   "postcode": "2700",
+   "lat": 55.706894,
+   "lon": 12.466749,
+   "asking_price": 7495000,
+   "first_asking_price": 7495000,
+   "history_checked": true,
+   "attempts": 1,
+   "area": "Brønshøj",
+   "pct_below": 3.27
   },
   {
    "url": "https://www.boligsiden.dk/adresse/christiansdal-74-2610-roedovre",
