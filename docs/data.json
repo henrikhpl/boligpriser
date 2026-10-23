@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T09:24+00:00",
+ "updated": "2026-10-23T09:19+00:00",
  "areas": [
   "Valby",
   "Vanløse",
@@ -34,6 +34,24 @@
    "attempts": 1,
    "area": "Hvidovre",
    "pct_below": null
+  },
+  {
+   "url": "https://www.boligsiden.dk/adresse/krarupvej-37-2610-roedovre",
+   "address": "Krarupvej 37, 2610 Rødovre",
+   "handel": "Fri handel",
+   "sale_date": "2026-09-27",
+   "sale_price": 6500000,
+   "m2_price": 45534,
+   "id": "https://www.boligsiden.dk/adresse/krarupvej-37-2610-roedovre|2026-09-27",
+   "postcode": "2610",
+   "lat": 55.713463,
+   "lon": 12.445562,
+   "asking_price": 6595000,
+   "first_asking_price": 6595000,
+   "history_checked": true,
+   "attempts": 1,
+   "area": "Rødovre",
+   "pct_below": 1.44
   },
   {
    "url": "https://www.boligsiden.dk/adresse/m-bechs-alle-15-2650-hvidovre",
