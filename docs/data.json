@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T08:51+00:00",
+ "updated": "2026-10-25T09:08+00:00",
  "areas": [
   "Valby",
   "Vanløse",
@@ -17,6 +17,24 @@
   10000000
  ],
  "sales": [
+  {
+   "url": "https://www.boligsiden.dk/adresse/gladsaxe-moellevej-139-2860-soeborg",
+   "address": "Gladsaxe Møllevej 139, 2860 Søborg",
+   "handel": "Fri handel",
+   "sale_date": "2026-10-02",
+   "sale_price": 6100000,
+   "m2_price": 26367,
+   "id": "https://www.boligsiden.dk/adresse/gladsaxe-moellevej-139-2860-soeborg|2026-10-02",
+   "postcode": "2860",
+   "lat": 55.74671,
+   "lon": 12.472011,
+   "asking_price": 6395000,
+   "first_asking_price": 6395000,
+   "history_checked": true,
+   "attempts": 1,
+   "area": "Søborg",
+   "pct_below": 4.61
+  },
   {
    "url": "https://www.boligsiden.dk/adresse/soebyvej-5-2650-hvidovre",
    "address": "Søbyvej 5, 2650 Hvidovre",
@@ -70,6 +88,24 @@
    "attempts": 1,
    "area": "Hvidovre",
    "pct_below": 1.37
+  },
+  {
+   "url": "https://www.boligsiden.dk/adresse/nordbyvej-33-2720-vanloese",
+   "address": "Nordbyvej 33, 2720 Vanløse",
+   "handel": "Fri handel",
+   "sale_date": "2026-09-17",
+   "sale_price": 8050000,
+   "m2_price": 61733,
+   "id": "https://www.boligsiden.dk/adresse/nordbyvej-33-2720-vanloese|2026-09-17",
+   "postcode": "2720",
+   "lat": 55.697792,
+   "lon": 12.467597,
+   "asking_price": null,
+   "first_asking_price": null,
+   "history_checked": true,
+   "attempts": 1,
+   "area": "Vanløse",
+   "pct_below": null
   },
   {
    "url": "https://www.boligsiden.dk/adresse/tornestykket-17-2720-vanloese",
@@ -322,6 +358,24 @@
    "attempts": 1,
    "area": "Rødovre",
    "pct_below": 0.95
+  },
+  {
+   "url": "https://www.boligsiden.dk/adresse/oktobervej-121-2860-soeborg",
+   "address": "Oktobervej 121, 2860 Søborg",
+   "handel": "Fri handel",
+   "sale_date": "2026-08-18",
+   "sale_price": 5150000,
+   "m2_price": 43980,
+   "id": "https://www.boligsiden.dk/adresse/oktobervej-121-2860-soeborg|2026-08-18",
+   "postcode": "2860",
+   "lat": 55.72893,
+   "lon": 12.456627,
+   "asking_price": null,
+   "first_asking_price": null,
+   "history_checked": true,
+   "attempts": 1,
+   "area": "Søborg",
+   "pct_below": null
   },
   {
    "url": "https://www.boligsiden.dk/adresse/abildhoej-1-2700-broenshoej",
