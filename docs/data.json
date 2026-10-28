@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T09:47+00:00",
+ "updated": "2026-10-28T10:33+00:00",
  "areas": [
   "Valby",
   "Vanløse",
@@ -54,6 +54,24 @@
    "pct_below": null
   },
   {
+   "url": "https://www.boligsiden.dk/adresse/mosevangen-22-2860-soeborg",
+   "address": "Mosevangen 22, 2860 Søborg",
+   "handel": "Fri handel",
+   "sale_date": "2026-09-30",
+   "sale_price": 8550000,
+   "m2_price": 76271,
+   "id": "https://www.boligsiden.dk/adresse/mosevangen-22-2860-soeborg|2026-09-30",
+   "postcode": "2860",
+   "lat": 55.721024,
+   "lon": 12.512765,
+   "asking_price": null,
+   "first_asking_price": null,
+   "history_checked": true,
+   "attempts": 1,
+   "area": "Søborg",
+   "pct_below": null
+  },
+  {
    "url": "https://www.boligsiden.dk/adresse/krarupvej-37-2610-roedovre",
    "address": "Krarupvej 37, 2610 Rødovre",
    "handel": "Fri handel",
@@ -70,6 +88,24 @@
    "attempts": 1,
    "area": "Rødovre",
    "pct_below": 1.44
+  },
+  {
+   "url": "https://www.boligsiden.dk/adresse/stenlillevej-4-2700-broenshoej",
+   "address": "Stenlillevej 4, 2700 Brønshøj",
+   "handel": "Fri handel",
+   "sale_date": "2026-09-24",
+   "sale_price": 6495000,
+   "m2_price": 53856,
+   "id": "https://www.boligsiden.dk/adresse/stenlillevej-4-2700-broenshoej|2026-09-24",
+   "postcode": "2700",
+   "lat": 55.70581,
+   "lon": 12.470659,
+   "asking_price": 6495000,
+   "first_asking_price": 6495000,
+   "history_checked": true,
+   "attempts": 1,
+   "area": "Brønshøj",
+   "pct_below": 0.0
   },
   {
    "url": "https://www.boligsiden.dk/adresse/m-bechs-alle-15-2650-hvidovre",
@@ -448,6 +484,24 @@
    "attempts": 1,
    "area": "Søborg",
    "pct_below": 1.65
+  },
+  {
+   "url": "https://www.boligsiden.dk/adresse/noekkerosevej-39-2400-koebenhavn-nv",
+   "address": "Nøkkerosevej 39, 2400 København NV",
+   "handel": "Fri handel",
+   "sale_date": "2026-08-10",
+   "sale_price": 8800000,
+   "m2_price": 57069,
+   "id": "https://www.boligsiden.dk/adresse/noekkerosevej-39-2400-koebenhavn-nv|2026-08-10",
+   "postcode": "2400",
+   "lat": 55.725014,
+   "lon": 12.535977,
+   "asking_price": 9495000,
+   "first_asking_price": 9495000,
+   "history_checked": true,
+   "attempts": 1,
+   "area": "Emdrup",
+   "pct_below": 7.32
   },
   {
    "url": "https://www.boligsiden.dk/adresse/damhusdalen-10-2610-roedovre",
