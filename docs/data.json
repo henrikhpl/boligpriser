@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T10:33+00:00",
+ "updated": "2026-10-29T10:52+00:00",
  "areas": [
   "Valby",
   "Vanløse",
@@ -90,6 +90,24 @@
    "pct_below": 1.44
   },
   {
+   "url": "https://www.boligsiden.dk/adresse/vestre-strandvej-34-2650-hvidovre",
+   "address": "Vestre Strandvej 34, 2650 Hvidovre",
+   "handel": "Fri handel",
+   "sale_date": "2026-09-25",
+   "sale_price": 6500000,
+   "m2_price": 39877,
+   "id": "https://www.boligsiden.dk/adresse/vestre-strandvej-34-2650-hvidovre|2026-09-25",
+   "postcode": "2650",
+   "lat": 55.62151,
+   "lon": 12.449148,
+   "asking_price": 6295000,
+   "first_asking_price": 6295000,
+   "history_checked": true,
+   "attempts": 1,
+   "area": "Hvidovre",
+   "pct_below": -3.26
+  },
+  {
    "url": "https://www.boligsiden.dk/adresse/stenlillevej-4-2700-broenshoej",
    "address": "Stenlillevej 4, 2700 Brønshøj",
    "handel": "Fri handel",
@@ -106,6 +124,24 @@
    "attempts": 1,
    "area": "Brønshøj",
    "pct_below": 0.0
+  },
+  {
+   "url": "https://www.boligsiden.dk/adresse/baarsevej-10-2650-hvidovre",
+   "address": "Bårsevej 10, 2650 Hvidovre",
+   "handel": "Fri handel",
+   "sale_date": "2026-09-23",
+   "sale_price": 8450000,
+   "m2_price": 58397,
+   "id": "https://www.boligsiden.dk/adresse/baarsevej-10-2650-hvidovre|2026-09-23",
+   "postcode": "2650",
+   "lat": 55.639668,
+   "lon": 12.485805,
+   "asking_price": 8485000,
+   "first_asking_price": 8485000,
+   "history_checked": true,
+   "attempts": 1,
+   "area": "Hvidovre",
+   "pct_below": 0.41
   },
   {
    "url": "https://www.boligsiden.dk/adresse/m-bechs-alle-15-2650-hvidovre",
@@ -160,6 +196,24 @@
    "attempts": 1,
    "area": "Vanløse",
    "pct_below": 4.39
+  },
+  {
+   "url": "https://www.boligsiden.dk/adresse/torbistvej-17-2610-roedovre",
+   "address": "Torbistvej 17, 2610 Rødovre",
+   "handel": "Fri handel",
+   "sale_date": "2026-09-10",
+   "sale_price": 5700000,
+   "m2_price": 38514,
+   "id": "https://www.boligsiden.dk/adresse/torbistvej-17-2610-roedovre|2026-09-10",
+   "postcode": "2610",
+   "lat": 55.703514,
+   "lon": 12.449584,
+   "asking_price": 5995000,
+   "first_asking_price": 5995000,
+   "history_checked": true,
+   "attempts": 1,
+   "area": "Rødovre",
+   "pct_below": 4.92
   },
   {
    "url": "https://www.boligsiden.dk/adresse/kongstedvej-12-2700-broenshoej",
