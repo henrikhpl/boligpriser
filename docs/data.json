@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T10:51+00:00",
+ "updated": "2026-10-31T10:22+00:00",
  "areas": [
   "Valby",
   "Vanløse",
@@ -156,6 +156,24 @@
    "lon": 12.470659,
    "asking_price": 6495000,
    "first_asking_price": 6495000,
+   "history_checked": true,
+   "attempts": 1,
+   "area": "Brønshøj",
+   "pct_below": 0.0
+  },
+  {
+   "url": "https://www.boligsiden.dk/adresse/moellebakken-7a-2700-broenshoej",
+   "address": "Møllebakken 7A, 2700 Brønshøj",
+   "handel": "Fri handel",
+   "sale_date": "2026-09-24",
+   "sale_price": 5995000,
+   "m2_price": 59950,
+   "id": "https://www.boligsiden.dk/adresse/moellebakken-7a-2700-broenshoej|2026-09-24",
+   "postcode": "2700",
+   "lat": 55.70746,
+   "lon": 12.463719,
+   "asking_price": 5995000,
+   "first_asking_price": 5995000,
    "history_checked": true,
    "attempts": 1,
    "area": "Brønshøj",
