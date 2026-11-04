@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T11:54+00:00",
+ "updated": "2026-11-04T12:05+00:00",
  "areas": [
   "Valby",
   "Vanløse",
@@ -126,6 +126,24 @@
    "pct_below": 1.44
   },
   {
+   "url": "https://www.boligsiden.dk/adresse/odysseus-alle-18-2650-hvidovre",
+   "address": "Odysseus Alle 18, 2650 Hvidovre",
+   "handel": "Fri handel",
+   "sale_date": "2026-09-27",
+   "sale_price": 9350000,
+   "m2_price": 54919,
+   "id": "https://www.boligsiden.dk/adresse/odysseus-alle-18-2650-hvidovre|2026-09-27",
+   "postcode": "2650",
+   "lat": 55.633488,
+   "lon": 12.477643,
+   "asking_price": 9625000,
+   "first_asking_price": 9625000,
+   "history_checked": true,
+   "attempts": 1,
+   "area": "Hvidovre",
+   "pct_below": 2.86
+  },
+  {
    "url": "https://www.boligsiden.dk/adresse/vestre-strandvej-34-2650-hvidovre",
    "address": "Vestre Strandvej 34, 2650 Hvidovre",
    "handel": "Fri handel",
@@ -178,6 +196,24 @@
    "attempts": 1,
    "area": "Brønshøj",
    "pct_below": 0.0
+  },
+  {
+   "url": "https://www.boligsiden.dk/adresse/selma-lagerloefs-alle-8-2860-soeborg",
+   "address": "Selma Lagerløfs Alle 8, 2860 Søborg",
+   "handel": "Fri handel",
+   "sale_date": "2026-09-24",
+   "sale_price": 9000000,
+   "m2_price": 45215,
+   "id": "https://www.boligsiden.dk/adresse/selma-lagerloefs-alle-8-2860-soeborg|2026-09-24",
+   "postcode": "2860",
+   "lat": 55.732727,
+   "lon": 12.514891,
+   "asking_price": 10995000,
+   "first_asking_price": 10995000,
+   "history_checked": true,
+   "attempts": 1,
+   "area": "Søborg",
+   "pct_below": 18.14
   },
   {
    "url": "https://www.boligsiden.dk/adresse/baarsevej-10-2650-hvidovre",
