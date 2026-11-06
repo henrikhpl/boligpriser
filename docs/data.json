@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T12:37+00:00",
+ "updated": "2026-11-06T12:04+00:00",
  "areas": [
   "Valby",
   "Vanløse",
@@ -17,6 +17,60 @@
   10000000
  ],
  "sales": [
+  {
+   "url": "https://www.boligsiden.dk/adresse/christopher-boecks-alle-89-2860-soeborg",
+   "address": "Christopher Boecks Alle 89, 2860 Søborg",
+   "handel": "Fri handel",
+   "sale_date": "2026-11-04",
+   "sale_price": 9850000,
+   "m2_price": 56756,
+   "id": "https://www.boligsiden.dk/adresse/christopher-boecks-alle-89-2860-soeborg|2026-11-04",
+   "postcode": "2860",
+   "lat": 55.7354,
+   "lon": 12.499237,
+   "asking_price": 9970000,
+   "first_asking_price": 9970000,
+   "history_checked": true,
+   "attempts": 1,
+   "area": "Søborg",
+   "pct_below": 1.2
+  },
+  {
+   "url": "https://www.boligsiden.dk/adresse/bjerringbrovej-50-2610-roedovre",
+   "address": "Bjerringbrovej 50, 2610 Rødovre",
+   "handel": "Fri handel",
+   "sale_date": "2026-11-03",
+   "sale_price": 5300000,
+   "m2_price": 29298,
+   "id": "https://www.boligsiden.dk/adresse/bjerringbrovej-50-2610-roedovre|2026-11-03",
+   "postcode": "2610",
+   "lat": 55.701797,
+   "lon": 12.436055,
+   "asking_price": 4795000,
+   "first_asking_price": 4795000,
+   "history_checked": true,
+   "attempts": 1,
+   "area": "Rødovre",
+   "pct_below": -10.53
+  },
+  {
+   "url": "https://www.boligsiden.dk/adresse/adolphsvej-19-2820-gentofte",
+   "address": "Adolphsvej 19, 2820 Gentofte",
+   "handel": "Fri handel",
+   "sale_date": "2026-10-11",
+   "sale_price": 8900000,
+   "m2_price": 39242,
+   "id": "https://www.boligsiden.dk/adresse/adolphsvej-19-2820-gentofte|2026-10-11",
+   "postcode": "2820",
+   "lat": 55.74752,
+   "lon": 12.553541,
+   "asking_price": 9995000,
+   "first_asking_price": 9995000,
+   "history_checked": true,
+   "attempts": 1,
+   "area": null,
+   "pct_below": 10.96
+  },
   {
    "url": "https://www.boligsiden.dk/adresse/groenskifte-6-2650-hvidovre",
    "address": "Grønskifte 6, 2650 Hvidovre",
@@ -72,6 +126,24 @@
    "pct_below": 3.75
   },
   {
+   "url": "https://www.boligsiden.dk/adresse/fortvej-151-2610-roedovre",
+   "address": "Fortvej 151, 2610 Rødovre",
+   "handel": "Fri handel",
+   "sale_date": "2026-10-01",
+   "sale_price": 6200000,
+   "m2_price": 55456,
+   "id": "https://www.boligsiden.dk/adresse/fortvej-151-2610-roedovre|2026-10-01",
+   "postcode": "2610",
+   "lat": 55.69546,
+   "lon": 12.446503,
+   "asking_price": null,
+   "first_asking_price": null,
+   "history_checked": true,
+   "attempts": 1,
+   "area": "Rødovre",
+   "pct_below": null
+  },
+  {
    "url": "https://www.boligsiden.dk/adresse/soebyvej-5-2650-hvidovre",
    "address": "Søbyvej 5, 2650 Hvidovre",
    "handel": "Fri handel",
@@ -106,6 +178,24 @@
    "attempts": 1,
    "area": "Søborg",
    "pct_below": null
+  },
+  {
+   "url": "https://www.boligsiden.dk/adresse/degnemose-alle-30-2700-broenshoej",
+   "address": "Degnemose Allé 30, 2700 Brønshøj",
+   "handel": "Fri handel",
+   "sale_date": "2026-09-28",
+   "sale_price": 8810000,
+   "m2_price": 58037,
+   "id": "https://www.boligsiden.dk/adresse/degnemose-alle-30-2700-broenshoej|2026-09-28",
+   "postcode": "2700",
+   "lat": 55.70224,
+   "lon": 12.505943,
+   "asking_price": 8495000,
+   "first_asking_price": 8495000,
+   "history_checked": true,
+   "attempts": 1,
+   "area": "Brønshøj",
+   "pct_below": -3.71
   },
   {
    "url": "https://www.boligsiden.dk/adresse/krarupvej-37-2610-roedovre",
