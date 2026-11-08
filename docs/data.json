@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T11:01+00:00",
+ "updated": "2026-11-08T11:15+00:00",
  "areas": [
   "Valby",
   "Vanløse",
@@ -466,6 +466,24 @@
    "attempts": 1,
    "area": "Hvidovre",
    "pct_below": -1.08
+  },
+  {
+   "url": "https://www.boligsiden.dk/adresse/soendervigvej-31-2720-vanloese",
+   "address": "Søndervigvej 31, 2720 Vanløse",
+   "handel": "Fri handel",
+   "sale_date": "2026-08-31",
+   "sale_price": 8495000,
+   "m2_price": 66212,
+   "id": "https://www.boligsiden.dk/adresse/soendervigvej-31-2720-vanloese|2026-08-31",
+   "postcode": "2720",
+   "lat": 55.693924,
+   "lon": 12.471081,
+   "asking_price": null,
+   "first_asking_price": null,
+   "history_checked": true,
+   "attempts": 1,
+   "area": "Vanløse",
+   "pct_below": null
   },
   {
    "url": "https://www.boligsiden.dk/adresse/skovmosevej-27-2820-gentofte",
