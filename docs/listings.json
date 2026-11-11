@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T12:37+00:00",
+ "updated": "2026-11-11T12:16+00:00",
  "price_max": 9000000,
  "benchmarks": {
   "Valby": {
@@ -15,9 +15,9 @@
    "months": 6
   },
   "Brønshøj": {
-   "sold_m2": 54641,
-   "expected_ask_m2": 56054,
-   "n": 25,
+   "sold_m2": 54686,
+   "expected_ask_m2": 56053,
+   "n": 24,
    "months": 6
   },
   "Emdrup": {
@@ -39,10 +39,10 @@
    "months": 6
   },
   "Dyssegård": {
-   "sold_m2": 64480,
-   "expected_ask_m2": 64895,
-   "n": 8,
-   "months": 6
+   "sold_m2": 58514,
+   "expected_ask_m2": 59806,
+   "n": 18,
+   "months": 12
   },
   "Vangede": {
    "sold_m2": 54360,
@@ -80,7 +80,6 @@
   ]
  },
  "picks": {
-  "2026-10-12": [],
   "2026-10-13": [
    "https://www.boligsiden.dk/adresse/hvidovrevej-358-2650-hvidovre",
    "https://www.boligsiden.dk/adresse/rosenholms-alle-24-2500-valby",
@@ -196,7 +195,8 @@
    "https://www.boligsiden.dk/adresse/krogholtsvej-8-2650-hvidovre",
    "https://www.boligsiden.dk/adresse/loevetandsvej-31-0-tv-2700-broenshoej",
    "https://www.boligsiden.dk/adresse/elstedvej-12-2610-roedovre"
-  ]
+  ],
+  "2026-11-11": []
  },
  "listings": {
   "https://www.boligsiden.dk/adresse/monrads-alle-17b-2500-valby": {
@@ -208,11 +208,11 @@
    "plot_m2": 435,
    "rooms": 4,
    "owner_cost_month": 4290,
-   "days_on_market": 56,
-   "days_total": 56,
+   "days_on_market": 57,
+   "days_total": 57,
    "postcode": "2500",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "lat": 55.666252,
    "lon": 12.4996805,
    "valuation": 5319000,
@@ -220,22 +220,22 @@
    "detail_checked": true,
    "active": true,
    "area": "Valby",
-   "score": -23,
+   "score": -54,
    "signals": {
     "m2": -0.337,
     "valuation": 0.016,
-    "plot": -0.419,
-    "rooms": -0.16,
+    "plot": -0.211,
+    "rooms": 0.099,
     "scarcity": 0.0
    },
    "reasons": [
-    "similar to a house you starred: Vigerslevstræde 9, 2500 Valby"
+    "4 rooms for 7,5 mio."
    ],
    "warnings": [
     "m² price 34 % above the area's level (87.198 vs. 65.242 kr./m², sales last 6 months)"
    ],
-   "base_score": -52,
-   "taste": 81
+   "base_score": -38,
+   "taste": 0
   },
   "https://www.boligsiden.dk/adresse/danshoejvej-58-2500-valby": {
    "url": "https://www.boligsiden.dk/adresse/danshoejvej-58-2500-valby",
@@ -246,11 +246,11 @@
    "plot_m2": 455,
    "rooms": 5,
    "owner_cost_month": 4606,
-   "days_on_market": 65,
-   "days_total": 65,
+   "days_on_market": 66,
+   "days_total": 66,
    "postcode": "2500",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "lat": 55.663048,
    "lon": 12.488153,
    "valuation": 4970000,
@@ -258,22 +258,22 @@
    "detail_checked": true,
    "active": true,
    "area": "Valby",
-   "score": -15,
+   "score": -26,
    "signals": {
     "m2": -0.192,
-    "valuation": -0.172,
-    "plot": -0.454,
-    "rooms": -0.056,
+    "valuation": -0.171,
+    "plot": -0.258,
+    "rooms": 0.235,
     "scarcity": 0.0
    },
    "reasons": [
-    "similar to a house you starred: Vigerslevstræde 9, 2500 Valby"
+    "5 rooms for 8,3 mio."
    ],
    "warnings": [
     "m² price 19 % above the area's level (77.736 vs. 65.242 kr./m², sales last 6 months)"
    ],
-   "base_score": -44,
-   "taste": 86
+   "base_score": -32,
+   "taste": 46
   },
   "https://www.boligsiden.dk/adresse/aahaven-86-2500-valby": {
    "url": "https://www.boligsiden.dk/adresse/aahaven-86-2500-valby",
@@ -284,11 +284,11 @@
    "plot_m2": 719,
    "rooms": 4,
    "owner_cost_month": 4616,
-   "days_on_market": 67,
-   "days_total": 67,
+   "days_on_market": 68,
+   "days_total": 68,
    "postcode": "2500",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "lat": 55.649662,
    "lon": 12.491857,
    "valuation": 5353000,
@@ -296,23 +296,21 @@
    "detail_checked": true,
    "active": true,
    "area": "Valby",
-   "score": 19,
+   "score": 24,
    "signals": {
     "m2": 0.133,
     "valuation": -0.068,
-    "plot": -0.121,
-    "rooms": -0.231,
+    "plot": 0.193,
+    "rooms": 0.006,
     "scarcity": 0.0
    },
    "reasons": [
-    "similar to a house you starred: Vigerslevstræde 9, 2500 Valby",
-    "m² price 13 % below the area's level (56.576 vs. 65.242 kr./m², sales last 6 months)"
+    "m² price 13 % below the area's level (56.576 vs. 65.242 kr./m², sales last 6 months)",
+    "large plot for the price: 719 m²"
    ],
-   "warnings": [
-    "4 rooms for 8,2 mio."
-   ],
-   "base_score": 0,
-   "taste": 88
+   "warnings": [],
+   "base_score": 17,
+   "taste": 73
   },
   "https://www.boligsiden.dk/adresse/kongshaven-44-2500-valby": {
    "url": "https://www.boligsiden.dk/adresse/kongshaven-44-2500-valby",
@@ -323,11 +321,11 @@
    "plot_m2": 725,
    "rooms": 4,
    "owner_cost_month": 4508,
-   "days_on_market": 92,
-   "days_total": 92,
+   "days_on_market": 93,
+   "days_total": 93,
    "postcode": "2500",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "lat": 55.65506,
    "lon": 12.494502,
    "valuation": 4746000,
@@ -335,22 +333,22 @@
    "detail_checked": true,
    "active": true,
    "area": "Valby",
-   "score": -3,
+   "score": -2,
    "signals": {
     "m2": -0.039,
     "valuation": -0.271,
-    "plot": -0.16,
-    "rooms": -0.271,
+    "plot": 0.141,
+    "rooms": -0.046,
     "scarcity": 0.0
    },
    "reasons": [
-    "similar to a house you starred: Vigerslevstræde 9, 2500 Valby"
+    "large plot for the price: 725 m²"
    ],
    "warnings": [
     "asking price is 1.82× the public valuation (typical 1.43×)"
    ],
-   "base_score": -30,
-   "taste": 88
+   "base_score": -13,
+   "taste": 65
   },
   "https://www.boligsiden.dk/adresse/humlehaven-62-1--2500-valby": {
    "url": "https://www.boligsiden.dk/adresse/humlehaven-62-1--2500-valby",
@@ -361,33 +359,33 @@
    "plot_m2": 720,
    "rooms": 3,
    "owner_cost_month": 2492,
-   "days_on_market": 131,
-   "days_total": 131,
+   "days_on_market": 132,
+   "days_total": 132,
    "postcode": "2500",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "lat": 55.64758,
    "lon": 12.4952965,
    "year_built": 1950,
    "detail_checked": true,
    "active": true,
    "area": "Valby",
-   "score": 23,
+   "score": -8,
    "signals": {
     "m2": -0.063,
-    "plot": 0.444,
-    "rooms": -0.054,
+    "plot": 0.96,
+    "rooms": 0.238,
     "scarcity": 0.0
    },
    "reasons": [
-    "similar to a house you starred: Vigerslevstræde 9, 2500 Valby",
-    "large plot for the price: 720 m²"
+    "large plot for the price: 720 m²",
+    "3 rooms for 5,0 mio."
    ],
    "warnings": [
     "m² price 6 % above the area's level (69.375 vs. 65.242 kr./m², sales last 6 months)"
    ],
-   "base_score": 9,
-   "taste": 83
+   "base_score": 18,
+   "taste": 8
   },
   "https://www.boligsiden.dk/adresse/lindehaven-28-2500-valby": {
    "url": "https://www.boligsiden.dk/adresse/lindehaven-28-2500-valby",
@@ -438,11 +436,11 @@
    "plot_m2": 725,
    "rooms": 5,
    "owner_cost_month": 3921,
-   "days_on_market": 244,
-   "days_total": 244,
+   "days_on_market": 245,
+   "days_total": 245,
    "postcode": "2500",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "lat": 55.653854,
    "lon": 12.489067,
    "valuation": 4735000,
@@ -450,23 +448,24 @@
    "detail_checked": true,
    "active": true,
    "area": "Valby",
-   "score": 28,
+   "score": 37,
    "signals": {
     "m2": 0.2,
     "valuation": -0.135,
-    "plot": -0.057,
-    "rooms": 0.023,
+    "plot": 0.281,
+    "rooms": 0.338,
     "scarcity": 0.0
    },
    "reasons": [
-    "similar to a house you starred: Vigerslevstræde 9, 2500 Valby",
-    "m² price 20 % below the area's level (52.168 vs. 65.242 kr./m², sales last 6 months)"
+    "m² price 20 % below the area's level (52.168 vs. 65.242 kr./m², sales last 6 months)",
+    "large plot for the price: 725 m²",
+    "5 rooms for 7,7 mio."
    ],
    "warnings": [
     "asking price is 1.63× the public valuation (typical 1.43×)"
    ],
-   "base_score": 12,
-   "taste": 89,
+   "base_score": 32,
+   "taste": 77,
    "pick_type": "earlier"
   },
   "https://www.boligsiden.dk/adresse/vigerslevstraede-9-2500-valby": {
@@ -598,7 +597,7 @@
    "valuation": 5927000,
    "year_built": 1946,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Vanløse",
    "score": -37,
    "signals": {
@@ -636,7 +635,7 @@
    "valuation": 5573000,
    "year_built": 1933,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Vanløse",
    "score": -13,
    "signals": {
@@ -676,7 +675,7 @@
    "valuation": 5236000,
    "year_built": 1930,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Vanløse",
    "score": 37,
    "signals": {
@@ -793,7 +792,7 @@
    "valuation": 4449000,
    "year_built": 1919,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Vanløse",
    "score": -15,
    "signals": {
@@ -832,7 +831,7 @@
    "valuation": 8437000,
    "year_built": 1965,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Vanløse",
    "score": 7,
    "signals": {
@@ -1027,7 +1026,7 @@
    "valuation": 5193000,
    "year_built": 1963,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Brønshøj",
    "score": 0,
    "signals": {
@@ -1066,7 +1065,7 @@
    "valuation": 7159000,
    "year_built": 1958,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Brønshøj",
    "score": 5,
    "signals": {
@@ -1106,7 +1105,7 @@
    "valuation": 2593000,
    "year_built": 1938,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Brønshøj",
    "score": -23,
    "signals": {
@@ -1182,7 +1181,7 @@
    "valuation": 5936000,
    "year_built": 1929,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Brønshøj",
    "score": -1,
    "signals": {
@@ -1221,7 +1220,7 @@
    "valuation": 5896000,
    "year_built": 1910,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Brønshøj",
    "score": -2,
    "signals": {
@@ -1261,7 +1260,7 @@
    "valuation": 4836000,
    "year_built": 1974,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Brønshøj",
    "score": 33,
    "signals": {
@@ -1336,7 +1335,7 @@
    "valuation": 3093000,
    "year_built": 1956,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Brønshøj",
    "score": 31,
    "signals": {
@@ -1416,7 +1415,7 @@
    "valuation": 4443000,
    "year_built": 1977,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Brønshøj",
    "score": 51,
    "signals": {
@@ -1531,7 +1530,7 @@
    "valuation": 5918000,
    "year_built": 1895,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Brønshøj",
    "score": -32,
    "signals": {
@@ -1609,7 +1608,7 @@
    "valuation": 5723000,
    "year_built": 1998,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Brønshøj",
    "score": 16,
    "signals": {
@@ -1649,7 +1648,7 @@
    "valuation": 4141000,
    "year_built": 1977,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Brønshøj",
    "score": 29,
    "signals": {
@@ -1687,7 +1686,7 @@
    "valuation": 4130000,
    "year_built": 1935,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Brønshøj",
    "score": -2,
    "signals": {
@@ -1725,7 +1724,7 @@
    "valuation": 5835000,
    "year_built": 1972,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Brønshøj",
    "score": 51,
    "signals": {
@@ -1881,7 +1880,7 @@
    "valuation": 6684000,
    "year_built": 1905,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Brønshøj",
    "score": 20,
    "signals": {
@@ -1921,7 +1920,7 @@
    "valuation": 4735000,
    "year_built": 1933,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Brønshøj",
    "score": -12,
    "signals": {
@@ -1959,7 +1958,7 @@
    "valuation": 5601000,
    "year_built": 1946,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Brønshøj",
    "score": -26,
    "signals": {
@@ -1997,7 +1996,7 @@
    "valuation": 3932000,
    "year_built": 1929,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Brønshøj",
    "score": 35,
    "signals": {
@@ -2075,7 +2074,7 @@
    "valuation": 5547000,
    "year_built": 1929,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Emdrup",
    "score": -39,
    "signals": {
@@ -2149,7 +2148,7 @@
    "valuation": 9450000,
    "year_built": 1934,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": 27,
    "signals": {
@@ -2187,7 +2186,7 @@
    "lon": 12.453558,
    "year_built": 1927,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": 42,
    "signals": {
@@ -2225,7 +2224,7 @@
    "valuation": 10026000,
    "year_built": 1967,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": 42,
    "signals": {
@@ -2264,7 +2263,7 @@
    "valuation": 6075000,
    "year_built": 1949,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": -15,
    "signals": {
@@ -2302,7 +2301,7 @@
    "valuation": 4516000,
    "year_built": 1959,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": -9,
    "signals": {
@@ -2453,7 +2452,7 @@
    "valuation": 4453000,
    "year_built": 1947,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": 21,
    "signals": {
@@ -2491,7 +2490,7 @@
    "valuation": 5209000,
    "year_built": 1987,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": 1,
    "signals": {
@@ -2567,7 +2566,7 @@
    "valuation": 3434000,
    "year_built": 1954,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": 3,
    "signals": {
@@ -2637,7 +2636,7 @@
    "valuation": 5178000,
    "year_built": 1952,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": -9,
    "signals": {
@@ -2675,7 +2674,7 @@
    "valuation": 5027000,
    "year_built": 1935,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": 25,
    "signals": {
@@ -2713,7 +2712,7 @@
    "valuation": 7430000,
    "year_built": 2020,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": -37,
    "signals": {
@@ -2828,7 +2827,7 @@
    "valuation": 4438000,
    "year_built": 1958,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": -2,
    "signals": {
@@ -2866,7 +2865,7 @@
    "valuation": 6521000,
    "year_built": 1964,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": 28,
    "signals": {
@@ -2942,7 +2941,7 @@
    "valuation": 5662000,
    "year_built": 1955,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": 47,
    "signals": {
@@ -2981,7 +2980,7 @@
    "valuation": 4733000,
    "year_built": 1935,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": 44,
    "signals": {
@@ -3095,7 +3094,7 @@
    "valuation": 6017000,
    "year_built": 1953,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Dyssegård",
    "score": 3,
    "signals": {
@@ -3134,7 +3133,7 @@
    "valuation": 6716000,
    "year_built": 1933,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Dyssegård",
    "score": 2,
    "signals": {
@@ -3211,7 +3210,7 @@
    "lon": 12.523514,
    "year_built": 1921,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Dyssegård",
    "score": 16,
    "signals": {
@@ -3328,7 +3327,7 @@
    "valuation": 7337000,
    "year_built": 1934,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": null
   },
   "https://www.boligsiden.dk/adresse/ellegaardsvej-4-2820-gentofte": {
@@ -3350,7 +3349,7 @@
    "valuation": 6620000,
    "year_built": 1931,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Vangede",
    "score": -16,
    "signals": {
@@ -3389,7 +3388,7 @@
    "lon": 12.533627,
    "year_built": 1946,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Vangede",
    "score": 59,
    "signals": {
@@ -3427,7 +3426,7 @@
    "valuation": 4551000,
    "year_built": 1931,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Vangede",
    "score": -22,
    "signals": {
@@ -3623,7 +3622,7 @@
    "valuation": 3378000,
    "year_built": 1947,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -35,
    "signals": {
@@ -3661,7 +3660,7 @@
    "valuation": 4058000,
    "year_built": 1939,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -31,
    "signals": {
@@ -3697,7 +3696,7 @@
    "valuation": 4370000,
    "year_built": 1960,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -32,
    "signals": {
@@ -3769,7 +3768,7 @@
    "valuation": 8090000,
    "year_built": 1938,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -33,
    "signals": {
@@ -3808,7 +3807,7 @@
    "valuation": 5895000,
    "year_built": 1936,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": 38,
    "signals": {
@@ -3847,7 +3846,7 @@
    "valuation": 4158000,
    "year_built": 1951,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -61,
    "signals": {
@@ -3883,7 +3882,7 @@
    "valuation": 3490000,
    "year_built": 1958,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -31,
    "signals": {
@@ -3958,7 +3957,7 @@
    "valuation": 4140000,
    "year_built": 1937,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -45,
    "signals": {
@@ -4032,7 +4031,7 @@
    "valuation": 5404000,
    "year_built": 1935,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": 0,
    "signals": {
@@ -4068,7 +4067,7 @@
    "valuation": 3413000,
    "year_built": 1964,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -62,
    "signals": {
@@ -4146,7 +4145,7 @@
    "valuation": 3130000,
    "year_built": 1949,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -1,
    "signals": {
@@ -4182,7 +4181,7 @@
    "lon": 12.443144,
    "year_built": 1950,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": 10,
    "signals": {
@@ -4333,7 +4332,7 @@
    "valuation": 4468000,
    "year_built": 1974,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -42,
    "signals": {
@@ -4371,7 +4370,7 @@
    "valuation": 4426000,
    "year_built": 1966,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -11,
    "signals": {
@@ -4409,7 +4408,7 @@
    "lon": 12.459715,
    "year_built": 1935,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -41,
    "signals": {
@@ -4443,7 +4442,7 @@
    "lon": 12.440511,
    "year_built": 2008,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": 3,
    "signals": {
@@ -4479,7 +4478,7 @@
    "valuation": 3322000,
    "year_built": 2022,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -66,
    "signals": {
@@ -4515,7 +4514,7 @@
    "valuation": 2983000,
    "year_built": 1939,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -47,
    "signals": {
@@ -4553,7 +4552,7 @@
    "valuation": 3517000,
    "year_built": 1961,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -17,
    "signals": {
@@ -4589,7 +4588,7 @@
    "valuation": 4128000,
    "year_built": 1938,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -38,
    "signals": {
@@ -4625,7 +4624,7 @@
    "valuation": 3005000,
    "year_built": 1967,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -12,
    "signals": {
@@ -4665,7 +4664,7 @@
    "valuation": 3605000,
    "year_built": 1978,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -6,
    "signals": {
@@ -4744,7 +4743,7 @@
    "valuation": 4557000,
    "year_built": 1953,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -33,
    "signals": {
@@ -4780,7 +4779,7 @@
    "valuation": 6548000,
    "year_built": 1937,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -25,
    "signals": {
@@ -4858,7 +4857,7 @@
    "valuation": 4075000,
    "year_built": 1951,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": 14,
    "signals": {
@@ -4896,7 +4895,7 @@
    "valuation": 4427000,
    "year_built": 1961,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -33,
    "signals": {
@@ -4934,7 +4933,7 @@
    "valuation": 4091000,
    "year_built": 1938,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -24,
    "signals": {
@@ -4972,7 +4971,7 @@
    "valuation": 4569000,
    "year_built": 1951,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": 22,
    "signals": {
@@ -5010,7 +5009,7 @@
    "valuation": 5507000,
    "year_built": 1930,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -21,
    "signals": {
@@ -5046,7 +5045,7 @@
    "valuation": 3632000,
    "year_built": 1956,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -27,
    "signals": {
@@ -5122,7 +5121,7 @@
    "valuation": 6094000,
    "year_built": 1941,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": 27,
    "signals": {
@@ -5237,7 +5236,7 @@
    "valuation": 3701000,
    "year_built": 1945,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": 28,
    "signals": {
@@ -5275,7 +5274,7 @@
    "valuation": 4167000,
    "year_built": 1955,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -7,
    "signals": {
@@ -5389,7 +5388,7 @@
    "valuation": 3947000,
    "year_built": 1957,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": 8,
    "signals": {
@@ -5428,7 +5427,7 @@
    "valuation": 4708000,
    "year_built": 1970,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": 19,
    "signals": {
@@ -5466,7 +5465,7 @@
    "valuation": 6296000,
    "year_built": 1954,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -30,
    "signals": {
@@ -5502,7 +5501,7 @@
    "valuation": 3411000,
    "year_built": 1949,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -21,
    "signals": {
@@ -5537,7 +5536,7 @@
    "postcode": "2610",
    "first_seen": "2026-09-20",
    "last_seen": "2026-11-10",
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": 22,
    "signals": {
@@ -5580,7 +5579,7 @@
    "valuation": 3507000,
    "year_built": 1942,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -27,
    "signals": {
@@ -5695,7 +5694,7 @@
    "valuation": 5720000,
    "year_built": 1944,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -5,
    "signals": {
@@ -5734,7 +5733,7 @@
    "valuation": 5328000,
    "year_built": 1935,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -14,
    "signals": {
@@ -5771,7 +5770,7 @@
    "lon": 12.463936,
    "year_built": 1930,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -57,
    "signals": {
@@ -5881,7 +5880,7 @@
    "valuation": 4391000,
    "year_built": 1934,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -26,
    "signals": {
@@ -5917,7 +5916,7 @@
    "valuation": 3833000,
    "year_built": 1957,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -2,
    "signals": {
@@ -5955,7 +5954,7 @@
    "valuation": 5266000,
    "year_built": 1932,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -8,
    "signals": {
@@ -6032,7 +6031,7 @@
    "valuation": 5857000,
    "year_built": 1955,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -17,
    "signals": {
@@ -6068,7 +6067,7 @@
    "valuation": 5759000,
    "year_built": 1962,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 27,
    "signals": {
@@ -6106,7 +6105,7 @@
    "valuation": 4781000,
    "year_built": 1963,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 3,
    "signals": {
@@ -6182,7 +6181,7 @@
    "valuation": 5743000,
    "year_built": 1940,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -4,
    "signals": {
@@ -6297,7 +6296,7 @@
    "valuation": 3684000,
    "year_built": 1964,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 6,
    "signals": {
@@ -6335,7 +6334,7 @@
    "valuation": 3415000,
    "year_built": 1890,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -46,
    "signals": {
@@ -6373,7 +6372,7 @@
    "valuation": 4137000,
    "year_built": 1957,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -34,
    "signals": {
@@ -6411,7 +6410,7 @@
    "valuation": 3752000,
    "year_built": 1960,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 23,
    "signals": {
@@ -6677,7 +6676,7 @@
    "valuation": 4673000,
    "year_built": 1959,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 30,
    "signals": {
@@ -6791,7 +6790,7 @@
    "valuation": 5076000,
    "year_built": 1971,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 27,
    "signals": {
@@ -6829,7 +6828,7 @@
    "valuation": 5671000,
    "year_built": 1959,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 37,
    "signals": {
@@ -6868,7 +6867,7 @@
    "valuation": 4714000,
    "year_built": 1931,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 42,
    "signals": {
@@ -6907,7 +6906,7 @@
    "valuation": 3327000,
    "year_built": 1962,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 8,
    "signals": {
@@ -6945,7 +6944,7 @@
    "valuation": 6533000,
    "year_built": 1932,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -5,
    "signals": {
@@ -7022,7 +7021,7 @@
    "valuation": 3549000,
    "year_built": 1963,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -53,
    "signals": {
@@ -7096,7 +7095,7 @@
    "valuation": 5845000,
    "year_built": 1998,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 1,
    "signals": {
@@ -7136,7 +7135,7 @@
    "valuation": 4688000,
    "year_built": 1969,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -16,
    "signals": {
@@ -7176,7 +7175,7 @@
    "valuation": 3430000,
    "year_built": 1953,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -14,
    "signals": {
@@ -7214,7 +7213,7 @@
    "valuation": 4780000,
    "year_built": 1940,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 10,
    "signals": {
@@ -7252,7 +7251,7 @@
    "valuation": 3801000,
    "year_built": 1959,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 20,
    "signals": {
@@ -7328,7 +7327,7 @@
    "valuation": 3142000,
    "year_built": 1964,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -3,
    "signals": {
@@ -7441,7 +7440,7 @@
    "valuation": 6316000,
    "year_built": 1941,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 13,
    "signals": {
@@ -7479,7 +7478,7 @@
    "valuation": 4170000,
    "year_built": 1981,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 26,
    "signals": {
@@ -7555,7 +7554,7 @@
    "valuation": 5534000,
    "year_built": 1932,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 33,
    "signals": {
@@ -7591,7 +7590,7 @@
    "lat": 55.656914,
    "lon": 12.456687,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 6,
    "signals": {
@@ -7629,7 +7628,7 @@
    "valuation": 4795000,
    "year_built": 1977,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -15,
    "signals": {
@@ -7748,7 +7747,7 @@
    "valuation": 6972000,
    "year_built": 1939,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 6,
    "signals": {
@@ -7785,7 +7784,7 @@
    "valuation": 4387000,
    "year_built": 1964,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 11,
    "signals": {
@@ -7863,7 +7862,7 @@
    "valuation": 4570000,
    "year_built": 1925,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 20,
    "signals": {
@@ -7902,7 +7901,7 @@
    "valuation": 3348000,
    "year_built": 1954,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": -39,
    "signals": {
@@ -8019,7 +8018,7 @@
    "valuation": 3800000,
    "year_built": 1959,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -22,
    "signals": {
@@ -8059,7 +8058,7 @@
    "valuation": 3891000,
    "year_built": 1971,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 12,
    "signals": {
@@ -8098,7 +8097,7 @@
    "valuation": 5316000,
    "year_built": 1940,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -34,
    "signals": {
@@ -8173,7 +8172,7 @@
    "lon": 12.488429,
    "year_built": 1939,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -5,
    "signals": {
@@ -8211,7 +8210,7 @@
    "valuation": 22837000,
    "year_built": 1929,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": 24,
    "signals": {
@@ -8368,7 +8367,7 @@
    "valuation": 4802000,
    "year_built": 1970,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 18,
    "signals": {
@@ -8446,7 +8445,7 @@
    "valuation": 3369000,
    "year_built": 1934,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -71,
    "signals": {
@@ -8483,7 +8482,7 @@
    "valuation": 6925000,
    "year_built": 1999,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Brønshøj",
    "score": 18,
    "signals": {
@@ -8601,7 +8600,7 @@
    "valuation": 6212000,
    "year_built": 1971,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": 7,
    "signals": {
@@ -8719,7 +8718,7 @@
    "valuation": 5940000,
    "year_built": 1910,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": -4,
    "signals": {
@@ -8796,7 +8795,7 @@
    "valuation": 6302000,
    "year_built": 1931,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": 26,
    "signals": {
@@ -8835,7 +8834,7 @@
    "valuation": 6417000,
    "year_built": 1971,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Vangede",
    "score": -17,
    "signals": {
@@ -8876,7 +8875,7 @@
    "valuation": 5233000,
    "year_built": 1937,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": 12,
    "signals": {
@@ -8915,7 +8914,7 @@
    "valuation": 6858000,
    "year_built": 1940,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -11,
    "signals": {
@@ -8954,7 +8953,7 @@
    "valuation": 4076000,
    "year_built": 1993,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Brønshøj",
    "score": -15,
    "signals": {
@@ -9032,7 +9031,7 @@
    "valuation": 5685000,
    "year_built": 1984,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Vangede",
    "score": 27,
    "signals": {
@@ -9111,7 +9110,7 @@
    "valuation": 6179000,
    "year_built": 1967,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 0,
    "signals": {
@@ -9192,7 +9191,7 @@
    "valuation": 4443000,
    "year_built": 1962,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -4,
    "signals": {
@@ -9231,7 +9230,7 @@
    "valuation": 7406000,
    "year_built": 2011,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -6,
    "signals": {
@@ -9269,7 +9268,7 @@
    "valuation": 6002000,
    "year_built": 1939,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -32,
    "signals": {
@@ -9306,7 +9305,7 @@
    "valuation": 5514000,
    "year_built": 1938,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Vanløse",
    "score": -3,
    "signals": {
@@ -9347,7 +9346,7 @@
    "valuation": 5237000,
    "year_built": 1929,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Brønshøj",
    "score": 38,
    "signals": {
@@ -9386,7 +9385,7 @@
    "valuation": 5699000,
    "year_built": 1930,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Brønshøj",
    "score": 16,
    "signals": {
@@ -9468,7 +9467,7 @@
    "valuation": 5220000,
    "year_built": 1936,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -21,
    "signals": {
@@ -9548,7 +9547,7 @@
    "valuation": 4660000,
    "year_built": 1939,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -32,
    "signals": {
@@ -9588,7 +9587,7 @@
    "valuation": 16664000,
    "year_built": 1965,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Vanløse",
    "score": 27,
    "signals": {
@@ -9629,7 +9628,7 @@
    "valuation": 3165000,
    "year_built": 1937,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Brønshøj",
    "score": -12,
    "signals": {
@@ -9708,7 +9707,7 @@
    "valuation": 5271000,
    "year_built": 1963,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -1,
    "signals": {
@@ -9746,7 +9745,7 @@
    "valuation": 3965000,
    "year_built": 1906,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": 2,
    "signals": {
@@ -9785,7 +9784,7 @@
    "lon": 12.453627,
    "year_built": 1932,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": 40,
    "signals": {
@@ -9852,11 +9851,11 @@
    "plot_m2": 593,
    "rooms": 4,
    "owner_cost_month": 4739,
-   "days_on_market": 29,
-   "days_total": 29,
+   "days_on_market": 30,
+   "days_total": 30,
    "postcode": "2500",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "lat": 55.658173,
    "lon": 12.482105,
    "valuation": 5727000,
@@ -9864,22 +9863,18 @@
    "detail_checked": true,
    "active": true,
    "area": "Valby",
-   "score": -1,
+   "score": 1,
    "signals": {
     "m2": -0.046,
     "valuation": -0.059,
-    "plot": -0.317,
-    "rooms": -0.276,
+    "plot": -0.072,
+    "rooms": -0.052,
     "scarcity": 0.0
    },
-   "reasons": [
-    "similar to a house you starred: Vigerslevstræde 9, 2500 Valby"
-   ],
-   "warnings": [
-    "small plot for the price: 593 m²"
-   ],
-   "base_score": -26,
-   "taste": 88,
+   "reasons": [],
+   "warnings": [],
+   "base_score": -12,
+   "taste": 69,
    "pick_type": "new"
   },
   "https://www.boligsiden.dk/adresse/krogebjerg-1-2720-vanloese": {
@@ -9901,7 +9896,7 @@
    "valuation": 6456000,
    "year_built": 1930,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Vanløse",
    "score": 40,
    "signals": {
@@ -9942,7 +9937,7 @@
    "valuation": 4317000,
    "year_built": 1963,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -19,
    "signals": {
@@ -9982,7 +9977,7 @@
    "valuation": 4674000,
    "year_built": 1936,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 30,
    "signals": {
@@ -10021,7 +10016,7 @@
    "valuation": 5173000,
    "year_built": 1963,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 19,
    "signals": {
@@ -10060,7 +10055,7 @@
    "valuation": 4250000,
    "year_built": 1934,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": -8,
    "signals": {
@@ -10176,7 +10171,7 @@
    "valuation": 3365000,
    "year_built": 1961,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 5,
    "signals": {
@@ -10215,7 +10210,7 @@
    "valuation": 4101000,
    "year_built": 1958,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 13,
    "signals": {
@@ -10254,7 +10249,7 @@
    "valuation": 5230000,
    "year_built": 1961,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 2,
    "signals": {
@@ -10293,7 +10288,7 @@
    "valuation": 6211000,
    "year_built": 1939,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": -5,
    "signals": {
@@ -10433,7 +10428,7 @@
    "valuation": 4361000,
    "year_built": 1973,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": -24,
    "signals": {
@@ -10472,7 +10467,7 @@
    "valuation": 5919000,
    "year_built": 1954,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Vangede",
    "score": -23,
    "signals": {
@@ -10540,11 +10535,11 @@
    "plot_m2": 623,
    "rooms": 4,
    "owner_cost_month": 4759,
-   "days_on_market": 27,
-   "days_total": 27,
+   "days_on_market": 28,
+   "days_total": 28,
    "postcode": "2500",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "lat": 55.660603,
    "lon": 12.486463,
    "valuation": 6812000,
@@ -10556,20 +10551,17 @@
    "signals": {
     "m2": 0.036,
     "valuation": 0.079,
-    "plot": -0.306,
-    "rooms": -0.3,
+    "plot": -0.058,
+    "rooms": -0.083,
     "scarcity": 0.0
    },
    "reasons": [
-    "similar to a house you starred: Vigerslevstræde 9, 2500 Valby",
     "asking price is 1.32× the public valuation (typical 1.43×)",
     "m² price 4 % below the area's level (62.902 vs. 65.242 kr./m², sales last 6 months)"
    ],
-   "warnings": [
-    "small plot for the price: 623 m²"
-   ],
-   "base_score": -11,
-   "taste": 87,
+   "warnings": [],
+   "base_score": 3,
+   "taste": 65,
    "pick_type": "new"
   },
   "https://www.boligsiden.dk/adresse/hoejbovej-22-0--2500-valby": {
@@ -10581,11 +10573,11 @@
    "plot_m2": 630,
    "rooms": 4,
    "owner_cost_month": 3772,
-   "days_on_market": 189,
-   "days_total": 189,
+   "days_on_market": 190,
+   "days_total": 190,
    "postcode": "2500",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "lat": 55.659985,
    "lon": 12.487026,
    "valuation": 9818000,
@@ -10596,19 +10588,19 @@
    "signals": {
     "m2": -0.318,
     "valuation": 0.432,
-    "plot": -0.211,
-    "rooms": -0.212,
+    "plot": 0.072,
+    "rooms": 0.031,
     "scarcity": 0.0
    },
    "reasons": [
-    "similar to a house you starred: Vigerslevstræde 9, 2500 Valby",
-    "asking price is 0.81× the public valuation (typical 1.43×)"
+    "asking price is 0.81× the public valuation (typical 1.43×)",
+    "large plot for the price: 630 m²"
    ],
    "warnings": [
     "m² price 32 % above the area's level (85.968 vs. 65.242 kr./m², sales last 6 months)"
    ],
-   "base_score": -25,
-   "taste": 88,
+   "base_score": -8,
+   "taste": 62,
    "pick_type": "earlier"
   },
   "https://www.boligsiden.dk/adresse/sandhoejen-1-2720-vanloese": {
@@ -10630,7 +10622,7 @@
    "valuation": 6190000,
    "year_built": 1987,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Vanløse",
    "score": 18,
    "signals": {
@@ -10671,7 +10663,7 @@
    "valuation": 3693000,
    "year_built": 1940,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": -13,
    "signals": {
@@ -10711,7 +10703,7 @@
    "valuation": 4571000,
    "year_built": 1959,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -71,
    "signals": {
@@ -10748,7 +10740,7 @@
    "valuation": 3552000,
    "year_built": 1955,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -51,
    "signals": {
@@ -10785,7 +10777,7 @@
    "valuation": 3816000,
    "year_built": 1954,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 26,
    "signals": {
@@ -10824,7 +10816,7 @@
    "valuation": 6297000,
    "year_built": 1976,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 17,
    "signals": {
@@ -10847,17 +10839,17 @@
   "https://www.boligsiden.dk/adresse/lundsfrydvej-1-2500-valby": {
    "url": "https://www.boligsiden.dk/adresse/lundsfrydvej-1-2500-valby",
    "address": "Lundsfrydvej 1, 2500 Valby",
-   "price": 8995000,
-   "m2_price": 72482,
+   "price": 8500000,
+   "m2_price": 68493,
    "living_m2": 91,
    "plot_m2": 452,
    "rooms": 4,
    "owner_cost_month": 5037,
-   "days_on_market": 18,
-   "days_total": 18,
+   "days_on_market": 19,
+   "days_total": 19,
    "postcode": "2500",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "lat": 55.661217,
    "lon": 12.491179,
    "valuation": 5930000,
@@ -10865,22 +10857,20 @@
    "detail_checked": true,
    "active": true,
    "area": "Valby",
-   "score": -11,
+   "score": -24,
    "signals": {
-    "m2": -0.111,
-    "valuation": -0.058,
-    "plot": -0.497,
-    "rooms": -0.3,
+    "m2": -0.05,
+    "valuation": 0.0,
+    "plot": -0.277,
+    "rooms": -0.03,
     "scarcity": 0.0
    },
-   "reasons": [
-    "similar to a house you starred: Vigerslevstræde 9, 2500 Valby"
-   ],
+   "reasons": [],
    "warnings": [
     "small plot for the price: 452 m²"
    ],
-   "base_score": -37,
-   "taste": 84,
+   "base_score": -16,
+   "taste": 27,
    "pick_type": "new"
   },
   "https://www.boligsiden.dk/adresse/soendervigvej-48-2720-vanloese": {
@@ -10902,7 +10892,7 @@
    "valuation": 4700000,
    "year_built": 1955,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Vanløse",
    "score": 12,
    "signals": {
@@ -10940,7 +10930,7 @@
    "lon": 12.486427,
    "valuation": 12515000,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Brønshøj",
    "score": 31,
    "signals": {
@@ -10981,7 +10971,7 @@
    "valuation": 5227000,
    "year_built": 1930,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": 28,
    "signals": {
@@ -11020,7 +11010,7 @@
    "valuation": 3805000,
    "year_built": 1953,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -49,
    "signals": {
@@ -11057,7 +11047,7 @@
    "valuation": 4886000,
    "year_built": 1970,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Dyssegård",
    "score": -32,
    "signals": {
@@ -11097,7 +11087,7 @@
    "valuation": 5418000,
    "year_built": 1968,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 16,
    "signals": {
@@ -11126,11 +11116,11 @@
    "plot_m2": 315,
    "rooms": 4,
    "owner_cost_month": 5035,
-   "days_on_market": 15,
-   "days_total": 15,
+   "days_on_market": 16,
+   "days_total": 16,
    "postcode": "2500",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "lat": 55.65314,
    "lon": 12.52064,
    "valuation": 5807000,
@@ -11138,22 +11128,20 @@
    "detail_checked": true,
    "active": true,
    "area": "Valby",
-   "score": -26,
+   "score": -50,
    "signals": {
     "m2": -0.312,
     "valuation": -0.069,
-    "plot": -0.645,
-    "rooms": -0.292,
+    "plot": -0.518,
+    "rooms": -0.073,
     "scarcity": 0.0
    },
-   "reasons": [
-    "similar to a house you starred: Vigerslevstræde 9, 2500 Valby"
-   ],
+   "reasons": [],
    "warnings": [
     "m² price 31 % above the area's level (85.611 vs. 65.242 kr./m², sales last 6 months)"
    ],
-   "base_score": -57,
-   "taste": 84,
+   "base_score": -51,
+   "taste": 27,
    "pick_type": "new"
   },
   "https://www.boligsiden.dk/adresse/flinterupvej-18-2720-vanloese": {
@@ -11175,7 +11163,7 @@
    "valuation": 6112000,
    "year_built": 1962,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Vanløse",
    "score": -13,
    "signals": {
@@ -11215,7 +11203,7 @@
    "valuation": 5316000,
    "year_built": 1924,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -38,
    "signals": {
@@ -11254,7 +11242,7 @@
    "valuation": 6453000,
    "year_built": 1934,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 2,
    "signals": {
@@ -11292,7 +11280,7 @@
    "valuation": 6262000,
    "year_built": 1953,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -28,
    "signals": {
@@ -11329,7 +11317,7 @@
    "valuation": 4938000,
    "year_built": 1939,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 32,
    "signals": {
@@ -11367,7 +11355,7 @@
    "lon": 12.463894,
    "year_built": 1967,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": 0,
    "signals": {
@@ -11405,7 +11393,7 @@
    "valuation": 2345000,
    "year_built": 1938,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -25,
    "signals": {
@@ -11484,7 +11472,7 @@
    "valuation": 5594000,
    "year_built": 1918,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Brønshøj",
    "score": -16,
    "signals": {
@@ -11523,7 +11511,7 @@
    "valuation": 3933000,
    "year_built": 1983,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": 19,
    "signals": {
@@ -11562,7 +11550,7 @@
    "valuation": 3473000,
    "year_built": 1955,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -50,
    "signals": {
@@ -11601,7 +11589,7 @@
    "valuation": 4423000,
    "year_built": 1950,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -40,
    "signals": {
@@ -11640,7 +11628,7 @@
    "valuation": 5996000,
    "year_built": 1969,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Emdrup",
    "score": -56,
    "signals": {
@@ -11679,7 +11667,7 @@
    "valuation": 4638000,
    "year_built": 1960,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -28,
    "signals": {
@@ -11708,11 +11696,11 @@
    "plot_m2": 895,
    "rooms": 4,
    "owner_cost_month": 5177,
-   "days_on_market": 8,
-   "days_total": 8,
+   "days_on_market": 9,
+   "days_total": 9,
    "postcode": "2500",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "lat": 55.647713,
    "lon": 12.496036,
    "valuation": 5902000,
@@ -11720,24 +11708,21 @@
    "detail_checked": true,
    "active": true,
    "area": "Valby",
-   "score": 20,
+   "score": 23,
    "signals": {
     "m2": 0.026,
     "valuation": 0.019,
-    "plot": 0.081,
-    "rooms": -0.241,
+    "plot": 0.467,
+    "rooms": -0.006,
     "scarcity": 0.0
    },
    "reasons": [
-    "similar to a house you starred: Vigerslevstræde 9, 2500 Valby",
     "large plot for the price: 895 m²",
     "m² price 3 % below the area's level (63.563 vs. 65.242 kr./m², sales last 6 months)"
    ],
-   "warnings": [
-    "4 rooms for 8,3 mio."
-   ],
-   "base_score": 1,
-   "taste": 89,
+   "warnings": [],
+   "base_score": 18,
+   "taste": 69,
    "pick_type": "new"
   },
   "https://www.boligsiden.dk/adresse/langagervej-33-2500-valby": {
@@ -11749,11 +11734,11 @@
    "plot_m2": 591,
    "rooms": 4,
    "owner_cost_month": 4816,
-   "days_on_market": 8,
-   "days_total": 8,
+   "days_on_market": 9,
+   "days_total": 9,
    "postcode": "2500",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "lat": 55.66207,
    "lon": 12.487695,
    "valuation": 6255000,
@@ -11761,12 +11746,12 @@
    "detail_checked": true,
    "active": true,
    "area": "Valby",
-   "score": 1,
+   "score": 10,
    "signals": {
     "m2": -0.094,
-    "valuation": 0.052,
-    "plot": -0.303,
-    "rooms": -0.259,
+    "valuation": 0.053,
+    "plot": -0.054,
+    "rooms": -0.029,
     "scarcity": 0.0
    },
    "reasons": [
@@ -11774,10 +11759,10 @@
     "asking price is 1.36× the public valuation (typical 1.43×)"
    ],
    "warnings": [
-    "small plot for the price: 591 m²"
+    "m² price 9 % above the area's level (71.387 vs. 65.242 kr./m², sales last 6 months)"
    ],
-   "base_score": -25,
-   "taste": 89,
+   "base_score": -10,
+   "taste": 85,
    "pick_type": "new"
   },
   "https://www.boligsiden.dk/adresse/aertemarken-46-2860-soeborg": {
@@ -11799,7 +11784,7 @@
    "valuation": 5225000,
    "year_built": 1938,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": -7,
    "signals": {
@@ -11839,7 +11824,7 @@
    "valuation": 4592000,
    "year_built": 1940,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": 23,
    "signals": {
@@ -11878,7 +11863,7 @@
    "valuation": 4676000,
    "year_built": 1972,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -8,
    "signals": {
@@ -11917,7 +11902,7 @@
    "valuation": 4210000,
    "year_built": 1937,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -44,
    "signals": {
@@ -11954,7 +11939,7 @@
    "valuation": 5218000,
    "year_built": 1948,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Brønshøj",
    "score": 26,
    "signals": {
@@ -11990,7 +11975,7 @@
    "postcode": "2860",
    "first_seen": "2026-11-06",
    "last_seen": "2026-11-10",
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": -14,
    "signals": {
@@ -12035,7 +12020,7 @@
    "valuation": 7782000,
    "year_built": 1947,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": 12,
    "signals": {
@@ -12074,7 +12059,7 @@
    "valuation": 6058000,
    "year_built": 1928,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -12,
    "signals": {
@@ -12114,7 +12099,7 @@
    "valuation": 6110000,
    "year_built": 1927,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -18,
    "signals": {
@@ -12153,7 +12138,7 @@
    "valuation": 3410000,
    "year_built": 1962,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Søborg",
    "score": 15,
    "signals": {
@@ -12182,11 +12167,11 @@
    "plot_m2": 697,
    "rooms": 5,
    "owner_cost_month": 5203,
-   "days_on_market": 106,
+   "days_on_market": 107,
    "days_total": 341,
    "postcode": "2500",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "lat": 55.649704,
    "lon": 12.497325,
    "valuation": 7222000,
@@ -12194,24 +12179,22 @@
    "detail_checked": true,
    "active": true,
    "area": "Valby",
-   "score": 39,
+   "score": 24,
    "signals": {
     "m2": 0.35,
     "valuation": 0.131,
-    "plot": -0.224,
-    "rooms": -0.125,
+    "plot": 0.054,
+    "rooms": 0.146,
     "scarcity": 0.0
    },
    "reasons": [
-    "similar to a house you starred: Vigerslevstræde 9, 2500 Valby",
     "m² price 35 % below the area's level (42.379 vs. 65.242 kr./m², sales last 6 months)",
-    "asking price is 1.25× the public valuation (typical 1.43×)"
+    "asking price is 1.25× the public valuation (typical 1.43×)",
+    "5 rooms for 9,0 mio."
    ],
-   "warnings": [
-    "small plot for the price: 697 m²"
-   ],
-   "base_score": 30,
-   "taste": 84,
+   "warnings": [],
+   "base_score": 47,
+   "taste": 27,
    "pick_type": "earlier"
   },
   "https://www.boligsiden.dk/adresse/hoeeghsmindevej-63c-2820-gentofte": {
@@ -12233,7 +12216,7 @@
    "valuation": 5330000,
    "year_built": 1891,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": null
   },
   "https://www.boligsiden.dk/adresse/strandholms-alle-50-2650-hvidovre": {
@@ -12255,7 +12238,7 @@
    "valuation": 5660000,
    "year_built": 1956,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -16,
    "signals": {
@@ -12295,7 +12278,7 @@
    "valuation": 4774000,
    "year_built": 1940,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Brønshøj",
    "score": -36,
    "signals": {
@@ -12334,7 +12317,7 @@
    "valuation": 3050000,
    "year_built": 1939,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -5,
    "signals": {
@@ -12375,7 +12358,7 @@
    "valuation": 3565000,
    "year_built": 1938,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Rødovre",
    "score": -58,
    "signals": {
@@ -12414,7 +12397,7 @@
    "valuation": 4701000,
    "year_built": 1955,
    "detail_checked": true,
-   "active": true,
+   "active": false,
    "area": "Hvidovre",
    "score": -10,
    "signals": {
