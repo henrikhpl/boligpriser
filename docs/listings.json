@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T14:58+00:00",
+ "updated": "2026-11-24T15:15+00:00",
  "price_max": 9000000,
  "benchmarks": {
   "Valby": {
@@ -15,9 +15,9 @@
    "months": 6
   },
   "Brønshøj": {
-   "sold_m2": 54686,
-   "expected_ask_m2": 56412,
-   "n": 20,
+   "sold_m2": 54641,
+   "expected_ask_m2": 56186,
+   "n": 19,
    "months": 6
   },
   "Emdrup": {
@@ -80,10 +80,6 @@
   ]
  },
  "picks": {
-  "2026-10-24": [
-   "https://www.boligsiden.dk/adresse/vesterkaersvej-18-2650-hvidovre",
-   "https://www.boligsiden.dk/adresse/kildebakkegaards-alle-12-2870-dyssegaard"
-  ],
   "2026-10-25": [],
   "2026-10-26": [
    "https://www.boligsiden.dk/adresse/trekronergade-141-2500-valby"
@@ -163,7 +159,8 @@
   "2026-11-20": [],
   "2026-11-21": [],
   "2026-11-22": [],
-  "2026-11-23": []
+  "2026-11-23": [],
+  "2026-11-24": []
  },
  "listings": {
   "https://www.boligsiden.dk/adresse/monrads-alle-17b-2500-valby": {
@@ -175,11 +172,11 @@
    "plot_m2": 435,
    "rooms": 4,
    "owner_cost_month": 4290,
-   "days_on_market": 69,
-   "days_total": 69,
+   "days_on_market": 70,
+   "days_total": 70,
    "postcode": "2500",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "lat": 55.666252,
    "lon": 12.4996805,
    "valuation": 5319000,
@@ -214,11 +211,11 @@
    "plot_m2": 455,
    "rooms": 5,
    "owner_cost_month": 4606,
-   "days_on_market": 78,
-   "days_total": 78,
+   "days_on_market": 79,
+   "days_total": 79,
    "postcode": "2500",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "lat": 55.663048,
    "lon": 12.488153,
    "valuation": 4970000,
@@ -252,11 +249,11 @@
    "plot_m2": 719,
    "rooms": 4,
    "owner_cost_month": 4616,
-   "days_on_market": 80,
-   "days_total": 80,
+   "days_on_market": 81,
+   "days_total": 81,
    "postcode": "2500",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "lat": 55.649662,
    "lon": 12.491857,
    "valuation": 5353000,
@@ -289,11 +286,11 @@
    "plot_m2": 725,
    "rooms": 4,
    "owner_cost_month": 4508,
-   "days_on_market": 105,
-   "days_total": 105,
+   "days_on_market": 106,
+   "days_total": 106,
    "postcode": "2500",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "lat": 55.65506,
    "lon": 12.494502,
    "valuation": 4746000,
@@ -301,7 +298,7 @@
    "detail_checked": true,
    "active": true,
    "area": "Valby",
-   "score": 4,
+   "score": 6,
    "signals": {
     "m2": -0.039,
     "valuation": -0.234,
@@ -316,7 +313,7 @@
     "asking price is 1.82× the public valuation (typical 1.48×)"
    ],
    "base_score": -10,
-   "taste": 73
+   "taste": 77
   },
   "https://www.boligsiden.dk/adresse/humlehaven-62-1--2500-valby": {
    "url": "https://www.boligsiden.dk/adresse/humlehaven-62-1--2500-valby",
@@ -327,11 +324,11 @@
    "plot_m2": 720,
    "rooms": 3,
    "owner_cost_month": 2492,
-   "days_on_market": 144,
-   "days_total": 144,
+   "days_on_market": 145,
+   "days_total": 145,
    "postcode": "2500",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "lat": 55.64758,
    "lon": 12.4952965,
    "year_built": 1950,
@@ -403,12 +400,12 @@
    "living_m2": 114,
    "plot_m2": 725,
    "rooms": 5,
-   "owner_cost_month": 3921,
-   "days_on_market": 257,
-   "days_total": 257,
+   "owner_cost_month": 4200,
+   "days_on_market": 258,
+   "days_total": 258,
    "postcode": "2500",
    "first_seen": "2026-09-20",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "lat": 55.653854,
    "lon": 12.489067,
    "valuation": 4735000,
@@ -416,7 +413,7 @@
    "detail_checked": true,
    "active": true,
    "area": "Valby",
-   "score": 43,
+   "score": 40,
    "signals": {
     "m2": 0.2,
     "valuation": -0.102,
@@ -425,15 +422,15 @@
     "scarcity": 0.0
    },
    "reasons": [
-    "similar to a house you starred: Vigerslevstræde 9, 2500 Valby",
     "m² price 20 % below the area's level (52.168 vs. 65.242 kr./m², sales last 6 months)",
-    "large plot for the price: 725 m²"
+    "large plot for the price: 725 m²",
+    "5 rooms for 7,7 mio."
    ],
    "warnings": [
     "asking price is 1.63× the public valuation (typical 1.48×)"
    ],
    "base_score": 35,
-   "taste": 83,
+   "taste": 77,
    "pick_type": "earlier"
   },
   "https://www.boligsiden.dk/adresse/vigerslevstraede-9-2500-valby": {
@@ -471,42 +468,6 @@
    ],
    "base_score": -11,
    "taste": 50
-  },
-  "https://www.boligsiden.dk/adresse/egemarkevej-8-2720-vanloese": {
-   "url": "https://www.boligsiden.dk/adresse/egemarkevej-8-2720-vanloese",
-   "address": "Egemarkevej 8, 2720 Vanløse",
-   "price": 8498000,
-   "m2_price": 64624,
-   "living_m2": 118,
-   "plot_m2": 625,
-   "rooms": 5,
-   "owner_cost_month": 4906,
-   "days_on_market": 8,
-   "days_total": 8,
-   "postcode": "2720",
-   "first_seen": "2026-09-20",
-   "last_seen": "2026-09-24",
-   "lat": 55.696777,
-   "lon": 12.47592,
-   "valuation": 5877000,
-   "year_built": 1925,
-   "detail_checked": true,
-   "active": false,
-   "area": "Vanløse",
-   "score": 0,
-   "signals": {
-    "m2": -0.014,
-    "valuation": -0.005,
-    "plot": -0.263,
-    "rooms": -0.073,
-    "scarcity": 0.0
-   },
-   "reasons": [],
-   "warnings": [
-    "small plot for the price: 625 m²"
-   ],
-   "base_score": -13,
-   "taste": 68
   },
   "https://www.boligsiden.dk/adresse/tudskaervej-24-2720-vanloese": {
    "url": "https://www.boligsiden.dk/adresse/tudskaervej-24-2720-vanloese",
@@ -702,44 +663,6 @@
    "base_score": 60,
    "taste": 37,
    "pick_type": "earlier"
-  },
-  "https://www.boligsiden.dk/adresse/hasselvej-13-2720-vanloese": {
-   "url": "https://www.boligsiden.dk/adresse/hasselvej-13-2720-vanloese",
-   "address": "Hasselvej 13, 2720 Vanløse",
-   "price": 8495000,
-   "m2_price": 63089,
-   "living_m2": 96,
-   "plot_m2": 536,
-   "rooms": 3,
-   "owner_cost_month": 5239,
-   "days_on_market": 114,
-   "days_total": 114,
-   "postcode": "2720",
-   "first_seen": "2026-09-20",
-   "last_seen": "2026-09-24",
-   "lat": 55.68082,
-   "lon": 12.482476,
-   "valuation": 7215000,
-   "year_built": 1937,
-   "detail_checked": true,
-   "active": false,
-   "area": "Vanløse",
-   "score": -16,
-   "signals": {
-    "m2": 0.01,
-    "valuation": 0.182,
-    "plot": -0.368,
-    "rooms": -0.444,
-    "scarcity": 0.0
-   },
-   "reasons": [
-    "asking price is 1.18× the public valuation (typical 1.44×)"
-   ],
-   "warnings": [
-    "small plot for the price: 536 m²"
-   ],
-   "base_score": -14,
-   "taste": 39
   },
   "https://www.boligsiden.dk/adresse/slotsherrensvej-52-2720-vanloese": {
    "url": "https://www.boligsiden.dk/adresse/slotsherrensvej-52-2720-vanloese",
@@ -1517,45 +1440,6 @@
    ],
    "base_score": -72,
    "taste": 93
-  },
-  "https://www.boligsiden.dk/adresse/moellebakken-7a-2700-broenshoej": {
-   "url": "https://www.boligsiden.dk/adresse/moellebakken-7a-2700-broenshoej",
-   "address": "Møllebakken 7A, 2700 Brønshøj",
-   "price": 5995000,
-   "m2_price": 59950,
-   "living_m2": 100,
-   "plot_m2": 445,
-   "rooms": 4,
-   "owner_cost_month": 3459,
-   "days_on_market": 101,
-   "days_total": 101,
-   "postcode": "2700",
-   "first_seen": "2026-09-20",
-   "last_seen": "2026-09-24",
-   "lat": 55.70746,
-   "lon": 12.463719,
-   "valuation": 3376000,
-   "year_built": 1965,
-   "detail_checked": true,
-   "active": false,
-   "area": "Brønshøj",
-   "score": -16,
-   "signals": {
-    "m2": -0.111,
-    "valuation": -0.234,
-    "plot": -0.257,
-    "rooms": 0.051,
-    "scarcity": -1.455
-   },
-   "reasons": [
-    "similar to a house you starred: Stenlillevej 4, 2700 Brønshøj",
-    "4 rooms for 6,0 mio."
-   ],
-   "warnings": [
-    "asking price is 1.78× the public valuation (typical 1.44×)"
-   ],
-   "base_score": -46,
-   "taste": 86
   },
   "https://www.boligsiden.dk/adresse/husumvej-102a-2700-broenshoej": {
    "url": "https://www.boligsiden.dk/adresse/husumvej-102a-2700-broenshoej",
@@ -2441,44 +2325,6 @@
    "base_score": 7,
    "taste": 42
   },
-  "https://www.boligsiden.dk/adresse/rensdyrvej-13-2860-soeborg": {
-   "url": "https://www.boligsiden.dk/adresse/rensdyrvej-13-2860-soeborg",
-   "address": "Rensdyrvej 13, 2860 Søborg",
-   "price": 4595000,
-   "m2_price": 42350,
-   "living_m2": 106,
-   "plot_m2": 648,
-   "rooms": 3,
-   "owner_cost_month": 3239,
-   "days_on_market": 70,
-   "days_total": 152,
-   "postcode": "2860",
-   "first_seen": "2026-09-20",
-   "last_seen": "2026-09-24",
-   "lat": 55.747036,
-   "lon": 12.470325,
-   "valuation": 3328000,
-   "year_built": 1955,
-   "detail_checked": true,
-   "active": false,
-   "area": "Søborg",
-   "score": -2,
-   "signals": {
-    "m2": 0.136,
-    "valuation": 0.04,
-    "plot": 0.412,
-    "rooms": 0.028,
-    "scarcity": -1.182
-   },
-   "reasons": [
-    "large plot for the price: 648 m²",
-    "m² price 14 % below the area's level (42.350 vs. 48.992 kr./m², sales last 6 months)",
-    "asking price is 1.38× the public valuation (typical 1.44×)"
-   ],
-   "warnings": [],
-   "base_score": 16,
-   "taste": 22
-  },
   "https://www.boligsiden.dk/adresse/juni-alle-180-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/juni-alle-180-2860-soeborg",
    "address": "Juni Alle 180, 2860 Søborg",
@@ -2516,38 +2362,6 @@
    "warnings": [],
    "base_score": 25,
    "taste": 18
-  },
-  "https://www.boligsiden.dk/adresse/pilegaardens-haveby-44-2860-soeborg": {
-   "url": "https://www.boligsiden.dk/adresse/pilegaardens-haveby-44-2860-soeborg",
-   "address": "Pilegårdens Haveby 44, 2860 Søborg",
-   "price": 2995000,
-   "m2_price": 49917,
-   "living_m2": 60,
-   "rooms": 3,
-   "owner_cost_month": 1314,
-   "days_on_market": 80,
-   "days_total": 80,
-   "postcode": "2860",
-   "first_seen": "2026-09-20",
-   "last_seen": "2026-09-24",
-   "lat": 55.71891,
-   "lon": 12.461473,
-   "year_built": 2008,
-   "detail_checked": true,
-   "active": false,
-   "area": "Søborg",
-   "score": -32,
-   "signals": {
-    "m2": -0.019,
-    "rooms": 0.578,
-    "scarcity": -1.182
-   },
-   "reasons": [
-    "3 rooms for 3,0 mio."
-   ],
-   "warnings": [],
-   "base_score": -11,
-   "taste": 2
   },
   "https://www.boligsiden.dk/adresse/maj-alle-15-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/maj-alle-15-2860-soeborg",
@@ -2815,44 +2629,6 @@
    "warnings": [],
    "base_score": 53,
    "taste": 26
-  },
-  "https://www.boligsiden.dk/adresse/augustvej-14-2860-soeborg": {
-   "url": "https://www.boligsiden.dk/adresse/augustvej-14-2860-soeborg",
-   "address": "Augustvej 14, 2860 Søborg",
-   "price": 4995000,
-   "m2_price": 41887,
-   "living_m2": 111,
-   "plot_m2": 646,
-   "rooms": 4,
-   "owner_cost_month": 4498,
-   "days_on_market": 228,
-   "days_total": 228,
-   "postcode": "2860",
-   "first_seen": "2026-09-20",
-   "last_seen": "2026-09-24",
-   "lat": 55.729256,
-   "lon": 12.469987,
-   "valuation": 4282000,
-   "year_built": 1938,
-   "detail_checked": true,
-   "active": false,
-   "area": "Søborg",
-   "score": 20,
-   "signals": {
-    "m2": 0.145,
-    "valuation": 0.189,
-    "plot": 0.295,
-    "rooms": 0.261,
-    "scarcity": -1.182
-   },
-   "reasons": [
-    "m² price 15 % below the area's level (41.887 vs. 48.992 kr./m², sales last 6 months)",
-    "large plot for the price: 646 m²",
-    "asking price is 1.17× the public valuation (typical 1.44×)"
-   ],
-   "warnings": [],
-   "base_score": 27,
-   "taste": 50
   },
   "https://www.boligsiden.dk/adresse/praestebrovej-17-2860-soeborg": {
    "url": "https://www.boligsiden.dk/adresse/praestebrovej-17-2860-soeborg",
@@ -5148,44 +4924,6 @@
    "base_score": -8,
    "taste": 48
   },
-  "https://www.boligsiden.dk/adresse/henry-heerups-vej-6-2610-roedovre": {
-   "url": "https://www.boligsiden.dk/adresse/henry-heerups-vej-6-2610-roedovre",
-   "address": "Henry Heerups Vej 6, 2610 Rødovre",
-   "price": 8495000,
-   "m2_price": 48501,
-   "living_m2": 167,
-   "plot_m2": 686,
-   "rooms": 5,
-   "owner_cost_month": 4544,
-   "days_on_market": 121,
-   "days_total": 121,
-   "postcode": "2610",
-   "first_seen": "2026-09-20",
-   "last_seen": "2026-09-24",
-   "lat": 55.684395,
-   "lon": 12.437607,
-   "valuation": 5145000,
-   "year_built": 1962,
-   "detail_checked": true,
-   "active": false,
-   "area": "Rødovre",
-   "score": -25,
-   "signals": {
-    "m2": 0.026,
-    "valuation": -0.148,
-    "plot": -0.191,
-    "rooms": -0.073,
-    "scarcity": -4.636
-   },
-   "reasons": [
-    "m² price 3 % below the area's level (48.501 vs. 49.775 kr./m², sales last 6 months)"
-   ],
-   "warnings": [
-    "asking price is 1.65× the public valuation (typical 1.44×)"
-   ],
-   "base_score": -29,
-   "taste": 44
-  },
   "https://www.boligsiden.dk/adresse/krarupvej-37-2610-roedovre": {
    "url": "https://www.boligsiden.dk/adresse/krarupvej-37-2610-roedovre",
    "address": "Krarupvej 37, 2610 Rødovre",
@@ -6514,44 +6252,6 @@
    ],
    "base_score": -49,
    "taste": 37
-  },
-  "https://www.boligsiden.dk/adresse/kaermark-48-2650-hvidovre": {
-   "url": "https://www.boligsiden.dk/adresse/kaermark-48-2650-hvidovre",
-   "address": "Kærmark 48, 2650 Hvidovre",
-   "price": 6995000,
-   "m2_price": 43938,
-   "living_m2": 133,
-   "plot_m2": 610,
-   "rooms": 5,
-   "owner_cost_month": 4733,
-   "days_on_market": 77,
-   "days_total": 77,
-   "postcode": "2650",
-   "first_seen": "2026-09-20",
-   "last_seen": "2026-09-24",
-   "lat": 55.652893,
-   "lon": 12.463403,
-   "valuation": 5351000,
-   "year_built": 1958,
-   "detail_checked": true,
-   "active": false,
-   "area": "Hvidovre",
-   "score": -5,
-   "signals": {
-    "m2": 0.065,
-    "valuation": 0.091,
-    "plot": -0.127,
-    "rooms": 0.126,
-    "scarcity": -4.0
-   },
-   "reasons": [
-    "m² price 7 % below the area's level (43.938 vs. 47.000 kr./m², sales last 3 months)",
-    "asking price is 1.31× the public valuation (typical 1.44×)",
-    "5 rooms for 7,0 mio."
-   ],
-   "warnings": [],
-   "base_score": -6,
-   "taste": 50
   },
   "https://www.boligsiden.dk/adresse/guldbaervaenget-1-2650-hvidovre": {
    "url": "https://www.boligsiden.dk/adresse/guldbaervaenget-1-2650-hvidovre",
@@ -9633,11 +9333,11 @@
    "plot_m2": 593,
    "rooms": 4,
    "owner_cost_month": 4739,
-   "days_on_market": 42,
-   "days_total": 42,
+   "days_on_market": 43,
+   "days_total": 43,
    "postcode": "2500",
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "lat": 55.658173,
    "lon": 12.482105,
    "valuation": 5727000,
@@ -9645,7 +9345,7 @@
    "detail_checked": true,
    "active": true,
    "area": "Valby",
-   "score": 5,
+   "score": 7,
    "signals": {
     "m2": -0.046,
     "valuation": -0.029,
@@ -9656,7 +9356,7 @@
    "reasons": [],
    "warnings": [],
    "base_score": -9,
-   "taste": 73,
+   "taste": 77,
    "pick_type": "new"
   },
   "https://www.boligsiden.dk/adresse/krogebjerg-1-2720-vanloese": {
@@ -10317,11 +10017,11 @@
    "plot_m2": 623,
    "rooms": 4,
    "owner_cost_month": 4854,
-   "days_on_market": 40,
-   "days_total": 40,
+   "days_on_market": 41,
+   "days_total": 41,
    "postcode": "2500",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "lat": 55.660603,
    "lon": 12.486463,
    "valuation": 6812000,
@@ -10355,11 +10055,11 @@
    "plot_m2": 630,
    "rooms": 4,
    "owner_cost_month": 3772,
-   "days_on_market": 202,
-   "days_total": 202,
+   "days_on_market": 203,
+   "days_total": 203,
    "postcode": "2500",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "lat": 55.659985,
    "lon": 12.487026,
    "valuation": 9818000,
@@ -10627,11 +10327,11 @@
    "plot_m2": 452,
    "rooms": 4,
    "owner_cost_month": 5037,
-   "days_on_market": 31,
-   "days_total": 31,
+   "days_on_market": 32,
+   "days_total": 32,
    "postcode": "2500",
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "lat": 55.661217,
    "lon": 12.491179,
    "valuation": 5930000,
@@ -10900,11 +10600,11 @@
    "plot_m2": 315,
    "rooms": 4,
    "owner_cost_month": 5035,
-   "days_on_market": 28,
-   "days_total": 28,
+   "days_on_market": 29,
+   "days_total": 29,
    "postcode": "2500",
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "lat": 55.65314,
    "lon": 12.52064,
    "valuation": 5807000,
@@ -11518,11 +11218,11 @@
    "plot_m2": 591,
    "rooms": 4,
    "owner_cost_month": 4816,
-   "days_on_market": 21,
-   "days_total": 21,
+   "days_on_market": 22,
+   "days_total": 22,
    "postcode": "2500",
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "lat": 55.66207,
    "lon": 12.487695,
    "valuation": 6255000,
@@ -11530,7 +11230,7 @@
    "detail_checked": true,
    "active": true,
    "area": "Valby",
-   "score": 16,
+   "score": 18,
    "signals": {
     "m2": -0.094,
     "valuation": 0.08,
@@ -11546,7 +11246,7 @@
     "m² price 9 % above the area's level (71.387 vs. 65.242 kr./m², sales last 6 months)"
    ],
    "base_score": -7,
-   "taste": 93,
+   "taste": 97,
    "pick_type": "new"
   },
   "https://www.boligsiden.dk/adresse/aertemarken-46-2860-soeborg": {
@@ -11951,11 +11651,11 @@
    "plot_m2": 697,
    "rooms": 5,
    "owner_cost_month": 5203,
-   "days_on_market": 119,
+   "days_on_market": 120,
    "days_total": 341,
    "postcode": "2500",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "lat": 55.649704,
    "lon": 12.497325,
    "valuation": 7222000,
@@ -12208,11 +11908,11 @@
    "living_m2": 86,
    "rooms": 4,
    "owner_cost_month": 3308,
-   "days_on_market": 11,
-   "days_total": 11,
+   "days_on_market": 12,
+   "days_total": 12,
    "postcode": "2500",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "detail_checked": true,
    "active": true,
    "area": "Valby",
@@ -12240,15 +11940,15 @@
    "plot_m2": 793,
    "rooms": 5,
    "owner_cost_month": 4594,
-   "days_on_market": 33,
-   "days_total": 33,
+   "days_on_market": 34,
+   "days_total": 34,
    "postcode": "2500",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "detail_checked": true,
    "active": true,
    "area": "Valby",
-   "score": 39,
+   "score": 37,
    "signals": {
     "m2": 0.153,
     "plot": 0.267,
@@ -12262,7 +11962,7 @@
    ],
    "warnings": [],
    "base_score": 34,
-   "taste": 77,
+   "taste": 73,
    "pick_type": "earlier"
   },
   "https://www.boligsiden.dk/adresse/groennehave-alle-26-2500-valby": {
@@ -12274,11 +11974,11 @@
    "plot_m2": 472,
    "rooms": 4,
    "owner_cost_month": 3842,
-   "days_on_market": 7,
-   "days_total": 7,
+   "days_on_market": 8,
+   "days_total": 8,
    "postcode": "2500",
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "detail_checked": true,
    "active": true,
    "area": "Valby",
